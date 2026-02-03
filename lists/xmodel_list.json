@@ -1,0 +1,4601 @@
+[
+    {
+        "name":  "american_radio"
+    },
+    {
+        "name":  "artillery_british_6pndr"
+    },
+    {
+        "name":  "awning_2-5x11"
+    },
+    {
+        "name":  "awning_2x4-5_1"
+    },
+    {
+        "name":  "awning_2x4-5_2"
+    },
+    {
+        "name":  "awning_2x4-5_3"
+    },
+    {
+        "name":  "awning_2x4_1"
+    },
+    {
+        "name":  "awning_2x4_2"
+    },
+    {
+        "name":  "awning_2x4_3"
+    },
+    {
+        "name":  "awning_2x4_4"
+    },
+    {
+        "name":  "awning_2x4_5"
+    },
+    {
+        "name":  "awning_2x5_1"
+    },
+    {
+        "name":  "awning_2x5_2"
+    },
+    {
+        "name":  "awning_3x4_1"
+    },
+    {
+        "name":  "awning_3x4_2"
+    },
+    {
+        "name":  "awning_desert_market_large"
+    },
+    {
+        "name":  "awning_desert_market_large2"
+    },
+    {
+        "name":  "awning_desert_market_medium1"
+    },
+    {
+        "name":  "awning_desert_market_medium2"
+    },
+    {
+        "name":  "awning_desert_market_small"
+    },
+    {
+        "name":  "awning_desert_wood1"
+    },
+    {
+        "name":  "awning_desert_wood2"
+    },
+    {
+        "name":  "awning_desert_wood3"
+    },
+    {
+        "name":  "awning_desert_wood4"
+    },
+    {
+        "name":  "awning_desert_wood_large1"
+    },
+    {
+        "name":  "awning_desert_wood_large2"
+    },
+    {
+        "name":  "awning_desert_wood_large3"
+    },
+    {
+        "name":  "awning_desert_wood_large4"
+    },
+    {
+        "name":  "awning_desert_wood_long"
+    },
+    {
+        "name":  "backdrop_british_destroyer"
+    },
+    {
+        "name":  "backdrop_newvillers_card"
+    },
+    {
+        "name":  "backdrop_newvillers_trees"
+    },
+    {
+        "name":  "backdrop_rhine_card"
+    },
+    {
+        "name":  "backdrop_silotown_trees"
+    },
+    {
+        "name":  "backdrop_toujane_card"
+    },
+    {
+        "name":  "backdrop_toujane_frnthill"
+    },
+    {
+        "name":  "backdrop_toujane_frntmntn"
+    },
+    {
+        "name":  "british_afrca_mac_radio_back"
+    },
+    {
+        "name":  "british_afrca_mac_radio_hand"
+    },
+    {
+        "name":  "brush_desertgreenfanshrub"
+    },
+    {
+        "name":  "brush_desertgreenfanshrub_tankdrive1"
+    },
+    {
+        "name":  "brush_desertgreenfanshrub_tankdrive2"
+    },
+    {
+        "name":  "brush_desertgreenfanshrub_tankdrive3"
+    },
+    {
+        "name":  "brush_desertshrubbrownmid"
+    },
+    {
+        "name":  "brush_desertshrubbrownshort"
+    },
+    {
+        "name":  "brush_desertshrubbrowntall"
+    },
+    {
+        "name":  "brush_desertshrubgraymid"
+    },
+    {
+        "name":  "brush_desertshrubgrayshort"
+    },
+    {
+        "name":  "brush_desertshrubgraytall"
+    },
+    {
+        "name":  "brush_desertshrubgraytall_tankdrive1"
+    },
+    {
+        "name":  "brush_desertshrubgraytall_tankdrive2"
+    },
+    {
+        "name":  "brush_desertshrubgraytall_tankdrive3"
+    },
+    {
+        "name":  "brush_desertshrubgroup01"
+    },
+    {
+        "name":  "brush_desertshrubgroup01_tankdrive1"
+    },
+    {
+        "name":  "brush_desertshrubgroup01_tankdrive2"
+    },
+    {
+        "name":  "brush_desertshrubgroup01_tankdrive3"
+    },
+    {
+        "name":  "brush_desertspikeyshrub"
+    },
+    {
+        "name":  "brush_egypt_desert_1"
+    },
+    {
+        "name":  "brush_egypt_desert_2"
+    },
+    {
+        "name":  "brush_egypt_desert_2_tankdrive1"
+    },
+    {
+        "name":  "brush_egypt_desert_2_tankdrive2"
+    },
+    {
+        "name":  "brush_egypt_desert_2_tankdrive3"
+    },
+    {
+        "name":  "brush_grassflowerplants_squareclump"
+    },
+    {
+        "name":  "brush_grassflowerplants_triangularclump"
+    },
+    {
+        "name":  "brush_grasslowline"
+    },
+    {
+        "name":  "brush_newgrasstuft_shortwide"
+    },
+    {
+        "name":  "brush_newgrasstuft_tallnarrow"
+    },
+    {
+        "name":  "brush_newgrass_squareclump"
+    },
+    {
+        "name":  "brush_newgrass_squareclumpshort"
+    },
+    {
+        "name":  "brush_newgrass_triangularclump"
+    },
+    {
+        "name":  "brush_newgrass_triangularclumpshort"
+    },
+    {
+        "name":  "brush_shortnewgrass_squareclump"
+    },
+    {
+        "name":  "brush_shortnewgrass_squareclumpshort"
+    },
+    {
+        "name":  "brush_shortnewgrass_triangularclump"
+    },
+    {
+        "name":  "brush_shortnewgrass_triangularclumpshort"
+    },
+    {
+        "name":  "brush_snowbushweed01"
+    },
+    {
+        "name":  "brush_snowbushweed02"
+    },
+    {
+        "name":  "brush_toujanebigbushy"
+    },
+    {
+        "name":  "bunker01"
+    },
+    {
+        "name":  "bunker02"
+    },
+    {
+        "name":  "bunker03"
+    },
+    {
+        "name":  "bunker04"
+    },
+    {
+        "name":  "bunker_ceiling_light_off"
+    },
+    {
+        "name":  "bunker_ceiling_light_on"
+    },
+    {
+        "name":  "bunker_pipe_elbow"
+    },
+    {
+        "name":  "bunker_pipe_length"
+    },
+    {
+        "name":  "bunker_pipe_short"
+    },
+    {
+        "name":  "bunker_pipe_tconnection"
+    },
+    {
+        "name":  "bunker_pipe_xconnection"
+    },
+    {
+        "name":  "bunker_wall_light_off"
+    },
+    {
+        "name":  "bunker_wall_light_on"
+    },
+    {
+        "name":  "caen_barbedwire_1"
+    },
+    {
+        "name":  "caen_barbedwire_2"
+    },
+    {
+        "name":  "caen_barbedwire_3"
+    },
+    {
+        "name":  "caen_barbedwire_4"
+    },
+    {
+        "name":  "caen_barbedwire_5"
+    },
+    {
+        "name":  "caen_barbedwire_5_noaicol"
+    },
+    {
+        "name":  "caen_barbedwire_6"
+    },
+    {
+        "name":  "caen_barbedwire_7"
+    },
+    {
+        "name":  "caen_barbedwire_8"
+    },
+    {
+        "name":  "caen_barbedwire_9"
+    },
+    {
+        "name":  "caen_bush_full_01"
+    },
+    {
+        "name":  "caen_churchpew_01"
+    },
+    {
+        "name":  "caen_fence_1"
+    },
+    {
+        "name":  "caen_fence_2"
+    },
+    {
+        "name":  "caen_fence_3"
+    },
+    {
+        "name":  "caen_fence_gate_1"
+    },
+    {
+        "name":  "caen_fence_post_1"
+    },
+    {
+        "name":  "caen_grasstuft_5"
+    },
+    {
+        "name":  "caen_grasstuft_group_01"
+    },
+    {
+        "name":  "caen_hedgewallgroup_flip_1"
+    },
+    {
+        "name":  "caen_hedgewall_endcap"
+    },
+    {
+        "name":  "caen_hedge_wall_1"
+    },
+    {
+        "name":  "caen_hedge_wall_2"
+    },
+    {
+        "name":  "caen_hedge_wall_3"
+    },
+    {
+        "name":  "caen_hedge_wall_group_1"
+    },
+    {
+        "name":  "caen_spikeybush_01"
+    },
+    {
+        "name":  "caen_weeds_01"
+    },
+    {
+        "name":  "caen_windowpulleyhook"
+    },
+    {
+        "name":  "caen_window_brown_broken_1"
+    },
+    {
+        "name":  "caen_window_brown_broken_2"
+    },
+    {
+        "name":  "caen_window_brown_broken_3"
+    },
+    {
+        "name":  "caen_window_brown_clean_1"
+    },
+    {
+        "name":  "caen_window_brown_clean_2"
+    },
+    {
+        "name":  "caen_window_brown_clean_3"
+    },
+    {
+        "name":  "caen_window_white_broken_1"
+    },
+    {
+        "name":  "caen_window_white_broken_2"
+    },
+    {
+        "name":  "caen_window_white_broken_3"
+    },
+    {
+        "name":  "caen_window_white_clean_1"
+    },
+    {
+        "name":  "caen_window_white_clean_2"
+    },
+    {
+        "name":  "caen_window_white_clean_3"
+    },
+    {
+        "name":  "character_british_afrca_body"
+    },
+    {
+        "name":  "character_british_afrca_body_low"
+    },
+    {
+        "name":  "character_british_afrca_mac_body"
+    },
+    {
+        "name":  "character_british_afrca_mac_radio"
+    },
+    {
+        "name":  "character_british_afrca_mcgregor_low"
+    },
+    {
+        "name":  "character_british_afrca_shortsleeve_body"
+    },
+    {
+        "name":  "character_british_africa_price"
+    },
+    {
+        "name":  "character_british_duhoc_driver"
+    },
+    {
+        "name":  "character_british_normandy_a"
+    },
+    {
+        "name":  "character_british_normandy_b"
+    },
+    {
+        "name":  "character_british_normandy_c"
+    },
+    {
+        "name":  "character_british_normandy_mac_body"
+    },
+    {
+        "name":  "character_british_normandy_price"
+    },
+    {
+        "name":  "character_german_afrca_body"
+    },
+    {
+        "name":  "character_german_afrca_casualbody"
+    },
+    {
+        "name":  "character_german_camo_fat"
+    },
+    {
+        "name":  "character_german_josh_preview"
+    },
+    {
+        "name":  "character_german_normandy_coat_dark"
+    },
+    {
+        "name":  "character_german_normandy_fat"
+    },
+    {
+        "name":  "character_german_normandy_fat_injured"
+    },
+    {
+        "name":  "character_german_normandy_officer"
+    },
+    {
+        "name":  "character_german_normandy_thin"
+    },
+    {
+        "name":  "character_german_normandy_thin_injured"
+    },
+    {
+        "name":  "character_german_winter_hooded"
+    },
+    {
+        "name":  "character_german_winter_light"
+    },
+    {
+        "name":  "character_german_winter_masked_dark"
+    },
+    {
+        "name":  "character_german_winter_mg42_low"
+    },
+    {
+        "name":  "character_russian_diana_medic"
+    },
+    {
+        "name":  "character_russian_padded_a"
+    },
+    {
+        "name":  "character_russian_padded_b"
+    },
+    {
+        "name":  "character_russian_trench_a"
+    },
+    {
+        "name":  "character_russian_trench_b"
+    },
+    {
+        "name":  "character_russian_trench_c"
+    },
+    {
+        "name":  "character_russian_trench_d"
+    },
+    {
+        "name":  "character_russian_trench_popov"
+    },
+    {
+        "name":  "character_russian_winter_body"
+    },
+    {
+        "name":  "character_us_ranger_cpl_a"
+    },
+    {
+        "name":  "character_us_ranger_lt_coffey"
+    },
+    {
+        "name":  "character_us_ranger_medic_wells"
+    },
+    {
+        "name":  "character_us_ranger_pvt_a"
+    },
+    {
+        "name":  "character_us_ranger_pvt_a_low"
+    },
+    {
+        "name":  "character_us_ranger_pvt_a_wounded"
+    },
+    {
+        "name":  "character_us_ranger_pvt_b"
+    },
+    {
+        "name":  "character_us_ranger_pvt_braeburn"
+    },
+    {
+        "name":  "character_us_ranger_pvt_b_low"
+    },
+    {
+        "name":  "character_us_ranger_pvt_b_wounded"
+    },
+    {
+        "name":  "character_us_ranger_pvt_c"
+    },
+    {
+        "name":  "character_us_ranger_pvt_c_low"
+    },
+    {
+        "name":  "character_us_ranger_pvt_d"
+    },
+    {
+        "name":  "character_us_ranger_pvt_d_low"
+    },
+    {
+        "name":  "character_us_ranger_pvt_mccloskey"
+    },
+    {
+        "name":  "character_us_ranger_radio"
+    },
+    {
+        "name":  "character_us_ranger_sgt_randall"
+    },
+    {
+        "name":  "character_us_wet_ranger_lt_coffey"
+    },
+    {
+        "name":  "character_us_wet_ranger_medic_wells"
+    },
+    {
+        "name":  "character_us_wet_ranger_pvt_a"
+    },
+    {
+        "name":  "character_us_wet_ranger_pvt_a_low"
+    },
+    {
+        "name":  "character_us_wet_ranger_pvt_a_wounded"
+    },
+    {
+        "name":  "character_us_wet_ranger_pvt_b"
+    },
+    {
+        "name":  "character_us_wet_ranger_pvt_braeburn"
+    },
+    {
+        "name":  "character_us_wet_ranger_pvt_b_low"
+    },
+    {
+        "name":  "character_us_wet_ranger_pvt_b_wounded"
+    },
+    {
+        "name":  "character_us_wet_ranger_pvt_c"
+    },
+    {
+        "name":  "character_us_wet_ranger_pvt_c_low"
+    },
+    {
+        "name":  "character_us_wet_ranger_pvt_d"
+    },
+    {
+        "name":  "character_us_wet_ranger_pvt_d_low"
+    },
+    {
+        "name":  "character_us_wet_ranger_pvt_mccloskey"
+    },
+    {
+        "name":  "character_us_wet_ranger_radio"
+    },
+    {
+        "name":  "character_us_wet_ranger_sgt_a"
+    },
+    {
+        "name":  "character_us_wet_ranger_sgt_randall"
+    },
+    {
+        "name":  "civiliancar_damaged_blue"
+    },
+    {
+        "name":  "civiliancar_intact_blue"
+    },
+    {
+        "name":  "cliff01"
+    },
+    {
+        "name":  "cliff02"
+    },
+    {
+        "name":  "cliff03"
+    },
+    {
+        "name":  "cliff04"
+    },
+    {
+        "name":  "cliff05"
+    },
+    {
+        "name":  "cliff06"
+    },
+    {
+        "name":  "cliff07"
+    },
+    {
+        "name":  "cow_dead_1"
+    },
+    {
+        "name":  "cow_dead_2"
+    },
+    {
+        "name":  "cow_dead_3"
+    },
+    {
+        "name":  "crate01"
+    },
+    {
+        "name":  "crate01_snow"
+    },
+    {
+        "name":  "crate02"
+    },
+    {
+        "name":  "crate02_snow"
+    },
+    {
+        "name":  "defaultactor"
+    },
+    {
+        "name":  "defaultvehicle"
+    },
+    {
+        "name":  "defaultweapon"
+    },
+    {
+        "name":  "default_static_model"
+    },
+    {
+        "name":  "dome_01"
+    },
+    {
+        "name":  "dome_02"
+    },
+    {
+        "name":  "dome_03"
+    },
+    {
+        "name":  "dome_04"
+    },
+    {
+        "name":  "dome_05"
+    },
+    {
+        "name":  "dome_06"
+    },
+    {
+        "name":  "dome_07"
+    },
+    {
+        "name":  "dome_08"
+    },
+    {
+        "name":  "door_barn"
+    },
+    {
+        "name":  "door_barn_credit"
+    },
+    {
+        "name":  "duhoc_climb_rope_rig_test"
+    },
+    {
+        "name":  "duhoc_drones_rig"
+    },
+    {
+        "name":  "duhoc_halfrock1"
+    },
+    {
+        "name":  "duhoc_halfrock2"
+    },
+    {
+        "name":  "duhoc_halfrock3"
+    },
+    {
+        "name":  "duhoc_halfrock4"
+    },
+    {
+        "name":  "duhoc_halfrock5"
+    },
+    {
+        "name":  "duhoc_player_viewcam_joints"
+    },
+    {
+        "name":  "duhoc_rock_a"
+    },
+    {
+        "name":  "duhoc_rock_b"
+    },
+    {
+        "name":  "duhoc_rock_c"
+    },
+    {
+        "name":  "duhoc_rock_d"
+    },
+    {
+        "name":  "duhoc_rope_climb_cliff_player_rig"
+    },
+    {
+        "name":  "duhoc_rope_climb_cliff_rig"
+    },
+    {
+        "name":  "duhoc_rope_rig_test"
+    },
+    {
+        "name":  "duhoc_vehicle_drones"
+    },
+    {
+        "name":  "egypt_bunker_tanker"
+    },
+    {
+        "name":  "egypt_bunker_window_shutter"
+    },
+    {
+        "name":  "egypt_prop_buildingpiece01"
+    },
+    {
+        "name":  "egypt_prop_buildingpiece02"
+    },
+    {
+        "name":  "egypt_prop_buildingpiece03"
+    },
+    {
+        "name":  "egypt_prop_buildingpiece04"
+    },
+    {
+        "name":  "egypt_prop_cloth1"
+    },
+    {
+        "name":  "egypt_prop_cloth2"
+    },
+    {
+        "name":  "egypt_prop_cloth3"
+    },
+    {
+        "name":  "egypt_prop_vase1"
+    },
+    {
+        "name":  "egypt_prop_vase1_interior"
+    },
+    {
+        "name":  "egypt_prop_vase2"
+    },
+    {
+        "name":  "egypt_prop_vase2_interior"
+    },
+    {
+        "name":  "egypt_prop_vase3"
+    },
+    {
+        "name":  "egypt_prop_vase3_interior"
+    },
+    {
+        "name":  "egypt_prop_vase4"
+    },
+    {
+        "name":  "egypt_prop_vase4_interior"
+    },
+    {
+        "name":  "egypt_prop_vase5"
+    },
+    {
+        "name":  "egypt_prop_vase5_interior"
+    },
+    {
+        "name":  "egypt_prop_vase6"
+    },
+    {
+        "name":  "egypt_prop_vase6_interior"
+    },
+    {
+        "name":  "egypt_prop_vase_br1"
+    },
+    {
+        "name":  "egypt_prop_vase_br1_interior"
+    },
+    {
+        "name":  "egypt_prop_vase_br2"
+    },
+    {
+        "name":  "egypt_prop_vase_br2_interior"
+    },
+    {
+        "name":  "egypt_prop_vase_br3"
+    },
+    {
+        "name":  "egypt_prop_vase_br3_interior"
+    },
+    {
+        "name":  "egypt_prop_vase_br4"
+    },
+    {
+        "name":  "egypt_prop_vase_br4_interior"
+    },
+    {
+        "name":  "egypt_prop_vase_br5"
+    },
+    {
+        "name":  "egypt_prop_vase_br5_interior"
+    },
+    {
+        "name":  "egypt_prop_vase_br6"
+    },
+    {
+        "name":  "egypt_prop_vase_br6_interior"
+    },
+    {
+        "name":  "egypt_prop_vase_br7"
+    },
+    {
+        "name":  "egypt_prop_vase_br7_interior"
+    },
+    {
+        "name":  "egypt_prop_well1"
+    },
+    {
+        "name":  "egypt_prop_well2"
+    },
+    {
+        "name":  "egypt_prop_woodrail"
+    },
+    {
+        "name":  "elalamein_drones_joints"
+    },
+    {
+        "name":  "eldaba_plane_rig"
+    },
+    {
+        "name":  "eldaba_tower_explode"
+    },
+    {
+        "name":  "furniture_armchair"
+    },
+    {
+        "name":  "furniture_armchair_d"
+    },
+    {
+        "name":  "furniture_armoire"
+    },
+    {
+        "name":  "furniture_armoire_d"
+    },
+    {
+        "name":  "furniture_bathtub"
+    },
+    {
+        "name":  "furniture_bathtub_d"
+    },
+    {
+        "name":  "furniture_bathtub_obj"
+    },
+    {
+        "name":  "furniture_bed"
+    },
+    {
+        "name":  "furniture_bedhandle_bunker"
+    },
+    {
+        "name":  "furniture_bedmattress1"
+    },
+    {
+        "name":  "furniture_bedmattress2"
+    },
+    {
+        "name":  "furniture_bedmattress_bunker"
+    },
+    {
+        "name":  "furniture_bedmetalpiece_bunker"
+    },
+    {
+        "name":  "furniture_bed_bunker"
+    },
+    {
+        "name":  "furniture_bed_bunker1"
+    },
+    {
+        "name":  "furniture_bed_bunker2"
+    },
+    {
+        "name":  "furniture_bed_d"
+    },
+    {
+        "name":  "furniture_bookshelves1"
+    },
+    {
+        "name":  "furniture_bookshelves1_d"
+    },
+    {
+        "name":  "furniture_bookshelvestall"
+    },
+    {
+        "name":  "furniture_bookshelveswide"
+    },
+    {
+        "name":  "furniture_brokentableleg"
+    },
+    {
+        "name":  "furniture_cabinet"
+    },
+    {
+        "name":  "furniture_canopybed"
+    },
+    {
+        "name":  "furniture_desk"
+    },
+    {
+        "name":  "furniture_desk_d_a"
+    },
+    {
+        "name":  "furniture_desk_d_b"
+    },
+    {
+        "name":  "furniture_desk_d_c"
+    },
+    {
+        "name":  "furniture_desk_d_d"
+    },
+    {
+        "name":  "furniture_desk_d_drawer"
+    },
+    {
+        "name":  "furniture_dirtysink"
+    },
+    {
+        "name":  "furniture_dresser"
+    },
+    {
+        "name":  "furniture_dresser_d"
+    },
+    {
+        "name":  "furniture_duhoc_armchair"
+    },
+    {
+        "name":  "furniture_duhoc_armchair_dirty"
+    },
+    {
+        "name":  "furniture_duhoc_armchair_dirty_blue"
+    },
+    {
+        "name":  "furniture_duhoc_armchair_dirty_red"
+    },
+    {
+        "name":  "furniture_duhoc_bunker_seat"
+    },
+    {
+        "name":  "furniture_duhoc_bunker_table"
+    },
+    {
+        "name":  "furniture_duhoc_chair"
+    },
+    {
+        "name":  "furniture_duhoc_chair_dirty1"
+    },
+    {
+        "name":  "furniture_duhoc_chair_dirty2"
+    },
+    {
+        "name":  "furniture_duhoc_chair_dirty3"
+    },
+    {
+        "name":  "furniture_duhoc_clock"
+    },
+    {
+        "name":  "furniture_duhoc_couch"
+    },
+    {
+        "name":  "furniture_duhoc_couch_cushion1"
+    },
+    {
+        "name":  "furniture_duhoc_couch_cushion1_d1"
+    },
+    {
+        "name":  "furniture_duhoc_couch_cushion1_d2"
+    },
+    {
+        "name":  "furniture_duhoc_couch_cushion1_d3"
+    },
+    {
+        "name":  "furniture_duhoc_couch_cushion2"
+    },
+    {
+        "name":  "furniture_duhoc_couch_cushion2_d1"
+    },
+    {
+        "name":  "furniture_duhoc_couch_cushion2_d2"
+    },
+    {
+        "name":  "furniture_duhoc_couch_cushion2_d3"
+    },
+    {
+        "name":  "furniture_duhoc_couch_dirty1"
+    },
+    {
+        "name":  "furniture_duhoc_couch_dirty2"
+    },
+    {
+        "name":  "furniture_duhoc_couch_dirty3"
+    },
+    {
+        "name":  "furniture_duhoc_table"
+    },
+    {
+        "name":  "furniture_file_cabinet_drawer"
+    },
+    {
+        "name":  "furniture_file_cabinet_long_a"
+    },
+    {
+        "name":  "furniture_file_cabinet_med_a"
+    },
+    {
+        "name":  "furniture_file_cabinet_short_a"
+    },
+    {
+        "name":  "furniture_frenchbathcurtainrail"
+    },
+    {
+        "name":  "furniture_frenchbathfaucet"
+    },
+    {
+        "name":  "furniture_frenchbathshowerhead"
+    },
+    {
+        "name":  "furniture_frenchbathtub1"
+    },
+    {
+        "name":  "furniture_frenchbathtub2"
+    },
+    {
+        "name":  "furniture_frenchbathtubmetal"
+    },
+    {
+        "name":  "furniture_frenchbathtubporcelain"
+    },
+    {
+        "name":  "furniture_frenchtoilet1"
+    },
+    {
+        "name":  "furniture_frenchtoilet2"
+    },
+    {
+        "name":  "furniture_frenchtoiletbowl"
+    },
+    {
+        "name":  "furniture_frenchtoiletseatcover"
+    },
+    {
+        "name":  "furniture_frenchtoilet_tank"
+    },
+    {
+        "name":  "furniture_french_sink"
+    },
+    {
+        "name":  "furniture_french_sink1"
+    },
+    {
+        "name":  "furniture_french_sink2"
+    },
+    {
+        "name":  "furniture_french_sinkpedestal"
+    },
+    {
+        "name":  "furniture_french_sinkpipe"
+    },
+    {
+        "name":  "furniture_french_sinkstand"
+    },
+    {
+        "name":  "furniture_fullbed"
+    },
+    {
+        "name":  "furniture_grandfatherclocktall"
+    },
+    {
+        "name":  "furniture_longdiningtable"
+    },
+    {
+        "name":  "furniture_longdiningtable_d"
+    },
+    {
+        "name":  "furniture_northafrica_armoire_short"
+    },
+    {
+        "name":  "furniture_northafrica_armoire_tall"
+    },
+    {
+        "name":  "furniture_northafrica_coffeetable"
+    },
+    {
+        "name":  "furniture_northafrica_egyptianchair"
+    },
+    {
+        "name":  "furniture_northafrica_halftable"
+    },
+    {
+        "name":  "furniture_northafrica_longtable"
+    },
+    {
+        "name":  "furniture_northafrica_woodchair"
+    },
+    {
+        "name":  "furniture_ovaldiningtable"
+    },
+    {
+        "name":  "furniture_piano"
+    },
+    {
+        "name":  "furniture_piano_d"
+    },
+    {
+        "name":  "furniture_plainchair"
+    },
+    {
+        "name":  "furniture_plainchair_d"
+    },
+    {
+        "name":  "furniture_plainchair_mo"
+    },
+    {
+        "name":  "furniture_plainchair_shardback"
+    },
+    {
+        "name":  "furniture_plainchair_shardleg"
+    },
+    {
+        "name":  "furniture_plainchair_shardrail"
+    },
+    {
+        "name":  "furniture_plainchair_shardseat"
+    },
+    {
+        "name":  "furniture_rolltopdesk"
+    },
+    {
+        "name":  "furniture_rolltopdesk_d"
+    },
+    {
+        "name":  "furniture_sidetable1"
+    },
+    {
+        "name":  "furniture_sidetable1_d"
+    },
+    {
+        "name":  "furniture_smallcoffeetable"
+    },
+    {
+        "name":  "furniture_smallfoldingtable"
+    },
+    {
+        "name":  "furniture_tableclock1"
+    },
+    {
+        "name":  "furniture_tableclock2"
+    },
+    {
+        "name":  "furniture_toilet"
+    },
+    {
+        "name":  "furniture_utilitychair1"
+    },
+    {
+        "name":  "furniture_utilitychair2"
+    },
+    {
+        "name":  "furniture_victoriancouch"
+    },
+    {
+        "name":  "furniture_victoriancouch_d"
+    },
+    {
+        "name":  "furniture_walltable1"
+    },
+    {
+        "name":  "furniture_walltable1_d"
+    },
+    {
+        "name":  "furniture_walltable2"
+    },
+    {
+        "name":  "furniture_walltable2_d"
+    },
+    {
+        "name":  "fx"
+    },
+    {
+        "name":  "german_artillery_155gpf"
+    },
+    {
+        "name":  "german_artillery_155gpf_d"
+    },
+    {
+        "name":  "german_artillery_flak88"
+    },
+    {
+        "name":  "german_artillery_flak88_aa_d_static"
+    },
+    {
+        "name":  "german_artillery_flak88_aa_nm_d_static"
+    },
+    {
+        "name":  "german_artillery_flak88_aa_nm_static"
+    },
+    {
+        "name":  "german_artillery_flak88_aa_static"
+    },
+    {
+        "name":  "german_artillery_flak88_destroy"
+    },
+    {
+        "name":  "german_artillery_flak88_d_static"
+    },
+    {
+        "name":  "german_artillery_flak88_nm"
+    },
+    {
+        "name":  "german_artillery_flak88_nm_destroy"
+    },
+    {
+        "name":  "german_artillery_flak88_static"
+    },
+    {
+        "name":  "german_artillery_flakveirling"
+    },
+    {
+        "name":  "german_artillery_flakveirling_d"
+    },
+    {
+        "name":  "german_artillery_flakveirling_viewmodel"
+    },
+    {
+        "name":  "german_grenade_bag"
+    },
+    {
+        "name":  "grasstuftgroup_bigclump_test"
+    },
+    {
+        "name":  "grasstuftgroup_row_test"
+    },
+    {
+        "name":  "grasstuftgroup_test"
+    },
+    {
+        "name":  "grasstuft_test"
+    },
+    {
+        "name":  "gully_basementwall_rig"
+    },
+    {
+        "name":  "gully_bridge01"
+    },
+    {
+        "name":  "gully_bridge01_middle"
+    },
+    {
+        "name":  "gully_bridge02"
+    },
+    {
+        "name":  "gully_bridge_concrete01"
+    },
+    {
+        "name":  "gully_bridge_concrete02"
+    },
+    {
+        "name":  "gully_bridge_concrete03"
+    },
+    {
+        "name":  "gully_bridge_debris_lg01"
+    },
+    {
+        "name":  "gully_bridge_debris_lg02"
+    },
+    {
+        "name":  "gully_bridge_debris_lg03"
+    },
+    {
+        "name":  "gully_bridge_debris_sm01"
+    },
+    {
+        "name":  "gully_bridge_debris_sm02"
+    },
+    {
+        "name":  "gully_bridge_debris_sm03"
+    },
+    {
+        "name":  "haycart"
+    },
+    {
+        "name":  "haycart_destroyed"
+    },
+    {
+        "name":  "head_british_boon"
+    },
+    {
+        "name":  "head_british_chance"
+    },
+    {
+        "name":  "head_british_chance_low"
+    },
+    {
+        "name":  "head_british_harry"
+    },
+    {
+        "name":  "head_british_joel"
+    },
+    {
+        "name":  "head_british_joel_driver"
+    },
+    {
+        "name":  "head_british_macgregor"
+    },
+    {
+        "name":  "head_british_paul"
+    },
+    {
+        "name":  "head_british_paul_low"
+    },
+    {
+        "name":  "head_british_price"
+    },
+    {
+        "name":  "head_british_wellington"
+    },
+    {
+        "name":  "head_german_afrca_christoph"
+    },
+    {
+        "name":  "head_german_afrca_eric"
+    },
+    {
+        "name":  "head_german_afrca_josh"
+    },
+    {
+        "name":  "head_german_africa_mask"
+    },
+    {
+        "name":  "head_german_normandy_christoph"
+    },
+    {
+        "name":  "head_german_normandy_dan"
+    },
+    {
+        "name":  "head_german_normandy_emilio"
+    },
+    {
+        "name":  "head_german_normandy_eric"
+    },
+    {
+        "name":  "head_german_normandy_ericp"
+    },
+    {
+        "name":  "head_german_normandy_josh"
+    },
+    {
+        "name":  "head_german_winter_ericp"
+    },
+    {
+        "name":  "head_german_winter_jon"
+    },
+    {
+        "name":  "head_german_winter_jon_low"
+    },
+    {
+        "name":  "head_russian_winter_alex"
+    },
+    {
+        "name":  "head_russian_winter_dan"
+    },
+    {
+        "name":  "head_russian_winter_datien"
+    },
+    {
+        "name":  "head_russian_winter_jesse"
+    },
+    {
+        "name":  "head_russian_winter_jon"
+    },
+    {
+        "name":  "head_russian_winter_popov"
+    },
+    {
+        "name":  "head_russian_winter_volsky"
+    },
+    {
+        "name":  "head_us_ranger_braeburn"
+    },
+    {
+        "name":  "head_us_ranger_david"
+    },
+    {
+        "name":  "head_us_ranger_david_low"
+    },
+    {
+        "name":  "head_us_ranger_frank"
+    },
+    {
+        "name":  "head_us_ranger_frank_low"
+    },
+    {
+        "name":  "head_us_ranger_grant"
+    },
+    {
+        "name":  "head_us_ranger_harry"
+    },
+    {
+        "name":  "head_us_ranger_harry_low"
+    },
+    {
+        "name":  "head_us_ranger_medic_wells"
+    },
+    {
+        "name":  "head_us_ranger_mo"
+    },
+    {
+        "name":  "head_us_ranger_mo_low"
+    },
+    {
+        "name":  "head_us_ranger_preston"
+    },
+    {
+        "name":  "head_us_ranger_randall"
+    },
+    {
+        "name":  "head_us_ranger_wolf"
+    },
+    {
+        "name":  "head_us_ranger_wolf_low"
+    },
+    {
+        "name":  "health_large"
+    },
+    {
+        "name":  "health_medium"
+    },
+    {
+        "name":  "health_small"
+    },
+    {
+        "name":  "helmet_british_afrca"
+    },
+    {
+        "name":  "helmet_british_afrca_low"
+    },
+    {
+        "name":  "helmet_british_africa_mac"
+    },
+    {
+        "name":  "helmet_british_joel_driver"
+    },
+    {
+        "name":  "helmet_british_normandy"
+    },
+    {
+        "name":  "helmet_british_normandy_a"
+    },
+    {
+        "name":  "helmet_british_normandy_b"
+    },
+    {
+        "name":  "helmet_british_normandy_mac"
+    },
+    {
+        "name":  "helmet_german_africa"
+    },
+    {
+        "name":  "helmet_german_camo_emilio"
+    },
+    {
+        "name":  "helmet_german_casual_africa"
+    },
+    {
+        "name":  "helmet_german_normandy"
+    },
+    {
+        "name":  "helmet_german_normandy_coat_dark"
+    },
+    {
+        "name":  "helmet_german_normandy_emilio"
+    },
+    {
+        "name":  "helmet_german_normandy_officer_hat"
+    },
+    {
+        "name":  "helmet_german_winter_dark"
+    },
+    {
+        "name":  "helmet_german_winter_jon"
+    },
+    {
+        "name":  "helmet_russian_padded_a"
+    },
+    {
+        "name":  "helmet_russian_padded_b"
+    },
+    {
+        "name":  "helmet_russian_trench_a_hat"
+    },
+    {
+        "name":  "helmet_russian_trench_b_hat"
+    },
+    {
+        "name":  "helmet_russian_trench_c_hat"
+    },
+    {
+        "name":  "helmet_russian_trench_d_hat"
+    },
+    {
+        "name":  "helmet_russian_trench_popov_hat"
+    },
+    {
+        "name":  "helmet_us_ranger_braeburn"
+    },
+    {
+        "name":  "helmet_us_ranger_generic"
+    },
+    {
+        "name":  "helmet_us_ranger_generic_low"
+    },
+    {
+        "name":  "helmet_us_ranger_medic_wells"
+    },
+    {
+        "name":  "helmet_us_ranger_mo"
+    },
+    {
+        "name":  "helmet_us_ranger_randall"
+    },
+    {
+        "name":  "helmet_us_ranger_static"
+    },
+    {
+        "name":  "helmet_us_wet_ranger_braeburn"
+    },
+    {
+        "name":  "helmet_us_wet_ranger_generic"
+    },
+    {
+        "name":  "helmet_us_wet_ranger_generic_low"
+    },
+    {
+        "name":  "helmet_us_wet_ranger_medic_wells"
+    },
+    {
+        "name":  "helmet_us_wet_ranger_mo"
+    },
+    {
+        "name":  "helmet_us_wet_ranger_randall"
+    },
+    {
+        "name":  "helmet_us_wet_ranger_static"
+    },
+    {
+        "name":  "hill400_barrel_black"
+    },
+    {
+        "name":  "hill400_barrel_green"
+    },
+    {
+        "name":  "hill400_crate"
+    },
+    {
+        "name":  "hill400_dragonstooth"
+    },
+    {
+        "name":  "hill400_dragonstooth_d"
+    },
+    {
+        "name":  "hill400_hedgehog"
+    },
+    {
+        "name":  "hill400_rock_a"
+    },
+    {
+        "name":  "hill400_rock_b"
+    },
+    {
+        "name":  "hill400_rock_c"
+    },
+    {
+        "name":  "hill400_rock_d"
+    },
+    {
+        "name":  "hill400_sandbag_cornersection"
+    },
+    {
+        "name":  "hill400_sandbag_curvedsection"
+    },
+    {
+        "name":  "hill400_sandbag_endsection_left"
+    },
+    {
+        "name":  "hill400_sandbag_endsection_right"
+    },
+    {
+        "name":  "hill400_sandbag_longsection"
+    },
+    {
+        "name":  "hill400_sandbag_shortsection"
+    },
+    {
+        "name":  "hill400_sandbag_single_bent"
+    },
+    {
+        "name":  "hill400_sandbag_single_flat"
+    },
+    {
+        "name":  "horse_dead_1"
+    },
+    {
+        "name":  "horse_dead_2"
+    },
+    {
+        "name":  "light_candelabre_off"
+    },
+    {
+        "name":  "light_chandalier_off"
+    },
+    {
+        "name":  "light_flaksheinwerfer_on"
+    },
+    {
+        "name":  "light_lampdesk_off"
+    },
+    {
+        "name":  "light_lampornate_off"
+    },
+    {
+        "name":  "light_lampornate_on"
+    },
+    {
+        "name":  "light_lampplainmetalbase_off"
+    },
+    {
+        "name":  "light_lampplain_on"
+    },
+    {
+        "name":  "light_lamptiffany_on"
+    },
+    {
+        "name":  "light_lantern_off"
+    },
+    {
+        "name":  "light_lantern_on"
+    },
+    {
+        "name":  "light_signallight_off"
+    },
+    {
+        "name":  "light_walllightcrystal_off"
+    },
+    {
+        "name":  "light_walllightcrystal_on"
+    },
+    {
+        "name":  "light_walllightornate_off"
+    },
+    {
+        "name":  "light_walllight_off"
+    },
+    {
+        "name":  "light_walllight_on"
+    },
+    {
+        "name":  "mannequin"
+    },
+    {
+        "name":  "mannequin_arm_l"
+    },
+    {
+        "name":  "mannequin_arm_r"
+    },
+    {
+        "name":  "mannequin_dressform"
+    },
+    {
+        "name":  "mannequin_dressform_coat"
+    },
+    {
+        "name":  "mannequin_dressform_coat_obj"
+    },
+    {
+        "name":  "mannequin_head"
+    },
+    {
+        "name":  "military_bunker_electrical_box"
+    },
+    {
+        "name":  "military_bunker_vent"
+    },
+    {
+        "name":  "military_dragonstooth"
+    },
+    {
+        "name":  "military_dragonstooth_d"
+    },
+    {
+        "name":  "military_dragonstooth_egypt"
+    },
+    {
+        "name":  "military_dragonstooth_egypt_d"
+    },
+    {
+        "name":  "military_dragonstooth_snow"
+    },
+    {
+        "name":  "military_dragonstooth_snow_d"
+    },
+    {
+        "name":  "military_dragonstooth_wet"
+    },
+    {
+        "name":  "military_dragonstooth_wet_d"
+    },
+    {
+        "name":  "military_flak88_box"
+    },
+    {
+        "name":  "military_flak88_boxlid"
+    },
+    {
+        "name":  "military_flak88_box_empty"
+    },
+    {
+        "name":  "military_flak88_box_open"
+    },
+    {
+        "name":  "military_flak88_emptyshell"
+    },
+    {
+        "name":  "military_flak88_shell"
+    },
+    {
+        "name":  "military_flak88_tube"
+    },
+    {
+        "name":  "military_german_fieldradio_green"
+    },
+    {
+        "name":  "military_german_fieldradio_green_d"
+    },
+    {
+        "name":  "military_german_fieldradio_green_nonsolid"
+    },
+    {
+        "name":  "military_german_fieldradio_green_obj"
+    },
+    {
+        "name":  "military_german_fieldradio_grey"
+    },
+    {
+        "name":  "military_german_fieldradio_grey_d"
+    },
+    {
+        "name":  "military_german_fieldradio_grey_nonsolid"
+    },
+    {
+        "name":  "military_german_fieldradio_grey_obj"
+    },
+    {
+        "name":  "military_german_fieldradio_tan"
+    },
+    {
+        "name":  "military_german_fieldradio_tan_d"
+    },
+    {
+        "name":  "military_german_fieldradio_tan_nonsolid"
+    },
+    {
+        "name":  "military_german_fieldradio_tan_obj"
+    },
+    {
+        "name":  "military_german_headset"
+    },
+    {
+        "name":  "military_german_headset_obj"
+    },
+    {
+        "name":  "military_german_microphone"
+    },
+    {
+        "name":  "military_german_microphone_obj"
+    },
+    {
+        "name":  "military_german_radio1_green"
+    },
+    {
+        "name":  "military_german_radio1_green_d"
+    },
+    {
+        "name":  "military_german_radio1_green_obj"
+    },
+    {
+        "name":  "military_german_radio1_grey"
+    },
+    {
+        "name":  "military_german_radio1_grey_d"
+    },
+    {
+        "name":  "military_german_radio1_grey_obj"
+    },
+    {
+        "name":  "military_german_radio1_tan"
+    },
+    {
+        "name":  "military_german_radio1_tan_d"
+    },
+    {
+        "name":  "military_german_radio1_tan_obj"
+    },
+    {
+        "name":  "military_german_radio2_green"
+    },
+    {
+        "name":  "military_german_radio2_green_d"
+    },
+    {
+        "name":  "military_german_radio2_green_obj"
+    },
+    {
+        "name":  "military_german_radio2_grey"
+    },
+    {
+        "name":  "military_german_radio2_grey_d"
+    },
+    {
+        "name":  "military_german_radio2_grey_obj"
+    },
+    {
+        "name":  "military_german_radio2_tan"
+    },
+    {
+        "name":  "military_german_radio2_tan_d"
+    },
+    {
+        "name":  "military_german_radio2_tan_obj"
+    },
+    {
+        "name":  "military_hedgehog"
+    },
+    {
+        "name":  "military_hedgehog_small"
+    },
+    {
+        "name":  "military_panzerfaust"
+    },
+    {
+        "name":  "military_panzerfaust_box_empty"
+    },
+    {
+        "name":  "military_panzerfaust_box_full"
+    },
+    {
+        "name":  "military_sandbag_cornersection"
+    },
+    {
+        "name":  "military_sandbag_curvedsection"
+    },
+    {
+        "name":  "military_sandbag_desert_cornersection"
+    },
+    {
+        "name":  "military_sandbag_desert_curvedsection"
+    },
+    {
+        "name":  "military_sandbag_desert_endsection_left"
+    },
+    {
+        "name":  "military_sandbag_desert_endsection_right"
+    },
+    {
+        "name":  "military_sandbag_desert_expld_shortsection"
+    },
+    {
+        "name":  "military_sandbag_desert_exploded_left"
+    },
+    {
+        "name":  "military_sandbag_desert_exploded_right"
+    },
+    {
+        "name":  "military_sandbag_desert_exploded_single"
+    },
+    {
+        "name":  "military_sandbag_desert_longsection"
+    },
+    {
+        "name":  "military_sandbag_desert_shortsection"
+    },
+    {
+        "name":  "military_sandbag_desert_single_bent"
+    },
+    {
+        "name":  "military_sandbag_desert_single_flat"
+    },
+    {
+        "name":  "military_sandbag_endsection_left"
+    },
+    {
+        "name":  "military_sandbag_endsection_right"
+    },
+    {
+        "name":  "military_sandbag_group_expld_shortsection"
+    },
+    {
+        "name":  "military_sandbag_group_exploded_left"
+    },
+    {
+        "name":  "military_sandbag_group_exploded_right"
+    },
+    {
+        "name":  "military_sandbag_longsection"
+    },
+    {
+        "name":  "military_sandbag_shortsection"
+    },
+    {
+        "name":  "military_sandbag_single_bent"
+    },
+    {
+        "name":  "military_sandbag_single_exploded_01"
+    },
+    {
+        "name":  "military_sandbag_single_exploded_02"
+    },
+    {
+        "name":  "military_sandbag_single_flat"
+    },
+    {
+        "name":  "military_sandbag_snow_cornersection"
+    },
+    {
+        "name":  "military_sandbag_snow_curvedsection"
+    },
+    {
+        "name":  "military_sandbag_snow_endsection_left"
+    },
+    {
+        "name":  "military_sandbag_snow_endsection_right"
+    },
+    {
+        "name":  "military_sandbag_snow_longsection"
+    },
+    {
+        "name":  "military_sandbag_snow_long_no_ai_col"
+    },
+    {
+        "name":  "military_sandbag_snow_shortsection"
+    },
+    {
+        "name":  "military_sandbag_snow_single_bent"
+    },
+    {
+        "name":  "military_sandbag_snow_single_flat"
+    },
+    {
+        "name":  "military_sandbag_wet_cornersection"
+    },
+    {
+        "name":  "military_sandbag_wet_curvedsection"
+    },
+    {
+        "name":  "military_sandbag_wet_endsection_left"
+    },
+    {
+        "name":  "military_sandbag_wet_endsection_right"
+    },
+    {
+        "name":  "military_sandbag_wet_longsection"
+    },
+    {
+        "name":  "military_sandbag_wet_shortsection"
+    },
+    {
+        "name":  "military_sandbag_wet_single_bent"
+    },
+    {
+        "name":  "military_sandbag_wet_single_flat"
+    },
+    {
+        "name":  "military_tntbomb"
+    },
+    {
+        "name":  "military_tntbomb_obj"
+    },
+    {
+        "name":  "moscow_boards_1a"
+    },
+    {
+        "name":  "moscow_boards_1b"
+    },
+    {
+        "name":  "moscow_boards_2a"
+    },
+    {
+        "name":  "moscow_boards_2b"
+    },
+    {
+        "name":  "moscow_brick_grey"
+    },
+    {
+        "name":  "moscow_brick_red"
+    },
+    {
+        "name":  "moscow_doorframe1"
+    },
+    {
+        "name":  "moscow_doorframe1_obj"
+    },
+    {
+        "name":  "moscow_gun_positioin_rig"
+    },
+    {
+        "name":  "moscow_window1"
+    },
+    {
+        "name":  "moscow_window1_obj"
+    },
+    {
+        "name":  "moscow_window2"
+    },
+    {
+        "name":  "mp_tntbomb"
+    },
+    {
+        "name":  "mp_tntbomb_obj"
+    },
+    {
+        "name":  "pallet01"
+    },
+    {
+        "name":  "pallet02"
+    },
+    {
+        "name":  "playerbody_american_normandy01"
+    },
+    {
+        "name":  "playerbody_american_normandy02"
+    },
+    {
+        "name":  "playerbody_american_normandy03"
+    },
+    {
+        "name":  "playerbody_american_normandy04"
+    },
+    {
+        "name":  "playerbody_american_normandy05"
+    },
+    {
+        "name":  "playerbody_american_normandy06"
+    },
+    {
+        "name":  "playerbody_american_normandy07"
+    },
+    {
+        "name":  "playerbody_american_normandy08"
+    },
+    {
+        "name":  "playerbody_american_normandy09"
+    },
+    {
+        "name":  "playerbody_british_africa01"
+    },
+    {
+        "name":  "playerbody_british_africa02"
+    },
+    {
+        "name":  "playerbody_british_africa03"
+    },
+    {
+        "name":  "playerbody_british_africa04"
+    },
+    {
+        "name":  "playerbody_british_normandy01"
+    },
+    {
+        "name":  "playerbody_british_normandy02"
+    },
+    {
+        "name":  "playerbody_british_normandy03"
+    },
+    {
+        "name":  "playerbody_british_normandy04"
+    },
+    {
+        "name":  "playerbody_british_normandy05"
+    },
+    {
+        "name":  "playerbody_default"
+    },
+    {
+        "name":  "playerbody_german_africa01"
+    },
+    {
+        "name":  "playerbody_german_normandy01"
+    },
+    {
+        "name":  "playerbody_german_winterdark"
+    },
+    {
+        "name":  "playerbody_german_winterdark_masked"
+    },
+    {
+        "name":  "playerbody_german_winterlight"
+    },
+    {
+        "name":  "playerbody_german_winterlight_hooded"
+    },
+    {
+        "name":  "playerbody_russian_coat01"
+    },
+    {
+        "name":  "playerbody_russian_coat02"
+    },
+    {
+        "name":  "playerbody_russian_coat03"
+    },
+    {
+        "name":  "playerbody_russian_coat04"
+    },
+    {
+        "name":  "playerbody_russian_coat05"
+    },
+    {
+        "name":  "playerbody_russian_padded01"
+    },
+    {
+        "name":  "playerbody_russian_padded02"
+    },
+    {
+        "name":  "playerhead_default"
+    },
+    {
+        "name":  "pointeground"
+    },
+    {
+        "name":  "powerpole01"
+    },
+    {
+        "name":  "powerpole02"
+    },
+    {
+        "name":  "powerpole_d01"
+    },
+    {
+        "name":  "powerpole_d02"
+    },
+    {
+        "name":  "powerpole_d03"
+    },
+    {
+        "name":  "projectile_britishgrenade"
+    },
+    {
+        "name":  "projectile_germangrenade"
+    },
+    {
+        "name":  "projectile_mk2fraggrenade"
+    },
+    {
+        "name":  "projectile_russiangrenade"
+    },
+    {
+        "name":  "projectile_us_smoke_grenade"
+    },
+    {
+        "name":  "prop_barrel_benzin"
+    },
+    {
+        "name":  "prop_barrel_benzin_snow"
+    },
+    {
+        "name":  "prop_barrel_benzin_wet"
+    },
+    {
+        "name":  "prop_barrel_black"
+    },
+    {
+        "name":  "prop_barrel_black_snow"
+    },
+    {
+        "name":  "prop_barrel_black_wet"
+    },
+    {
+        "name":  "prop_barrel_green"
+    },
+    {
+        "name":  "prop_barrel_green_snow"
+    },
+    {
+        "name":  "prop_barrel_green_snowside"
+    },
+    {
+        "name":  "prop_barrel_green_wet"
+    },
+    {
+        "name":  "prop_barrel_piece"
+    },
+    {
+        "name":  "prop_barrel_piece2"
+    },
+    {
+        "name":  "prop_barrel_shard1"
+    },
+    {
+        "name":  "prop_barrel_shard2"
+    },
+    {
+        "name":  "prop_barrel_shard3"
+    },
+    {
+        "name":  "prop_barrel_shard4"
+    },
+    {
+        "name":  "prop_barrel_shard5"
+    },
+    {
+        "name":  "prop_barrel_silver"
+    },
+    {
+        "name":  "prop_barrel_silver_snow"
+    },
+    {
+        "name":  "prop_barrel_silver_wet"
+    },
+    {
+        "name":  "prop_barrel_tan"
+    },
+    {
+        "name":  "prop_barrel_tan_wet"
+    },
+    {
+        "name":  "prop_barrel_white"
+    },
+    {
+        "name":  "prop_barrel_white_snow"
+    },
+    {
+        "name":  "prop_bear"
+    },
+    {
+        "name":  "prop_bear_detail"
+    },
+    {
+        "name":  "prop_bear_detail_sitting"
+    },
+    {
+        "name":  "prop_bear_obj"
+    },
+    {
+        "name":  "prop_bench_d"
+    },
+    {
+        "name":  "prop_bike"
+    },
+    {
+        "name":  "prop_bike_destroyed"
+    },
+    {
+        "name":  "prop_book1"
+    },
+    {
+        "name":  "prop_book2"
+    },
+    {
+        "name":  "prop_book3"
+    },
+    {
+        "name":  "prop_bunkerlightswitch"
+    },
+    {
+        "name":  "prop_bunkerlocker_double"
+    },
+    {
+        "name":  "prop_bunkerlocker_open"
+    },
+    {
+        "name":  "prop_bunkerlocker_single"
+    },
+    {
+        "name":  "prop_bunker_air_filter"
+    },
+    {
+        "name":  "prop_bunker_phone"
+    },
+    {
+        "name":  "prop_bunker_stove"
+    },
+    {
+        "name":  "prop_chickencoop"
+    },
+    {
+        "name":  "prop_churchdome_destroyed"
+    },
+    {
+        "name":  "prop_churchdome_intact"
+    },
+    {
+        "name":  "prop_crate_dak1"
+    },
+    {
+        "name":  "prop_crate_dak1_russian"
+    },
+    {
+        "name":  "prop_crate_dak2"
+    },
+    {
+        "name":  "prop_crate_dak2_russian"
+    },
+    {
+        "name":  "prop_crate_dak3"
+    },
+    {
+        "name":  "prop_crate_dak3_russian"
+    },
+    {
+        "name":  "prop_crate_dak4"
+    },
+    {
+        "name":  "prop_crate_dak4_russian"
+    },
+    {
+        "name":  "prop_crate_dak5"
+    },
+    {
+        "name":  "prop_crate_dak5_russian"
+    },
+    {
+        "name":  "prop_crate_dak6"
+    },
+    {
+        "name":  "prop_crate_dak6_russian"
+    },
+    {
+        "name":  "prop_crate_dak7"
+    },
+    {
+        "name":  "prop_crate_dak7_russian"
+    },
+    {
+        "name":  "prop_crate_dak8"
+    },
+    {
+        "name":  "prop_crate_dak8_russian"
+    },
+    {
+        "name":  "prop_crate_dak9"
+    },
+    {
+        "name":  "prop_crate_dak9_russian"
+    },
+    {
+        "name":  "prop_crate_dak_shard"
+    },
+    {
+        "name":  "prop_crate_largeshipping1"
+    },
+    {
+        "name":  "prop_crate_largeshipping_lid"
+    },
+    {
+        "name":  "prop_crate_largeshipping_open1"
+    },
+    {
+        "name":  "prop_crate_smallshipping1"
+    },
+    {
+        "name":  "prop_crate_smallshipping_open1"
+    },
+    {
+        "name":  "prop_crate_smallshipping_open2"
+    },
+    {
+        "name":  "prop_crate_smallshipping_open3"
+    },
+    {
+        "name":  "prop_crate_wehrmacht1"
+    },
+    {
+        "name":  "prop_crate_wehrmacht1a"
+    },
+    {
+        "name":  "prop_crate_wehrmacht1a_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht1_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht2"
+    },
+    {
+        "name":  "prop_crate_wehrmacht2a"
+    },
+    {
+        "name":  "prop_crate_wehrmacht2a_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht2_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht3"
+    },
+    {
+        "name":  "prop_crate_wehrmacht3a"
+    },
+    {
+        "name":  "prop_crate_wehrmacht3a_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht3_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht4"
+    },
+    {
+        "name":  "prop_crate_wehrmacht4a"
+    },
+    {
+        "name":  "prop_crate_wehrmacht4a_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht4_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht5"
+    },
+    {
+        "name":  "prop_crate_wehrmacht5a"
+    },
+    {
+        "name":  "prop_crate_wehrmacht5a_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht5_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht6"
+    },
+    {
+        "name":  "prop_crate_wehrmacht6a"
+    },
+    {
+        "name":  "prop_crate_wehrmacht6a_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht6_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht7"
+    },
+    {
+        "name":  "prop_crate_wehrmacht7a"
+    },
+    {
+        "name":  "prop_crate_wehrmacht7a_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht7_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht8"
+    },
+    {
+        "name":  "prop_crate_wehrmacht8a"
+    },
+    {
+        "name":  "prop_crate_wehrmacht8a_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht8_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht9"
+    },
+    {
+        "name":  "prop_crate_wehrmacht9a"
+    },
+    {
+        "name":  "prop_crate_wehrmacht9a_wet"
+    },
+    {
+        "name":  "prop_crate_wehrmacht9_wet"
+    },
+    {
+        "name":  "prop_crypt1"
+    },
+    {
+        "name":  "prop_crypt2"
+    },
+    {
+        "name":  "prop_dept_sign"
+    },
+    {
+        "name":  "prop_destroyedcratebox"
+    },
+    {
+        "name":  "prop_destroyedcratecorner01"
+    },
+    {
+        "name":  "prop_destroyedcratecorner02"
+    },
+    {
+        "name":  "prop_destroyedcrateplanks01"
+    },
+    {
+        "name":  "prop_destroyedcrateplanks02"
+    },
+    {
+        "name":  "prop_destroyedcrateside"
+    },
+    {
+        "name":  "prop_diningplate_brokenfloral1"
+    },
+    {
+        "name":  "prop_diningplate_brokenfloral2"
+    },
+    {
+        "name":  "prop_diningplate_brokenfloral3"
+    },
+    {
+        "name":  "prop_diningplate_brokenfloral4"
+    },
+    {
+        "name":  "prop_diningplate_brokenplain1"
+    },
+    {
+        "name":  "prop_diningplate_brokenplain2"
+    },
+    {
+        "name":  "prop_diningplate_brokenplain3"
+    },
+    {
+        "name":  "prop_diningplate_brokenplain4"
+    },
+    {
+        "name":  "prop_diningplate_ovalfloral"
+    },
+    {
+        "name":  "prop_diningplate_ovalplain"
+    },
+    {
+        "name":  "prop_diningplate_ovalstack"
+    },
+    {
+        "name":  "prop_diningplate_roundfloral"
+    },
+    {
+        "name":  "prop_diningplate_roundplain"
+    },
+    {
+        "name":  "prop_diningplate_roundstack"
+    },
+    {
+        "name":  "prop_doghouse1"
+    },
+    {
+        "name":  "prop_doghouse2"
+    },
+    {
+        "name":  "prop_doorknob"
+    },
+    {
+        "name":  "prop_doorknob1"
+    },
+    {
+        "name":  "prop_door_metal_bunker"
+    },
+    {
+        "name":  "prop_door_metal_bunker_damaged"
+    },
+    {
+        "name":  "prop_door_metal_hatch"
+    },
+    {
+        "name":  "prop_door_metal_hatch_hinge"
+    },
+    {
+        "name":  "prop_door_wood"
+    },
+    {
+        "name":  "prop_door_wood_arched"
+    },
+    {
+        "name":  "prop_door_wood_arched_damaged"
+    },
+    {
+        "name":  "prop_door_wood_arched_d_static"
+    },
+    {
+        "name":  "prop_door_wood_d"
+    },
+    {
+        "name":  "prop_firebarrel"
+    },
+    {
+        "name":  "prop_flag_american"
+    },
+    {
+        "name":  "prop_flag_american_carry"
+    },
+    {
+        "name":  "prop_flag_base"
+    },
+    {
+        "name":  "prop_flag_british"
+    },
+    {
+        "name":  "prop_flag_british_carry"
+    },
+    {
+        "name":  "prop_flag_german"
+    },
+    {
+        "name":  "prop_flag_german_carry"
+    },
+    {
+        "name":  "prop_flag_russian"
+    },
+    {
+        "name":  "prop_flag_russian_carry"
+    },
+    {
+        "name":  "prop_flak88_nm_piece0"
+    },
+    {
+        "name":  "prop_flak88_nm_piece1"
+    },
+    {
+        "name":  "prop_flak88_nm_piece2"
+    },
+    {
+        "name":  "prop_flak88_nm_piece3"
+    },
+    {
+        "name":  "prop_flak88_piece0"
+    },
+    {
+        "name":  "prop_flak88_piece1"
+    },
+    {
+        "name":  "prop_flak88_piece2"
+    },
+    {
+        "name":  "prop_flak88_piece3"
+    },
+    {
+        "name":  "prop_geraniums_1"
+    },
+    {
+        "name":  "prop_german_armored_car_piece1"
+    },
+    {
+        "name":  "prop_german_armored_car_piece2"
+    },
+    {
+        "name":  "prop_german_armored_car_piece3"
+    },
+    {
+        "name":  "prop_german_armored_car_tire"
+    },
+    {
+        "name":  "prop_german_panzer_part_1"
+    },
+    {
+        "name":  "prop_german_panzer_part_2"
+    },
+    {
+        "name":  "prop_german_panzer_part_3"
+    },
+    {
+        "name":  "prop_haybale"
+    },
+    {
+        "name":  "prop_helmet_german_africa"
+    },
+    {
+        "name":  "prop_helmet_german_normandy"
+    },
+    {
+        "name":  "prop_higgins_part1"
+    },
+    {
+        "name":  "prop_higgins_part2"
+    },
+    {
+        "name":  "prop_higgins_part3"
+    },
+    {
+        "name":  "prop_higgins_part4"
+    },
+    {
+        "name":  "prop_hotel_sign"
+    },
+    {
+        "name":  "prop_hydrant"
+    },
+    {
+        "name":  "prop_ivycornersingle01"
+    },
+    {
+        "name":  "prop_ivycornersingle02"
+    },
+    {
+        "name":  "prop_ivyedgebottom01"
+    },
+    {
+        "name":  "prop_ivyedgehorizontal01"
+    },
+    {
+        "name":  "prop_ivyedgehorizontal02"
+    },
+    {
+        "name":  "prop_ivyedgeverticle01"
+    },
+    {
+        "name":  "prop_ivysmallclump01"
+    },
+    {
+        "name":  "prop_ivysmallclump02"
+    },
+    {
+        "name":  "prop_ivysmallclump03"
+    },
+    {
+        "name":  "prop_ivysmallverticle01"
+    },
+    {
+        "name":  "prop_ivywindowcornertop01"
+    },
+    {
+        "name":  "prop_ivy_bottom_1"
+    },
+    {
+        "name":  "prop_ivy_corner_1"
+    },
+    {
+        "name":  "prop_ivy_corner_2"
+    },
+    {
+        "name":  "prop_kitchencopperpan"
+    },
+    {
+        "name":  "prop_kitchenmetalpan"
+    },
+    {
+        "name":  "prop_kitchenmetalpot"
+    },
+    {
+        "name":  "prop_kitchenmetalpotlid"
+    },
+    {
+        "name":  "prop_kitchen_faucet01"
+    },
+    {
+        "name":  "prop_kitchen_sink01"
+    },
+    {
+        "name":  "prop_kitchen_winebottle"
+    },
+    {
+        "name":  "prop_ladder_wood_14_ft"
+    },
+    {
+        "name":  "prop_ladder_wood_14_ft_static"
+    },
+    {
+        "name":  "prop_ladder_wood_16_ft"
+    },
+    {
+        "name":  "prop_ladder_wood_16_ft_static"
+    },
+    {
+        "name":  "prop_lamp01"
+    },
+    {
+        "name":  "prop_lamp01_on"
+    },
+    {
+        "name":  "prop_lightbulbwire"
+    },
+    {
+        "name":  "prop_lightbulbwirebase"
+    },
+    {
+        "name":  "prop_lightbulb_off"
+    },
+    {
+        "name":  "prop_lightbulb_on"
+    },
+    {
+        "name":  "prop_lightpost"
+    },
+    {
+        "name":  "prop_magazine1"
+    },
+    {
+        "name":  "prop_magazine2"
+    },
+    {
+        "name":  "prop_map_1"
+    },
+    {
+        "name":  "prop_map_1_obj"
+    },
+    {
+        "name":  "prop_map_2"
+    },
+    {
+        "name":  "prop_map_2_obj"
+    },
+    {
+        "name":  "prop_map_3"
+    },
+    {
+        "name":  "prop_map_3_obj"
+    },
+    {
+        "name":  "prop_map_4"
+    },
+    {
+        "name":  "prop_map_4_obj"
+    },
+    {
+        "name":  "prop_map_board"
+    },
+    {
+        "name":  "prop_map_case_1"
+    },
+    {
+        "name":  "prop_map_case_1_obj"
+    },
+    {
+        "name":  "prop_map_case_2"
+    },
+    {
+        "name":  "prop_map_case_2_obj"
+    },
+    {
+        "name":  "prop_map_northafrica"
+    },
+    {
+        "name":  "prop_map_northafrica_obj"
+    },
+    {
+        "name":  "prop_market_stands1"
+    },
+    {
+        "name":  "prop_market_stands2"
+    },
+    {
+        "name":  "prop_market_stands3"
+    },
+    {
+        "name":  "prop_market_stands4"
+    },
+    {
+        "name":  "prop_market_stands5"
+    },
+    {
+        "name":  "prop_market_stands6"
+    },
+    {
+        "name":  "prop_market_stands7"
+    },
+    {
+        "name":  "prop_market_stands8"
+    },
+    {
+        "name":  "prop_metal_pail1"
+    },
+    {
+        "name":  "prop_metal_pail2"
+    },
+    {
+        "name":  "prop_metal_pail3"
+    },
+    {
+        "name":  "prop_moroccanchainlamp_unlit"
+    },
+    {
+        "name":  "prop_moroccan_chain"
+    },
+    {
+        "name":  "prop_moroccan_chainlamp"
+    },
+    {
+        "name":  "prop_mortar"
+    },
+    {
+        "name":  "prop_mortar_ammunition"
+    },
+    {
+        "name":  "prop_mortar_case"
+    },
+    {
+        "name":  "prop_mortar_case2"
+    },
+    {
+        "name":  "prop_mortar_crate"
+    },
+    {
+        "name":  "prop_mortar_crate2"
+    },
+    {
+        "name":  "prop_mortar_static"
+    },
+    {
+        "name":  "prop_northafricawoodscreendouble"
+    },
+    {
+        "name":  "prop_northafricawoodscreensingle"
+    },
+    {
+        "name":  "prop_northafrica_oil_lamp"
+    },
+    {
+        "name":  "prop_pictureframe01"
+    },
+    {
+        "name":  "prop_pictureframe02"
+    },
+    {
+        "name":  "prop_pillow1"
+    },
+    {
+        "name":  "prop_pillow2"
+    },
+    {
+        "name":  "prop_pillow3"
+    },
+    {
+        "name":  "prop_pillow_duhoc1"
+    },
+    {
+        "name":  "prop_pillow_duhoc2"
+    },
+    {
+        "name":  "prop_pipetower_angleiron"
+    },
+    {
+        "name":  "prop_pipetower_crossbar"
+    },
+    {
+        "name":  "prop_pipetower_crossbarbrace"
+    },
+    {
+        "name":  "prop_pipetower_crossbarcorner"
+    },
+    {
+        "name":  "prop_pipetower_crossbarcorner2"
+    },
+    {
+        "name":  "prop_pistol_shell"
+    },
+    {
+        "name":  "prop_potato_crate"
+    },
+    {
+        "name":  "prop_potbelly_stove"
+    },
+    {
+        "name":  "prop_railswitch"
+    },
+    {
+        "name":  "prop_rail_fuelcar"
+    },
+    {
+        "name":  "prop_rail_graincar"
+    },
+    {
+        "name":  "prop_rattanbasket1"
+    },
+    {
+        "name":  "prop_rattanbasket2"
+    },
+    {
+        "name":  "prop_rattanbasket3"
+    },
+    {
+        "name":  "prop_rattanbasket4"
+    },
+    {
+        "name":  "prop_rattanbasket5"
+    },
+    {
+        "name":  "prop_rattanbasket6"
+    },
+    {
+        "name":  "prop_rattanbasket7"
+    },
+    {
+        "name":  "prop_rattanbasket8"
+    },
+    {
+        "name":  "prop_redbrickpile_corner_in_debris_01"
+    },
+    {
+        "name":  "prop_redbrickpile_corner_in_debris_02"
+    },
+    {
+        "name":  "prop_redbrickpile_corner_out_debris_01"
+    },
+    {
+        "name":  "prop_redbrickpile_corner_out_debris_02"
+    },
+    {
+        "name":  "prop_redbrickpile_debris_01"
+    },
+    {
+        "name":  "prop_redbrickpile_debris_02"
+    },
+    {
+        "name":  "prop_redbrick_debris_01"
+    },
+    {
+        "name":  "prop_redbrick_debris_02"
+    },
+    {
+        "name":  "prop_redbrick_debris_03"
+    },
+    {
+        "name":  "prop_redbrick_debris_04"
+    },
+    {
+        "name":  "prop_redbrick_wall_debris_01"
+    },
+    {
+        "name":  "prop_redbrick_wall_debris_02"
+    },
+    {
+        "name":  "prop_redbrick_wall_debris_03"
+    },
+    {
+        "name":  "prop_rifle_shell"
+    },
+    {
+        "name":  "prop_rock"
+    },
+    {
+        "name":  "prop_rubble_bar_big_01"
+    },
+    {
+        "name":  "prop_rubble_bar_big_02"
+    },
+    {
+        "name":  "prop_rubble_bar_big_03"
+    },
+    {
+        "name":  "prop_rubble_bar_big_04"
+    },
+    {
+        "name":  "prop_rubble_bar_sm_01"
+    },
+    {
+        "name":  "prop_rubble_bar_sm_02"
+    },
+    {
+        "name":  "prop_rubble_bar_sm_03"
+    },
+    {
+        "name":  "prop_rubble_bar_sm_04"
+    },
+    {
+        "name":  "prop_rubble_rock_01"
+    },
+    {
+        "name":  "prop_rubble_rock_02"
+    },
+    {
+        "name":  "prop_rubble_rock_03"
+    },
+    {
+        "name":  "prop_rubble_rock_04"
+    },
+    {
+        "name":  "prop_signallight"
+    },
+    {
+        "name":  "prop_stoplight"
+    },
+    {
+        "name":  "prop_stove01"
+    },
+    {
+        "name":  "prop_stove01b"
+    },
+    {
+        "name":  "prop_stove01c"
+    },
+    {
+        "name":  "prop_stove02"
+    },
+    {
+        "name":  "prop_stove02b"
+    },
+    {
+        "name":  "prop_stove02c"
+    },
+    {
+        "name":  "prop_streetlamp_dim"
+    },
+    {
+        "name":  "prop_streetlamp_off"
+    },
+    {
+        "name":  "prop_streetlamp_on"
+    },
+    {
+        "name":  "prop_stuka_bomb"
+    },
+    {
+        "name":  "prop_tiger_part_1"
+    },
+    {
+        "name":  "prop_tiger_part_2"
+    },
+    {
+        "name":  "prop_tiger_part_3"
+    },
+    {
+        "name":  "prop_tinbox_oval_flat"
+    },
+    {
+        "name":  "prop_tinbox_oval_tall"
+    },
+    {
+        "name":  "prop_tinbox_rectangularflat01"
+    },
+    {
+        "name":  "prop_tinbox_rectangularflat02"
+    },
+    {
+        "name":  "prop_tinbox_rectangularflat03"
+    },
+    {
+        "name":  "prop_tinbox_rectangulartall"
+    },
+    {
+        "name":  "prop_tinbox_round_flat"
+    },
+    {
+        "name":  "prop_tinbox_square_small"
+    },
+    {
+        "name":  "prop_tinbox_square_tall01"
+    },
+    {
+        "name":  "prop_tinbox_square_tall02"
+    },
+    {
+        "name":  "prop_tincan"
+    },
+    {
+        "name":  "prop_tombstone1"
+    },
+    {
+        "name":  "prop_tombstone10"
+    },
+    {
+        "name":  "prop_tombstone11"
+    },
+    {
+        "name":  "prop_tombstone2"
+    },
+    {
+        "name":  "prop_tombstone3"
+    },
+    {
+        "name":  "prop_tombstone4"
+    },
+    {
+        "name":  "prop_tombstone5"
+    },
+    {
+        "name":  "prop_tombstone6"
+    },
+    {
+        "name":  "prop_tombstone7"
+    },
+    {
+        "name":  "prop_tombstone8"
+    },
+    {
+        "name":  "prop_tombstone9"
+    },
+    {
+        "name":  "prop_toujane_canopy"
+    },
+    {
+        "name":  "prop_toujane_roadrock1"
+    },
+    {
+        "name":  "prop_toujane_roadrock10"
+    },
+    {
+        "name":  "prop_toujane_roadrock11"
+    },
+    {
+        "name":  "prop_toujane_roadrock12"
+    },
+    {
+        "name":  "prop_toujane_roadrock2"
+    },
+    {
+        "name":  "prop_toujane_roadrock3"
+    },
+    {
+        "name":  "prop_toujane_roadrock4"
+    },
+    {
+        "name":  "prop_toujane_roadrock5"
+    },
+    {
+        "name":  "prop_toujane_roadrock6"
+    },
+    {
+        "name":  "prop_toujane_roadrock7"
+    },
+    {
+        "name":  "prop_toujane_roadrock8"
+    },
+    {
+        "name":  "prop_toujane_roadrock9"
+    },
+    {
+        "name":  "prop_tractor"
+    },
+    {
+        "name":  "prop_traincar01"
+    },
+    {
+        "name":  "prop_traincar01_opendoor"
+    },
+    {
+        "name":  "prop_traincar01_opendoor_snow"
+    },
+    {
+        "name":  "prop_traincar01_snow"
+    },
+    {
+        "name":  "prop_traincar_flat"
+    },
+    {
+        "name":  "prop_traincar_flatfullbox"
+    },
+    {
+        "name":  "prop_traincar_flatfullbox_snow"
+    },
+    {
+        "name":  "prop_traincar_flathalfbox"
+    },
+    {
+        "name":  "prop_traincar_flathalfbox_snow"
+    },
+    {
+        "name":  "prop_traincar_flat_snow"
+    },
+    {
+        "name":  "prop_trainwheels01"
+    },
+    {
+        "name":  "prop_trainwheels01_snow"
+    },
+    {
+        "name":  "prop_trenchgun_shell"
+    },
+    {
+        "name":  "prop_trolleypole1"
+    },
+    {
+        "name":  "prop_trolleypole2"
+    },
+    {
+        "name":  "prop_trolleypole_side"
+    },
+    {
+        "name":  "prop_trollycar_d"
+    },
+    {
+        "name":  "prop_vehicle_crusader2_part1"
+    },
+    {
+        "name":  "prop_vehicle_crusader2_part2"
+    },
+    {
+        "name":  "prop_vehicle_crusader2_part3"
+    },
+    {
+        "name":  "prop_vehicle_crusader2_part4"
+    },
+    {
+        "name":  "prop_vine01"
+    },
+    {
+        "name":  "prop_vinecorner01"
+    },
+    {
+        "name":  "prop_vinecorner02"
+    },
+    {
+        "name":  "prop_wickerbasket1"
+    },
+    {
+        "name":  "prop_wickerbasket2"
+    },
+    {
+        "name":  "prop_wickerbasket3"
+    },
+    {
+        "name":  "prop_wickerbasket4"
+    },
+    {
+        "name":  "prop_wickerbasket5"
+    },
+    {
+        "name":  "prop_wickerbasket6"
+    },
+    {
+        "name":  "prop_wickerbasket7"
+    },
+    {
+        "name":  "prop_wickerbasket8"
+    },
+    {
+        "name":  "prop_winebottle_breakable"
+    },
+    {
+        "name":  "prop_winebottle_broken_bot"
+    },
+    {
+        "name":  "prop_winebottle_broken_top"
+    },
+    {
+        "name":  "prop_wine_crate"
+    },
+    {
+        "name":  "prop_wooden_barrel1"
+    },
+    {
+        "name":  "prop_woodstack1"
+    },
+    {
+        "name":  "prop_wood_debris_big_burnt_01"
+    },
+    {
+        "name":  "prop_wood_debris_big_burnt_01_noaicol"
+    },
+    {
+        "name":  "prop_wood_debris_big_burnt_02"
+    },
+    {
+        "name":  "prop_wood_debris_big_burnt_03"
+    },
+    {
+        "name":  "prop_wood_debris_small_burnt_01"
+    },
+    {
+        "name":  "prop_wood_debris_small_burnt_02"
+    },
+    {
+        "name":  "prop_wood_debris_small_burnt_03"
+    },
+    {
+        "name":  "prop_wood_splinter01"
+    },
+    {
+        "name":  "prop_wood_splinter02"
+    },
+    {
+        "name":  "railpipe01"
+    },
+    {
+        "name":  "railpipe02"
+    },
+    {
+        "name":  "railpipe03"
+    },
+    {
+        "name":  "railpipe04"
+    },
+    {
+        "name":  "railpipe05"
+    },
+    {
+        "name":  "railpipe06"
+    },
+    {
+        "name":  "railpipe07"
+    },
+    {
+        "name":  "railpipe_bolts"
+    },
+    {
+        "name":  "railpipe_connector"
+    },
+    {
+        "name":  "railpipe_d01"
+    },
+    {
+        "name":  "railpipe_d02"
+    },
+    {
+        "name":  "railpipe_d03"
+    },
+    {
+        "name":  "railpipe_s01"
+    },
+    {
+        "name":  "railpipe_s02"
+    },
+    {
+        "name":  "railpipe_s03"
+    },
+    {
+        "name":  "railpipe_s06"
+    },
+    {
+        "name":  "railpipe_sd01"
+    },
+    {
+        "name":  "railpipe_sd02"
+    },
+    {
+        "name":  "railpipe_sd03"
+    },
+    {
+        "name":  "railsign01"
+    },
+    {
+        "name":  "railsign02"
+    },
+    {
+        "name":  "railsign03"
+    },
+    {
+        "name":  "railtie01"
+    },
+    {
+        "name":  "railtie02"
+    },
+    {
+        "name":  "railtie03"
+    },
+    {
+        "name":  "railtie04"
+    },
+    {
+        "name":  "railtie05"
+    },
+    {
+        "name":  "rock_egypt_a"
+    },
+    {
+        "name":  "rock_egypt_a_night"
+    },
+    {
+        "name":  "rock_egypt_b"
+    },
+    {
+        "name":  "rock_egypt_b_night"
+    },
+    {
+        "name":  "rock_egypt_c"
+    },
+    {
+        "name":  "rock_egypt_c_night"
+    },
+    {
+        "name":  "rock_egypt_d"
+    },
+    {
+        "name":  "rock_egypt_d_night"
+    },
+    {
+        "name":  "shadow_caen_hedge_wall_1"
+    },
+    {
+        "name":  "shadow_caen_hedge_wall_2"
+    },
+    {
+        "name":  "shadow_caen_hedge_wall_3"
+    },
+    {
+        "name":  "shadow_caen_hedge_wall_group_1"
+    },
+    {
+        "name":  "shadow_caen_spikeybush_01"
+    },
+    {
+        "name":  "shadow_prop_moroccan_chainlamp"
+    },
+    {
+        "name":  "shadow_tree_grey_oak_lg_a"
+    },
+    {
+        "name":  "shadow_tree_grey_oak_med_a"
+    },
+    {
+        "name":  "shadow_tree_grey_oak_xl_a"
+    },
+    {
+        "name":  "shadow_tree_river_birch_lg_a"
+    },
+    {
+        "name":  "sign_minefield1"
+    },
+    {
+        "name":  "sign_minefield1_snow"
+    },
+    {
+        "name":  "sign_minefield2"
+    },
+    {
+        "name":  "sign_minefield2_snow"
+    },
+    {
+        "name":  "sign_minefield3"
+    },
+    {
+        "name":  "sign_minefield3_snow"
+    },
+    {
+        "name":  "sign_minefieldclear"
+    },
+    {
+        "name":  "sign_minefieldclear_snow"
+    },
+    {
+        "name":  "sign_minefieldfake1"
+    },
+    {
+        "name":  "sign_minefieldfake1_snow"
+    },
+    {
+        "name":  "sign_minefieldfake2"
+    },
+    {
+        "name":  "sign_minefieldfake2_snow"
+    },
+    {
+        "name":  "sign_minefieldpath"
+    },
+    {
+        "name":  "sign_minefieldpath_snow"
+    },
+    {
+        "name":  "silo01"
+    },
+    {
+        "name":  "silo01_pieces"
+    },
+    {
+        "name":  "silo02"
+    },
+    {
+        "name":  "silo03"
+    },
+    {
+        "name":  "static_vehicle_german_kubelwagen"
+    },
+    {
+        "name":  "stonewell"
+    },
+    {
+        "name":  "storage_tank01"
+    },
+    {
+        "name":  "sundirection_arrow"
+    },
+    {
+        "name":  "tag_origin"
+    },
+    {
+        "name":  "temp"
+    },
+    {
+        "name":  "tree_desertbushy"
+    },
+    {
+        "name":  "tree_desertpalm01"
+    },
+    {
+        "name":  "tree_desertpalm02"
+    },
+    {
+        "name":  "tree_desertpalm03"
+    },
+    {
+        "name":  "tree_desertpalmfrond"
+    },
+    {
+        "name":  "tree_desertpalmgroup"
+    },
+    {
+        "name":  "tree_destoyed_snow_trunk_a"
+    },
+    {
+        "name":  "tree_destoyed_snow_trunk_b"
+    },
+    {
+        "name":  "tree_destoyed_trunk_a"
+    },
+    {
+        "name":  "tree_destoyed_trunk_b"
+    },
+    {
+        "name":  "tree_destroyed_fallen_log_a"
+    },
+    {
+        "name":  "tree_destroyed_fallen_tree_a"
+    },
+    {
+        "name":  "tree_destroyed_snow_fallen_log_a"
+    },
+    {
+        "name":  "tree_destroyed_snow_fallen_tree_a"
+    },
+    {
+        "name":  "tree_destroyed_snow_stump_a"
+    },
+    {
+        "name":  "tree_destroyed_snow_stump_b"
+    },
+    {
+        "name":  "tree_destroyed_snow_tree_a"
+    },
+    {
+        "name":  "tree_destroyed_snow_tree_b"
+    },
+    {
+        "name":  "tree_destroyed_stump_a"
+    },
+    {
+        "name":  "tree_destroyed_stump_b"
+    },
+    {
+        "name":  "tree_destroyed_tree_a"
+    },
+    {
+        "name":  "tree_destroyed_tree_b"
+    },
+    {
+        "name":  "tree_firhigh_piece1"
+    },
+    {
+        "name":  "tree_firhigh_piece2"
+    },
+    {
+        "name":  "tree_firhigh_piece3"
+    },
+    {
+        "name":  "tree_grey_oak_lg_a"
+    },
+    {
+        "name":  "tree_grey_oak_med_a"
+    },
+    {
+        "name":  "tree_grey_oak_sm_a"
+    },
+    {
+        "name":  "tree_grey_oak_xl_a"
+    },
+    {
+        "name":  "tree_pine_lg_b"
+    },
+    {
+        "name":  "tree_pine_sm_b"
+    },
+    {
+        "name":  "tree_pine_xl_b"
+    },
+    {
+        "name":  "tree_river_birch_lg_a"
+    },
+    {
+        "name":  "tree_river_birch_lg_b"
+    },
+    {
+        "name":  "tree_river_birch_med_a"
+    },
+    {
+        "name":  "tree_river_birch_med_b"
+    },
+    {
+        "name":  "tree_river_birch_xl_a"
+    },
+    {
+        "name":  "tree_river_birch_xl_b"
+    },
+    {
+        "name":  "tree_snow_pine_lg_c"
+    },
+    {
+        "name":  "tree_snow_pine_sm_c"
+    },
+    {
+        "name":  "tree_snow_pine_xl_c"
+    },
+    {
+        "name":  "tree_snow_river_birch_lg_c"
+    },
+    {
+        "name":  "tree_snow_river_birch_med_c"
+    },
+    {
+        "name":  "tree_snow_river_birch_xl_c"
+    },
+    {
+        "name":  "trenchframe01"
+    },
+    {
+        "name":  "trenchframe01_broken"
+    },
+    {
+        "name":  "trenchframe02"
+    },
+    {
+        "name":  "trenchframe03"
+    },
+    {
+        "name":  "trenchframe_piece01"
+    },
+    {
+        "name":  "trenchframe_piece02"
+    },
+    {
+        "name":  "tunisia_mountains"
+    },
+    {
+        "name":  "tunisia_mountains_red"
+    },
+    {
+        "name":  "us_ranger_radio_back"
+    },
+    {
+        "name":  "us_ranger_radio_hand"
+    },
+    {
+        "name":  "vehicle_africa_jeep"
+    },
+    {
+        "name":  "vehicle_africa_jeep_can"
+    },
+    {
+        "name":  "vehicle_africa_jeep_can_dmg"
+    },
+    {
+        "name":  "vehicle_africa_jeep_can_static"
+    },
+    {
+        "name":  "vehicle_africa_jeep_cot"
+    },
+    {
+        "name":  "vehicle_africa_jeep_cot_dmg"
+    },
+    {
+        "name":  "vehicle_africa_jeep_crash"
+    },
+    {
+        "name":  "vehicle_africa_jeep_crash_static"
+    },
+    {
+        "name":  "vehicle_africa_jeep_dmg"
+    },
+    {
+        "name":  "vehicle_africa_jeep_static"
+    },
+    {
+        "name":  "vehicle_american_jeep"
+    },
+    {
+        "name":  "vehicle_american_jeep_can"
+    },
+    {
+        "name":  "vehicle_american_jeep_can_damage"
+    },
+    {
+        "name":  "vehicle_american_jeep_cot"
+    },
+    {
+        "name":  "vehicle_american_jeep_cot_damage"
+    },
+    {
+        "name":  "vehicle_american_jeep_crash_static"
+    },
+    {
+        "name":  "vehicle_american_jeep_damage"
+    },
+    {
+        "name":  "vehicle_american_sherman"
+    },
+    {
+        "name":  "vehicle_american_sherman_d"
+    },
+    {
+        "name":  "vehicle_american_sherman_desert"
+    },
+    {
+        "name":  "vehicle_american_sherman_desert_d"
+    },
+    {
+        "name":  "vehicle_american_sherman_static"
+    },
+    {
+        "name":  "vehicle_cargoship"
+    },
+    {
+        "name":  "vehicle_cargoship_crates"
+    },
+    {
+        "name":  "vehicle_cargoship_crates_d"
+    },
+    {
+        "name":  "vehicle_cargoship_d"
+    },
+    {
+        "name":  "vehicle_civilian_car_d"
+    },
+    {
+        "name":  "vehicle_civilian_car_red_d"
+    },
+    {
+        "name":  "vehicle_civilian_car_white_d"
+    },
+    {
+        "name":  "vehicle_condor"
+    },
+    {
+        "name":  "vehicle_crusader2"
+    },
+    {
+        "name":  "vehicle_crusader2_bitgobbler"
+    },
+    {
+        "name":  "vehicle_crusader2_destroyed"
+    },
+    {
+        "name":  "vehicle_crusader2_d_static"
+    },
+    {
+        "name":  "vehicle_crusader2_static"
+    },
+    {
+        "name":  "vehicle_crusader2_viewmodel"
+    },
+    {
+        "name":  "vehicle_crusader2_viewmodel_bitgobbler"
+    },
+    {
+        "name":  "vehicle_german_armored_car"
+    },
+    {
+        "name":  "vehicle_german_armored_car_d"
+    },
+    {
+        "name":  "vehicle_german_armored_car_d_static"
+    },
+    {
+        "name":  "vehicle_german_armored_car_static"
+    },
+    {
+        "name":  "vehicle_german_armored_car_winter_d_static"
+    },
+    {
+        "name":  "vehicle_german_flakpanzer"
+    },
+    {
+        "name":  "vehicle_german_kubel"
+    },
+    {
+        "name":  "vehicle_german_kubel_d"
+    },
+    {
+        "name":  "vehicle_german_kubel_d_static"
+    },
+    {
+        "name":  "vehicle_german_kubel_nomandy"
+    },
+    {
+        "name":  "vehicle_german_kubel_nomandy_static"
+    },
+    {
+        "name":  "vehicle_german_kubel_normandy_d"
+    },
+    {
+        "name":  "vehicle_german_kubel_normandy_d_static"
+    },
+    {
+        "name":  "vehicle_german_kubel_static"
+    },
+    {
+        "name":  "vehicle_halftrack_mg_brush"
+    },
+    {
+        "name":  "vehicle_halftrack_mg_brush_d"
+    },
+    {
+        "name":  "vehicle_halftrack_mg_brush_d_static"
+    },
+    {
+        "name":  "vehicle_halftrack_mg_brush_static"
+    },
+    {
+        "name":  "vehicle_halftrack_mg_desert"
+    },
+    {
+        "name":  "vehicle_halftrack_mg_desert_static"
+    },
+    {
+        "name":  "vehicle_halftrack_mg_snow"
+    },
+    {
+        "name":  "vehicle_halftrack_mg_snow_static"
+    },
+    {
+        "name":  "vehicle_halftrack_mg_woodland"
+    },
+    {
+        "name":  "vehicle_halftrack_mg_woodland_d"
+    },
+    {
+        "name":  "vehicle_halftrack_mg_woodland_d_static"
+    },
+    {
+        "name":  "vehicle_halftrack_mg_woodland_static"
+    },
+    {
+        "name":  "vehicle_halftrack_rockets_shell"
+    },
+    {
+        "name":  "vehicle_halftrack_rockets_shell_d"
+    },
+    {
+        "name":  "vehicle_halftrack_rockets_snow"
+    },
+    {
+        "name":  "vehicle_halftrack_rockets_snow_static"
+    },
+    {
+        "name":  "vehicle_halftrack_rockets_woodland"
+    },
+    {
+        "name":  "vehicle_halftrack_rockets_woodland_d"
+    },
+    {
+        "name":  "vehicle_halftrack_rockets_woodland_d_stat"
+    },
+    {
+        "name":  "vehicle_halftrack_rockets_woodland_static"
+    },
+    {
+        "name":  "vehicle_higgins"
+    },
+    {
+        "name":  "vehicle_higgins_destroyed"
+    },
+    {
+        "name":  "vehicle_higgins_grapple_hook"
+    },
+    {
+        "name":  "vehicle_higgins_grapple_rope_short_l"
+    },
+    {
+        "name":  "vehicle_higgins_grapple_rope_short_r"
+    },
+    {
+        "name":  "vehicle_higgins_mortors"
+    },
+    {
+        "name":  "vehicle_higgins_mortors_destroyed"
+    },
+    {
+        "name":  "vehicle_higgins_vm"
+    },
+    {
+        "name":  "vehicle_ltv4_buffalo"
+    },
+    {
+        "name":  "vehicle_ltv4_buffalo_d"
+    },
+    {
+        "name":  "vehicle_ltv4_buffalo_d_static"
+    },
+    {
+        "name":  "vehicle_ltv4_buffalo_static"
+    },
+    {
+        "name":  "vehicle_opel_blitz_desert"
+    },
+    {
+        "name":  "vehicle_opel_blitz_desert_d"
+    },
+    {
+        "name":  "vehicle_opel_blitz_desert_d_static"
+    },
+    {
+        "name":  "vehicle_opel_blitz_desert_static"
+    },
+    {
+        "name":  "vehicle_opel_blitz_snow"
+    },
+    {
+        "name":  "vehicle_opel_blitz_snow_static"
+    },
+    {
+        "name":  "vehicle_opel_blitz_woodland"
+    },
+    {
+        "name":  "vehicle_opel_blitz_woodland_d"
+    },
+    {
+        "name":  "vehicle_opel_blitz_woodland_d_static"
+    },
+    {
+        "name":  "vehicle_opel_blitz_woodland_static"
+    },
+    {
+        "name":  "vehicle_p51_mustang"
+    },
+    {
+        "name":  "vehicle_panzer_ii"
+    },
+    {
+        "name":  "vehicle_panzer_ii_destroyed"
+    },
+    {
+        "name":  "vehicle_panzer_ii_destroyed_static"
+    },
+    {
+        "name":  "vehicle_panzer_ii_l_tread_d"
+    },
+    {
+        "name":  "vehicle_panzer_ii_r_tread_d"
+    },
+    {
+        "name":  "vehicle_panzer_ii_static"
+    },
+    {
+        "name":  "vehicle_panzer_ii_winter"
+    },
+    {
+        "name":  "vehicle_panzer_ii_winter_destroyed"
+    },
+    {
+        "name":  "vehicle_panzer_ii_winter_destroyed_static"
+    },
+    {
+        "name":  "vehicle_panzer_ii_winter_l_tread_d"
+    },
+    {
+        "name":  "vehicle_panzer_ii_winter_r_tread_d"
+    },
+    {
+        "name":  "vehicle_panzer_ii_winter_static"
+    },
+    {
+        "name":  "vehicle_russia_jeep"
+    },
+    {
+        "name":  "vehicle_russia_jeep_can"
+    },
+    {
+        "name":  "vehicle_russia_jeep_can_dmg"
+    },
+    {
+        "name":  "vehicle_russia_jeep_cot"
+    },
+    {
+        "name":  "vehicle_russia_jeep_cot_dmg"
+    },
+    {
+        "name":  "vehicle_russia_jeep_crash_static"
+    },
+    {
+        "name":  "vehicle_russia_jeep_dmg"
+    },
+    {
+        "name":  "vehicle_sherman__tank_machinegun"
+    },
+    {
+        "name":  "vehicle_spitfire_flying"
+    },
+    {
+        "name":  "vehicle_stuka_flying"
+    },
+    {
+        "name":  "vehicle_tiger_lefttread_d"
+    },
+    {
+        "name":  "vehicle_tiger_righttread_d"
+    },
+    {
+        "name":  "vehicle_tiger_snow_d"
+    },
+    {
+        "name":  "vehicle_tiger_snow_d_static"
+    },
+    {
+        "name":  "vehicle_tiger_woodland"
+    },
+    {
+        "name":  "vehicle_tiger_woodland_brush"
+    },
+    {
+        "name":  "vehicle_tiger_woodland_brush_static"
+    },
+    {
+        "name":  "vehicle_tiger_woodland_d"
+    },
+    {
+        "name":  "vehicle_tiger_woodland_d_brush"
+    },
+    {
+        "name":  "vehicle_tiger_woodland_d_brush_static"
+    },
+    {
+        "name":  "vehicle_tiger_woodland_d_static"
+    },
+    {
+        "name":  "vehicle_tiger_woodland_static"
+    },
+    {
+        "name":  "vehicle_uni_carrier_blow_piece01"
+    },
+    {
+        "name":  "vehicle_uni_carrier_blow_piece02"
+    },
+    {
+        "name":  "vehicle_uni_carrier_blow_piece03"
+    },
+    {
+        "name":  "vehicle_uni_carrier_blow_piece04"
+    },
+    {
+        "name":  "vehicle_uni_carrier_blow_piece05"
+    },
+    {
+        "name":  "vehicle_uni_carrier_blow_piece06"
+    },
+    {
+        "name":  "vehicle_uni_carrier_blow_piece07"
+    },
+    {
+        "name":  "vehicle_uni_carrier_blow_piece08"
+    },
+    {
+        "name":  "vehicle_uni_carrier_blow_piece09"
+    },
+    {
+        "name":  "vehicle_uni_carrier_blow_piece10"
+    },
+    {
+        "name":  "vehicle_uni_carrier_blow_piece11"
+    },
+    {
+        "name":  "vehicle_uni_carrier_blow_piece12"
+    },
+    {
+        "name":  "vehicle_uni_carrier_blow_piece13"
+    },
+    {
+        "name":  "vehicle_uni_carrier_burned_prop1"
+    },
+    {
+        "name":  "vehicle_uni_carrier_burned_prop2"
+    },
+    {
+        "name":  "vehicle_uni_carrier_burned_prop3"
+    },
+    {
+        "name":  "vehicle_uni_carrier_gr"
+    },
+    {
+        "name":  "vehicle_uni_carrier_gr_destroyed"
+    },
+    {
+        "name":  "vehicle_uni_carrier_gr_mud"
+    },
+    {
+        "name":  "vehicle_uni_carrier_gr_mud_static"
+    },
+    {
+        "name":  "vehicle_uni_carrier_gr_static"
+    },
+    {
+        "name":  "vehicle_uni_carrier_ye_destroyed"
+    },
+    {
+        "name":  "vehicle_uni_carrier_yw"
+    },
+    {
+        "name":  "vehicle_uni_carrier_yw_dirt"
+    },
+    {
+        "name":  "vehicle_uni_carrier_yw_dirt_static"
+    },
+    {
+        "name":  "vehicle_uni_carrier_yw_static"
+    },
+    {
+        "name":  "viewmodel_30cal"
+    },
+    {
+        "name":  "viewmodel_bar"
+    },
+    {
+        "name":  "viewmodel_binoculars"
+    },
+    {
+        "name":  "viewmodel_bren"
+    },
+    {
+        "name":  "viewmodel_britsmokegrenade"
+    },
+    {
+        "name":  "viewmodel_carbine"
+    },
+    {
+        "name":  "viewmodel_colt45"
+    },
+    {
+        "name":  "viewmodel_default"
+    },
+    {
+        "name":  "viewmodel_enfield"
+    },
+    {
+        "name":  "viewmodel_enfield_scope"
+    },
+    {
+        "name":  "viewmodel_g43"
+    },
+    {
+        "name":  "viewmodel_g43_sniper"
+    },
+    {
+        "name":  "viewmodel_germangrenade"
+    },
+    {
+        "name":  "viewmodel_greasegun"
+    },
+    {
+        "name":  "viewmodel_hands"
+    },
+    {
+        "name":  "viewmodel_hands_british"
+    },
+    {
+        "name":  "viewmodel_hands_british_bare"
+    },
+    {
+        "name":  "viewmodel_hands_british_wet"
+    },
+    {
+        "name":  "viewmodel_hands_cloth"
+    },
+    {
+        "name":  "viewmodel_hands_german"
+    },
+    {
+        "name":  "viewmodel_hands_german_afrika"
+    },
+    {
+        "name":  "viewmodel_hands_german_winter"
+    },
+    {
+        "name":  "viewmodel_hands_russian"
+    },
+    {
+        "name":  "viewmodel_kar98k"
+    },
+    {
+        "name":  "viewmodel_kar98_scope"
+    },
+    {
+        "name":  "viewmodel_luger"
+    },
+    {
+        "name":  "viewmodel_m1garand"
+    },
+    {
+        "name":  "viewmodel_mg42"
+    },
+    {
+        "name":  "viewmodel_mg42_new"
+    },
+    {
+        "name":  "viewmodel_mk1"
+    },
+    {
+        "name":  "viewmodel_mk2"
+    },
+    {
+        "name":  "viewmodel_mosinnagant"
+    },
+    {
+        "name":  "viewmodel_mosinnagant_cloth"
+    },
+    {
+        "name":  "viewmodel_mp40"
+    },
+    {
+        "name":  "viewmodel_mp44"
+    },
+    {
+        "name":  "viewmodel_panzerschreck"
+    },
+    {
+        "name":  "viewmodel_potato"
+    },
+    {
+        "name":  "viewmodel_pps43"
+    },
+    {
+        "name":  "viewmodel_ppsh"
+    },
+    {
+        "name":  "viewmodel_russiangrenade"
+    },
+    {
+        "name":  "viewmodel_springfield"
+    },
+    {
+        "name":  "viewmodel_sten"
+    },
+    {
+        "name":  "viewmodel_svt40"
+    },
+    {
+        "name":  "viewmodel_thompson"
+    },
+    {
+        "name":  "viewmodel_tokarev"
+    },
+    {
+        "name":  "viewmodel_trenchgun"
+    },
+    {
+        "name":  "viewmodel_ussmokegrenade"
+    },
+    {
+        "name":  "viewmodel_webley"
+    },
+    {
+        "name":  "void"
+    },
+    {
+        "name":  "wall_tank_broke"
+    },
+    {
+        "name":  "wall_tank_pieces"
+    },
+    {
+        "name":  "wall_tank_whole"
+    },
+    {
+        "name":  "waterpipe_spout"
+    },
+    {
+        "name":  "weapon_30cal"
+    },
+    {
+        "name":  "weapon_30cal_carry"
+    },
+    {
+        "name":  "weapon_bar"
+    },
+    {
+        "name":  "weapon_bren"
+    },
+    {
+        "name":  "weapon_brit_smoke_grenade"
+    },
+    {
+        "name":  "weapon_colt45"
+    },
+    {
+        "name":  "weapon_enfield"
+    },
+    {
+        "name":  "weapon_enfield_scope"
+    },
+    {
+        "name":  "weapon_g43"
+    },
+    {
+        "name":  "weapon_g43_scoped"
+    },
+    {
+        "name":  "weapon_greasegun"
+    },
+    {
+        "name":  "weapon_hcsmokegrenade"
+    },
+    {
+        "name":  "weapon_kar98"
+    },
+    {
+        "name":  "weapon_kar98_scoped"
+    },
+    {
+        "name":  "weapon_kar98_scoped_obj"
+    },
+    {
+        "name":  "weapon_luger"
+    },
+    {
+        "name":  "weapon_m1carbine"
+    },
+    {
+        "name":  "weapon_m1garand"
+    },
+    {
+        "name":  "weapon_machinegun_crusader2"
+    },
+    {
+        "name":  "weapon_machinegun_panzer2"
+    },
+    {
+        "name":  "weapon_machinegun_tiger"
+    },
+    {
+        "name":  "weapon_mg42"
+    },
+    {
+        "name":  "weapon_mg42_carry"
+    },
+    {
+        "name":  "weapon_miniturret_crusader2"
+    },
+    {
+        "name":  "weapon_mk1grenade"
+    },
+    {
+        "name":  "weapon_mk2fraggrenade"
+    },
+    {
+        "name":  "weapon_mosinnagant"
+    },
+    {
+        "name":  "weapon_mosinnagantscoped_cloth"
+    },
+    {
+        "name":  "weapon_mosinnagantscoped_cloth_obj"
+    },
+    {
+        "name":  "weapon_mosinnagant_obj"
+    },
+    {
+        "name":  "weapon_mp40"
+    },
+    {
+        "name":  "weapon_mp44"
+    },
+    {
+        "name":  "weapon_nb39_smokegrenade"
+    },
+    {
+        "name":  "weapon_nebelhandgrenate"
+    },
+    {
+        "name":  "weapon_panzerfaust"
+    },
+    {
+        "name":  "weapon_panzerfaust_empty"
+    },
+    {
+        "name":  "weapon_panzerfaust_rocket"
+    },
+    {
+        "name":  "weapon_panzerschreck"
+    },
+    {
+        "name":  "weapon_panzerschreck_obj"
+    },
+    {
+        "name":  "weapon_potato"
+    },
+    {
+        "name":  "weapon_pps43"
+    },
+    {
+        "name":  "weapon_ppsh"
+    },
+    {
+        "name":  "weapon_russian_handgrenade"
+    },
+    {
+        "name":  "weapon_springfield"
+    },
+    {
+        "name":  "weapon_sten"
+    },
+    {
+        "name":  "weapon_stickybomb"
+    },
+    {
+        "name":  "weapon_stickybomb_obj"
+    },
+    {
+        "name":  "weapon_svt40"
+    },
+    {
+        "name":  "weapon_temp_fg42"
+    },
+    {
+        "name":  "weapon_temp_histandardhd"
+    },
+    {
+        "name":  "weapon_temp_m3greasegun"
+    },
+    {
+        "name":  "weapon_temp_panzerfaust"
+    },
+    {
+        "name":  "weapon_temp_panzershreck_rocket"
+    },
+    {
+        "name":  "weapon_thompson"
+    },
+    {
+        "name":  "weapon_trenchgun"
+    },
+    {
+        "name":  "weapon_tt30"
+    },
+    {
+        "name":  "weapon_tt30_obj"
+    },
+    {
+        "name":  "weapon_us_smoke_grenade"
+    },
+    {
+        "name":  "weapon_us_smoke_grenade_burnt"
+    },
+    {
+        "name":  "weapon_us_smoke_grenade_obj"
+    },
+    {
+        "name":  "weapon_us_thermite_grenade"
+    },
+    {
+        "name":  "weapon_us_thermite_grenade_obj"
+    },
+    {
+        "name":  "weapon_webley"
+    },
+    {
+        "name":  "window_black"
+    },
+    {
+        "name":  "window_black_a"
+    },
+    {
+        "name":  "window_white_a"
+    },
+    {
+        "name":  "window_white_b"
+    },
+    {
+        "name":  "window_white_c"
+    },
+    {
+        "name":  "window_white_d"
+    },
+    {
+        "name":  "woodenpole_d"
+    }
+]

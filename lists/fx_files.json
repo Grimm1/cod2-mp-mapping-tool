@@ -1,0 +1,1127 @@
+[
+    {
+        "path":  "cannon/brick.efx"
+    },
+    {
+        "path":  "cannon/brick_spawn.efx"
+    },
+    {
+        "path":  "cannon/brick_spawn_long.efx"
+    },
+    {
+        "path":  "cannon/brick_spawn_short.efx"
+    },
+    {
+        "path":  "cannon/brick_spot.efx"
+    },
+    {
+        "path":  "cannon/dust.efx"
+    },
+    {
+        "path":  "distortion/armored_car_overheat.efx"
+    },
+    {
+        "path":  "distortion/distortion_playereffect_4k_heatwave.efx"
+    },
+    {
+        "path":  "distortion/distortion_playereffect_6k_heatwave.efx"
+    },
+    {
+        "path":  "distortion/distortion_tank_muzzleflash.efx"
+    },
+    {
+        "path":  "dust/beltot_wallblast.efx"
+    },
+    {
+        "path":  "dust/bunker_cavein_duhoc.efx"
+    },
+    {
+        "path":  "dust/cliff_dust_rocks_duhoc.efx"
+    },
+    {
+        "path":  "dust/cloud_finger_trail.efx"
+    },
+    {
+        "path":  "dust/demolition_dust_base.efx"
+    },
+    {
+        "path":  "dust/demolition_dust_base_after.efx"
+    },
+    {
+        "path":  "dust/demolition_dust_column.efx"
+    },
+    {
+        "path":  "dust/demolition_dust_puff.efx"
+    },
+    {
+        "path":  "dust/demolition_dust_side.efx"
+    },
+    {
+        "path":  "dust/dust_door_ambush.efx"
+    },
+    {
+        "path":  "dust/dust_impact_16ftladder.efx"
+    },
+    {
+        "path":  "dust/dust_impact_med.efx"
+    },
+    {
+        "path":  "dust/dust_impact_small.efx"
+    },
+    {
+        "path":  "dust/dust_impact_small_duhoc.efx"
+    },
+    {
+        "path":  "dust/dust_silo_trail.efx"
+    },
+    {
+        "path":  "dust/dust_trail_explosion.efx"
+    },
+    {
+        "path":  "dust/dust_wind_brown.efx"
+    },
+    {
+        "path":  "dust/dust_wind_brown_thick.efx"
+    },
+    {
+        "path":  "dust/dust_wind_elalamein.efx"
+    },
+    {
+        "path":  "dust/dust_wind_elalamein_low.efx"
+    },
+    {
+        "path":  "dust/dust_wind_eldaba.efx"
+    },
+    {
+        "path":  "dust/dust_wind_night.efx"
+    },
+    {
+        "path":  "dust/flak_dust_blowback.efx"
+    },
+    {
+        "path":  "dust/libya_camera_dust.efx"
+    },
+    {
+        "path":  "dust/tank_dust_blowback_libya.efx"
+    },
+    {
+        "path":  "dust/tank_dust_blowback_libya_em.efx"
+    },
+    {
+        "path":  "dust/toujane_tunnel_collapse.efx"
+    },
+    {
+        "path":  "dust/toujane_tunnel_collapse_trail.efx"
+    },
+    {
+        "path":  "dust/tread_dust_beltot.efx"
+    },
+    {
+        "path":  "dust/tread_dust_brown.efx"
+    },
+    {
+        "path":  "dust/tread_dust_credits.efx"
+    },
+    {
+        "path":  "dust/tread_dust_decoytown.efx"
+    },
+    {
+        "path":  "dust/tread_dust_duhoc.efx"
+    },
+    {
+        "path":  "dust/tread_dust_elalamein.efx"
+    },
+    {
+        "path":  "dust/tread_dust_elalamein_low.efx"
+    },
+    {
+        "path":  "dust/tread_dust_eldaba.efx"
+    },
+    {
+        "path":  "dust/tread_dust_libya.efx"
+    },
+    {
+        "path":  "dust/tread_dust_libya_linger.efx"
+    },
+    {
+        "path":  "dust/tread_dust_snow.efx"
+    },
+    {
+        "path":  "dust/tread_dust_toujane_ride.efx"
+    },
+    {
+        "path":  "dust/tread_dust_yellow.efx"
+    },
+    {
+        "path":  "dust/tunnel_dust.efx"
+    },
+    {
+        "path":  "dust/tunnel_dust_duhoc.efx"
+    },
+    {
+        "path":  "dust/tunnel_dust_impact.efx"
+    },
+    {
+        "path":  "dust/wallblast_dust_linger_grey.efx"
+    },
+    {
+        "path":  "dust/wall_tank_dust.efx"
+    },
+    {
+        "path":  "explosions/20mm_wallexplode.efx"
+    },
+    {
+        "path":  "explosions/ammo_supply_exp.efx"
+    },
+    {
+        "path":  "explosions/armoredcar_explosion.efx"
+    },
+    {
+        "path":  "explosions/artilleryExp_desert_building.efx"
+    },
+    {
+        "path":  "explosions/artilleryExp_desert_yellow.efx"
+    },
+    {
+        "path":  "explosions/artilleryExp_dirt_brown.efx"
+    },
+    {
+        "path":  "explosions/artilleryExp_dirt_brown_nodecal.efx"
+    },
+    {
+        "path":  "explosions/artilleryExp_dirt_libya.efx"
+    },
+    {
+        "path":  "explosions/artilleryExp_duhoc_cliff.efx"
+    },
+    {
+        "path":  "explosions/artilleryExp_duhoc_clifftop.efx"
+    },
+    {
+        "path":  "explosions/artilleryExp_grass.efx"
+    },
+    {
+        "path":  "explosions/barn_explosion.efx"
+    },
+    {
+        "path":  "explosions/boat_explosion.efx"
+    },
+    {
+        "path":  "explosions/default_explosion.efx"
+    },
+    {
+        "path":  "explosions/demolition_windowBlast.efx"
+    },
+    {
+        "path":  "explosions/dock_explosion.efx"
+    },
+    {
+        "path":  "explosions/eldaba_boat_explosion.efx"
+    },
+    {
+        "path":  "explosions/eldaba_plane_explosion.efx"
+    },
+    {
+        "path":  "explosions/eldaba_tower_explosion.efx"
+    },
+    {
+        "path":  "explosions/exp_pack_buildingwindow.efx"
+    },
+    {
+        "path":  "explosions/exp_pack_doorbreach.efx"
+    },
+    {
+        "path":  "explosions/exp_pack_hallway.efx"
+    },
+    {
+        "path":  "explosions/flak88_explosion.efx"
+    },
+    {
+        "path":  "explosions/flak_puff.efx"
+    },
+    {
+        "path":  "explosions/grenadeExp_blacktop.efx"
+    },
+    {
+        "path":  "explosions/grenadeExp_cliffblast.efx"
+    },
+    {
+        "path":  "explosions/grenadeExp_concrete.efx"
+    },
+    {
+        "path":  "explosions/grenadeExp_concrete_night.efx"
+    },
+    {
+        "path":  "explosions/grenadeExp_dirt.efx"
+    },
+    {
+        "path":  "explosions/grenadeExp_dirt_night.efx"
+    },
+    {
+        "path":  "explosions/grenadeExp_mud.efx"
+    },
+    {
+        "path":  "explosions/grenadeExp_snow.efx"
+    },
+    {
+        "path":  "explosions/grenadeExp_water.efx"
+    },
+    {
+        "path":  "explosions/grenadeExp_water_rhine.efx"
+    },
+    {
+        "path":  "explosions/grenadeExp_windowblast.efx"
+    },
+    {
+        "path":  "explosions/grenadeExp_wood.efx"
+    },
+    {
+        "path":  "explosions/grenade_flash.efx"
+    },
+    {
+        "path":  "explosions/large_snow_explode1.efx"
+    },
+    {
+        "path":  "explosions/large_vehicle_explosion.efx"
+    },
+    {
+        "path":  "explosions/libya_tank_impact.efx"
+    },
+    {
+        "path":  "explosions/matmata_plane_explosion.efx"
+    },
+    {
+        "path":  "explosions/mortarExp_beach.efx"
+    },
+    {
+        "path":  "explosions/mortarExp_concrete.efx"
+    },
+    {
+        "path":  "explosions/mortarExp_dirt.efx"
+    },
+    {
+        "path":  "explosions/mortarExp_mud.efx"
+    },
+    {
+        "path":  "explosions/mortarExp_water.efx"
+    },
+    {
+        "path":  "explosions/mortarExp_water_rhine.efx"
+    },
+    {
+        "path":  "explosions/panzer_explosion.efx"
+    },
+    {
+        "path":  "explosions/piano_impact.efx"
+    },
+    {
+        "path":  "explosions/pschreck_dirt_crossroads.efx"
+    },
+    {
+        "path":  "explosions/sandbag_explosion.efx"
+    },
+    {
+        "path":  "explosions/silo_explode.efx"
+    },
+    {
+        "path":  "explosions/small_vehicle_explosion.efx"
+    },
+    {
+        "path":  "explosions/smoke_grenade.efx"
+    },
+    {
+        "path":  "explosions/smoke_grenade_night.efx"
+    },
+    {
+        "path":  "explosions/snowmist_em.efx"
+    },
+    {
+        "path":  "explosions/spitfire_bomb_dirt.efx"
+    },
+    {
+        "path":  "explosions/tank_explosion.efx"
+    },
+    {
+        "path":  "explosions/tank_explosion_libya.efx"
+    },
+    {
+        "path":  "explosions/tank_explosion_libya_view.efx"
+    },
+    {
+        "path":  "explosions/tank_impact_dirt.efx"
+    },
+    {
+        "path":  "explosions/tank_impact_dirt_crossroads.efx"
+    },
+    {
+        "path":  "explosions/tank_impact_libya.efx"
+    },
+    {
+        "path":  "explosions/tank_impact_libya_nodecal.efx"
+    },
+    {
+        "path":  "explosions/tank_impact_night.efx"
+    },
+    {
+        "path":  "explosions/tiger_explosion.efx"
+    },
+    {
+        "path":  "explosions/tree_burst.efx"
+    },
+    {
+        "path":  "fire/armoredcar_fire_turret_large.efx"
+    },
+    {
+        "path":  "fire/building_fire_distant.efx"
+    },
+    {
+        "path":  "fire/building_fire_large.efx"
+    },
+    {
+        "path":  "fire/building_fire_med.efx"
+    },
+    {
+        "path":  "fire/building_fire_small.efx"
+    },
+    {
+        "path":  "fire/cargoship_fire.efx"
+    },
+    {
+        "path":  "fire/character_arm_fire.efx"
+    },
+    {
+        "path":  "fire/character_torso_fire.efx"
+    },
+    {
+        "path":  "fire/crusader_fire_turret_large.efx"
+    },
+    {
+        "path":  "fire/fireheavysmoke.efx"
+    },
+    {
+        "path":  "fire/fire_airplane_emitter.efx"
+    },
+    {
+        "path":  "fire/fire_airplane_trail.efx"
+    },
+    {
+        "path":  "fire/fire_smoke_trail.efx"
+    },
+    {
+        "path":  "fire/flame_small_em.efx"
+    },
+    {
+        "path":  "fire/ground_fire_med.efx"
+    },
+    {
+        "path":  "fire/ground_fire_med_nosmoke.efx"
+    },
+    {
+        "path":  "fire/ground_fire_small_oneshot.efx"
+    },
+    {
+        "path":  "fire/halftrack_fire.efx"
+    },
+    {
+        "path":  "fire/higgens_fire.efx"
+    },
+    {
+        "path":  "fire/med_oil_fire.efx"
+    },
+    {
+        "path":  "fire/meteor_shower.efx"
+    },
+    {
+        "path":  "fire/meteor_trail.efx"
+    },
+    {
+        "path":  "fire/nebelwerfer_trail.efx"
+    },
+    {
+        "path":  "fire/panzer2_fire_turret_small.efx"
+    },
+    {
+        "path":  "fire/rocket_launch.efx"
+    },
+    {
+        "path":  "fire/sherman_fire_turret_large.efx"
+    },
+    {
+        "path":  "fire/tank_fire_engine.efx"
+    },
+    {
+        "path":  "fire/tank_fire_libya_distant.efx"
+    },
+    {
+        "path":  "fire/tank_fire_night_distant.efx"
+    },
+    {
+        "path":  "fire/tank_fire_turret_large.efx"
+    },
+    {
+        "path":  "fire/tank_fire_turret_small.efx"
+    },
+    {
+        "path":  "fire/thermite_grenade.efx"
+    },
+    {
+        "path":  "fire/tiger_fire_turret_large.efx"
+    },
+    {
+        "path":  "impacts/20mil_concrete.efx"
+    },
+    {
+        "path":  "impacts/20mil_dirthit_libya.efx"
+    },
+    {
+        "path":  "impacts/20mm_metalhit.efx"
+    },
+    {
+        "path":  "impacts/brickimpact_em2.efx"
+    },
+    {
+        "path":  "impacts/cloth_hit.efx"
+    },
+    {
+        "path":  "impacts/cloth_hit_daylight.efx"
+    },
+    {
+        "path":  "impacts/coolaidmanbrick.efx"
+    },
+    {
+        "path":  "impacts/decal_mudsplash.efx"
+    },
+    {
+        "path":  "impacts/decal_mudsplash_large.efx"
+    },
+    {
+        "path":  "impacts/decal_watersplat.efx"
+    },
+    {
+        "path":  "impacts/default_hit.efx"
+    },
+    {
+        "path":  "impacts/default_hit_night.efx"
+    },
+    {
+        "path":  "impacts/distant_grain.efx"
+    },
+    {
+        "path":  "impacts/flesh_hit.efx"
+    },
+    {
+        "path":  "impacts/flesh_hit_noblood.efx"
+    },
+    {
+        "path":  "impacts/footstep_dust_brown.efx"
+    },
+    {
+        "path":  "impacts/footstep_dust_credits.efx"
+    },
+    {
+        "path":  "impacts/footstep_dust_decoy.efx"
+    },
+    {
+        "path":  "impacts/footstep_dust_eldaba.efx"
+    },
+    {
+        "path":  "impacts/footstep_dust_libya.efx"
+    },
+    {
+        "path":  "impacts/footstep_mud.efx"
+    },
+    {
+        "path":  "impacts/footstep_mud_beltot.efx"
+    },
+    {
+        "path":  "impacts/footstep_mud_dark.efx"
+    },
+    {
+        "path":  "impacts/footstep_snow.efx"
+    },
+    {
+        "path":  "impacts/footstep_water.efx"
+    },
+    {
+        "path":  "impacts/footstep_water_dark.efx"
+    },
+    {
+        "path":  "impacts/gravelimpact_em.efx"
+    },
+    {
+        "path":  "impacts/gravelimpact_em2.efx"
+    },
+    {
+        "path":  "impacts/impact_em.efx"
+    },
+    {
+        "path":  "impacts/impact_em_night.efx"
+    },
+    {
+        "path":  "impacts/large_brick.efx"
+    },
+    {
+        "path":  "impacts/large_brick_night.efx"
+    },
+    {
+        "path":  "impacts/large_dirt.efx"
+    },
+    {
+        "path":  "impacts/large_dirthit_duhoc.efx"
+    },
+    {
+        "path":  "impacts/large_dirthit_libya.efx"
+    },
+    {
+        "path":  "impacts/large_dirthit_night.efx"
+    },
+    {
+        "path":  "impacts/large_glass.efx"
+    },
+    {
+        "path":  "impacts/large_gravel.efx"
+    },
+    {
+        "path":  "impacts/large_metalhit.efx"
+    },
+    {
+        "path":  "impacts/large_mud.efx"
+    },
+    {
+        "path":  "impacts/large_mud_dark.efx"
+    },
+    {
+        "path":  "impacts/large_plaster.efx"
+    },
+    {
+        "path":  "impacts/large_plaster_night.efx"
+    },
+    {
+        "path":  "impacts/large_rock.efx"
+    },
+    {
+        "path":  "impacts/large_rock_night.efx"
+    },
+    {
+        "path":  "impacts/large_snowhit.efx"
+    },
+    {
+        "path":  "impacts/large_waterhit.efx"
+    },
+    {
+        "path":  "impacts/large_waterhit_rhine.efx"
+    },
+    {
+        "path":  "impacts/large_woodhit.efx"
+    },
+    {
+        "path":  "impacts/large_woodhit_higgens.efx"
+    },
+    {
+        "path":  "impacts/large_woodhit_night.efx"
+    },
+    {
+        "path":  "impacts/mega_gravel.efx"
+    },
+    {
+        "path":  "impacts/minefield.efx"
+    },
+    {
+        "path":  "impacts/pipe_impact.efx"
+    },
+    {
+        "path":  "impacts/pipe_impact_light.efx"
+    },
+    {
+        "path":  "impacts/small_brick.efx"
+    },
+    {
+        "path":  "impacts/small_brick_night.efx"
+    },
+    {
+        "path":  "impacts/small_concrete.efx"
+    },
+    {
+        "path":  "impacts/small_concrete_night.efx"
+    },
+    {
+        "path":  "impacts/small_dirt.efx"
+    },
+    {
+        "path":  "impacts/small_dirthit_duhoc.efx"
+    },
+    {
+        "path":  "impacts/small_dirthit_libya.efx"
+    },
+    {
+        "path":  "impacts/small_dirthit_night.efx"
+    },
+    {
+        "path":  "impacts/small_foliage.efx"
+    },
+    {
+        "path":  "impacts/small_glass.efx"
+    },
+    {
+        "path":  "impacts/small_grass.efx"
+    },
+    {
+        "path":  "impacts/small_gravel.efx"
+    },
+    {
+        "path":  "impacts/small_metalhit.efx"
+    },
+    {
+        "path":  "impacts/small_mud.efx"
+    },
+    {
+        "path":  "impacts/small_mud_dark.efx"
+    },
+    {
+        "path":  "impacts/small_rock.efx"
+    },
+    {
+        "path":  "impacts/small_snowhit.efx"
+    },
+    {
+        "path":  "impacts/small_waterhit.efx"
+    },
+    {
+        "path":  "impacts/small_waterhit_rhine.efx"
+    },
+    {
+        "path":  "impacts/small_woodhit.efx"
+    },
+    {
+        "path":  "impacts/trenchframe01_break.efx"
+    },
+    {
+        "path":  "impacts/wall_impact_chimney_dirt.efx"
+    },
+    {
+        "path":  "impacts/wall_impact_dirt.efx"
+    },
+    {
+        "path":  "impacts/wall_impact_small_dirt.efx"
+    },
+    {
+        "path":  "misc/20mm_tracer.efx"
+    },
+    {
+        "path":  "misc/antiair_double_tracer.efx"
+    },
+    {
+        "path":  "misc/antiair_single_tracer.efx"
+    },
+    {
+        "path":  "misc/antiair_tracers.efx"
+    },
+    {
+        "path":  "misc/antiair_tracers2.efx"
+    },
+    {
+        "path":  "misc/boat_enginespray_higgins.efx"
+    },
+    {
+        "path":  "misc/boat_floorsplash_higgens.efx"
+    },
+    {
+        "path":  "misc/boat_splash1_higgins.efx"
+    },
+    {
+        "path":  "misc/boat_splash_small_buffalo.efx"
+    },
+    {
+        "path":  "misc/boat_splash_small_higgins.efx"
+    },
+    {
+        "path":  "misc/cold_breath.efx"
+    },
+    {
+        "path":  "misc/elalamein_trenchdust.efx"
+    },
+    {
+        "path":  "misc/flare.efx"
+    },
+    {
+        "path":  "misc/flare_artillery_marker.efx"
+    },
+    {
+        "path":  "misc/flare_artillery_runner.efx"
+    },
+    {
+        "path":  "misc/flare_hill400.efx"
+    },
+    {
+        "path":  "misc/flare_smoke.efx"
+    },
+    {
+        "path":  "misc/flare_smoke_9sec.efx"
+    },
+    {
+        "path":  "misc/fogbank_hidecliff_duhoc.efx"
+    },
+    {
+        "path":  "misc/fogbank_hidecliff_rhine.efx"
+    },
+    {
+        "path":  "misc/fogbank_large_duhoc.efx"
+    },
+    {
+        "path":  "misc/fogbank_small_beltot.efx"
+    },
+    {
+        "path":  "misc/fogbank_small_duhoc.efx"
+    },
+    {
+        "path":  "misc/froth.efx"
+    },
+    {
+        "path":  "misc/froth_cargoship.efx"
+    },
+    {
+        "path":  "misc/insects_carcass_flies.efx"
+    },
+    {
+        "path":  "misc/lighthaze_decoytown.efx"
+    },
+    {
+        "path":  "misc/lightning.efx"
+    },
+    {
+        "path":  "misc/missing_fx.efx"
+    },
+    {
+        "path":  "misc/rain_0.efx"
+    },
+    {
+        "path":  "misc/rain_1.efx"
+    },
+    {
+        "path":  "misc/rain_2.efx"
+    },
+    {
+        "path":  "misc/rain_3.efx"
+    },
+    {
+        "path":  "misc/rain_4.efx"
+    },
+    {
+        "path":  "misc/rain_5.efx"
+    },
+    {
+        "path":  "misc/rain_6.efx"
+    },
+    {
+        "path":  "misc/rain_7.efx"
+    },
+    {
+        "path":  "misc/rain_8.efx"
+    },
+    {
+        "path":  "misc/rain_9.efx"
+    },
+    {
+        "path":  "misc/rain_heavy.efx"
+    },
+    {
+        "path":  "misc/rain_heavy_cloudtype.efx"
+    },
+    {
+        "path":  "misc/rain_light.efx"
+    },
+    {
+        "path":  "misc/rain_mist.efx"
+    },
+    {
+        "path":  "misc/rain_splash.efx"
+    },
+    {
+        "path":  "misc/snow_heavy.efx"
+    },
+    {
+        "path":  "misc/snow_impact_small.efx"
+    },
+    {
+        "path":  "misc/snow_light.efx"
+    },
+    {
+        "path":  "misc/snow_light_mp_downtown.efx"
+    },
+    {
+        "path":  "misc/snow_light_mp_railyard.efx"
+    },
+    {
+        "path":  "misc/snow_wind_cityhall.efx"
+    },
+    {
+        "path":  "misc/snow_wind_doorway.efx"
+    },
+    {
+        "path":  "misc/spotlight_credits.efx"
+    },
+    {
+        "path":  "misc/spotlight_decoytown.efx"
+    },
+    {
+        "path":  "misc/vomit.efx"
+    },
+    {
+        "path":  "misc/wake_buffalo.efx"
+    },
+    {
+        "path":  "misc/wake_higgins.efx"
+    },
+    {
+        "path":  "misc/wind_desert_leaves.efx"
+    },
+    {
+        "path":  "muzzleflashes/armored_car_20mm.efx"
+    },
+    {
+        "path":  "muzzleflashes/cruisader_flash.efx"
+    },
+    {
+        "path":  "muzzleflashes/flak_flash.efx"
+    },
+    {
+        "path":  "muzzleflashes/flak_veirling_flash.efx"
+    },
+    {
+        "path":  "muzzleflashes/flak_veirling_flash_view.efx"
+    },
+    {
+        "path":  "muzzleflashes/german_mg.efx"
+    },
+    {
+        "path":  "muzzleflashes/german_mg_view.efx"
+    },
+    {
+        "path":  "muzzleflashes/heavy.efx"
+    },
+    {
+        "path":  "muzzleflashes/heavy_view.efx"
+    },
+    {
+        "path":  "muzzleflashes/higgens_rocket_launch.efx"
+    },
+    {
+        "path":  "muzzleflashes/mg42hv.efx"
+    },
+    {
+        "path":  "muzzleflashes/mg42hv_far.efx"
+    },
+    {
+        "path":  "muzzleflashes/mg42hv_view.efx"
+    },
+    {
+        "path":  "muzzleflashes/mg42hv_view2.efx"
+    },
+    {
+        "path":  "muzzleflashes/mortar_flash.efx"
+    },
+    {
+        "path":  "muzzleflashes/panzerfaust_flash.efx"
+    },
+    {
+        "path":  "muzzleflashes/panzerschreck_flash.efx"
+    },
+    {
+        "path":  "muzzleflashes/panzer_flash.efx"
+    },
+    {
+        "path":  "muzzleflashes/pistolflash.efx"
+    },
+    {
+        "path":  "muzzleflashes/pistolflash_view.efx"
+    },
+    {
+        "path":  "muzzleflashes/plane_big_flash.efx"
+    },
+    {
+        "path":  "muzzleflashes/rifleflash.efx"
+    },
+    {
+        "path":  "muzzleflashes/russian_mg.efx"
+    },
+    {
+        "path":  "muzzleflashes/russian_mg_view.efx"
+    },
+    {
+        "path":  "muzzleflashes/shotgunflash.efx"
+    },
+    {
+        "path":  "muzzleflashes/standardflashview.efx"
+    },
+    {
+        "path":  "muzzleflashes/standardflashworld.efx"
+    },
+    {
+        "path":  "muzzleflashes/thompson.efx"
+    },
+    {
+        "path":  "muzzleflashes/thompson_view.efx"
+    },
+    {
+        "path":  "muzzleflashes/tiger_flash.efx"
+    },
+    {
+        "path":  "props/american_smoke_grenade.efx"
+    },
+    {
+        "path":  "props/american_smoke_grenade_night.efx"
+    },
+    {
+        "path":  "props/barrelExp.efx"
+    },
+    {
+        "path":  "props/barrel_fire.efx"
+    },
+    {
+        "path":  "props/barrel_fire2.efx"
+    },
+    {
+        "path":  "props/barrel_ignite.efx"
+    },
+    {
+        "path":  "props/brit_smoke_grenade.efx"
+    },
+    {
+        "path":  "props/crateExp_ammo.efx"
+    },
+    {
+        "path":  "props/crateExp_dust.efx"
+    },
+    {
+        "path":  "props/germanhelmet_bounce.efx"
+    },
+    {
+        "path":  "props/german_smoke_grenade.efx"
+    },
+    {
+        "path":  "props/glow_latern.efx"
+    },
+    {
+        "path":  "props/glow_moroccan_chainlamp.efx"
+    },
+    {
+        "path":  "props/radio_explosion.efx"
+    },
+    {
+        "path":  "props/radio_sparks_smoke.efx"
+    },
+    {
+        "path":  "props/tincan_bounce.efx"
+    },
+    {
+        "path":  "props/vase_water.efx"
+    },
+    {
+        "path":  "props/wine_bottle.efx"
+    },
+    {
+        "path":  "shellejects/pistol.efx"
+    },
+    {
+        "path":  "shellejects/rifle.efx"
+    },
+    {
+        "path":  "shellejects/shotgun.efx"
+    },
+    {
+        "path":  "smoke/battlefield_smokebank_S.efx"
+    },
+    {
+        "path":  "smoke/black_smoke_ball.efx"
+    },
+    {
+        "path":  "smoke/credits_smoke_shield.efx"
+    },
+    {
+        "path":  "smoke/damaged_vehicle_smoke.efx"
+    },
+    {
+        "path":  "smoke/dark_smoke_trail.efx"
+    },
+    {
+        "path":  "smoke/drifting.efx"
+    },
+    {
+        "path":  "smoke/emitter_panzerfaust.efx"
+    },
+    {
+        "path":  "smoke/emitter_panzerschreck.efx"
+    },
+    {
+        "path":  "smoke/flare.efx"
+    },
+    {
+        "path":  "smoke/green_smoke_40sec_duhoc.efx"
+    },
+    {
+        "path":  "smoke/grenade_smoke.efx"
+    },
+    {
+        "path":  "smoke/grenade_smoke_night.efx"
+    },
+    {
+        "path":  "smoke/large_smoke_plume.efx"
+    },
+    {
+        "path":  "smoke/orange_smoke_20sec.efx"
+    },
+    {
+        "path":  "smoke/orange_smoke_40sec.efx"
+    },
+    {
+        "path":  "smoke/orange_smoke_grenade.efx"
+    },
+    {
+        "path":  "smoke/smoke_grenade_duhoc_40sec.efx"
+    },
+    {
+        "path":  "smoke/smoke_panzerfaust.efx"
+    },
+    {
+        "path":  "smoke/smoke_panzerscrheck.efx"
+    },
+    {
+        "path":  "smoke/smoke_panzerscrheck_view.efx"
+    },
+    {
+        "path":  "smoke/smoke_plumeBG.efx"
+    },
+    {
+        "path":  "smoke/smoke_plumeBG_toujane.efx"
+    },
+    {
+        "path":  "smoke/smoke_trail_mortar.efx"
+    },
+    {
+        "path":  "smoke/thin_black_smoke_M.efx"
+    },
+    {
+        "path":  "smoke/thin_black_smoke_M_duhoc.efx"
+    },
+    {
+        "path":  "smoke/thin_black_smoke_S.efx"
+    },
+    {
+        "path":  "smoke/thin_light_smoke_L.efx"
+    },
+    {
+        "path":  "smoke/thin_light_smoke_L_duhoc.efx"
+    },
+    {
+        "path":  "smoke/thin_light_smoke_M.efx"
+    },
+    {
+        "path":  "smoke/thin_light_smoke_M_duhoc.efx"
+    },
+    {
+        "path":  "smoke/thin_light_smoke_S.efx"
+    },
+    {
+        "path":  "smoke/vehicle_steam.efx"
+    }
+]

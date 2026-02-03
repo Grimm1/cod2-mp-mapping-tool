@@ -1,0 +1,9908 @@
+[
+  {
+    "name": "contents"
+  },
+  {
+    "name": "tool"
+  },
+  {
+    "name": "$additive"
+  },
+  {
+    "name": "$default"
+  },
+  {
+    "name": "$glare_blind"
+  },
+  {
+    "name": "$line"
+  },
+  {
+    "name": "$opaque"
+  },
+  {
+    "name": "$point"
+  },
+  {
+    "name": "$raw"
+  },
+  {
+    "name": "aa_default"
+  },
+  {
+    "name": "africa_palm_backdrop"
+  },
+  {
+    "name": "aitrig"
+  },
+  {
+    "name": "ambient"
+  },
+  {
+    "name": "artillery"
+  },
+  {
+    "name": "artillery_firing"
+  },
+  {
+    "name": "background_american_bottom"
+  },
+  {
+    "name": "background_american_bottom_w"
+  },
+  {
+    "name": "background_american_top"
+  },
+  {
+    "name": "background_american_top_w"
+  },
+  {
+    "name": "background_american_w"
+  },
+  {
+    "name": "background_british_bottom"
+  },
+  {
+    "name": "background_british_top"
+  },
+  {
+    "name": "background_lobby"
+  },
+  {
+    "name": "background_mp_breakout"
+  },
+  {
+    "name": "background_mp_brecourt"
+  },
+  {
+    "name": "background_mp_burgundy"
+  },
+  {
+    "name": "background_mp_carentan"
+  },
+  {
+    "name": "background_mp_dawnville"
+  },
+  {
+    "name": "background_mp_decoy"
+  },
+  {
+    "name": "background_mp_downtown"
+  },
+  {
+    "name": "background_mp_farmhouse"
+  },
+  {
+    "name": "background_mp_leningrad"
+  },
+  {
+    "name": "background_mp_matmata"
+  },
+  {
+    "name": "background_mp_railyard"
+  },
+  {
+    "name": "background_mp_toujane"
+  },
+  {
+    "name": "background_mp_trainstation"
+  },
+  {
+    "name": "background_random"
+  },
+  {
+    "name": "background_russian_bottom"
+  },
+  {
+    "name": "background_russian_top"
+  },
+  {
+    "name": "banner_callvote"
+  },
+  {
+    "name": "banner_team"
+  },
+  {
+    "name": "banner_vote"
+  },
+  {
+    "name": "banner_weapon"
+  },
+  {
+    "name": "bcs"
+  },
+  {
+    "name": "binocular_overlay"
+  },
+  {
+    "name": "black"
+  },
+  {
+    "name": "bombplanted"
+  },
+  {
+    "name": "bombplanted_down"
+  },
+  {
+    "name": "bombplanted_up"
+  },
+  {
+    "name": "brightness"
+  },
+  {
+    "name": "bunkervent"
+  },
+  {
+    "name": "bunkervent2"
+  },
+  {
+    "name": "button_shadow"
+  },
+  {
+    "name": "case"
+  },
+  {
+    "name": "case1024"
+  },
+  {
+    "name": "case1024blue"
+  },
+  {
+    "name": "case1024blue2"
+  },
+  {
+    "name": "case1024blue3"
+  },
+  {
+    "name": "case1024brown"
+  },
+  {
+    "name": "case1024brown2"
+  },
+  {
+    "name": "case1024brown3"
+  },
+  {
+    "name": "case1024green"
+  },
+  {
+    "name": "case1024green2"
+  },
+  {
+    "name": "case1024green3"
+  },
+  {
+    "name": "case1024grey"
+  },
+  {
+    "name": "case1024grey2"
+  },
+  {
+    "name": "case1024grey3"
+  },
+  {
+    "name": "case1024orange"
+  },
+  {
+    "name": "case1024red"
+  },
+  {
+    "name": "case1024x128"
+  },
+  {
+    "name": "case1024x128brown"
+  },
+  {
+    "name": "case1024x128brown2"
+  },
+  {
+    "name": "case1024x128brown3"
+  },
+  {
+    "name": "case1024x128green"
+  },
+  {
+    "name": "case1024x128green2"
+  },
+  {
+    "name": "case1024x128green3"
+  },
+  {
+    "name": "case1024x128grey"
+  },
+  {
+    "name": "case1024x128grey2"
+  },
+  {
+    "name": "case1024x128grey3"
+  },
+  {
+    "name": "case1024x128orange"
+  },
+  {
+    "name": "case1024x128red"
+  },
+  {
+    "name": "case1024x256"
+  },
+  {
+    "name": "case1024x256blue"
+  },
+  {
+    "name": "case1024x256brown"
+  },
+  {
+    "name": "case1024x256gray"
+  },
+  {
+    "name": "case1024x256green"
+  },
+  {
+    "name": "case1024x256orange"
+  },
+  {
+    "name": "case1024x256red"
+  },
+  {
+    "name": "case1024x32gray"
+  },
+  {
+    "name": "case1024x512"
+  },
+  {
+    "name": "case1024x512brown"
+  },
+  {
+    "name": "case1024x512brown2"
+  },
+  {
+    "name": "case1024x512brown3"
+  },
+  {
+    "name": "case1024x512green"
+  },
+  {
+    "name": "case1024x512green2"
+  },
+  {
+    "name": "case1024x512green3"
+  },
+  {
+    "name": "case1024x512grey"
+  },
+  {
+    "name": "case1024x512grey2"
+  },
+  {
+    "name": "case1024x512grey3"
+  },
+  {
+    "name": "case1024x512orange"
+  },
+  {
+    "name": "case1024x512red"
+  },
+  {
+    "name": "case128x1024brown"
+  },
+  {
+    "name": "case128x1024brown2"
+  },
+  {
+    "name": "case128x1024brown3"
+  },
+  {
+    "name": "case128x1024gray"
+  },
+  {
+    "name": "case128x1024gray2"
+  },
+  {
+    "name": "case128x1024gray3"
+  },
+  {
+    "name": "case128x1024orange"
+  },
+  {
+    "name": "case128x1024red"
+  },
+  {
+    "name": "case128x256blue"
+  },
+  {
+    "name": "case128x256brown"
+  },
+  {
+    "name": "case128x256gray"
+  },
+  {
+    "name": "case128x256green"
+  },
+  {
+    "name": "case128x256orange"
+  },
+  {
+    "name": "case128x256red"
+  },
+  {
+    "name": "case256"
+  },
+  {
+    "name": "case256brown"
+  },
+  {
+    "name": "case256brown2"
+  },
+  {
+    "name": "case256brown3"
+  },
+  {
+    "name": "case256green"
+  },
+  {
+    "name": "case256green2"
+  },
+  {
+    "name": "case256green3"
+  },
+  {
+    "name": "case256grey"
+  },
+  {
+    "name": "case256grey2"
+  },
+  {
+    "name": "case256grey3"
+  },
+  {
+    "name": "case256orange"
+  },
+  {
+    "name": "case256red"
+  },
+  {
+    "name": "case256x1024"
+  },
+  {
+    "name": "case256x32red"
+  },
+  {
+    "name": "case256x512"
+  },
+  {
+    "name": "case256x512brown"
+  },
+  {
+    "name": "case256x512brown2"
+  },
+  {
+    "name": "case256x512brown3"
+  },
+  {
+    "name": "case256x512green"
+  },
+  {
+    "name": "case256x512green2"
+  },
+  {
+    "name": "case256x512green3"
+  },
+  {
+    "name": "case256x512grey"
+  },
+  {
+    "name": "case256x512grey2"
+  },
+  {
+    "name": "case256x512grey3"
+  },
+  {
+    "name": "case256x512orange"
+  },
+  {
+    "name": "case256x512red"
+  },
+  {
+    "name": "case256x64red"
+  },
+  {
+    "name": "case32x512blue"
+  },
+  {
+    "name": "case32x512brown"
+  },
+  {
+    "name": "case32x512gray"
+  },
+  {
+    "name": "case32x512green"
+  },
+  {
+    "name": "case32x512orange"
+  },
+  {
+    "name": "case32x512red"
+  },
+  {
+    "name": "case512"
+  },
+  {
+    "name": "case512brown"
+  },
+  {
+    "name": "case512brown2"
+  },
+  {
+    "name": "case512brown3"
+  },
+  {
+    "name": "case512green"
+  },
+  {
+    "name": "case512green2"
+  },
+  {
+    "name": "case512green3"
+  },
+  {
+    "name": "case512grey"
+  },
+  {
+    "name": "case512grey2"
+  },
+  {
+    "name": "case512grey3"
+  },
+  {
+    "name": "case512orange"
+  },
+  {
+    "name": "case512red"
+  },
+  {
+    "name": "case512x1024"
+  },
+  {
+    "name": "case512x1024blue"
+  },
+  {
+    "name": "case512x1024blue2"
+  },
+  {
+    "name": "case512x1024blue3"
+  },
+  {
+    "name": "case512x1024brown"
+  },
+  {
+    "name": "case512x1024brown2"
+  },
+  {
+    "name": "case512x1024brown3"
+  },
+  {
+    "name": "case512x1024gray"
+  },
+  {
+    "name": "case512x1024gray2"
+  },
+  {
+    "name": "case512x1024gray3"
+  },
+  {
+    "name": "case512x1024green"
+  },
+  {
+    "name": "case512x1024green2"
+  },
+  {
+    "name": "case512x1024green3"
+  },
+  {
+    "name": "case512x1024orange"
+  },
+  {
+    "name": "case512x1024red"
+  },
+  {
+    "name": "case512x1024red2"
+  },
+  {
+    "name": "case512x1024red3"
+  },
+  {
+    "name": "case512x32brown"
+  },
+  {
+    "name": "case512x32brown2"
+  },
+  {
+    "name": "case512x32brown3"
+  },
+  {
+    "name": "case512x32gray"
+  },
+  {
+    "name": "case512x32gray2"
+  },
+  {
+    "name": "case512x32gray3"
+  },
+  {
+    "name": "case512x32green"
+  },
+  {
+    "name": "case512x32green2"
+  },
+  {
+    "name": "case512x32green3"
+  },
+  {
+    "name": "case512x32orange"
+  },
+  {
+    "name": "case512x32red"
+  },
+  {
+    "name": "case512x64brown"
+  },
+  {
+    "name": "case512x64brown2"
+  },
+  {
+    "name": "case512x64brown3"
+  },
+  {
+    "name": "case512x64gray"
+  },
+  {
+    "name": "case512x64gray2"
+  },
+  {
+    "name": "case512x64gray3"
+  },
+  {
+    "name": "case512x64orange"
+  },
+  {
+    "name": "case512x64red"
+  },
+  {
+    "name": "case64x256brown"
+  },
+  {
+    "name": "case64x256brown2"
+  },
+  {
+    "name": "case64x256brown3"
+  },
+  {
+    "name": "case64x256gray"
+  },
+  {
+    "name": "case64x256gray2"
+  },
+  {
+    "name": "case64x256gray3"
+  },
+  {
+    "name": "case64x256orange"
+  },
+  {
+    "name": "case64x256red"
+  },
+  {
+    "name": "case64x512brown"
+  },
+  {
+    "name": "case64x512brown2"
+  },
+  {
+    "name": "case64x512brown3"
+  },
+  {
+    "name": "case64x512gray"
+  },
+  {
+    "name": "case64x512gray2"
+  },
+  {
+    "name": "case64x512gray3"
+  },
+  {
+    "name": "case64x512orange"
+  },
+  {
+    "name": "caulk"
+  },
+  {
+    "name": "caulk_shadow"
+  },
+  {
+    "name": "checkbox_active"
+  },
+  {
+    "name": "checkbox_completed"
+  },
+  {
+    "name": "checkbox_current"
+  },
+  {
+    "name": "checkbox_done"
+  },
+  {
+    "name": "clear_alpha_stencil"
+  },
+  {
+    "name": "clip"
+  },
+  {
+    "name": "clip_ai"
+  },
+  {
+    "name": "clip_foliage"
+  },
+  {
+    "name": "clip_full"
+  },
+  {
+    "name": "clip_metal"
+  },
+  {
+    "name": "clip_missile"
+  },
+  {
+    "name": "clip_nosight"
+  },
+  {
+    "name": "clip_nosight_dirt"
+  },
+  {
+    "name": "clip_nosight_metal"
+  },
+  {
+    "name": "clip_nosight_nothing"
+  },
+  {
+    "name": "clip_nosight_novehicle"
+  },
+  {
+    "name": "clip_nosight_rock"
+  },
+  {
+    "name": "clip_player"
+  },
+  {
+    "name": "clip_snow"
+  },
+  {
+    "name": "clip_vehicle"
+  },
+  {
+    "name": "clip_water"
+  },
+  {
+    "name": "clip_water_player"
+  },
+  {
+    "name": "clip_weap"
+  },
+  {
+    "name": "clip_weap_glass"
+  },
+  {
+    "name": "cloud_snowflake01"
+  },
+  {
+    "name": "cloud_snowflake02"
+  },
+  {
+    "name": "cloud_snowflake03"
+  },
+  {
+    "name": "cloud_snowflake04"
+  },
+  {
+    "name": "color_blue"
+  },
+  {
+    "name": "color_channel_mixer"
+  },
+  {
+    "name": "color_red"
+  },
+  {
+    "name": "compassping_enemyfiring"
+  },
+  {
+    "name": "compassping_enemyyelling"
+  },
+  {
+    "name": "compassping_explosion"
+  },
+  {
+    "name": "compassping_friendlyfiring"
+  },
+  {
+    "name": "compassping_friendlyyelling"
+  },
+  {
+    "name": "compassping_grenade"
+  },
+  {
+    "name": "compass_flag_american"
+  },
+  {
+    "name": "compass_flag_british"
+  },
+  {
+    "name": "compass_flag_german"
+  },
+  {
+    "name": "compass_flag_russian"
+  },
+  {
+    "name": "console"
+  },
+  {
+    "name": "damage_feedback"
+  },
+  {
+    "name": "dawnville2_brick_wall01"
+  },
+  {
+    "name": "dawnville2_carpet_floor01"
+  },
+  {
+    "name": "dawnville2_chimney_pipe01"
+  },
+  {
+    "name": "dawnville2_churchwindow01"
+  },
+  {
+    "name": "dawnville2_clay_rooftiles01"
+  },
+  {
+    "name": "dawnville2_concrete01"
+  },
+  {
+    "name": "dawnville2_concrete_floor01"
+  },
+  {
+    "name": "dawnville2_concrete_trim01"
+  },
+  {
+    "name": "dawnville2_concrete_trim02"
+  },
+  {
+    "name": "dawnville2_concrete_trim03"
+  },
+  {
+    "name": "dawnville2_concrete_trim04"
+  },
+  {
+    "name": "dawnville2_concrete_trim05"
+  },
+  {
+    "name": "dawnville2_concrete_trim06"
+  },
+  {
+    "name": "dawnville2_cornerstone01"
+  },
+  {
+    "name": "dawnville2_corrugated_sheetmetal01"
+  },
+  {
+    "name": "dawnville2_crater_blend"
+  },
+  {
+    "name": "dawnville2_dirt01_blend"
+  },
+  {
+    "name": "dawnville2_doorframe01"
+  },
+  {
+    "name": "dawnville2_doorframe01_side"
+  },
+  {
+    "name": "dawnville2_facade01"
+  },
+  {
+    "name": "dawnville2_facade02"
+  },
+  {
+    "name": "dawnville2_floor_core01"
+  },
+  {
+    "name": "dawnville2_grass_yellow1_blend"
+  },
+  {
+    "name": "dawnville2_hedgewall01"
+  },
+  {
+    "name": "dawnville2_plaster_wall01"
+  },
+  {
+    "name": "dawnville2_plaster_wall02"
+  },
+  {
+    "name": "dawnville2_plaster_wall03"
+  },
+  {
+    "name": "dawnville2_plaster_wall04"
+  },
+  {
+    "name": "dawnville2_plaster_wall05"
+  },
+  {
+    "name": "dawnville2_plaster_wall06"
+  },
+  {
+    "name": "dawnville2_plaster_wall07"
+  },
+  {
+    "name": "dawnville2_plaster_wall08"
+  },
+  {
+    "name": "dawnville2_plaster_wall09"
+  },
+  {
+    "name": "dawnville2_plaster_wall10"
+  },
+  {
+    "name": "dawnville2_plaster_wall11"
+  },
+  {
+    "name": "dawnville2_railroad_ties01"
+  },
+  {
+    "name": "dawnville2_roof_trim01"
+  },
+  {
+    "name": "dawnville2_roof_underside01"
+  },
+  {
+    "name": "dawnville2_roof_underside01_blend"
+  },
+  {
+    "name": "dawnville2_rubble01"
+  },
+  {
+    "name": "dawnville2_rubble01_blend"
+  },
+  {
+    "name": "dawnville2_rusty_fence01"
+  },
+  {
+    "name": "dawnville2_sidewalk01_face"
+  },
+  {
+    "name": "dawnville2_sidewalk01_top"
+  },
+  {
+    "name": "dawnville2_sign_beaudin"
+  },
+  {
+    "name": "dawnville2_sign_biscuits"
+  },
+  {
+    "name": "dawnville2_sign_camot"
+  },
+  {
+    "name": "dawnville2_sign_dupasquet"
+  },
+  {
+    "name": "dawnville2_sign_huiles"
+  },
+  {
+    "name": "dawnville2_sign_lafaire"
+  },
+  {
+    "name": "dawnville2_sign_lyon"
+  },
+  {
+    "name": "dawnville2_sign_marcel"
+  },
+  {
+    "name": "dawnville2_sign_pohs"
+  },
+  {
+    "name": "dawnville2_sign_soze"
+  },
+  {
+    "name": "dawnville2_stone_wall01"
+  },
+  {
+    "name": "dawnville2_tile_floor01"
+  },
+  {
+    "name": "dawnville2_treeline2_center"
+  },
+  {
+    "name": "dawnville2_treeline2_left"
+  },
+  {
+    "name": "dawnville2_treeline2_right"
+  },
+  {
+    "name": "dawnville2_treeline_center"
+  },
+  {
+    "name": "dawnville2_treeline_left"
+  },
+  {
+    "name": "dawnville2_treeline_right"
+  },
+  {
+    "name": "dawnville2_wall_core01"
+  },
+  {
+    "name": "dawnville2_wall_paper01"
+  },
+  {
+    "name": "dawnville2_wall_paper02"
+  },
+  {
+    "name": "dawnville2_wall_paper03"
+  },
+  {
+    "name": "dawnville2_wartorn_brick01"
+  },
+  {
+    "name": "dawnville2_wartorn_brick02"
+  },
+  {
+    "name": "dawnville2_wartorn_brick03"
+  },
+  {
+    "name": "dawnville2_wartorn_brick04"
+  },
+  {
+    "name": "dawnville2_wartorn_brick05"
+  },
+  {
+    "name": "dawnville2_wartorn_brick06"
+  },
+  {
+    "name": "dawnville2_wartorn_brick07"
+  },
+  {
+    "name": "dawnville2_wartorn_brick08"
+  },
+  {
+    "name": "dawnville2_windowframe01"
+  },
+  {
+    "name": "dawnville2_windowframe02"
+  },
+  {
+    "name": "dawnville2_wire_mesh01"
+  },
+  {
+    "name": "dawnville2_wood_boards01"
+  },
+  {
+    "name": "dawnville2_wood_core01"
+  },
+  {
+    "name": "dawnville2_wood_door01"
+  },
+  {
+    "name": "dawnville2_wood_door02"
+  },
+  {
+    "name": "dawnville2_wood_door03"
+  },
+  {
+    "name": "dawnville2_wood_fence01"
+  },
+  {
+    "name": "dawnville2_wood_fence02"
+  },
+  {
+    "name": "dawnville2_wood_floor01"
+  },
+  {
+    "name": "dawnville2_wood_shingles01"
+  },
+  {
+    "name": "dawnville2_wood_shingles02"
+  },
+  {
+    "name": "dawnville2_wood_shingles03"
+  },
+  {
+    "name": "dawnville2_wood_shutter01"
+  },
+  {
+    "name": "dawnville2_wood_shutters01"
+  },
+  {
+    "name": "dawnville2_wood_shutters02"
+  },
+  {
+    "name": "dawnville2_wood_trim01"
+  },
+  {
+    "name": "dawnville2_wood_trim02"
+  },
+  {
+    "name": "dawnville2_wood_trim03"
+  },
+  {
+    "name": "dawnville2_wood_trim04"
+  },
+  {
+    "name": "dawnville2_wood_trim05"
+  },
+  {
+    "name": "decal_bullethit_glass"
+  },
+  {
+    "name": "decal_bullethit_plaster"
+  },
+  {
+    "name": "decal_bullethit_plaster2"
+  },
+  {
+    "name": "decal_bullethit_sand"
+  },
+  {
+    "name": "decal_bullethit_snow"
+  },
+  {
+    "name": "decal_bullethit_stone"
+  },
+  {
+    "name": "decal_bullethit_wood1"
+  },
+  {
+    "name": "decal_bullethit_wood2"
+  },
+  {
+    "name": "decal_bullethole1"
+  },
+  {
+    "name": "decal_bullethole2"
+  },
+  {
+    "name": "decal_case1024x128"
+  },
+  {
+    "name": "decal_crater_blacktop"
+  },
+  {
+    "name": "decal_crater_dirt"
+  },
+  {
+    "name": "defeat_american"
+  },
+  {
+    "name": "defeat_british"
+  },
+  {
+    "name": "defeat_russian"
+  },
+  {
+    "name": "defusebomb"
+  },
+  {
+    "name": "detail_brick_1"
+  },
+  {
+    "name": "detail_concrete_generic1trim1"
+  },
+  {
+    "name": "detail_concrete_wall1"
+  },
+  {
+    "name": "detail_decal_plasterwall12"
+  },
+  {
+    "name": "detail_mosque_symbol"
+  },
+  {
+    "name": "detail_plasterwall_top_s"
+  },
+  {
+    "name": "detail_smalldome1"
+  },
+  {
+    "name": "duhoc_asphalt_road"
+  },
+  {
+    "name": "duhoc_blanket1a"
+  },
+  {
+    "name": "duhoc_blanket1b"
+  },
+  {
+    "name": "duhoc_blanket2a"
+  },
+  {
+    "name": "duhoc_blanket2b"
+  },
+  {
+    "name": "duhoc_block_wall1"
+  },
+  {
+    "name": "duhoc_brick_stepface1"
+  },
+  {
+    "name": "duhoc_brick_steptop1"
+  },
+  {
+    "name": "duhoc_bunker_beam1"
+  },
+  {
+    "name": "duhoc_bunker_beamside1"
+  },
+  {
+    "name": "duhoc_bunker_ceiling1"
+  },
+  {
+    "name": "duhoc_bunker_floortrim01"
+  },
+  {
+    "name": "duhoc_bunker_wall_fillet"
+  },
+  {
+    "name": "duhoc_bunker_wall_fillet_dark"
+  },
+  {
+    "name": "duhoc_bunker_wall_floor_trim"
+  },
+  {
+    "name": "duhoc_cliff"
+  },
+  {
+    "name": "duhoc_concrete_multi"
+  },
+  {
+    "name": "duhoc_concrete_side"
+  },
+  {
+    "name": "duhoc_concrete_stripe1"
+  },
+  {
+    "name": "duhoc_concrete_stripe2"
+  },
+  {
+    "name": "duhoc_concrete_stripe3"
+  },
+  {
+    "name": "duhoc_concrete_stripe4"
+  },
+  {
+    "name": "duhoc_crater"
+  },
+  {
+    "name": "duhoc_crater_alpha"
+  },
+  {
+    "name": "duhoc_dirt_bump"
+  },
+  {
+    "name": "duhoc_dirt_cliff"
+  },
+  {
+    "name": "duhoc_dirt_crater"
+  },
+  {
+    "name": "duhoc_dirt_crater2"
+  },
+  {
+    "name": "duhoc_dirt_farm1"
+  },
+  {
+    "name": "duhoc_dirt_farm2"
+  },
+  {
+    "name": "duhoc_dirt_ground1"
+  },
+  {
+    "name": "duhoc_dirt_ground2"
+  },
+  {
+    "name": "duhoc_dirt_ground3"
+  },
+  {
+    "name": "duhoc_dirt_ground4"
+  },
+  {
+    "name": "duhoc_dirt_ground5"
+  },
+  {
+    "name": "duhoc_dirt_ground5_blend"
+  },
+  {
+    "name": "duhoc_dirt_hill"
+  },
+  {
+    "name": "duhoc_dirt_road"
+  },
+  {
+    "name": "duhoc_dirt_road_trail1"
+  },
+  {
+    "name": "duhoc_dirt_road_trail2"
+  },
+  {
+    "name": "duhoc_dirt_road_trail3"
+  },
+  {
+    "name": "duhoc_dirt_road_trail4"
+  },
+  {
+    "name": "duhoc_dirt_road_trail_decal"
+  },
+  {
+    "name": "duhoc_dirt_trench"
+  },
+  {
+    "name": "duhoc_farm_extwall1"
+  },
+  {
+    "name": "duhoc_farm_extwall2"
+  },
+  {
+    "name": "duhoc_farm_extwall3"
+  },
+  {
+    "name": "duhoc_farm_intwall1"
+  },
+  {
+    "name": "duhoc_farm_intwall2"
+  },
+  {
+    "name": "duhoc_farm_intwall3"
+  },
+  {
+    "name": "duhoc_foliage_green_hedge1"
+  },
+  {
+    "name": "duhoc_foliage_green_hedge2"
+  },
+  {
+    "name": "duhoc_grass_crater"
+  },
+  {
+    "name": "duhoc_grass_edge"
+  },
+  {
+    "name": "duhoc_grass_edge_cliff"
+  },
+  {
+    "name": "duhoc_grass_green1"
+  },
+  {
+    "name": "duhoc_grass_green2"
+  },
+  {
+    "name": "duhoc_grass_green3"
+  },
+  {
+    "name": "duhoc_grass_green_small"
+  },
+  {
+    "name": "duhoc_grass_road_trail1"
+  },
+  {
+    "name": "duhoc_grass_road_trail2"
+  },
+  {
+    "name": "duhoc_grass_road_trail3"
+  },
+  {
+    "name": "duhoc_grass_road_trailend"
+  },
+  {
+    "name": "duhoc_grass_yellow1"
+  },
+  {
+    "name": "duhoc_grass_yellow1_blend"
+  },
+  {
+    "name": "duhoc_grass_yellow2"
+  },
+  {
+    "name": "duhoc_grass_yellow3"
+  },
+  {
+    "name": "duhoc_ground_pebbles01"
+  },
+  {
+    "name": "duhoc_metal_bunkertrim"
+  },
+  {
+    "name": "duhoc_sand_dunes"
+  },
+  {
+    "name": "duhoc_sand_edge"
+  },
+  {
+    "name": "duhoc_sand_wet"
+  },
+  {
+    "name": "duhoc_steel_beam"
+  },
+  {
+    "name": "duhoc_stone_wall"
+  },
+  {
+    "name": "duhoc_trench_path"
+  },
+  {
+    "name": "duhoc_trench_wall"
+  },
+  {
+    "name": "duhoc_trench_wall_short"
+  },
+  {
+    "name": "duhoc_warning"
+  },
+  {
+    "name": "duhoc_wood_beam1"
+  },
+  {
+    "name": "duhoc_wood_beam2"
+  },
+  {
+    "name": "duhoc_wood_floor1"
+  },
+  {
+    "name": "duhoc_wood_post1"
+  },
+  {
+    "name": "duhoc_wood_post2"
+  },
+  {
+    "name": "duhoc_wood_roof1"
+  },
+  {
+    "name": "duhoc_wood_roof2"
+  },
+  {
+    "name": "duhoc_wood_roof3"
+  },
+  {
+    "name": "duhoc_wood_roofunderside1"
+  },
+  {
+    "name": "duhoc_wood_shudder1"
+  },
+  {
+    "name": "duhoc_wood_stepface1"
+  },
+  {
+    "name": "duhoc_wood_steptop1"
+  },
+  {
+    "name": "d_beachpebble"
+  },
+  {
+    "name": "d_beachrock"
+  },
+  {
+    "name": "d_beachsand"
+  },
+  {
+    "name": "d_beachsand_dec"
+  },
+  {
+    "name": "d_beachsand_footprints_dec"
+  },
+  {
+    "name": "d_cliff01"
+  },
+  {
+    "name": "d_cliff02"
+  },
+  {
+    "name": "d_cliff03"
+  },
+  {
+    "name": "d_cliff04"
+  },
+  {
+    "name": "d_cliff05"
+  },
+  {
+    "name": "d_cliff_crack_decal01"
+  },
+  {
+    "name": "d_duhoc_sky_reflect"
+  },
+  {
+    "name": "d_grass"
+  },
+  {
+    "name": "d_grass_dec"
+  },
+  {
+    "name": "d_mud"
+  },
+  {
+    "name": "d_mud_dec"
+  },
+  {
+    "name": "d_mud_dirt"
+  },
+  {
+    "name": "d_riverbank"
+  },
+  {
+    "name": "egypt_brick_red_arch1"
+  },
+  {
+    "name": "egypt_brick_red_arch2"
+  },
+  {
+    "name": "egypt_brick_red_arch2trim"
+  },
+  {
+    "name": "egypt_brick_red_generic1_1"
+  },
+  {
+    "name": "egypt_brick_sand_generic1"
+  },
+  {
+    "name": "egypt_brick_sand_generic1_body1"
+  },
+  {
+    "name": "egypt_brick_sand_generic1_body2"
+  },
+  {
+    "name": "egypt_brick_sand_generic1_decal1"
+  },
+  {
+    "name": "egypt_brick_sand_generic1_decal2"
+  },
+  {
+    "name": "egypt_brick_white_arch1"
+  },
+  {
+    "name": "egypt_brick_white_generic1"
+  },
+  {
+    "name": "egypt_brick_white_generic2"
+  },
+  {
+    "name": "egypt_brick_yellow_generic1"
+  },
+  {
+    "name": "egypt_brick_yellow_generic1_body"
+  },
+  {
+    "name": "egypt_brick_yellow_generic1_decal1"
+  },
+  {
+    "name": "egypt_cloth_bed"
+  },
+  {
+    "name": "egypt_cloth_tent"
+  },
+  {
+    "name": "egypt_cloth_tent_body"
+  },
+  {
+    "name": "egypt_cloth_tent_sew"
+  },
+  {
+    "name": "egypt_cloth_tent_wrinkle"
+  },
+  {
+    "name": "egypt_concrete_arch1"
+  },
+  {
+    "name": "egypt_concrete_arch1trim"
+  },
+  {
+    "name": "egypt_concrete_arch2"
+  },
+  {
+    "name": "egypt_concrete_arch2ceiling"
+  },
+  {
+    "name": "egypt_concrete_arch2trim"
+  },
+  {
+    "name": "egypt_concrete_arch3"
+  },
+  {
+    "name": "egypt_concrete_arch3trim"
+  },
+  {
+    "name": "egypt_concrete_broken_generic1"
+  },
+  {
+    "name": "egypt_concrete_bunkerstair_rise"
+  },
+  {
+    "name": "egypt_concrete_bunkerstair_run"
+  },
+  {
+    "name": "egypt_concrete_carved1"
+  },
+  {
+    "name": "egypt_concrete_carved_door"
+  },
+  {
+    "name": "egypt_concrete_column1"
+  },
+  {
+    "name": "egypt_concrete_exteriorbunker1"
+  },
+  {
+    "name": "egypt_concrete_exteriorbunker1_metlabar"
+  },
+  {
+    "name": "egypt_concrete_exteriorbunker1_side"
+  },
+  {
+    "name": "egypt_concrete_exteriorbunker1_top"
+  },
+  {
+    "name": "egypt_concrete_exteriorbunker1_trim"
+  },
+  {
+    "name": "egypt_concrete_floor1_body"
+  },
+  {
+    "name": "egypt_concrete_floor2"
+  },
+  {
+    "name": "egypt_concrete_floor2_body"
+  },
+  {
+    "name": "egypt_concrete_floor3"
+  },
+  {
+    "name": "egypt_concrete_floor3_body"
+  },
+  {
+    "name": "egypt_concrete_floor3_decal1"
+  },
+  {
+    "name": "egypt_concrete_floor4"
+  },
+  {
+    "name": "egypt_concrete_floor4_body"
+  },
+  {
+    "name": "egypt_concrete_generic1"
+  },
+  {
+    "name": "egypt_concrete_generic1trim1"
+  },
+  {
+    "name": "egypt_concrete_generic1trim2"
+  },
+  {
+    "name": "egypt_concrete_generic1trim3"
+  },
+  {
+    "name": "egypt_concrete_interiorbunker1"
+  },
+  {
+    "name": "egypt_concrete_interiorbunker2"
+  },
+  {
+    "name": "egypt_concrete_rail"
+  },
+  {
+    "name": "egypt_concrete_trench_trim"
+  },
+  {
+    "name": "egypt_concrete_wall1"
+  },
+  {
+    "name": "egypt_decal_brick10"
+  },
+  {
+    "name": "egypt_decal_brick2"
+  },
+  {
+    "name": "egypt_decal_brick3"
+  },
+  {
+    "name": "egypt_decal_brick4"
+  },
+  {
+    "name": "egypt_decal_brick5"
+  },
+  {
+    "name": "egypt_decal_brick5_1"
+  },
+  {
+    "name": "egypt_decal_brick6"
+  },
+  {
+    "name": "egypt_decal_brick7_top"
+  },
+  {
+    "name": "egypt_decal_brick8_bottom"
+  },
+  {
+    "name": "egypt_decal_brick9"
+  },
+  {
+    "name": "egypt_decal_bullet1"
+  },
+  {
+    "name": "egypt_decal_bullet2"
+  },
+  {
+    "name": "egypt_decal_bullet3"
+  },
+  {
+    "name": "egypt_decal_collapsed1"
+  },
+  {
+    "name": "egypt_decal_collapsed2"
+  },
+  {
+    "name": "egypt_decal_crack_1"
+  },
+  {
+    "name": "egypt_decal_footprint_1"
+  },
+  {
+    "name": "egypt_decal_groundstain"
+  },
+  {
+    "name": "egypt_decal_rockblend01"
+  },
+  {
+    "name": "egypt_decal_rockblend01_night"
+  },
+  {
+    "name": "egypt_decal_rocksandblend01"
+  },
+  {
+    "name": "egypt_decal_rockspot_01"
+  },
+  {
+    "name": "egypt_decal_rockspot_02"
+  },
+  {
+    "name": "egypt_decal_rock_1"
+  },
+  {
+    "name": "egypt_decal_rock_2"
+  },
+  {
+    "name": "egypt_decal_rock_3"
+  },
+  {
+    "name": "egypt_decal_rock_4"
+  },
+  {
+    "name": "egypt_decal_roughdirt_1"
+  },
+  {
+    "name": "egypt_decal_sandblown01"
+  },
+  {
+    "name": "egypt_decal_sandblown01_night"
+  },
+  {
+    "name": "egypt_decal_sandblown01_night_np"
+  },
+  {
+    "name": "egypt_decal_sandblown02"
+  },
+  {
+    "name": "egypt_decal_sandblown02_night"
+  },
+  {
+    "name": "egypt_decal_sandedge01"
+  },
+  {
+    "name": "egypt_decal_sandedge01_night"
+  },
+  {
+    "name": "egypt_decal_sandedge02"
+  },
+  {
+    "name": "egypt_decal_sandedge02_night"
+  },
+  {
+    "name": "egypt_decal_sandedgetop01"
+  },
+  {
+    "name": "egypt_decal_sandedgetrench01"
+  },
+  {
+    "name": "egypt_decal_sandedgetrench01_night"
+  },
+  {
+    "name": "egypt_decal_sandedgetrench02"
+  },
+  {
+    "name": "egypt_decal_sandedgetrench02_night"
+  },
+  {
+    "name": "egypt_decal_track_1"
+  },
+  {
+    "name": "egypt_decal_track_1_1"
+  },
+  {
+    "name": "egypt_decal_track_1_1_night"
+  },
+  {
+    "name": "egypt_decal_track_1_night"
+  },
+  {
+    "name": "egypt_decal_track_2"
+  },
+  {
+    "name": "egypt_decal_track_3"
+  },
+  {
+    "name": "egypt_decal_water_flow"
+  },
+  {
+    "name": "egypt_decal_water_flow2"
+  },
+  {
+    "name": "egypt_decal_window1"
+  },
+  {
+    "name": "egypt_decal_window2"
+  },
+  {
+    "name": "egypt_decal_windowbars"
+  },
+  {
+    "name": "egypt_decal_windowrust1"
+  },
+  {
+    "name": "egypt_decal_windowrust2"
+  },
+  {
+    "name": "egypt_desertcamo_hanging"
+  },
+  {
+    "name": "egypt_desertcamo_netting"
+  },
+  {
+    "name": "egypt_desertcamo_netting_noshade"
+  },
+  {
+    "name": "egypt_dessertrock_01"
+  },
+  {
+    "name": "egypt_dessertrock_01_blend"
+  },
+  {
+    "name": "egypt_dessertrock_01_blend_night"
+  },
+  {
+    "name": "egypt_dessertrock_01_night"
+  },
+  {
+    "name": "egypt_dessertrock_top_01"
+  },
+  {
+    "name": "egypt_dessertrock_top_01_night"
+  },
+  {
+    "name": "egypt_dirt_tunnelwall"
+  },
+  {
+    "name": "egypt_dirt_tunnelwall_blend"
+  },
+  {
+    "name": "egypt_doorframe1"
+  },
+  {
+    "name": "egypt_gravel_roof1"
+  },
+  {
+    "name": "egypt_largedome1"
+  },
+  {
+    "name": "egypt_largedomeceiling1"
+  },
+  {
+    "name": "egypt_largedomeceiling_side"
+  },
+  {
+    "name": "egypt_largedomeceiling_wall"
+  },
+  {
+    "name": "egypt_largedomeceiling_wall2"
+  },
+  {
+    "name": "egypt_metal_balcony_side1"
+  },
+  {
+    "name": "egypt_metal_broken_generic1"
+  },
+  {
+    "name": "egypt_metal_broken_trim1"
+  },
+  {
+    "name": "egypt_metal_pipe1"
+  },
+  {
+    "name": "egypt_metal_pipe2"
+  },
+  {
+    "name": "egypt_metal_rebar"
+  },
+  {
+    "name": "egypt_metal_rebar2"
+  },
+  {
+    "name": "egypt_mosque_floor1"
+  },
+  {
+    "name": "egypt_mosque_flr_cling_trim1"
+  },
+  {
+    "name": "egypt_mosque_interiorwall2trim"
+  },
+  {
+    "name": "egypt_mosque_pillar"
+  },
+  {
+    "name": "egypt_mosque_stairside"
+  },
+  {
+    "name": "egypt_mosque_stairtop"
+  },
+  {
+    "name": "egypt_mosque_symbol"
+  },
+  {
+    "name": "egypt_mountain_night"
+  },
+  {
+    "name": "egypt_plaster_arch1trim"
+  },
+  {
+    "name": "egypt_plaster_ceiling1"
+  },
+  {
+    "name": "egypt_plaster_ceiling2"
+  },
+  {
+    "name": "egypt_plaster_exteriorwall01"
+  },
+  {
+    "name": "egypt_plaster_exteriorwall01_body"
+  },
+  {
+    "name": "egypt_plaster_exteriorwall01_decal1"
+  },
+  {
+    "name": "egypt_plaster_exteriorwall01_decal2"
+  },
+  {
+    "name": "egypt_plaster_exteriorwall01_top"
+  },
+  {
+    "name": "egypt_plaster_exteriorwall01_trim"
+  },
+  {
+    "name": "egypt_plaster_exteriorwall02"
+  },
+  {
+    "name": "egypt_plaster_exteriorwall02_decal1"
+  },
+  {
+    "name": "egypt_plaster_exteriorwall02_decal2"
+  },
+  {
+    "name": "egypt_plaster_exteriorwall02_top"
+  },
+  {
+    "name": "egypt_plaster_exteriorwall02_trim"
+  },
+  {
+    "name": "egypt_plaster_exteriorwall03"
+  },
+  {
+    "name": "egypt_plaster_exteriorwall03_top"
+  },
+  {
+    "name": "egypt_plaster_exteriorwall03_trim"
+  },
+  {
+    "name": "egypt_plaster_interiorwall1"
+  },
+  {
+    "name": "egypt_plaster_interiorwall2"
+  },
+  {
+    "name": "egypt_plaster_interiorwall2_body"
+  },
+  {
+    "name": "egypt_plaster_interiorwall2_body2"
+  },
+  {
+    "name": "egypt_plaster_interiorwall2_decal1"
+  },
+  {
+    "name": "egypt_plaster_interiorwall3"
+  },
+  {
+    "name": "egypt_plaster_interiorwall4"
+  },
+  {
+    "name": "egypt_plaster_interiorwall4_decal1"
+  },
+  {
+    "name": "egypt_plaster_interiorwall4_decal2"
+  },
+  {
+    "name": "egypt_plaster_interiorwall4_top"
+  },
+  {
+    "name": "egypt_plaster_interiorwall5"
+  },
+  {
+    "name": "egypt_plaster_interiorwall5_top"
+  },
+  {
+    "name": "egypt_plaster_interiorwall6"
+  },
+  {
+    "name": "egypt_plaster_interiorwall6_top"
+  },
+  {
+    "name": "egypt_plaster_sand"
+  },
+  {
+    "name": "egypt_plaster_stucco1"
+  },
+  {
+    "name": "egypt_plaster_stucco1_body1"
+  },
+  {
+    "name": "egypt_plaster_stucco1_body2"
+  },
+  {
+    "name": "egypt_plaster_stucco1_decal1"
+  },
+  {
+    "name": "egypt_plaster_stucco1_decal2"
+  },
+  {
+    "name": "egypt_rock_1"
+  },
+  {
+    "name": "egypt_roughdirt"
+  },
+  {
+    "name": "egypt_roughdirt_03"
+  },
+  {
+    "name": "egypt_roughdirt_04"
+  },
+  {
+    "name": "egypt_roughdirt_04_blend"
+  },
+  {
+    "name": "egypt_roughdirt_05"
+  },
+  {
+    "name": "egypt_roughdirt_05_blend"
+  },
+  {
+    "name": "egypt_roughdirt_blend"
+  },
+  {
+    "name": "egypt_roughdirt_crater"
+  },
+  {
+    "name": "egypt_roughdirt_crater2"
+  },
+  {
+    "name": "egypt_roughdirt_crater_night"
+  },
+  {
+    "name": "egypt_roughdirt_minefield"
+  },
+  {
+    "name": "egypt_roughdirt_minefield2"
+  },
+  {
+    "name": "egypt_roughdirt_minefield_night"
+  },
+  {
+    "name": "egypt_roughdirt_road"
+  },
+  {
+    "name": "egypt_roughdirt_rock"
+  },
+  {
+    "name": "egypt_roughdirt_rock_dec"
+  },
+  {
+    "name": "egypt_roughdirt_steep"
+  },
+  {
+    "name": "egypt_roughdirt_steep_blend"
+  },
+  {
+    "name": "egypt_roughdirt_worn"
+  },
+  {
+    "name": "egypt_roughdirt_worn_blend"
+  },
+  {
+    "name": "egypt_rubble_01"
+  },
+  {
+    "name": "egypt_rubble_01_blend"
+  },
+  {
+    "name": "egypt_rug1"
+  },
+  {
+    "name": "egypt_rug2"
+  },
+  {
+    "name": "egypt_rug3"
+  },
+  {
+    "name": "egypt_sandblown01"
+  },
+  {
+    "name": "egypt_sandblown01_night"
+  },
+  {
+    "name": "egypt_sandstone_arch"
+  },
+  {
+    "name": "egypt_sandstone_arch2"
+  },
+  {
+    "name": "egypt_sandstone_broken_generic1"
+  },
+  {
+    "name": "egypt_sandstone_broken_generic1_blend"
+  },
+  {
+    "name": "egypt_sandstone_generic1"
+  },
+  {
+    "name": "egypt_sandstone_generic1trim1"
+  },
+  {
+    "name": "egypt_sandstone_generic1trim2"
+  },
+  {
+    "name": "egypt_sandstone_generic1trim3"
+  },
+  {
+    "name": "egypt_sandstone_generic1_body"
+  },
+  {
+    "name": "egypt_sandstone_generic1_decal1"
+  },
+  {
+    "name": "egypt_sandstone_generic1_decal2"
+  },
+  {
+    "name": "egypt_sandstone_generic2"
+  },
+  {
+    "name": "egypt_sandstone_stair1side"
+  },
+  {
+    "name": "egypt_sandstone_stair1top"
+  },
+  {
+    "name": "egypt_sandstone_towerwall"
+  },
+  {
+    "name": "egypt_sandstone_towerwalltrim"
+  },
+  {
+    "name": "egypt_sandstone_trim"
+  },
+  {
+    "name": "egypt_sandstone_trim2"
+  },
+  {
+    "name": "egypt_sandstone_wall1"
+  },
+  {
+    "name": "egypt_sandstone_wall2"
+  },
+  {
+    "name": "egypt_sandstone_wall2_body"
+  },
+  {
+    "name": "egypt_sandstone_wall2_decal1"
+  },
+  {
+    "name": "egypt_smalldome1"
+  },
+  {
+    "name": "egypt_smalldome2"
+  },
+  {
+    "name": "egypt_stair1_rise"
+  },
+  {
+    "name": "egypt_stair1_run"
+  },
+  {
+    "name": "egypt_tile1a"
+  },
+  {
+    "name": "egypt_tile1a_decal"
+  },
+  {
+    "name": "egypt_tile1a_decal2"
+  },
+  {
+    "name": "egypt_tile1b"
+  },
+  {
+    "name": "egypt_tile2a"
+  },
+  {
+    "name": "egypt_tile2b"
+  },
+  {
+    "name": "egypt_tile3a"
+  },
+  {
+    "name": "egypt_tile3b"
+  },
+  {
+    "name": "egypt_tile4a"
+  },
+  {
+    "name": "egypt_tile4b"
+  },
+  {
+    "name": "egypt_tile5a"
+  },
+  {
+    "name": "egypt_tile5b"
+  },
+  {
+    "name": "egypt_trenchwallconcrete_a"
+  },
+  {
+    "name": "egypt_trenchwallconcrete_b"
+  },
+  {
+    "name": "egypt_trenchwalldirt"
+  },
+  {
+    "name": "egypt_trenchwalldirt_2"
+  },
+  {
+    "name": "egypt_trenchwalldirt_mantle"
+  },
+  {
+    "name": "egypt_trenchwalldirt_night"
+  },
+  {
+    "name": "egypt_trench_ground_dirt"
+  },
+  {
+    "name": "egypt_trench_ground_dirt_blend"
+  },
+  {
+    "name": "egypt_trench_ground_dirt_blend_night"
+  },
+  {
+    "name": "egypt_trench_ground_dirt_night"
+  },
+  {
+    "name": "egypt_trench_ground_rock_side"
+  },
+  {
+    "name": "egypt_trench_ground_worn_dirt"
+  },
+  {
+    "name": "egypt_trench_ground_worn_dirt_blend"
+  },
+  {
+    "name": "egypt_window1"
+  },
+  {
+    "name": "egypt_window2"
+  },
+  {
+    "name": "egypt_window2a"
+  },
+  {
+    "name": "egypt_window6"
+  },
+  {
+    "name": "egypt_window7"
+  },
+  {
+    "name": "egypt_window7a"
+  },
+  {
+    "name": "egypt_window7b"
+  },
+  {
+    "name": "egypt_window7c"
+  },
+  {
+    "name": "egypt_window7d"
+  },
+  {
+    "name": "egypt_window7e"
+  },
+  {
+    "name": "egypt_window9_bottom"
+  },
+  {
+    "name": "egypt_wire_black"
+  },
+  {
+    "name": "egypt_wood_beam"
+  },
+  {
+    "name": "egypt_wood_beam_end"
+  },
+  {
+    "name": "egypt_wood_ceiling1"
+  },
+  {
+    "name": "egypt_wood_ceiling2"
+  },
+  {
+    "name": "egypt_wood_door1"
+  },
+  {
+    "name": "egypt_wood_door2"
+  },
+  {
+    "name": "egypt_wood_door3"
+  },
+  {
+    "name": "egypt_wood_door4"
+  },
+  {
+    "name": "egypt_wood_generic1"
+  },
+  {
+    "name": "egypt_wood_generic2"
+  },
+  {
+    "name": "egypt_wood_shutters1"
+  },
+  {
+    "name": "egypt_wood_shutters2"
+  },
+  {
+    "name": "egypt_wood_shutters3"
+  },
+  {
+    "name": "egypt_wood_stair1side"
+  },
+  {
+    "name": "egypt_wood_stair1top"
+  },
+  {
+    "name": "egypt_wood_stand_1"
+  },
+  {
+    "name": "egypt_wood_tallarchdoor"
+  },
+  {
+    "name": "egypt_wood_tallarchdoor2"
+  },
+  {
+    "name": "egypt_wood_top"
+  },
+  {
+    "name": "egypt_wood_trench_wall_01"
+  },
+  {
+    "name": "escort"
+  },
+  {
+    "name": "feedbackblend"
+  },
+  {
+    "name": "feedbackreplace"
+  },
+  {
+    "name": "field_radio"
+  },
+  {
+    "name": "filltest_additive"
+  },
+  {
+    "name": "filltest_alphablend"
+  },
+  {
+    "name": "filltest_alphatest_fail"
+  },
+  {
+    "name": "filltest_alphatest_pass"
+  },
+  {
+    "name": "filltest_depthonly"
+  },
+  {
+    "name": "filltest_normal"
+  },
+  {
+    "name": "filltest_phong_bump"
+  },
+  {
+    "name": "filltest_phong_bumpspec"
+  },
+  {
+    "name": "filltest_stencil_oneside_keep"
+  },
+  {
+    "name": "filltest_stencil_oneside_reject"
+  },
+  {
+    "name": "filltest_stencil_twoside_keep"
+  },
+  {
+    "name": "filltest_stencil_twoside_reject"
+  },
+  {
+    "name": "filter_symmetric_1"
+  },
+  {
+    "name": "filter_symmetric_2"
+  },
+  {
+    "name": "filter_symmetric_3"
+  },
+  {
+    "name": "filter_symmetric_4"
+  },
+  {
+    "name": "filter_symmetric_5"
+  },
+  {
+    "name": "filter_symmetric_6"
+  },
+  {
+    "name": "filter_symmetric_7"
+  },
+  {
+    "name": "filter_symmetric_8"
+  },
+  {
+    "name": "frame_alpha_debug"
+  },
+  {
+    "name": "frame_color_debug"
+  },
+  {
+    "name": "gfx_antiaircraft_tracer"
+  },
+  {
+    "name": "gfx_bullethit_glass"
+  },
+  {
+    "name": "gfx_bullethit_glow"
+  },
+  {
+    "name": "gfx_bullethit_mudsplash01"
+  },
+  {
+    "name": "gfx_bullethit_mudsplash02"
+  },
+  {
+    "name": "gfx_bullethit_plaster"
+  },
+  {
+    "name": "gfx_bullethit_plaster2"
+  },
+  {
+    "name": "gfx_bullethit_sand"
+  },
+  {
+    "name": "gfx_bullethit_snow"
+  },
+  {
+    "name": "gfx_bullethit_stone"
+  },
+  {
+    "name": "gfx_bullethit_wood1"
+  },
+  {
+    "name": "gfx_bullethit_wood2"
+  },
+  {
+    "name": "gfx_bullethole1"
+  },
+  {
+    "name": "gfx_bullethole2"
+  },
+  {
+    "name": "gfx_cloud_fingers"
+  },
+  {
+    "name": "gfx_cottonpuff_bg"
+  },
+  {
+    "name": "gfx_crater_blacktop"
+  },
+  {
+    "name": "gfx_crater_dirt"
+  },
+  {
+    "name": "gfx_crater_snow_grenade"
+  },
+  {
+    "name": "gfx_dark_smoke_atlas"
+  },
+  {
+    "name": "gfx_dark_smoke_atlas_bg"
+  },
+  {
+    "name": "gfx_desert_leaf_1"
+  },
+  {
+    "name": "gfx_desert_leaf_2"
+  },
+  {
+    "name": "gfx_desert_leaf_3"
+  },
+  {
+    "name": "gfx_desert_leaf_4"
+  },
+  {
+    "name": "gfx_dirtchunks"
+  },
+  {
+    "name": "gfx_dirt_falling"
+  },
+  {
+    "name": "gfx_distortion_heat"
+  },
+  {
+    "name": "gfx_distortion_noise"
+  },
+  {
+    "name": "gfx_distortion_ring_heavy"
+  },
+  {
+    "name": "gfx_distortion_ring_light"
+  },
+  {
+    "name": "gfx_distortion_ripple"
+  },
+  {
+    "name": "gfx_dusty"
+  },
+  {
+    "name": "gfx_explosion_flash"
+  },
+  {
+    "name": "gfx_exp_fireball_atlas"
+  },
+  {
+    "name": "gfx_exp_fire_smoke_atlas"
+  },
+  {
+    "name": "gfx_fire_atlas"
+  },
+  {
+    "name": "gfx_fire_ball"
+  },
+  {
+    "name": "gfx_fire_whisp"
+  },
+  {
+    "name": "gfx_flakpuff_atlas"
+  },
+  {
+    "name": "gfx_flare_c_a"
+  },
+  {
+    "name": "gfx_flare_l_a"
+  },
+  {
+    "name": "gfx_flare_m_b"
+  },
+  {
+    "name": "gfx_flare_r_a"
+  },
+  {
+    "name": "gfx_flare_r_b"
+  },
+  {
+    "name": "gfx_flesh_hit1"
+  },
+  {
+    "name": "gfx_hotspot"
+  },
+  {
+    "name": "gfx_insect_fly"
+  },
+  {
+    "name": "gfx_lightning"
+  },
+  {
+    "name": "gfx_mg42a"
+  },
+  {
+    "name": "gfx_mg42b"
+  },
+  {
+    "name": "gfx_missing_fx"
+  },
+  {
+    "name": "gfx_mist"
+  },
+  {
+    "name": "gfx_mud_splash01"
+  },
+  {
+    "name": "gfx_mud_splash02"
+  },
+  {
+    "name": "gfx_muzflash2"
+  },
+  {
+    "name": "gfx_muzflash2a"
+  },
+  {
+    "name": "gfx_rain_drop"
+  },
+  {
+    "name": "gfx_rain_mist"
+  },
+  {
+    "name": "gfx_rain_spray"
+  },
+  {
+    "name": "gfx_rockdebri_01"
+  },
+  {
+    "name": "gfx_rockdebri_02"
+  },
+  {
+    "name": "gfx_rockdebri_03"
+  },
+  {
+    "name": "gfx_rockdebri_04"
+  },
+  {
+    "name": "gfx_rockychunks01"
+  },
+  {
+    "name": "gfx_rockychunks02"
+  },
+  {
+    "name": "gfx_rockychunks03"
+  },
+  {
+    "name": "gfx_smallfill"
+  },
+  {
+    "name": "gfx_smokelight"
+  },
+  {
+    "name": "gfx_smokepuff_atlas"
+  },
+  {
+    "name": "gfx_smokepuff_atlas_bg"
+  },
+  {
+    "name": "gfx_smokepuff_atlas_bg_z10"
+  },
+  {
+    "name": "gfx_snowflake01"
+  },
+  {
+    "name": "gfx_snowflake02"
+  },
+  {
+    "name": "gfx_snowflake03"
+  },
+  {
+    "name": "gfx_snowflake04"
+  },
+  {
+    "name": "gfx_snow_flakes"
+  },
+  {
+    "name": "gfx_snow_sheet"
+  },
+  {
+    "name": "gfx_snow_sheet_add"
+  },
+  {
+    "name": "gfx_spark_atlas"
+  },
+  {
+    "name": "gfx_spotlight_beam"
+  },
+  {
+    "name": "gfx_spotlight_lensflare"
+  },
+  {
+    "name": "gfx_starburst_12p"
+  },
+  {
+    "name": "gfx_starburst_1p"
+  },
+  {
+    "name": "gfx_starburst_6p"
+  },
+  {
+    "name": "gfx_sun_flare_toujane"
+  },
+  {
+    "name": "gfx_test01"
+  },
+  {
+    "name": "gfx_test02"
+  },
+  {
+    "name": "gfx_test03"
+  },
+  {
+    "name": "gfx_test04"
+  },
+  {
+    "name": "gfx_test_atlased"
+  },
+  {
+    "name": "gfx_thompson_stage1"
+  },
+  {
+    "name": "gfx_thompson_stage2"
+  },
+  {
+    "name": "gfx_water_bubble"
+  },
+  {
+    "name": "gfx_water_floorsplash"
+  },
+  {
+    "name": "gfx_water_froth"
+  },
+  {
+    "name": "gfx_water_mist"
+  },
+  {
+    "name": "gfx_water_splash"
+  },
+  {
+    "name": "gfx_water_splash_green"
+  },
+  {
+    "name": "gfx_water_splash_ring"
+  },
+  {
+    "name": "gfx_water_splash_ring_green"
+  },
+  {
+    "name": "gfx_water_wake"
+  },
+  {
+    "name": "gfx_water_wake_green"
+  },
+  {
+    "name": "gfx_water_wake_z20"
+  },
+  {
+    "name": "gfx_whisp_spiral"
+  },
+  {
+    "name": "gfx_whisp_spiral_no_zfeather"
+  },
+  {
+    "name": "gfx_whisp_spiral_z3"
+  },
+  {
+    "name": "gfx_whitesmoke"
+  },
+  {
+    "name": "gfx_wood_splinter_atlas"
+  },
+  {
+    "name": "glow_apply_bloom"
+  },
+  {
+    "name": "glow_apply_sky_bleed"
+  },
+  {
+    "name": "glow_setup"
+  },
+  {
+    "name": "goal_volume"
+  },
+  {
+    "name": "goggles_overlay"
+  },
+  {
+    "name": "gradient"
+  },
+  {
+    "name": "grenade_arrow_splitscreen"
+  },
+  {
+    "name": "headicondisconnected"
+  },
+  {
+    "name": "headicontalkballoon"
+  },
+  {
+    "name": "headiconvoicechat"
+  },
+  {
+    "name": "headicon_american"
+  },
+  {
+    "name": "headicon_american_1"
+  },
+  {
+    "name": "headicon_american_2"
+  },
+  {
+    "name": "headicon_american_3"
+  },
+  {
+    "name": "headicon_american_xenon"
+  },
+  {
+    "name": "headicon_british"
+  },
+  {
+    "name": "headicon_british_1"
+  },
+  {
+    "name": "headicon_british_2"
+  },
+  {
+    "name": "headicon_british_3"
+  },
+  {
+    "name": "headicon_british_xenon"
+  },
+  {
+    "name": "headicon_dead"
+  },
+  {
+    "name": "headicon_dead_1"
+  },
+  {
+    "name": "headicon_dead_2"
+  },
+  {
+    "name": "headicon_dead_3"
+  },
+  {
+    "name": "headicon_german"
+  },
+  {
+    "name": "headicon_german_1"
+  },
+  {
+    "name": "headicon_german_2"
+  },
+  {
+    "name": "headicon_german_3"
+  },
+  {
+    "name": "headicon_german_xenon"
+  },
+  {
+    "name": "headicon_quickmessage"
+  },
+  {
+    "name": "headicon_russian"
+  },
+  {
+    "name": "headicon_russian_1"
+  },
+  {
+    "name": "headicon_russian_2"
+  },
+  {
+    "name": "headicon_russian_3"
+  },
+  {
+    "name": "headicon_russian_xenon"
+  },
+  {
+    "name": "hill400_barbwire_fence"
+  },
+  {
+    "name": "hill400_bunker_beam01"
+  },
+  {
+    "name": "hill400_bunker_beam01_side"
+  },
+  {
+    "name": "hill400_bunker_ceiling01"
+  },
+  {
+    "name": "hill400_bunker_door01"
+  },
+  {
+    "name": "hill400_bunker_extfloor01"
+  },
+  {
+    "name": "hill400_bunker_exttrim01"
+  },
+  {
+    "name": "hill400_bunker_extwall01"
+  },
+  {
+    "name": "hill400_bunker_extwall02"
+  },
+  {
+    "name": "hill400_bunker_floor01"
+  },
+  {
+    "name": "hill400_bunker_floortrim01"
+  },
+  {
+    "name": "hill400_bunker_intwall01"
+  },
+  {
+    "name": "hill400_bunker_roof01"
+  },
+  {
+    "name": "hill400_bunker_step01_side"
+  },
+  {
+    "name": "hill400_dirt01"
+  },
+  {
+    "name": "hill400_dirt01_blend"
+  },
+  {
+    "name": "hill400_dugtrench01"
+  },
+  {
+    "name": "hill400_grass01"
+  },
+  {
+    "name": "hill400_grass01_blend"
+  },
+  {
+    "name": "hill400_map"
+  },
+  {
+    "name": "hill400_mudtrim"
+  },
+  {
+    "name": "hill400_river01"
+  },
+  {
+    "name": "hill400_ruststain"
+  },
+  {
+    "name": "hill400_snowpatch"
+  },
+  {
+    "name": "hill400_treeline01"
+  },
+  {
+    "name": "hill400_treeline02"
+  },
+  {
+    "name": "hint"
+  },
+  {
+    "name": "hint_friendly"
+  },
+  {
+    "name": "hint_health"
+  },
+  {
+    "name": "hint_mantle"
+  },
+  {
+    "name": "hit_direction"
+  },
+  {
+    "name": "hudcolorbar"
+  },
+  {
+    "name": "hudfriendlyfire"
+  },
+  {
+    "name": "hudicon_american"
+  },
+  {
+    "name": "hudicon_british"
+  },
+  {
+    "name": "hudicon_german"
+  },
+  {
+    "name": "hudicon_russian"
+  },
+  {
+    "name": "hudscoreboardscroll_downarrow"
+  },
+  {
+    "name": "hudscoreboardscroll_downkey"
+  },
+  {
+    "name": "hudscoreboardscroll_uparrow"
+  },
+  {
+    "name": "hudscoreboardscroll_upkey"
+  },
+  {
+    "name": "hudsoftline"
+  },
+  {
+    "name": "hudsoftlineh"
+  },
+  {
+    "name": "hudstopwatch"
+  },
+  {
+    "name": "hudstopwatchneedle"
+  },
+  {
+    "name": "hud_flag_american"
+  },
+  {
+    "name": "hud_flag_british"
+  },
+  {
+    "name": "hud_flag_german"
+  },
+  {
+    "name": "hud_flag_russian"
+  },
+  {
+    "name": "hud_grenadeicon"
+  },
+  {
+    "name": "hud_grenadepointer"
+  },
+  {
+    "name": "hud_server_locked"
+  },
+  {
+    "name": "hud_server_pure"
+  },
+  {
+    "name": "hud_server_voicechat"
+  },
+  {
+    "name": "hud_status_connecting"
+  },
+  {
+    "name": "hud_status_dead"
+  },
+  {
+    "name": "hud_temperature_gauge"
+  },
+  {
+    "name": "hud_us_smokegrenade"
+  },
+  {
+    "name": "hud_us_smokegrenade_c"
+  },
+  {
+    "name": "inventory_docs"
+  },
+  {
+    "name": "inventory_stickybomb"
+  },
+  {
+    "name": "inventory_thermite"
+  },
+  {
+    "name": "inventory_tnt_large"
+  },
+  {
+    "name": "inventory_tnt_small"
+  },
+  {
+    "name": "inventory_wire_repair"
+  },
+  {
+    "name": "kill"
+  },
+  {
+    "name": "killiconcrush"
+  },
+  {
+    "name": "killicondied"
+  },
+  {
+    "name": "killicondrown"
+  },
+  {
+    "name": "killiconfalling"
+  },
+  {
+    "name": "killiconheadshot"
+  },
+  {
+    "name": "killiconmelee"
+  },
+  {
+    "name": "killiconsuicide"
+  },
+  {
+    "name": "ladder"
+  },
+  {
+    "name": "lagometer"
+  },
+  {
+    "name": "lambert1"
+  },
+  {
+    "name": "lightmap_blue"
+  },
+  {
+    "name": "lightmap_cyan"
+  },
+  {
+    "name": "lightmap_gray"
+  },
+  {
+    "name": "lightmap_green"
+  },
+  {
+    "name": "lightmap_purple"
+  },
+  {
+    "name": "lightmap_red"
+  },
+  {
+    "name": "lightmap_yellow"
+  },
+  {
+    "name": "line_horizontal"
+  },
+  {
+    "name": "line_vertical"
+  },
+  {
+    "name": "loadbar_background"
+  },
+  {
+    "name": "loadscreen_credits"
+  },
+  {
+    "name": "loadscreen_demo_toujane"
+  },
+  {
+    "name": "loadscreen_movie_africa"
+  },
+  {
+    "name": "loadscreen_movie_eastern"
+  },
+  {
+    "name": "loadscreen_movie_europe"
+  },
+  {
+    "name": "loadscreen_mp_breakout"
+  },
+  {
+    "name": "loadscreen_mp_brecourt"
+  },
+  {
+    "name": "loadscreen_mp_burgundy"
+  },
+  {
+    "name": "loadscreen_mp_carentan"
+  },
+  {
+    "name": "loadscreen_mp_dawnville"
+  },
+  {
+    "name": "loadscreen_mp_decoy"
+  },
+  {
+    "name": "loadscreen_mp_downtown"
+  },
+  {
+    "name": "loadscreen_mp_farmhouse"
+  },
+  {
+    "name": "loadscreen_mp_leningrad"
+  },
+  {
+    "name": "loadscreen_mp_matmata"
+  },
+  {
+    "name": "loadscreen_mp_railyard"
+  },
+  {
+    "name": "loadscreen_mp_toujane"
+  },
+  {
+    "name": "loadscreen_mp_trainstation"
+  },
+  {
+    "name": "loadscreen_slideshow_bergstein"
+  },
+  {
+    "name": "loadscreen_slideshow_caen"
+  },
+  {
+    "name": "loadscreen_slideshow_earlygrad"
+  },
+  {
+    "name": "loadscreen_slideshow_lategrad"
+  },
+  {
+    "name": "loadscreen_slideshow_libya"
+  },
+  {
+    "name": "loadscreen_slideshow_rhine"
+  },
+  {
+    "name": "loadscreen_slideshow_tunisia"
+  },
+  {
+    "name": "logo_cod2"
+  },
+  {
+    "name": "logo_cod2_small"
+  },
+  {
+    "name": "lsl_lvl_88ridge"
+  },
+  {
+    "name": "lsl_lvl_beltot"
+  },
+  {
+    "name": "lsl_lvl_bergstein"
+  },
+  {
+    "name": "lsl_lvl_cityhall"
+  },
+  {
+    "name": "lsl_lvl_crossroads"
+  },
+  {
+    "name": "lsl_lvl_decoytown"
+  },
+  {
+    "name": "lsl_lvl_decoytrench"
+  },
+  {
+    "name": "lsl_lvl_downtown_assault"
+  },
+  {
+    "name": "lsl_lvl_downtown_sniper"
+  },
+  {
+    "name": "lsl_lvl_duhoc_assault"
+  },
+  {
+    "name": "lsl_lvl_duhoc_defend"
+  },
+  {
+    "name": "lsl_lvl_elalamein"
+  },
+  {
+    "name": "lsl_lvl_eldaba"
+  },
+  {
+    "name": "lsl_lvl_hill400_assault"
+  },
+  {
+    "name": "lsl_lvl_libya"
+  },
+  {
+    "name": "lsl_lvl_moscow"
+  },
+  {
+    "name": "lsl_lvl_newvillers"
+  },
+  {
+    "name": "lsl_lvl_rhine"
+  },
+  {
+    "name": "lsl_lvl_silotown_assault"
+  },
+  {
+    "name": "lsl_lvl_tankhunt"
+  },
+  {
+    "name": "lsl_lvl_toujane"
+  },
+  {
+    "name": "lsm_background_sm_brit_af1"
+  },
+  {
+    "name": "lsm_background_sm_brit_af2"
+  },
+  {
+    "name": "lsm_background_sm_brit_aftank"
+  },
+  {
+    "name": "lsm_background_sm_brit_nor1"
+  },
+  {
+    "name": "lsm_background_sm_us1"
+  },
+  {
+    "name": "lsm_background_sm_us2"
+  },
+  {
+    "name": "lsm_background_sm_us3"
+  },
+  {
+    "name": "lsm_background_sm_ussr1"
+  },
+  {
+    "name": "lsm_background_sm_ussr2"
+  },
+  {
+    "name": "lsm_background_sm_ussr3"
+  },
+  {
+    "name": "lsm_cameo_brit1"
+  },
+  {
+    "name": "lsm_cameo_brit2"
+  },
+  {
+    "name": "lsm_cameo_brit3"
+  },
+  {
+    "name": "lsm_cameo_brit4"
+  },
+  {
+    "name": "lsm_cameo_us1"
+  },
+  {
+    "name": "lsm_cameo_us2"
+  },
+  {
+    "name": "lsm_cameo_us3"
+  },
+  {
+    "name": "lsm_cameo_ussr1"
+  },
+  {
+    "name": "lsm_cameo_ussr2"
+  },
+  {
+    "name": "lsm_cameo_ussr3"
+  },
+  {
+    "name": "lsm_flag_brit"
+  },
+  {
+    "name": "lsm_flag_us"
+  },
+  {
+    "name": "lsm_flag_ussr"
+  },
+  {
+    "name": "lsm_mission_caen"
+  },
+  {
+    "name": "lsm_mission_duhoc"
+  },
+  {
+    "name": "lsm_mission_earlygrad"
+  },
+  {
+    "name": "lsm_mission_egypt"
+  },
+  {
+    "name": "lsm_mission_hill400"
+  },
+  {
+    "name": "lsm_mission_lategrad"
+  },
+  {
+    "name": "lsm_mission_libya"
+  },
+  {
+    "name": "lsm_mission_rhine"
+  },
+  {
+    "name": "lsm_mission_training"
+  },
+  {
+    "name": "lsm_mission_tunisia"
+  },
+  {
+    "name": "main_back"
+  },
+  {
+    "name": "main_back_bottom_mp"
+  },
+  {
+    "name": "main_back_top_mp"
+  },
+  {
+    "name": "mantle_on"
+  },
+  {
+    "name": "mantle_over"
+  },
+  {
+    "name": "menu_bloodfade"
+  },
+  {
+    "name": "menu_screenbg"
+  },
+  {
+    "name": "mine"
+  },
+  {
+    "name": "mission_select_american_backdrop"
+  },
+  {
+    "name": "mission_select_american_background"
+  },
+  {
+    "name": "mission_select_background_ru_bottom"
+  },
+  {
+    "name": "mission_select_background_ru_top"
+  },
+  {
+    "name": "mission_select_background_uk_bottom"
+  },
+  {
+    "name": "mission_select_background_uk_top"
+  },
+  {
+    "name": "mission_select_background_us_bottom"
+  },
+  {
+    "name": "mission_select_background_us_top"
+  },
+  {
+    "name": "mission_select_british_1942_01"
+  },
+  {
+    "name": "mission_select_british_backdrop"
+  },
+  {
+    "name": "mission_select_british_background"
+  },
+  {
+    "name": "mission_select_next_mission"
+  },
+  {
+    "name": "mission_select_prev_mission"
+  },
+  {
+    "name": "mission_select_russian_1941_01"
+  },
+  {
+    "name": "mission_select_russian_1942_01"
+  },
+  {
+    "name": "mission_select_russian_backdrop"
+  },
+  {
+    "name": "mission_select_russian_background"
+  },
+  {
+    "name": "mission_select_spacer"
+  },
+  {
+    "name": "mission_select_title"
+  },
+  {
+    "name": "model_temp"
+  },
+  {
+    "name": "mod_header"
+  },
+  {
+    "name": "mpflag_american"
+  },
+  {
+    "name": "mpflag_british"
+  },
+  {
+    "name": "mpflag_none"
+  },
+  {
+    "name": "mpflag_russian"
+  },
+  {
+    "name": "mpflag_spectator"
+  },
+  {
+    "name": "mtl_155gpf_cannon"
+  },
+  {
+    "name": "mtl_155gpf_cannon_decal"
+  },
+  {
+    "name": "mtl_155gpf_parts_d"
+  },
+  {
+    "name": "mtl_155gpf_parts_decal"
+  },
+  {
+    "name": "mtl_afrca_british_body"
+  },
+  {
+    "name": "mtl_afrca_british_mcgrgr_alpha"
+  },
+  {
+    "name": "mtl_afrc_grman_head_eric"
+  },
+  {
+    "name": "mtl_africa_jeep"
+  },
+  {
+    "name": "mtl_africa_jeep_dmg"
+  },
+  {
+    "name": "mtl_american_jeep"
+  },
+  {
+    "name": "mtl_american_jeep_cot"
+  },
+  {
+    "name": "mtl_american_jeep_damage"
+  },
+  {
+    "name": "mtl_american_radio"
+  },
+  {
+    "name": "mtl_amer_braeburn"
+  },
+  {
+    "name": "mtl_amer_braeburn_wet"
+  },
+  {
+    "name": "mtl_amer_jdmedic"
+  },
+  {
+    "name": "mtl_amer_jdmedic_wet"
+  },
+  {
+    "name": "mtl_armoire"
+  },
+  {
+    "name": "mtl_armoire_d"
+  },
+  {
+    "name": "mtl_backdrop_newvillers_mtn"
+  },
+  {
+    "name": "mtl_backdrop_newvillers_trees"
+  },
+  {
+    "name": "mtl_backdrop_rhine_back"
+  },
+  {
+    "name": "mtl_backdrop_rhine_front"
+  },
+  {
+    "name": "mtl_backdrop_silotown_trees"
+  },
+  {
+    "name": "mtl_backdrop_toujane_east"
+  },
+  {
+    "name": "mtl_backdrop_toujane_north"
+  },
+  {
+    "name": "mtl_backdrop_toujane_south"
+  },
+  {
+    "name": "mtl_backdrop_toujane_west"
+  },
+  {
+    "name": "mtl_barbed_wire_a"
+  },
+  {
+    "name": "mtl_barbed_wire_a_masked"
+  },
+  {
+    "name": "mtl_bathtub"
+  },
+  {
+    "name": "mtl_bathtub_dirty"
+  },
+  {
+    "name": "mtl_bed"
+  },
+  {
+    "name": "mtl_bedmattress"
+  },
+  {
+    "name": "mtl_bedmattressgrain"
+  },
+  {
+    "name": "mtl_bed_bunker"
+  },
+  {
+    "name": "mtl_bed_bunker2"
+  },
+  {
+    "name": "mtl_bench_posts"
+  },
+  {
+    "name": "mtl_bike"
+  },
+  {
+    "name": "mtl_black_window"
+  },
+  {
+    "name": "mtl_black_window_a"
+  },
+  {
+    "name": "mtl_body_default_character"
+  },
+  {
+    "name": "mtl_books"
+  },
+  {
+    "name": "mtl_boon_head"
+  },
+  {
+    "name": "mtl_brickwall"
+  },
+  {
+    "name": "mtl_brickwall_graytile_2"
+  },
+  {
+    "name": "mtl_brickwall_red_1"
+  },
+  {
+    "name": "mtl_brick_red01"
+  },
+  {
+    "name": "mtl_british_africa_price_head"
+  },
+  {
+    "name": "mtl_british_destroyer"
+  },
+  {
+    "name": "mtl_british_duhoc_boatdriver"
+  },
+  {
+    "name": "mtl_british_grenade"
+  },
+  {
+    "name": "mtl_british_harry_head"
+  },
+  {
+    "name": "mtl_british_nm"
+  },
+  {
+    "name": "mtl_british_nm_marking"
+  },
+  {
+    "name": "mtl_british_normandy_price_head"
+  },
+  {
+    "name": "mtl_british_smoke_grenade"
+  },
+  {
+    "name": "mtl_british_wellington"
+  },
+  {
+    "name": "mtl_brit_africa_pricehat"
+  },
+  {
+    "name": "mtl_brtish_afrca_chrcters"
+  },
+  {
+    "name": "mtl_brtish_afrca_heads"
+  },
+  {
+    "name": "mtl_brush_egypt_desert"
+  },
+  {
+    "name": "mtl_brush_grasslowline"
+  },
+  {
+    "name": "mtl_brush_toujanebigbushy"
+  },
+  {
+    "name": "mtl_bunkerlightswitch"
+  },
+  {
+    "name": "mtl_bunkerlights_off"
+  },
+  {
+    "name": "mtl_bunkerlights_on"
+  },
+  {
+    "name": "mtl_bunkerlocker"
+  },
+  {
+    "name": "mtl_bunker_air_filter"
+  },
+  {
+    "name": "mtl_bunker_electrical_box"
+  },
+  {
+    "name": "mtl_bunker_phone"
+  },
+  {
+    "name": "mtl_bunker_stove"
+  },
+  {
+    "name": "mtl_bunker_tanker"
+  },
+  {
+    "name": "mtl_bunker_vent"
+  },
+  {
+    "name": "mtl_burntwood_01"
+  },
+  {
+    "name": "mtl_bushes_normandy"
+  },
+  {
+    "name": "mtl_caen_black"
+  },
+  {
+    "name": "mtl_caen_brick_damaged1"
+  },
+  {
+    "name": "mtl_caen_brick_wtorn_lg1a"
+  },
+  {
+    "name": "mtl_caen_brick_wtorn_lg1b"
+  },
+  {
+    "name": "mtl_caen_candlelight"
+  },
+  {
+    "name": "mtl_caen_ceiling_01"
+  },
+  {
+    "name": "mtl_caen_ceiling_02"
+  },
+  {
+    "name": "mtl_caen_ceiling_03"
+  },
+  {
+    "name": "mtl_caen_ceiling_04"
+  },
+  {
+    "name": "mtl_caen_ceiling_woodworn_01"
+  },
+  {
+    "name": "mtl_caen_ceiling_wood_01"
+  },
+  {
+    "name": "mtl_caen_chimney_01"
+  },
+  {
+    "name": "mtl_caen_chimney_02"
+  },
+  {
+    "name": "mtl_caen_chimney_pipe_01"
+  },
+  {
+    "name": "mtl_caen_chimney_topsides_01"
+  },
+  {
+    "name": "mtl_caen_chimney_top_01"
+  },
+  {
+    "name": "mtl_caen_churchpew"
+  },
+  {
+    "name": "mtl_caen_church_altartablefront"
+  },
+  {
+    "name": "mtl_caen_cloth_redvelvet"
+  },
+  {
+    "name": "mtl_caen_column_stone_01"
+  },
+  {
+    "name": "mtl_caen_column_stone_02"
+  },
+  {
+    "name": "mtl_caen_core_floor_1"
+  },
+  {
+    "name": "mtl_caen_core_floor_2"
+  },
+  {
+    "name": "mtl_caen_core_stonewall_01"
+  },
+  {
+    "name": "mtl_caen_core_timber_01"
+  },
+  {
+    "name": "mtl_caen_core_wall_01"
+  },
+  {
+    "name": "mtl_caen_core_wall_01_01"
+  },
+  {
+    "name": "mtl_caen_core_wall_01_02"
+  },
+  {
+    "name": "mtl_caen_core_wall_01_03"
+  },
+  {
+    "name": "mtl_caen_core_wall_01_04"
+  },
+  {
+    "name": "mtl_caen_core_wall_01_05"
+  },
+  {
+    "name": "mtl_caen_core_wall_02"
+  },
+  {
+    "name": "mtl_caen_core_wall_03"
+  },
+  {
+    "name": "mtl_caen_core_wall_04"
+  },
+  {
+    "name": "mtl_caen_decal_biscuits"
+  },
+  {
+    "name": "mtl_caen_decal_bldgcorner_01"
+  },
+  {
+    "name": "mtl_caen_decal_camot"
+  },
+  {
+    "name": "mtl_caen_decal_churchbandaid_01"
+  },
+  {
+    "name": "mtl_caen_decal_churchcorner_01"
+  },
+  {
+    "name": "mtl_caen_decal_churchext_trim_01"
+  },
+  {
+    "name": "mtl_caen_decal_churchstonebottom_01"
+  },
+  {
+    "name": "mtl_caen_decal_churchstonewall_01"
+  },
+  {
+    "name": "mtl_caen_decal_crater_01"
+  },
+  {
+    "name": "mtl_caen_decal_darkstain_02"
+  },
+  {
+    "name": "mtl_caen_decal_darkstain_04"
+  },
+  {
+    "name": "mtl_caen_decal_darkstain_05"
+  },
+  {
+    "name": "mtl_caen_decal_darkstain_06"
+  },
+  {
+    "name": "mtl_caen_decal_darkstain_07"
+  },
+  {
+    "name": "mtl_caen_decal_darkstain_08"
+  },
+  {
+    "name": "mtl_caen_decal_darkstain_09"
+  },
+  {
+    "name": "mtl_caen_decal_drain"
+  },
+  {
+    "name": "mtl_caen_decal_ground_hay_01"
+  },
+  {
+    "name": "mtl_caen_decal_hotellafaire"
+  },
+  {
+    "name": "mtl_caen_decal_huiles"
+  },
+  {
+    "name": "mtl_caen_decal_intchurchcorner_01"
+  },
+  {
+    "name": "mtl_caen_decal_jore"
+  },
+  {
+    "name": "mtl_caen_decal_lightstain_01"
+  },
+  {
+    "name": "mtl_caen_decal_lightstain_02"
+  },
+  {
+    "name": "mtl_caen_decal_lightstain_03"
+  },
+  {
+    "name": "mtl_caen_decal_lightstain_04"
+  },
+  {
+    "name": "mtl_caen_decal_lyon"
+  },
+  {
+    "name": "mtl_caen_decal_mudedge_01"
+  },
+  {
+    "name": "mtl_caen_decal_mudedge_02"
+  },
+  {
+    "name": "mtl_caen_decal_mudroadbend01"
+  },
+  {
+    "name": "mtl_caen_decal_mudtrack_01"
+  },
+  {
+    "name": "mtl_caen_decal_paintchip_01"
+  },
+  {
+    "name": "mtl_caen_decal_plasterwall_01"
+  },
+  {
+    "name": "mtl_caen_decal_plasterwall_02"
+  },
+  {
+    "name": "mtl_caen_decal_plasterwall_03"
+  },
+  {
+    "name": "mtl_caen_decal_plasterwall_04"
+  },
+  {
+    "name": "mtl_caen_decal_plasterwall_05"
+  },
+  {
+    "name": "mtl_caen_decal_plasterwall_06"
+  },
+  {
+    "name": "mtl_caen_decal_plasterwall_07"
+  },
+  {
+    "name": "mtl_caen_decal_plasterwall_08"
+  },
+  {
+    "name": "mtl_caen_decal_roadcrack_01"
+  },
+  {
+    "name": "mtl_caen_decal_roadcrack_02"
+  },
+  {
+    "name": "mtl_caen_decal_roadcrack_03"
+  },
+  {
+    "name": "mtl_caen_decal_roadcrack_04"
+  },
+  {
+    "name": "mtl_caen_decal_roadedge"
+  },
+  {
+    "name": "mtl_caen_decal_road_01"
+  },
+  {
+    "name": "mtl_caen_decal_road_03"
+  },
+  {
+    "name": "mtl_caen_decal_roof_stain_01"
+  },
+  {
+    "name": "mtl_caen_decal_soze"
+  },
+  {
+    "name": "mtl_caen_decal_stain_plasterwall_02"
+  },
+  {
+    "name": "mtl_caen_decal_steppingstone_1"
+  },
+  {
+    "name": "mtl_caen_decal_steppingstone_2"
+  },
+  {
+    "name": "mtl_caen_decal_steppingstone_3"
+  },
+  {
+    "name": "mtl_caen_decal_steppingstone_4"
+  },
+  {
+    "name": "mtl_caen_decal_stonewallbottom_01"
+  },
+  {
+    "name": "mtl_caen_decal_stonewallbottom_02"
+  },
+  {
+    "name": "mtl_caen_decal_stonewallbottom_05"
+  },
+  {
+    "name": "mtl_caen_decal_stonewallbottom_06"
+  },
+  {
+    "name": "mtl_caen_decal_stonewallbottom_07"
+  },
+  {
+    "name": "mtl_caen_decal_stonewalledge_01"
+  },
+  {
+    "name": "mtl_caen_decal_stonewalltop_01"
+  },
+  {
+    "name": "mtl_caen_decal_stonewalltop_02"
+  },
+  {
+    "name": "mtl_caen_decal_stonewall_01"
+  },
+  {
+    "name": "mtl_caen_decal_stonewall_02"
+  },
+  {
+    "name": "mtl_caen_decal_stonewall_03"
+  },
+  {
+    "name": "mtl_caen_decal_stonewall_04"
+  },
+  {
+    "name": "mtl_caen_decal_stonewall_05"
+  },
+  {
+    "name": "mtl_caen_decal_trim_brickedge_01"
+  },
+  {
+    "name": "mtl_caen_decal_trim_stonewallcorner_01"
+  },
+  {
+    "name": "mtl_caen_decal_wallpaperpeel_01"
+  },
+  {
+    "name": "mtl_caen_decal_wallpaperpeel_02"
+  },
+  {
+    "name": "mtl_caen_decal_wallpaperstain_01"
+  },
+  {
+    "name": "mtl_caen_decal_wallpapertear_01"
+  },
+  {
+    "name": "mtl_caen_decal_wallpapertear_02"
+  },
+  {
+    "name": "mtl_caen_decal_wallpapertear_03"
+  },
+  {
+    "name": "mtl_caen_decal_wall_ext_01"
+  },
+  {
+    "name": "mtl_caen_decal_wall_int_01"
+  },
+  {
+    "name": "mtl_caen_decal_wall_int_02"
+  },
+  {
+    "name": "mtl_caen_decal_wall_int_03"
+  },
+  {
+    "name": "mtl_caen_decal_wall_int_04"
+  },
+  {
+    "name": "mtl_caen_decal_wall_int_05"
+  },
+  {
+    "name": "mtl_caen_decal_wall_int_06"
+  },
+  {
+    "name": "mtl_caen_decal_wireblack_01"
+  },
+  {
+    "name": "mtl_caen_decal_wiregray_01"
+  },
+  {
+    "name": "mtl_caen_decor_int_church_01"
+  },
+  {
+    "name": "mtl_caen_decor_int_church_02"
+  },
+  {
+    "name": "mtl_caen_decor_int_church_03"
+  },
+  {
+    "name": "mtl_caen_door_01"
+  },
+  {
+    "name": "mtl_caen_door_02"
+  },
+  {
+    "name": "mtl_caen_door_churchdouble_01"
+  },
+  {
+    "name": "mtl_caen_door_churchdouble_02"
+  },
+  {
+    "name": "mtl_caen_door_church_01"
+  },
+  {
+    "name": "mtl_caen_door_frame_ext_01"
+  },
+  {
+    "name": "mtl_caen_door_frame_ext_02"
+  },
+  {
+    "name": "mtl_caen_door_frame_int_01"
+  },
+  {
+    "name": "mtl_caen_door_wood_01"
+  },
+  {
+    "name": "mtl_caen_door_wood_02"
+  },
+  {
+    "name": "mtl_caen_door_wood_03"
+  },
+  {
+    "name": "mtl_caen_drainpipe_dents_01"
+  },
+  {
+    "name": "mtl_caen_drainpipe_gray_01"
+  },
+  {
+    "name": "mtl_caen_drainpipe_red_01"
+  },
+  {
+    "name": "mtl_caen_drain_01"
+  },
+  {
+    "name": "mtl_caen_facade_01"
+  },
+  {
+    "name": "mtl_caen_facade_closed_window_02"
+  },
+  {
+    "name": "mtl_caen_facade_int_arch_01"
+  },
+  {
+    "name": "mtl_caen_facade_int_arch_trim_01"
+  },
+  {
+    "name": "mtl_caen_fencewalltop_01"
+  },
+  {
+    "name": "mtl_caen_fence_iron_01"
+  },
+  {
+    "name": "mtl_caen_fireplace_01"
+  },
+  {
+    "name": "mtl_caen_fireplace_02"
+  },
+  {
+    "name": "mtl_caen_fireplace_03"
+  },
+  {
+    "name": "mtl_caen_fireplace_04"
+  },
+  {
+    "name": "mtl_caen_fireplace_05"
+  },
+  {
+    "name": "mtl_caen_fireplace_06"
+  },
+  {
+    "name": "mtl_caen_floor_ext_01"
+  },
+  {
+    "name": "mtl_caen_floor_hexagontiles_01"
+  },
+  {
+    "name": "mtl_caen_floor_int_01"
+  },
+  {
+    "name": "mtl_caen_floor_int_01_alpha"
+  },
+  {
+    "name": "mtl_caen_floor_int_02"
+  },
+  {
+    "name": "mtl_caen_floor_int_02_01"
+  },
+  {
+    "name": "mtl_caen_floor_int_carpet_01"
+  },
+  {
+    "name": "mtl_caen_floor_int_church_01"
+  },
+  {
+    "name": "mtl_caen_floor_int_stone_01"
+  },
+  {
+    "name": "mtl_caen_floor_int_worn_01"
+  },
+  {
+    "name": "mtl_caen_floor_wood_01"
+  },
+  {
+    "name": "mtl_caen_fullgrass_01"
+  },
+  {
+    "name": "mtl_caen_fullgrass_01_blend"
+  },
+  {
+    "name": "mtl_caen_geraniumclaypot"
+  },
+  {
+    "name": "mtl_caen_geraniums"
+  },
+  {
+    "name": "mtl_caen_geraniumwindowbar"
+  },
+  {
+    "name": "mtl_caen_grassweed_all"
+  },
+  {
+    "name": "mtl_caen_grass_01"
+  },
+  {
+    "name": "mtl_caen_grass_02"
+  },
+  {
+    "name": "mtl_caen_grass_blend_01"
+  },
+  {
+    "name": "mtl_caen_grass_blend_02"
+  },
+  {
+    "name": "mtl_caen_grass_over_01"
+  },
+  {
+    "name": "mtl_caen_grass_weed_all"
+  },
+  {
+    "name": "mtl_caen_ground_paved_01"
+  },
+  {
+    "name": "mtl_caen_hedgerowbackdrop_01"
+  },
+  {
+    "name": "mtl_caen_int_stair_rise_01"
+  },
+  {
+    "name": "mtl_caen_int_stair_run_01"
+  },
+  {
+    "name": "mtl_caen_int_wallpaper_01"
+  },
+  {
+    "name": "mtl_caen_int_wallpaper_02"
+  },
+  {
+    "name": "mtl_caen_int_wallpaper_03"
+  },
+  {
+    "name": "mtl_caen_int_woodpanel"
+  },
+  {
+    "name": "mtl_caen_int_woodpanel_stain"
+  },
+  {
+    "name": "mtl_caen_ivy"
+  },
+  {
+    "name": "mtl_caen_mud_01"
+  },
+  {
+    "name": "mtl_caen_mud_02"
+  },
+  {
+    "name": "mtl_caen_mud_blend_01"
+  },
+  {
+    "name": "mtl_caen_mud_blend_02"
+  },
+  {
+    "name": "mtl_caen_pipe_01"
+  },
+  {
+    "name": "mtl_caen_plaster_int2f"
+  },
+  {
+    "name": "mtl_caen_plowfield_01"
+  },
+  {
+    "name": "mtl_caen_plowfield_blend_01"
+  },
+  {
+    "name": "mtl_caen_road_asphalt_01"
+  },
+  {
+    "name": "mtl_caen_road_cobblestone_01"
+  },
+  {
+    "name": "mtl_caen_roof_01"
+  },
+  {
+    "name": "mtl_caen_roof_02"
+  },
+  {
+    "name": "mtl_caen_roof_03"
+  },
+  {
+    "name": "mtl_caen_roof_04"
+  },
+  {
+    "name": "mtl_caen_roof_alpha_lattice_01"
+  },
+  {
+    "name": "mtl_caen_roof_asphalt_01"
+  },
+  {
+    "name": "mtl_caen_roof_clay_red_01"
+  },
+  {
+    "name": "mtl_caen_roof_shinglewood_01"
+  },
+  {
+    "name": "mtl_caen_roof_slatebluegray_01"
+  },
+  {
+    "name": "mtl_caen_roof_underside_01"
+  },
+  {
+    "name": "mtl_caen_rubble_01"
+  },
+  {
+    "name": "mtl_caen_rubble_01_blend"
+  },
+  {
+    "name": "mtl_caen_sidewalk_01"
+  },
+  {
+    "name": "mtl_caen_sidewalk_trim_01"
+  },
+  {
+    "name": "mtl_caen_sign_dupasquet"
+  },
+  {
+    "name": "mtl_caen_sign_soze"
+  },
+  {
+    "name": "mtl_caen_stair_rise_church_01"
+  },
+  {
+    "name": "mtl_caen_stair_rise_ext_01"
+  },
+  {
+    "name": "mtl_caen_stair_rise_int_01"
+  },
+  {
+    "name": "mtl_caen_stair_rise_int_worn_01"
+  },
+  {
+    "name": "mtl_caen_stair_run_church_01"
+  },
+  {
+    "name": "mtl_caen_stair_run_ext_01"
+  },
+  {
+    "name": "mtl_caen_stair_run_int_01"
+  },
+  {
+    "name": "mtl_caen_stair_run_int_worn_01"
+  },
+  {
+    "name": "mtl_caen_stonewall_01"
+  },
+  {
+    "name": "mtl_caen_stonewall_02"
+  },
+  {
+    "name": "mtl_caen_stonewall_bottom_01"
+  },
+  {
+    "name": "mtl_caen_telepole_01"
+  },
+  {
+    "name": "mtl_caen_trim_bottomstone_01"
+  },
+  {
+    "name": "mtl_caen_trim_church_int_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_01_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_02"
+  },
+  {
+    "name": "mtl_caen_trim_ext_02_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_03"
+  },
+  {
+    "name": "mtl_caen_trim_ext_04"
+  },
+  {
+    "name": "mtl_caen_trim_ext_05"
+  },
+  {
+    "name": "mtl_caen_trim_ext_06"
+  },
+  {
+    "name": "mtl_caen_trim_ext_07"
+  },
+  {
+    "name": "mtl_caen_trim_ext_08"
+  },
+  {
+    "name": "mtl_caen_trim_ext_09"
+  },
+  {
+    "name": "mtl_caen_trim_ext_09_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_10"
+  },
+  {
+    "name": "mtl_caen_trim_ext_11"
+  },
+  {
+    "name": "mtl_caen_trim_ext_12"
+  },
+  {
+    "name": "mtl_caen_trim_ext_church_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_church_02"
+  },
+  {
+    "name": "mtl_caen_trim_ext_church_03"
+  },
+  {
+    "name": "mtl_caen_trim_ext_doorframe_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_foundation_02"
+  },
+  {
+    "name": "mtl_caen_trim_ext_gutter_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_plaster_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_stone_slate_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_stone_slate_02"
+  },
+  {
+    "name": "mtl_caen_trim_ext_wallpost_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_wall_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_wall_bottom_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_worn_wood_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_worn_wood_01_01"
+  },
+  {
+    "name": "mtl_caen_trim_ext_worn_wood_02"
+  },
+  {
+    "name": "mtl_caen_trim_ext_worn_wood_03"
+  },
+  {
+    "name": "mtl_caen_trim_ext_worn_wood_04"
+  },
+  {
+    "name": "mtl_caen_trim_int_church_01"
+  },
+  {
+    "name": "mtl_caen_trim_int_church_02"
+  },
+  {
+    "name": "mtl_caen_trim_int_church_03"
+  },
+  {
+    "name": "mtl_caen_trim_int_floor_splitter_01"
+  },
+  {
+    "name": "mtl_caen_trim_int_pillar_01"
+  },
+  {
+    "name": "mtl_caen_trim_int_pillar_head_01"
+  },
+  {
+    "name": "mtl_caen_trim_int_worn_wood_01"
+  },
+  {
+    "name": "mtl_caen_trim_int_worn_wood_02"
+  },
+  {
+    "name": "mtl_caen_trim_woodbrown"
+  },
+  {
+    "name": "mtl_caen_trim_woodburnt"
+  },
+  {
+    "name": "mtl_caen_trim_woodgray"
+  },
+  {
+    "name": "mtl_caen_trim_woodwhite"
+  },
+  {
+    "name": "mtl_caen_trim_woodworn_01"
+  },
+  {
+    "name": "mtl_caen_wallextstonestainbottom"
+  },
+  {
+    "name": "mtl_caen_wall_256tile_stone_01"
+  },
+  {
+    "name": "mtl_caen_wall_256tile_stone_02"
+  },
+  {
+    "name": "mtl_caen_wall_512tile_stone_01"
+  },
+  {
+    "name": "mtl_caen_wall_512tile_stone_02"
+  },
+  {
+    "name": "mtl_caen_wall_brickred_01"
+  },
+  {
+    "name": "mtl_caen_wall_brickred_02"
+  },
+  {
+    "name": "mtl_caen_wall_brickred_03"
+  },
+  {
+    "name": "mtl_caen_wall_churchstone_01"
+  },
+  {
+    "name": "mtl_caen_wall_churchstone_02"
+  },
+  {
+    "name": "mtl_caen_wall_churchstone_03"
+  },
+  {
+    "name": "mtl_caen_wall_churchstone_04"
+  },
+  {
+    "name": "mtl_caen_wall_concrete"
+  },
+  {
+    "name": "mtl_caen_wall_ext_01"
+  },
+  {
+    "name": "mtl_caen_wall_ext_01_01"
+  },
+  {
+    "name": "mtl_caen_wall_ext_03"
+  },
+  {
+    "name": "mtl_caen_wall_ext_04"
+  },
+  {
+    "name": "mtl_caen_wall_ext_05"
+  },
+  {
+    "name": "mtl_caen_wall_ext_06"
+  },
+  {
+    "name": "mtl_caen_wall_ext_07"
+  },
+  {
+    "name": "mtl_caen_wall_ext_08"
+  },
+  {
+    "name": "mtl_caen_wall_ext_10"
+  },
+  {
+    "name": "mtl_caen_wall_ext_brick_01"
+  },
+  {
+    "name": "mtl_caen_wall_ext_brick_01_01"
+  },
+  {
+    "name": "mtl_caen_wall_ext_brick_01_02"
+  },
+  {
+    "name": "mtl_caen_wall_ext_brick_01_03"
+  },
+  {
+    "name": "mtl_caen_wall_ext_brick_02"
+  },
+  {
+    "name": "mtl_caen_wall_ext_brick_03"
+  },
+  {
+    "name": "mtl_caen_wall_ext_church_01"
+  },
+  {
+    "name": "mtl_caen_wall_ext_church_02"
+  },
+  {
+    "name": "mtl_caen_wall_ext_church_02_01"
+  },
+  {
+    "name": "mtl_caen_wall_ext_church_03"
+  },
+  {
+    "name": "mtl_caen_wall_ext_low_01"
+  },
+  {
+    "name": "mtl_caen_wall_ext_plaster_01"
+  },
+  {
+    "name": "mtl_caen_wall_ext_plaster_02"
+  },
+  {
+    "name": "mtl_caen_wall_ext_plaster_03"
+  },
+  {
+    "name": "mtl_caen_wall_ext_plaster_03_01"
+  },
+  {
+    "name": "mtl_caen_wall_ext_wood_01"
+  },
+  {
+    "name": "mtl_caen_wall_ext_wood_credit"
+  },
+  {
+    "name": "mtl_caen_wall_int_01"
+  },
+  {
+    "name": "mtl_caen_wall_int_01_1"
+  },
+  {
+    "name": "mtl_caen_wall_int_02"
+  },
+  {
+    "name": "mtl_caen_wall_int_02_01"
+  },
+  {
+    "name": "mtl_caen_wall_int_02_02"
+  },
+  {
+    "name": "mtl_caen_wall_int_02_03"
+  },
+  {
+    "name": "mtl_caen_wall_int_02_04"
+  },
+  {
+    "name": "mtl_caen_wall_int_02_05"
+  },
+  {
+    "name": "mtl_caen_wall_int_03"
+  },
+  {
+    "name": "mtl_caen_wall_int_03_01"
+  },
+  {
+    "name": "mtl_caen_wall_int_03_02"
+  },
+  {
+    "name": "mtl_caen_wall_int_04"
+  },
+  {
+    "name": "mtl_caen_wall_int_04_01"
+  },
+  {
+    "name": "mtl_caen_wall_int_04_02"
+  },
+  {
+    "name": "mtl_caen_wall_int_05"
+  },
+  {
+    "name": "mtl_caen_wall_int_06"
+  },
+  {
+    "name": "mtl_caen_wall_int_07"
+  },
+  {
+    "name": "mtl_caen_wall_int_churchplaster_01"
+  },
+  {
+    "name": "mtl_caen_wall_int_churchstone_01"
+  },
+  {
+    "name": "mtl_caen_wall_int_church_01"
+  },
+  {
+    "name": "mtl_caen_wall_int_church_02"
+  },
+  {
+    "name": "mtl_caen_wall_int_church_03"
+  },
+  {
+    "name": "mtl_caen_wall_int_church_04"
+  },
+  {
+    "name": "mtl_caen_wall_int_church_05"
+  },
+  {
+    "name": "mtl_caen_wall_int_decal_01"
+  },
+  {
+    "name": "mtl_caen_wall_int_decal_02"
+  },
+  {
+    "name": "mtl_caen_wall_int_tile_01"
+  },
+  {
+    "name": "mtl_caen_wall_int_tile_02"
+  },
+  {
+    "name": "mtl_caen_wall_int_trim_01"
+  },
+  {
+    "name": "mtl_caen_wall_int_trim_02"
+  },
+  {
+    "name": "mtl_caen_wall_int_trim_03"
+  },
+  {
+    "name": "mtl_caen_wall_plaster_03"
+  },
+  {
+    "name": "mtl_caen_wall_wood_01"
+  },
+  {
+    "name": "mtl_caen_windowpulleyhook"
+  },
+  {
+    "name": "mtl_caen_windowpulleyhookalpha"
+  },
+  {
+    "name": "mtl_caen_window_brown_1"
+  },
+  {
+    "name": "mtl_caen_window_brown_2"
+  },
+  {
+    "name": "mtl_caen_window_covercurtain_2"
+  },
+  {
+    "name": "mtl_caen_window_covercurtain_3"
+  },
+  {
+    "name": "mtl_caen_window_covercurtain_4"
+  },
+  {
+    "name": "mtl_caen_window_covercurtain_5"
+  },
+  {
+    "name": "mtl_caen_window_covered_1"
+  },
+  {
+    "name": "mtl_caen_window_ext_stainglass_01"
+  },
+  {
+    "name": "mtl_caen_window_ext_stainglass_02"
+  },
+  {
+    "name": "mtl_caen_window_ext_stainglass_03"
+  },
+  {
+    "name": "mtl_caen_window_frame_01"
+  },
+  {
+    "name": "mtl_caen_window_frame_02"
+  },
+  {
+    "name": "mtl_caen_window_frame_03"
+  },
+  {
+    "name": "mtl_caen_window_frame_04"
+  },
+  {
+    "name": "mtl_caen_window_frame_05"
+  },
+  {
+    "name": "mtl_caen_window_frame_06"
+  },
+  {
+    "name": "mtl_caen_window_int_stainglass_01"
+  },
+  {
+    "name": "mtl_caen_window_int_whitealpha_1"
+  },
+  {
+    "name": "mtl_caen_window_ledge_01"
+  },
+  {
+    "name": "mtl_caen_window_shutter_01"
+  },
+  {
+    "name": "mtl_caen_window_shutter_02"
+  },
+  {
+    "name": "mtl_caen_window_shutter_03"
+  },
+  {
+    "name": "mtl_caen_window_shutter_04"
+  },
+  {
+    "name": "mtl_caen_window_shutter_05"
+  },
+  {
+    "name": "mtl_caen_window_shutter_05_01"
+  },
+  {
+    "name": "mtl_caen_window_shutter_06"
+  },
+  {
+    "name": "mtl_caen_window_shutter_brown_01"
+  },
+  {
+    "name": "mtl_caen_window_shut_01"
+  },
+  {
+    "name": "mtl_caen_window_shut_02"
+  },
+  {
+    "name": "mtl_caen_window_shut_03"
+  },
+  {
+    "name": "mtl_caen_window_shut_04"
+  },
+  {
+    "name": "mtl_caen_window_shut_05"
+  },
+  {
+    "name": "mtl_caen_window_whitealpha_1"
+  },
+  {
+    "name": "mtl_caen_window_white_01"
+  },
+  {
+    "name": "mtl_caen_window_white_1"
+  },
+  {
+    "name": "mtl_caen_window_white_2"
+  },
+  {
+    "name": "mtl_caen_woodwall1wtorn"
+  },
+  {
+    "name": "mtl_camo_brush"
+  },
+  {
+    "name": "mtl_camo_brush_d"
+  },
+  {
+    "name": "mtl_camo_foliage"
+  },
+  {
+    "name": "mtl_camo_foliage_d"
+  },
+  {
+    "name": "mtl_canopies1cloth"
+  },
+  {
+    "name": "mtl_canopies1wood"
+  },
+  {
+    "name": "mtl_canopy01"
+  },
+  {
+    "name": "mtl_canopybed"
+  },
+  {
+    "name": "mtl_canopybed2"
+  },
+  {
+    "name": "mtl_canopygrill"
+  },
+  {
+    "name": "mtl_carentan_arches01"
+  },
+  {
+    "name": "mtl_carentan_iron_fence01"
+  },
+  {
+    "name": "mtl_carentan_window_frame01"
+  },
+  {
+    "name": "mtl_ceiling"
+  },
+  {
+    "name": "mtl_char_wood"
+  },
+  {
+    "name": "mtl_chickencoop"
+  },
+  {
+    "name": "mtl_chokkacola"
+  },
+  {
+    "name": "mtl_churchdome_stalingrad"
+  },
+  {
+    "name": "mtl_civcar_glass"
+  },
+  {
+    "name": "mtl_civiliancar_damaged_blue"
+  },
+  {
+    "name": "mtl_civiliancar_damaged_red"
+  },
+  {
+    "name": "mtl_civiliancar_damaged_white"
+  },
+  {
+    "name": "mtl_cliff01"
+  },
+  {
+    "name": "mtl_cliff02"
+  },
+  {
+    "name": "mtl_cliff03"
+  },
+  {
+    "name": "mtl_cliff04"
+  },
+  {
+    "name": "mtl_cliff05"
+  },
+  {
+    "name": "mtl_cliff06"
+  },
+  {
+    "name": "mtl_cliffbase"
+  },
+  {
+    "name": "mtl_composite"
+  },
+  {
+    "name": "mtl_concrete01"
+  },
+  {
+    "name": "mtl_concrete_bridge_concrete01"
+  },
+  {
+    "name": "mtl_concrete_bridge_concrete02"
+  },
+  {
+    "name": "mtl_concrete_bridge_concrete03"
+  },
+  {
+    "name": "mtl_concrete_bridge_cracked01"
+  },
+  {
+    "name": "mtl_concrete_bridge_cracked02"
+  },
+  {
+    "name": "mtl_concrete_bridge_rust01"
+  },
+  {
+    "name": "mtl_concrete_bridge_rust02"
+  },
+  {
+    "name": "mtl_concrete_bridge_snow01"
+  },
+  {
+    "name": "mtl_concrete_white1"
+  },
+  {
+    "name": "mtl_condorfusel"
+  },
+  {
+    "name": "mtl_condorparts"
+  },
+  {
+    "name": "mtl_condorwings"
+  },
+  {
+    "name": "mtl_copperpan_metalpots"
+  },
+  {
+    "name": "mtl_cow"
+  },
+  {
+    "name": "mtl_cracked"
+  },
+  {
+    "name": "mtl_crate"
+  },
+  {
+    "name": "mtl_crate_snow"
+  },
+  {
+    "name": "mtl_crypt1"
+  },
+  {
+    "name": "mtl_crypt2"
+  },
+  {
+    "name": "mtl_dak_crate_decals_russian"
+  },
+  {
+    "name": "mtl_dak_crate_russian"
+  },
+  {
+    "name": "mtl_dan_head"
+  },
+  {
+    "name": "mtl_david_head"
+  },
+  {
+    "name": "mtl_david_head_wet"
+  },
+  {
+    "name": "mtl_decal_chain"
+  },
+  {
+    "name": "mtl_decal_crack1"
+  },
+  {
+    "name": "mtl_decal_crack2"
+  },
+  {
+    "name": "mtl_decal_cracked"
+  },
+  {
+    "name": "mtl_decal_rusty1"
+  },
+  {
+    "name": "mtl_decal_rusty2"
+  },
+  {
+    "name": "mtl_defaultvehicle"
+  },
+  {
+    "name": "mtl_dept_letters"
+  },
+  {
+    "name": "mtl_desertpalm"
+  },
+  {
+    "name": "mtl_desertpalmfronds"
+  },
+  {
+    "name": "mtl_desertshrubs"
+  },
+  {
+    "name": "mtl_desk_a"
+  },
+  {
+    "name": "mtl_desk_b"
+  },
+  {
+    "name": "mtl_destroyedcrates"
+  },
+  {
+    "name": "mtl_destroyed_snow_trees"
+  },
+  {
+    "name": "mtl_destroyed_snow_trees_canopy"
+  },
+  {
+    "name": "mtl_destroyed_trees"
+  },
+  {
+    "name": "mtl_destroyed_trees_canopy"
+  },
+  {
+    "name": "mtl_detail_chandalier_candles"
+  },
+  {
+    "name": "mtl_detail_chandalier_cross"
+  },
+  {
+    "name": "mtl_detail_chandalier_vert"
+  },
+  {
+    "name": "mtl_detail_flaksheinwerfer_crank"
+  },
+  {
+    "name": "mtl_detail_flaksheinwerfer_flaksheinwerfer"
+  },
+  {
+    "name": "mtl_detail_flaksheinwerfer_hub"
+  },
+  {
+    "name": "mtl_detail_flaksheinwerfer_on"
+  },
+  {
+    "name": "mtl_detail_flaksheinwerfer_searchlightbeam"
+  },
+  {
+    "name": "mtl_detail_flaksheinwerfer_tread"
+  },
+  {
+    "name": "mtl_detail_hedgehog"
+  },
+  {
+    "name": "mtl_detail_lampdesk_lampdeskoff"
+  },
+  {
+    "name": "mtl_detail_lampdesk_shadewire"
+  },
+  {
+    "name": "mtl_detail_lampornate_lampornateoff"
+  },
+  {
+    "name": "mtl_detail_lampornate_shadewire"
+  },
+  {
+    "name": "mtl_detail_lampplain_lampshadeplainon"
+  },
+  {
+    "name": "mtl_detail_lampplain_metalbase"
+  },
+  {
+    "name": "mtl_detail_lampplain_plainlampbase"
+  },
+  {
+    "name": "mtl_detail_lampplain_plainlampbaseon"
+  },
+  {
+    "name": "mtl_detail_lampplain_shadewire"
+  },
+  {
+    "name": "mtl_detail_lamptiffany_glasslight"
+  },
+  {
+    "name": "mtl_detail_lamptiffany_metal"
+  },
+  {
+    "name": "mtl_detail_lantern"
+  },
+  {
+    "name": "mtl_detail_lantern_alpha"
+  },
+  {
+    "name": "mtl_detail_lantern_on"
+  },
+  {
+    "name": "mtl_detail_lights_candelabre_arms"
+  },
+  {
+    "name": "mtl_detail_lights_candelabre_base"
+  },
+  {
+    "name": "mtl_detail_lights_candelabre_candle"
+  },
+  {
+    "name": "mtl_detail_signallight_signallight"
+  },
+  {
+    "name": "mtl_detail_signallight_signallightoff"
+  },
+  {
+    "name": "mtl_detail_walllightcrystal_crystal"
+  },
+  {
+    "name": "mtl_detail_walllightcrystal_crystal_on"
+  },
+  {
+    "name": "mtl_detail_walllightcrystal_ornate"
+  },
+  {
+    "name": "mtl_detail_walllightornate_arms"
+  },
+  {
+    "name": "mtl_detail_walllightornate_base"
+  },
+  {
+    "name": "mtl_detail_walllightornate_shadeoff"
+  },
+  {
+    "name": "mtl_dining_plates"
+  },
+  {
+    "name": "mtl_dirtysink"
+  },
+  {
+    "name": "mtl_dirt_pile_1"
+  },
+  {
+    "name": "mtl_dome_01"
+  },
+  {
+    "name": "mtl_dome_02"
+  },
+  {
+    "name": "mtl_dome_03"
+  },
+  {
+    "name": "mtl_dome_04"
+  },
+  {
+    "name": "mtl_dome_05"
+  },
+  {
+    "name": "mtl_doorknob1"
+  },
+  {
+    "name": "mtl_door_metal_bunker"
+  },
+  {
+    "name": "mtl_door_metal_hatch"
+  },
+  {
+    "name": "mtl_door_wood"
+  },
+  {
+    "name": "mtl_door_wood_arched"
+  },
+  {
+    "name": "mtl_dragonstooth"
+  },
+  {
+    "name": "mtl_dragonstooth_d"
+  },
+  {
+    "name": "mtl_dragonstooth_egypt"
+  },
+  {
+    "name": "mtl_dragonstooth_egypt_d"
+  },
+  {
+    "name": "mtl_dragonstooth_snow"
+  },
+  {
+    "name": "mtl_dragonstooth_snow_d"
+  },
+  {
+    "name": "mtl_dragonstooth_wet"
+  },
+  {
+    "name": "mtl_dragonstooth_wet_d"
+  },
+  {
+    "name": "mtl_duhoc_crater_dark"
+  },
+  {
+    "name": "mtl_duhoc_dirt"
+  },
+  {
+    "name": "mtl_duhoc_dirt02"
+  },
+  {
+    "name": "mtl_duhoc_dirt02_blend"
+  },
+  {
+    "name": "mtl_duhoc_dirt_blend"
+  },
+  {
+    "name": "mtl_duhoc_furniture"
+  },
+  {
+    "name": "mtl_duhoc_furniture_dirt"
+  },
+  {
+    "name": "mtl_duhoc_grass01"
+  },
+  {
+    "name": "mtl_duhoc_grass01_blend"
+  },
+  {
+    "name": "mtl_duhoc_grass02"
+  },
+  {
+    "name": "mtl_duhoc_grass02_blend"
+  },
+  {
+    "name": "mtl_duhoc_grass_edge"
+  },
+  {
+    "name": "mtl_duhoc_grass_mud1"
+  },
+  {
+    "name": "mtl_duhoc_grass_mud2"
+  },
+  {
+    "name": "mtl_duhoc_light_dirt"
+  },
+  {
+    "name": "mtl_duhoc_light_dirt_blend"
+  },
+  {
+    "name": "mtl_duhoc_mud1"
+  },
+  {
+    "name": "mtl_duhoc_mud1_blend"
+  },
+  {
+    "name": "mtl_duhoc_plowfield01"
+  },
+  {
+    "name": "mtl_duhoc_rope"
+  },
+  {
+    "name": "mtl_duhoc_smudge"
+  },
+  {
+    "name": "mtl_duhoc_trench_edge"
+  },
+  {
+    "name": "mtl_egypt_bunker_window_shutter"
+  },
+  {
+    "name": "mtl_egypt_cloth1"
+  },
+  {
+    "name": "mtl_egypt_cloth2"
+  },
+  {
+    "name": "mtl_egypt_cloth3"
+  },
+  {
+    "name": "mtl_egypt_rock_2"
+  },
+  {
+    "name": "mtl_egypt_rock_2_night"
+  },
+  {
+    "name": "mtl_egypt_vase1"
+  },
+  {
+    "name": "mtl_egypt_vase1_interior"
+  },
+  {
+    "name": "mtl_egypt_well1"
+  },
+  {
+    "name": "mtl_egypt_well1_brown"
+  },
+  {
+    "name": "mtl_egypt_well2"
+  },
+  {
+    "name": "mtl_egypt_well2_brown"
+  },
+  {
+    "name": "mtl_egypt_well3"
+  },
+  {
+    "name": "mtl_egypt_well3_brown"
+  },
+  {
+    "name": "mtl_egypt_well4"
+  },
+  {
+    "name": "mtl_egypt_well4_brown"
+  },
+  {
+    "name": "mtl_egypt_well_decal1"
+  },
+  {
+    "name": "mtl_egypt_well_decal2"
+  },
+  {
+    "name": "mtl_egypt_wood_beam"
+  },
+  {
+    "name": "mtl_egypt_wood_beam_end"
+  },
+  {
+    "name": "mtl_ericp_head"
+  },
+  {
+    "name": "mtl_ericp_winter_head"
+  },
+  {
+    "name": "mtl_fence_wood"
+  },
+  {
+    "name": "mtl_file_cabinet_a"
+  },
+  {
+    "name": "mtl_firhighbranch_horizontal"
+  },
+  {
+    "name": "mtl_firhighbranch_shad_a"
+  },
+  {
+    "name": "mtl_firhighbranch_shad_b"
+  },
+  {
+    "name": "mtl_firhighbranch_trunk"
+  },
+  {
+    "name": "mtl_firhighbranch_vertical"
+  },
+  {
+    "name": "mtl_first_aid_kit"
+  },
+  {
+    "name": "mtl_flag_american"
+  },
+  {
+    "name": "mtl_flag_british"
+  },
+  {
+    "name": "mtl_flag_russian"
+  },
+  {
+    "name": "mtl_flakpanzer_base"
+  },
+  {
+    "name": "mtl_flakpanzer_gun"
+  },
+  {
+    "name": "mtl_flakvierling_vm"
+  },
+  {
+    "name": "mtl_frenchbathshowerhead"
+  },
+  {
+    "name": "mtl_frenchbathtub"
+  },
+  {
+    "name": "mtl_frenchbathtub_obj"
+  },
+  {
+    "name": "mtl_frenchtoilet"
+  },
+  {
+    "name": "mtl_frenchtoilettank"
+  },
+  {
+    "name": "mtl_french_sink"
+  },
+  {
+    "name": "mtl_frnthill_toujane"
+  },
+  {
+    "name": "mtl_frntmntn_toujane"
+  },
+  {
+    "name": "mtl_fronthubsdfkz_d"
+  },
+  {
+    "name": "mtl_furniturewooddull"
+  },
+  {
+    "name": "mtl_furniture_piano01"
+  },
+  {
+    "name": "mtl_furniture_piano01_d"
+  },
+  {
+    "name": "mtl_german_africa_heads"
+  },
+  {
+    "name": "mtl_german_armored_car"
+  },
+  {
+    "name": "mtl_german_armored_car_d"
+  },
+  {
+    "name": "mtl_german_armored_car_mesh"
+  },
+  {
+    "name": "mtl_german_armored_car_winter_d"
+  },
+  {
+    "name": "mtl_german_artillery_flak88"
+  },
+  {
+    "name": "mtl_german_artillery_flak88_destroy"
+  },
+  {
+    "name": "mtl_german_artillery_flak88_nm"
+  },
+  {
+    "name": "mtl_german_artillery_flak88_nm_d"
+  },
+  {
+    "name": "mtl_german_artillery_flakveirling"
+  },
+  {
+    "name": "mtl_german_artillery_flakveirling_d"
+  },
+  {
+    "name": "mtl_german_dan_head"
+  },
+  {
+    "name": "mtl_german_normandy_heads"
+  },
+  {
+    "name": "mtl_german_radioknobs"
+  },
+  {
+    "name": "mtl_german_radioknobs_obj"
+  },
+  {
+    "name": "mtl_german_winter"
+  },
+  {
+    "name": "mtl_german_winter_head"
+  },
+  {
+    "name": "mtl_german_winter_jon_head"
+  },
+  {
+    "name": "mtl_glass_condor"
+  },
+  {
+    "name": "mtl_grandfatherclocktall"
+  },
+  {
+    "name": "mtl_grant_head"
+  },
+  {
+    "name": "mtl_grant_head_wet"
+  },
+  {
+    "name": "mtl_grassflowerplants"
+  },
+  {
+    "name": "mtl_greenroof"
+  },
+  {
+    "name": "mtl_green_dualradio"
+  },
+  {
+    "name": "mtl_green_dualradio_d"
+  },
+  {
+    "name": "mtl_green_dualradio_obj"
+  },
+  {
+    "name": "mtl_green_fieldradio"
+  },
+  {
+    "name": "mtl_green_fieldradio_d"
+  },
+  {
+    "name": "mtl_green_fieldradio_obj"
+  },
+  {
+    "name": "mtl_green_radio_back"
+  },
+  {
+    "name": "mtl_green_radio_back_d"
+  },
+  {
+    "name": "mtl_green_radio_back_obj"
+  },
+  {
+    "name": "mtl_grey_dualradio"
+  },
+  {
+    "name": "mtl_grey_dualradio_d"
+  },
+  {
+    "name": "mtl_grey_dualradio_obj"
+  },
+  {
+    "name": "mtl_grey_fieldradio"
+  },
+  {
+    "name": "mtl_grey_fieldradio_d"
+  },
+  {
+    "name": "mtl_grey_fieldradio_obj"
+  },
+  {
+    "name": "mtl_grey_oak"
+  },
+  {
+    "name": "mtl_grey_oak_canopy"
+  },
+  {
+    "name": "mtl_grey_radio_back"
+  },
+  {
+    "name": "mtl_grey_radio_back_d"
+  },
+  {
+    "name": "mtl_grey_radio_back_obj"
+  },
+  {
+    "name": "mtl_gully_bridge_concrete01"
+  },
+  {
+    "name": "mtl_halftrack"
+  },
+  {
+    "name": "mtl_halftracktread"
+  },
+  {
+    "name": "mtl_halftrackwheelhub_camo_d"
+  },
+  {
+    "name": "mtl_halftrackwheeltread"
+  },
+  {
+    "name": "mtl_halftrack_camo_d"
+  },
+  {
+    "name": "mtl_halftrack_d"
+  },
+  {
+    "name": "mtl_halftrack_desert"
+  },
+  {
+    "name": "mtl_halftrack_markings"
+  },
+  {
+    "name": "mtl_halftrack_snow"
+  },
+  {
+    "name": "mtl_halftrack_tread"
+  },
+  {
+    "name": "mtl_halftrack_tread_d"
+  },
+  {
+    "name": "mtl_halftrack_tread_desert"
+  },
+  {
+    "name": "mtl_halftrack_tread_desert_static"
+  },
+  {
+    "name": "mtl_halftrack_tread_snow"
+  },
+  {
+    "name": "mtl_halftrack_tread_snow_static"
+  },
+  {
+    "name": "mtl_halftrack_tread_static"
+  },
+  {
+    "name": "mtl_hands_british"
+  },
+  {
+    "name": "mtl_hands_british_bare"
+  },
+  {
+    "name": "mtl_hands_british_wet"
+  },
+  {
+    "name": "mtl_hands_german"
+  },
+  {
+    "name": "mtl_hands_german_afrika"
+  },
+  {
+    "name": "mtl_hands_german_winter"
+  },
+  {
+    "name": "mtl_hands_hair"
+  },
+  {
+    "name": "mtl_hands_us"
+  },
+  {
+    "name": "mtl_harry_hand"
+  },
+  {
+    "name": "mtl_harry_head"
+  },
+  {
+    "name": "mtl_haybale_side"
+  },
+  {
+    "name": "mtl_haycart"
+  },
+  {
+    "name": "mtl_haycart_destroyed"
+  },
+  {
+    "name": "mtl_head_datien"
+  },
+  {
+    "name": "mtl_head_jon"
+  },
+  {
+    "name": "mtl_hedgehog"
+  },
+  {
+    "name": "mtl_hedgewall_all"
+  },
+  {
+    "name": "mtl_hedgewall_lodrenders"
+  },
+  {
+    "name": "mtl_higgins_grappel"
+  },
+  {
+    "name": "mtl_hill400_ceiling_01"
+  },
+  {
+    "name": "mtl_hill400_ceiling_02"
+  },
+  {
+    "name": "mtl_hill400_decal_stain_01"
+  },
+  {
+    "name": "mtl_hill400_decal_stain_blend_01"
+  },
+  {
+    "name": "mtl_hill400_decal_trim_01"
+  },
+  {
+    "name": "mtl_hill400_door_01"
+  },
+  {
+    "name": "mtl_hill400_door_02"
+  },
+  {
+    "name": "mtl_hill400_floor_01"
+  },
+  {
+    "name": "mtl_hill400_floor_02"
+  },
+  {
+    "name": "mtl_hill400_roof_01"
+  },
+  {
+    "name": "mtl_hill400_roof_02"
+  },
+  {
+    "name": "mtl_hill400_roof_03"
+  },
+  {
+    "name": "mtl_hill400_roof_04"
+  },
+  {
+    "name": "mtl_hill400_trim_ext_01"
+  },
+  {
+    "name": "mtl_hill400_trim_ext_02"
+  },
+  {
+    "name": "mtl_hill400_trim_ext_03"
+  },
+  {
+    "name": "mtl_hill400_trim_ext_04"
+  },
+  {
+    "name": "mtl_hill400_trim_ext_gutter_01"
+  },
+  {
+    "name": "mtl_hill400_trim_ext_gutter_top"
+  },
+  {
+    "name": "mtl_hill400_wall_ext_01"
+  },
+  {
+    "name": "mtl_hill400_wall_ext_02"
+  },
+  {
+    "name": "mtl_hill400_wall_ext_03"
+  },
+  {
+    "name": "mtl_hill400_wall_ext_04"
+  },
+  {
+    "name": "mtl_hill400_wall_ext_05"
+  },
+  {
+    "name": "mtl_hill400_wall_ext_06"
+  },
+  {
+    "name": "mtl_hill400_wall_ext_07"
+  },
+  {
+    "name": "mtl_hill400_wall_ext_08"
+  },
+  {
+    "name": "mtl_hill400_wall_ext_09"
+  },
+  {
+    "name": "mtl_hill400_wall_ext_plaster_01"
+  },
+  {
+    "name": "mtl_hill400_wall_int_01"
+  },
+  {
+    "name": "mtl_hill400_wall_int_02"
+  },
+  {
+    "name": "mtl_hill400_wall_int_03"
+  },
+  {
+    "name": "mtl_hill400_window_01"
+  },
+  {
+    "name": "mtl_hill400_window_decal_01"
+  },
+  {
+    "name": "mtl_hill400_window_decal_02"
+  },
+  {
+    "name": "mtl_hill400_window_decal_03"
+  },
+  {
+    "name": "mtl_hill400_window_frame_01"
+  },
+  {
+    "name": "mtl_hill400_window_shutter_01"
+  },
+  {
+    "name": "mtl_hill400_window_shutter_02"
+  },
+  {
+    "name": "mtl_horse"
+  },
+  {
+    "name": "mtl_hotel_letters"
+  },
+  {
+    "name": "mtl_hubtred"
+  },
+  {
+    "name": "mtl_hurtgen_branch1"
+  },
+  {
+    "name": "mtl_hurtgen_foliage_lt"
+  },
+  {
+    "name": "mtl_hurtgen_foliage_rt"
+  },
+  {
+    "name": "mtl_hurtgen_treebark"
+  },
+  {
+    "name": "mtl_hydrant"
+  },
+  {
+    "name": "mtl_innerhubsdfkz_d"
+  },
+  {
+    "name": "mtl_jeep_glass"
+  },
+  {
+    "name": "mtl_joel_duhoc_head"
+  },
+  {
+    "name": "mtl_joel_head"
+  },
+  {
+    "name": "mtl_k98round"
+  },
+  {
+    "name": "mtl_khub"
+  },
+  {
+    "name": "mtl_ktread"
+  },
+  {
+    "name": "mtl_kubelwindow"
+  },
+  {
+    "name": "mtl_kubel_glass_africa"
+  },
+  {
+    "name": "mtl_kubel_normandy"
+  },
+  {
+    "name": "mtl_kubel_normandy_dam"
+  },
+  {
+    "name": "mtl_kwagen"
+  },
+  {
+    "name": "mtl_lamp01"
+  },
+  {
+    "name": "mtl_lamp01_alpha"
+  },
+  {
+    "name": "mtl_lamp01_on"
+  },
+  {
+    "name": "mtl_lamp_ornate_off"
+  },
+  {
+    "name": "mtl_lamp_ornate_on"
+  },
+  {
+    "name": "mtl_lightbulb_off"
+  },
+  {
+    "name": "mtl_lightbulb_on"
+  },
+  {
+    "name": "mtl_ltv4"
+  },
+  {
+    "name": "mtl_ltv4_ammo_decal"
+  },
+  {
+    "name": "mtl_ltv4_decals"
+  },
+  {
+    "name": "mtl_ltv4_decals_destroyed"
+  },
+  {
+    "name": "mtl_ltv4_destroyed"
+  },
+  {
+    "name": "mtl_ltv4_tread"
+  },
+  {
+    "name": "mtl_ltv4_tread_destroyed"
+  },
+  {
+    "name": "mtl_magazines"
+  },
+  {
+    "name": "mtl_mannequin"
+  },
+  {
+    "name": "mtl_mannequin_obj"
+  },
+  {
+    "name": "mtl_maps_cases"
+  },
+  {
+    "name": "mtl_maps_cases_obj"
+  },
+  {
+    "name": "mtl_map_board"
+  },
+  {
+    "name": "mtl_map_northafrica"
+  },
+  {
+    "name": "mtl_map_northafrica_obj"
+  },
+  {
+    "name": "mtl_market_stands"
+  },
+  {
+    "name": "mtl_masked_wheels"
+  },
+  {
+    "name": "mtl_masked_wheels_d"
+  },
+  {
+    "name": "mtl_masked_wheels_desert"
+  },
+  {
+    "name": "mtl_masked_wheels_desert_d"
+  },
+  {
+    "name": "mtl_metal_bar"
+  },
+  {
+    "name": "mtl_metal_chimney"
+  },
+  {
+    "name": "mtl_metal_doorknob"
+  },
+  {
+    "name": "mtl_metal_pail"
+  },
+  {
+    "name": "mtl_metal_rusty1"
+  },
+  {
+    "name": "mtl_metal_rusty2"
+  },
+  {
+    "name": "mtl_metal_standbar_1"
+  },
+  {
+    "name": "mtl_metal_standbar_2"
+  },
+  {
+    "name": "mtl_metal_standbar_3"
+  },
+  {
+    "name": "mtl_minefieldclear_sign"
+  },
+  {
+    "name": "mtl_minefieldclear_sign_snow"
+  },
+  {
+    "name": "mtl_minefieldfake_sign1"
+  },
+  {
+    "name": "mtl_minefieldfake_sign1_snow"
+  },
+  {
+    "name": "mtl_minefieldfake_sign2"
+  },
+  {
+    "name": "mtl_minefieldfake_sign2_snow"
+  },
+  {
+    "name": "mtl_minefieldpath_sign"
+  },
+  {
+    "name": "mtl_minefieldpath_sign_snow"
+  },
+  {
+    "name": "mtl_minefield_post"
+  },
+  {
+    "name": "mtl_minefield_post_snow"
+  },
+  {
+    "name": "mtl_minefield_sign1"
+  },
+  {
+    "name": "mtl_minefield_sign1_snow"
+  },
+  {
+    "name": "mtl_minefield_sign2"
+  },
+  {
+    "name": "mtl_minefield_sign2_snow"
+  },
+  {
+    "name": "mtl_minefield_sign3"
+  },
+  {
+    "name": "mtl_minefield_sign3_snow"
+  },
+  {
+    "name": "mtl_moroccanchainlamp_glow"
+  },
+  {
+    "name": "mtl_moroccanchainlamp_lit"
+  },
+  {
+    "name": "mtl_moroccanchainlamp_unlit"
+  },
+  {
+    "name": "mtl_mortar"
+  },
+  {
+    "name": "mtl_mortar_ammunition"
+  },
+  {
+    "name": "mtl_mortar_case"
+  },
+  {
+    "name": "mtl_mortar_crate"
+  },
+  {
+    "name": "mtl_nagant_cloth"
+  },
+  {
+    "name": "mtl_nagant_cloth_frayed"
+  },
+  {
+    "name": "mtl_nagant_cloth_frayed_obj"
+  },
+  {
+    "name": "mtl_nagant_cloth_obj"
+  },
+  {
+    "name": "mtl_neutral_grey"
+  },
+  {
+    "name": "mtl_newgrassgreen"
+  },
+  {
+    "name": "mtl_newgrasstufts"
+  },
+  {
+    "name": "mtl_nixon_head"
+  },
+  {
+    "name": "mtl_normandy_alpha"
+  },
+  {
+    "name": "mtl_northafricawoodscreen"
+  },
+  {
+    "name": "mtl_northafrica_armoire"
+  },
+  {
+    "name": "mtl_northafrica_chairs"
+  },
+  {
+    "name": "mtl_northafrica_halftable"
+  },
+  {
+    "name": "mtl_northafrica_oil_lamp"
+  },
+  {
+    "name": "mtl_northafrica_tables"
+  },
+  {
+    "name": "mtl_opel_blitz"
+  },
+  {
+    "name": "mtl_opel_blitz_d"
+  },
+  {
+    "name": "mtl_opel_blitz_glass"
+  },
+  {
+    "name": "mtl_opel_blitz_glass_d"
+  },
+  {
+    "name": "mtl_opel_blitz_glass_inner"
+  },
+  {
+    "name": "mtl_opel_blitz_glass_woodland"
+  },
+  {
+    "name": "mtl_opel_blitz_snow"
+  },
+  {
+    "name": "mtl_opel_blitz_woodland"
+  },
+  {
+    "name": "mtl_opel_blitz_woodland_d"
+  },
+  {
+    "name": "mtl_opel_vm"
+  },
+  {
+    "name": "mtl_opel_woodland_vm"
+  },
+  {
+    "name": "mtl_outerhubsdfkz_d"
+  },
+  {
+    "name": "mtl_p51_mustang"
+  },
+  {
+    "name": "mtl_p51_mustang_decals"
+  },
+  {
+    "name": "mtl_panzer2"
+  },
+  {
+    "name": "mtl_panzer2_2sided"
+  },
+  {
+    "name": "mtl_panzer2_d"
+  },
+  {
+    "name": "mtl_panzer2_treads"
+  },
+  {
+    "name": "mtl_panzer2_treads_2sided"
+  },
+  {
+    "name": "mtl_panzer2_treads_2sided_static"
+  },
+  {
+    "name": "mtl_panzer2_treads_d"
+  },
+  {
+    "name": "mtl_panzer2_treads_d_static"
+  },
+  {
+    "name": "mtl_panzer2_treads_static"
+  },
+  {
+    "name": "mtl_panzer2_treads_winter"
+  },
+  {
+    "name": "mtl_panzer2_treads_winter_d"
+  },
+  {
+    "name": "mtl_panzer2_treads_winter_d_static"
+  },
+  {
+    "name": "mtl_panzer2_treads_winter_static"
+  },
+  {
+    "name": "mtl_panzer2_winter"
+  },
+  {
+    "name": "mtl_panzer2_winter_d"
+  },
+  {
+    "name": "mtl_panzerfaust"
+  },
+  {
+    "name": "mtl_panzerfaust_box"
+  },
+  {
+    "name": "mtl_panzerfaust_inter"
+  },
+  {
+    "name": "mtl_panzerschreck"
+  },
+  {
+    "name": "mtl_panzerschreck_missle"
+  },
+  {
+    "name": "mtl_panzerschreck_obj"
+  },
+  {
+    "name": "mtl_paul_face"
+  },
+  {
+    "name": "mtl_paul_face_wet"
+  },
+  {
+    "name": "mtl_paul_hand"
+  },
+  {
+    "name": "mtl_paul_head_africa"
+  },
+  {
+    "name": "mtl_pillows"
+  },
+  {
+    "name": "mtl_pillow_duhoc"
+  },
+  {
+    "name": "mtl_pilot"
+  },
+  {
+    "name": "mtl_pine"
+  },
+  {
+    "name": "mtl_pine_canopy"
+  },
+  {
+    "name": "mtl_pine_lod"
+  },
+  {
+    "name": "mtl_pipeside"
+  },
+  {
+    "name": "mtl_pipe_dirt"
+  },
+  {
+    "name": "mtl_pipe_plate_sw"
+  },
+  {
+    "name": "mtl_pipe_tower"
+  },
+  {
+    "name": "mtl_pipe_trim_sw"
+  },
+  {
+    "name": "mtl_plasterwall_long_4"
+  },
+  {
+    "name": "mtl_plaster_peer_1"
+  },
+  {
+    "name": "mtl_pointeground"
+  },
+  {
+    "name": "mtl_potato"
+  },
+  {
+    "name": "mtl_potbelly_stove"
+  },
+  {
+    "name": "mtl_prop_bear"
+  },
+  {
+    "name": "mtl_prop_bear_obj"
+  },
+  {
+    "name": "mtl_prop_crypt"
+  },
+  {
+    "name": "mtl_prop_faucet01"
+  },
+  {
+    "name": "mtl_prop_pictureframe01"
+  },
+  {
+    "name": "mtl_prop_pictureframe02"
+  },
+  {
+    "name": "mtl_prop_shell"
+  },
+  {
+    "name": "mtl_prop_signallight"
+  },
+  {
+    "name": "mtl_prop_sink01"
+  },
+  {
+    "name": "mtl_prop_stove01"
+  },
+  {
+    "name": "mtl_prop_stove01b"
+  },
+  {
+    "name": "mtl_prop_stove01c"
+  },
+  {
+    "name": "mtl_prop_stove02"
+  },
+  {
+    "name": "mtl_prop_stove02b"
+  },
+  {
+    "name": "mtl_prop_stove02c"
+  },
+  {
+    "name": "mtl_prop_switchsign"
+  },
+  {
+    "name": "mtl_prop_tombstone"
+  },
+  {
+    "name": "mtl_rattanbasket1"
+  },
+  {
+    "name": "mtl_rearhubsdfkz_d"
+  },
+  {
+    "name": "mtl_red_chimney"
+  },
+  {
+    "name": "mtl_red_wall"
+  },
+  {
+    "name": "mtl_river_birch"
+  },
+  {
+    "name": "mtl_river_birch_canopy"
+  },
+  {
+    "name": "mtl_rock1"
+  },
+  {
+    "name": "mtl_rock2"
+  },
+  {
+    "name": "mtl_russian_alex_head"
+  },
+  {
+    "name": "mtl_russian_body"
+  },
+  {
+    "name": "mtl_russian_character_jesse"
+  },
+  {
+    "name": "mtl_russian_datien_head"
+  },
+  {
+    "name": "mtl_russian_diana_alphas"
+  },
+  {
+    "name": "mtl_russian_diana_head"
+  },
+  {
+    "name": "mtl_russian_diana_medic"
+  },
+  {
+    "name": "mtl_russian_head_popov"
+  },
+  {
+    "name": "mtl_russian_head_volsky"
+  },
+  {
+    "name": "mtl_russian_winter_infantry"
+  },
+  {
+    "name": "mtl_russian_winter_infantry_jesse"
+  },
+  {
+    "name": "mtl_russian_winter_infantry_jon"
+  },
+  {
+    "name": "mtl_russian_winter_sleeve"
+  },
+  {
+    "name": "mtl_russia_jeep"
+  },
+  {
+    "name": "mtl_russia_jeep_dmg"
+  },
+  {
+    "name": "mtl_rustybar1"
+  },
+  {
+    "name": "mtl_sandbags"
+  },
+  {
+    "name": "mtl_sandbags_desert"
+  },
+  {
+    "name": "mtl_sandbags_exploded"
+  },
+  {
+    "name": "mtl_sandbags_exploded_tan"
+  },
+  {
+    "name": "mtl_sandbags_snow"
+  },
+  {
+    "name": "mtl_sandbags_wet"
+  },
+  {
+    "name": "mtl_satchel"
+  },
+  {
+    "name": "mtl_scaffolding"
+  },
+  {
+    "name": "mtl_sherman"
+  },
+  {
+    "name": "mtl_sherman_d"
+  },
+  {
+    "name": "mtl_sherman_decal"
+  },
+  {
+    "name": "mtl_sherman_decal_desert"
+  },
+  {
+    "name": "mtl_sherman_desert"
+  },
+  {
+    "name": "mtl_sherman_desert_d"
+  },
+  {
+    "name": "mtl_sherman_props"
+  },
+  {
+    "name": "mtl_sherman_props_d"
+  },
+  {
+    "name": "mtl_sherman_track"
+  },
+  {
+    "name": "mtl_sherman_track_d"
+  },
+  {
+    "name": "mtl_sherman_track_static"
+  },
+  {
+    "name": "mtl_shippingcrate1"
+  },
+  {
+    "name": "mtl_shortthicktrunkleaves_01"
+  },
+  {
+    "name": "mtl_shortthicktrunk_bark"
+  },
+  {
+    "name": "mtl_silotown_creekbed01"
+  },
+  {
+    "name": "mtl_silotown_decal_creekwalledge01"
+  },
+  {
+    "name": "mtl_silotown_decal_dirt01edge"
+  },
+  {
+    "name": "mtl_silotown_dirt01"
+  },
+  {
+    "name": "mtl_silotown_dirt01_blend"
+  },
+  {
+    "name": "mtl_silotown_grass01"
+  },
+  {
+    "name": "mtl_silotown_grass01_blend"
+  },
+  {
+    "name": "mtl_silotown_grass02"
+  },
+  {
+    "name": "mtl_silotown_grass02_blend"
+  },
+  {
+    "name": "mtl_silotown_map"
+  },
+  {
+    "name": "mtl_silotown_plowfield01"
+  },
+  {
+    "name": "mtl_silotown_plowfield01_blend"
+  },
+  {
+    "name": "mtl_silotown_stream01"
+  },
+  {
+    "name": "mtl_silo_metal_01"
+  },
+  {
+    "name": "mtl_silo_metal_02"
+  },
+  {
+    "name": "mtl_silo_roof"
+  },
+  {
+    "name": "mtl_silo_stonewall"
+  },
+  {
+    "name": "mtl_silo_wood"
+  },
+  {
+    "name": "mtl_silo_woodbeam"
+  },
+  {
+    "name": "mtl_sinkhandle"
+  },
+  {
+    "name": "mtl_small_rocks1"
+  },
+  {
+    "name": "mtl_snowbushweed"
+  },
+  {
+    "name": "mtl_snowflake_cloth"
+  },
+  {
+    "name": "mtl_snow_birch"
+  },
+  {
+    "name": "mtl_snow_birch_canopy"
+  },
+  {
+    "name": "mtl_snow_pine"
+  },
+  {
+    "name": "mtl_snow_pine_canopy"
+  },
+  {
+    "name": "mtl_snow_pine_lod"
+  },
+  {
+    "name": "mtl_spitfire"
+  },
+  {
+    "name": "mtl_spitfire_glass"
+  },
+  {
+    "name": "mtl_stalingradbrickcore"
+  },
+  {
+    "name": "mtl_stalingradbrickgrey"
+  },
+  {
+    "name": "mtl_stalingradbrickred"
+  },
+  {
+    "name": "mtl_stalingradpowerpole"
+  },
+  {
+    "name": "mtl_stalingradwindow"
+  },
+  {
+    "name": "mtl_stalingradwindow_obj"
+  },
+  {
+    "name": "mtl_stalingradwoodplank"
+  },
+  {
+    "name": "mtl_stalingradwoodplankend"
+  },
+  {
+    "name": "mtl_stalin_rubble_01"
+  },
+  {
+    "name": "mtl_stalin_rubble_02"
+  },
+  {
+    "name": "mtl_stalin_rust_01"
+  },
+  {
+    "name": "mtl_stalin_rust_02"
+  },
+  {
+    "name": "mtl_sticky_bomb"
+  },
+  {
+    "name": "mtl_sticky_bomb_obj"
+  },
+  {
+    "name": "mtl_storage_tank_sw"
+  },
+  {
+    "name": "mtl_streetlamp_off"
+  },
+  {
+    "name": "mtl_streetlamp_on"
+  },
+  {
+    "name": "mtl_stripperclip"
+  },
+  {
+    "name": "mtl_stuka"
+  },
+  {
+    "name": "mtl_stuka_bomb"
+  },
+  {
+    "name": "mtl_stuka_canopy_in"
+  },
+  {
+    "name": "mtl_stuka_canopy_out"
+  },
+  {
+    "name": "mtl_sundir_arrow"
+  },
+  {
+    "name": "mtl_tan_dualradio"
+  },
+  {
+    "name": "mtl_tan_dualradio_d"
+  },
+  {
+    "name": "mtl_tan_dualradio_obj"
+  },
+  {
+    "name": "mtl_tan_fieldradio"
+  },
+  {
+    "name": "mtl_tan_fieldradio_d"
+  },
+  {
+    "name": "mtl_tan_fieldradio_obj"
+  },
+  {
+    "name": "mtl_tan_radio_back"
+  },
+  {
+    "name": "mtl_tan_radio_back_d"
+  },
+  {
+    "name": "mtl_tan_radio_back_obj"
+  },
+  {
+    "name": "mtl_test_caen_wall_ext_02"
+  },
+  {
+    "name": "mtl_thicktrunkbark_01"
+  },
+  {
+    "name": "mtl_thicktrunkbranchleaves_01"
+  },
+  {
+    "name": "mtl_thread_german"
+  },
+  {
+    "name": "mtl_thread_glove"
+  },
+  {
+    "name": "mtl_thread_russian"
+  },
+  {
+    "name": "mtl_thread_us"
+  },
+  {
+    "name": "mtl_tiger"
+  },
+  {
+    "name": "mtl_tiger_d"
+  },
+  {
+    "name": "mtl_tiger_snow_d"
+  },
+  {
+    "name": "mtl_tiger_tread"
+  },
+  {
+    "name": "mtl_tiger_tread_d"
+  },
+  {
+    "name": "mtl_tiger_tread_static"
+  },
+  {
+    "name": "mtl_tincan"
+  },
+  {
+    "name": "mtl_tin_boxes"
+  },
+  {
+    "name": "mtl_tntbomb"
+  },
+  {
+    "name": "mtl_tntbomb_obj"
+  },
+  {
+    "name": "mtl_toilet"
+  },
+  {
+    "name": "mtl_tokarevtt30_pistol"
+  },
+  {
+    "name": "mtl_tokarevtt30_pistol_obj"
+  },
+  {
+    "name": "mtl_tombstone1"
+  },
+  {
+    "name": "mtl_tombstone2"
+  },
+  {
+    "name": "mtl_tombstone3"
+  },
+  {
+    "name": "mtl_tombstone4"
+  },
+  {
+    "name": "mtl_tombstone6"
+  },
+  {
+    "name": "mtl_tombstone7"
+  },
+  {
+    "name": "mtl_tombstone8"
+  },
+  {
+    "name": "mtl_tombstone9"
+  },
+  {
+    "name": "mtl_tractor"
+  },
+  {
+    "name": "mtl_traincar01"
+  },
+  {
+    "name": "mtl_traincar_snow"
+  },
+  {
+    "name": "mtl_trainwheel01_col"
+  },
+  {
+    "name": "mtl_trainwheel_snow"
+  },
+  {
+    "name": "mtl_train_fuelcar"
+  },
+  {
+    "name": "mtl_train_fuelcar_txt"
+  },
+  {
+    "name": "mtl_train_graincar"
+  },
+  {
+    "name": "mtl_tree_desertbushy"
+  },
+  {
+    "name": "mtl_tree_desertbushycanopy"
+  },
+  {
+    "name": "mtl_trenchframe"
+  },
+  {
+    "name": "mtl_trim1"
+  },
+  {
+    "name": "mtl_trolleydamaged"
+  },
+  {
+    "name": "mtl_trolleydamaged_nocollision"
+  },
+  {
+    "name": "mtl_trolleypole"
+  },
+  {
+    "name": "mtl_tunisia_mountain"
+  },
+  {
+    "name": "mtl_tunisia_mountain_red"
+  },
+  {
+    "name": "mtl_us_rangers"
+  },
+  {
+    "name": "mtl_us_rangers_wet"
+  },
+  {
+    "name": "mtl_us_ranger_body_a"
+  },
+  {
+    "name": "mtl_us_ranger_frank"
+  },
+  {
+    "name": "mtl_us_ranger_frank_wet"
+  },
+  {
+    "name": "mtl_us_ranger_harry"
+  },
+  {
+    "name": "mtl_us_ranger_markings"
+  },
+  {
+    "name": "mtl_us_ranger_mo"
+  },
+  {
+    "name": "mtl_us_ranger_mo_wet"
+  },
+  {
+    "name": "mtl_us_ranger_preston"
+  },
+  {
+    "name": "mtl_us_ranger_preston_wet"
+  },
+  {
+    "name": "mtl_us_ranger_randall"
+  },
+  {
+    "name": "mtl_us_ranger_randall_wet"
+  },
+  {
+    "name": "mtl_us_ranger_wolf"
+  },
+  {
+    "name": "mtl_us_ranger_xpec_body"
+  },
+  {
+    "name": "mtl_us_ranger_xpec_hand"
+  },
+  {
+    "name": "mtl_us_ranger_xpec_head"
+  },
+  {
+    "name": "mtl_us_smoke_grenade"
+  },
+  {
+    "name": "mtl_us_smoke_grenade_burnt"
+  },
+  {
+    "name": "mtl_us_smoke_grenade_obj"
+  },
+  {
+    "name": "mtl_us_thermite_grenade"
+  },
+  {
+    "name": "mtl_us_thermite_grenade_obj"
+  },
+  {
+    "name": "mtl_utilitychair1"
+  },
+  {
+    "name": "mtl_vehicle_crusader2"
+  },
+  {
+    "name": "mtl_vehicle_crusader2_destroyed"
+  },
+  {
+    "name": "mtl_vehicle_crusader2_viewm"
+  },
+  {
+    "name": "mtl_vehicle_crusader_decal"
+  },
+  {
+    "name": "mtl_vehicle_crusader_decal_destroyed"
+  },
+  {
+    "name": "mtl_vehicle_crusader_low"
+  },
+  {
+    "name": "mtl_vehicle_crusader_low_destroyed"
+  },
+  {
+    "name": "mtl_vehicle_crusader_tread"
+  },
+  {
+    "name": "mtl_vehicle_crusader_tread_destroyed"
+  },
+  {
+    "name": "mtl_vehicle_crusader_wheel1"
+  },
+  {
+    "name": "mtl_vehicle_crusader_wheel1b"
+  },
+  {
+    "name": "mtl_vehicle_crusader_wheel1b_destroyed"
+  },
+  {
+    "name": "mtl_vehicle_crusader_wheel1_destroyed"
+  },
+  {
+    "name": "mtl_vehicle_crusader_wheel2"
+  },
+  {
+    "name": "mtl_vehicle_crusader_wheel2_destroyed"
+  },
+  {
+    "name": "mtl_vehicle_higgins"
+  },
+  {
+    "name": "mtl_vehicle_higgins_decals"
+  },
+  {
+    "name": "mtl_vehicle_higgins_destroyed"
+  },
+  {
+    "name": "mtl_vehicle_higgins_vm"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_burn"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_burn_mark"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_burn_track"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_burn_tran"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_burn_ye"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_gr"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_gr_mud"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_gr_mud_track"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_gr_mud_tran"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_gr_tran"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_mark"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_mark_drt"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_track"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_track_static"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_tran"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_ye_drt"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_ye_drt_track"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_ye_drt_tran"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_ye_mud"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_ye_mud_track"
+  },
+  {
+    "name": "mtl_vehicle_uni_carrier_ye_mud_tran"
+  },
+  {
+    "name": "mtl_vent"
+  },
+  {
+    "name": "mtl_victoriancouch"
+  },
+  {
+    "name": "mtl_victoriancouch_d"
+  },
+  {
+    "name": "mtl_walllight_off"
+  },
+  {
+    "name": "mtl_walllight_on"
+  },
+  {
+    "name": "mtl_wall_bunker"
+  },
+  {
+    "name": "mtl_water_spout_dirt"
+  },
+  {
+    "name": "mtl_water_spout_sw"
+  },
+  {
+    "name": "mtl_weapons_fg42"
+  },
+  {
+    "name": "mtl_weapons_panzerfaust_high"
+  },
+  {
+    "name": "mtl_weapon_30cal"
+  },
+  {
+    "name": "mtl_weapon_bar"
+  },
+  {
+    "name": "mtl_weapon_binoculars"
+  },
+  {
+    "name": "mtl_weapon_bren"
+  },
+  {
+    "name": "mtl_weapon_carbine"
+  },
+  {
+    "name": "mtl_weapon_colt45"
+  },
+  {
+    "name": "mtl_weapon_colt45_high"
+  },
+  {
+    "name": "mtl_weapon_colt45_medium"
+  },
+  {
+    "name": "mtl_weapon_enfield"
+  },
+  {
+    "name": "mtl_weapon_enfield_scope"
+  },
+  {
+    "name": "mtl_weapon_g43"
+  },
+  {
+    "name": "mtl_weapon_greasegun"
+  },
+  {
+    "name": "mtl_weapon_hcsmokegrenade"
+  },
+  {
+    "name": "mtl_weapon_histandardhd"
+  },
+  {
+    "name": "mtl_weapon_kar98"
+  },
+  {
+    "name": "mtl_weapon_kar98_obj"
+  },
+  {
+    "name": "mtl_weapon_kar98_scope"
+  },
+  {
+    "name": "mtl_weapon_kar98_scope_obj"
+  },
+  {
+    "name": "mtl_weapon_luger"
+  },
+  {
+    "name": "mtl_weapon_m1garand"
+  },
+  {
+    "name": "mtl_weapon_m3greasegun"
+  },
+  {
+    "name": "mtl_weapon_mg42"
+  },
+  {
+    "name": "mtl_weapon_mk1grenade_high"
+  },
+  {
+    "name": "mtl_weapon_mk1grenade_medium"
+  },
+  {
+    "name": "mtl_weapon_mk2fraggrenade_high"
+  },
+  {
+    "name": "mtl_weapon_mosin"
+  },
+  {
+    "name": "mtl_weapon_mosinnagantwithscope_high_metal"
+  },
+  {
+    "name": "mtl_weapon_mosinnagantwithscope_medium"
+  },
+  {
+    "name": "mtl_weapon_mosinnagantwithscope_wood"
+  },
+  {
+    "name": "mtl_weapon_mosin_obj"
+  },
+  {
+    "name": "mtl_weapon_mp40"
+  },
+  {
+    "name": "mtl_weapon_mp44"
+  },
+  {
+    "name": "mtl_weapon_mp_enfield_scope2"
+  },
+  {
+    "name": "mtl_weapon_nagant_cloth_colors"
+  },
+  {
+    "name": "mtl_weapon_nebelhandgranate"
+  },
+  {
+    "name": "mtl_weapon_pps43"
+  },
+  {
+    "name": "mtl_weapon_ppsh"
+  },
+  {
+    "name": "mtl_weapon_russiangrenade"
+  },
+  {
+    "name": "mtl_weapon_springfield"
+  },
+  {
+    "name": "mtl_weapon_sten"
+  },
+  {
+    "name": "mtl_weapon_svt40"
+  },
+  {
+    "name": "mtl_weapon_thompson"
+  },
+  {
+    "name": "mtl_weapon_trenchgun"
+  },
+  {
+    "name": "mtl_weapon_webley"
+  },
+  {
+    "name": "mtl_white_window"
+  },
+  {
+    "name": "mtl_white_window_a"
+  },
+  {
+    "name": "mtl_white_window_b"
+  },
+  {
+    "name": "mtl_wickerbasket1"
+  },
+  {
+    "name": "mtl_winebottle"
+  },
+  {
+    "name": "mtl_winebottle_broken"
+  },
+  {
+    "name": "mtl_winter1_branches"
+  },
+  {
+    "name": "mtl_winter1_trunk"
+  },
+  {
+    "name": "mtl_wooden_barrel1"
+  },
+  {
+    "name": "mtl_woodstack"
+  },
+  {
+    "name": "mtl_wood_01"
+  },
+  {
+    "name": "mtl_wood_02"
+  },
+  {
+    "name": "mtl_wood_door1"
+  },
+  {
+    "name": "mtl_wood_end01"
+  },
+  {
+    "name": "mtl_wood_end02"
+  },
+  {
+    "name": "mtl_wood_floor1"
+  },
+  {
+    "name": "mtl_wood_floor2"
+  },
+  {
+    "name": "mtl_wood_floor_1"
+  },
+  {
+    "name": "mtl_wood_pole_1"
+  },
+  {
+    "name": "net_disconnect"
+  },
+  {
+    "name": "nodraw"
+  },
+  {
+    "name": "nodraw_decal"
+  },
+  {
+    "name": "nodraw_notsolid"
+  },
+  {
+    "name": "nosight_noclip"
+  },
+  {
+    "name": "nottalkingicon"
+  },
+  {
+    "name": "objective"
+  },
+  {
+    "name": "objectivea"
+  },
+  {
+    "name": "objectiveb"
+  },
+  {
+    "name": "objectivec"
+  },
+  {
+    "name": "objectived"
+  },
+  {
+    "name": "objectivee"
+  },
+  {
+    "name": "objectivef"
+  },
+  {
+    "name": "objective_american"
+  },
+  {
+    "name": "objective_american_down"
+  },
+  {
+    "name": "objective_american_up"
+  },
+  {
+    "name": "objective_base_blend"
+  },
+  {
+    "name": "objective_base_obj"
+  },
+  {
+    "name": "objective_base_obj_case"
+  },
+  {
+    "name": "objective_british"
+  },
+  {
+    "name": "objective_british_down"
+  },
+  {
+    "name": "objective_british_up"
+  },
+  {
+    "name": "objective_down"
+  },
+  {
+    "name": "objective_friendly"
+  },
+  {
+    "name": "objective_friendly_chat"
+  },
+  {
+    "name": "objective_german"
+  },
+  {
+    "name": "objective_german_down"
+  },
+  {
+    "name": "objective_german_up"
+  },
+  {
+    "name": "objective_hq"
+  },
+  {
+    "name": "objective_hqa"
+  },
+  {
+    "name": "objective_hqa_down"
+  },
+  {
+    "name": "objective_hqa_up"
+  },
+  {
+    "name": "objective_hqb"
+  },
+  {
+    "name": "objective_hqb_down"
+  },
+  {
+    "name": "objective_hqb_up"
+  },
+  {
+    "name": "objective_hq_down"
+  },
+  {
+    "name": "objective_hq_up"
+  },
+  {
+    "name": "objective_ring"
+  },
+  {
+    "name": "objective_russian"
+  },
+  {
+    "name": "objective_russian_down"
+  },
+  {
+    "name": "objective_russian_up"
+  },
+  {
+    "name": "objpoint_a"
+  },
+  {
+    "name": "objpoint_armoredcar"
+  },
+  {
+    "name": "objpoint_a_question"
+  },
+  {
+    "name": "objpoint_b"
+  },
+  {
+    "name": "objpoint_bomb"
+  },
+  {
+    "name": "objpoint_b_question"
+  },
+  {
+    "name": "objpoint_default"
+  },
+  {
+    "name": "objpoint_flag_american"
+  },
+  {
+    "name": "objpoint_flag_british"
+  },
+  {
+    "name": "objpoint_flag_german"
+  },
+  {
+    "name": "objpoint_flag_russian"
+  },
+  {
+    "name": "objpoint_flak"
+  },
+  {
+    "name": "objpoint_halftrack"
+  },
+  {
+    "name": "objpoint_question"
+  },
+  {
+    "name": "objpoint_radio"
+  },
+  {
+    "name": "objpoint_star"
+  },
+  {
+    "name": "objpoint_tank"
+  },
+  {
+    "name": "objpoint_truck"
+  },
+  {
+    "name": "occluder"
+  },
+  {
+    "name": "origin"
+  },
+  {
+    "name": "overlay_grain"
+  },
+  {
+    "name": "overlay_lights_out"
+  },
+  {
+    "name": "overlay_low_health"
+  },
+  {
+    "name": "party_notready"
+  },
+  {
+    "name": "party_ready"
+  },
+  {
+    "name": "plantbomb"
+  },
+  {
+    "name": "plan_attack_left"
+  },
+  {
+    "name": "plan_attack_leftmiddle"
+  },
+  {
+    "name": "plan_attack_leftmiddle_selected"
+  },
+  {
+    "name": "plan_attack_left_selected"
+  },
+  {
+    "name": "plan_attack_middle"
+  },
+  {
+    "name": "plan_attack_middle_selected"
+  },
+  {
+    "name": "plan_attack_pincer"
+  },
+  {
+    "name": "plan_attack_pincer_selected"
+  },
+  {
+    "name": "plan_attack_right"
+  },
+  {
+    "name": "plan_attack_rightmiddle"
+  },
+  {
+    "name": "plan_attack_rightmiddle_selected"
+  },
+  {
+    "name": "plan_attack_right_selected"
+  },
+  {
+    "name": "plan_defend_left"
+  },
+  {
+    "name": "plan_defend_leftmiddle"
+  },
+  {
+    "name": "plan_defend_leftmiddle_selected"
+  },
+  {
+    "name": "plan_defend_left_selected"
+  },
+  {
+    "name": "plan_defend_middle"
+  },
+  {
+    "name": "plan_defend_middle_selected"
+  },
+  {
+    "name": "plan_defend_pincer"
+  },
+  {
+    "name": "plan_defend_pincer_selected"
+  },
+  {
+    "name": "plan_defend_right"
+  },
+  {
+    "name": "plan_defend_rightmiddle"
+  },
+  {
+    "name": "plan_defend_rightmiddle_selected"
+  },
+  {
+    "name": "plan_defend_right_selected"
+  },
+  {
+    "name": "plan_random"
+  },
+  {
+    "name": "plan_random_selected"
+  },
+  {
+    "name": "playbook_objective_arrow"
+  },
+  {
+    "name": "playbook_objective_attack"
+  },
+  {
+    "name": "playbook_objective_baseoffire"
+  },
+  {
+    "name": "playbook_objective_capturehold"
+  },
+  {
+    "name": "playbook_objective_defend"
+  },
+  {
+    "name": "playbook_objective_destroy"
+  },
+  {
+    "name": "playbook_objective_lineofsight"
+  },
+  {
+    "name": "playbook_objective_recon"
+  },
+  {
+    "name": "playbook_objective_spawn_american"
+  },
+  {
+    "name": "playbook_objective_spawn_british"
+  },
+  {
+    "name": "playbook_objective_spawn_german"
+  },
+  {
+    "name": "playbook_objective_spawn_russian"
+  },
+  {
+    "name": "playbook_objective_stop"
+  },
+  {
+    "name": "pndr_base"
+  },
+  {
+    "name": "popmenu_bg"
+  },
+  {
+    "name": "popmenu_goldline"
+  },
+  {
+    "name": "portal"
+  },
+  {
+    "name": "portal_debug_solid"
+  },
+  {
+    "name": "portal_debug_trans"
+  },
+  {
+    "name": "portal_nodraw"
+  },
+  {
+    "name": "rank_captain"
+  },
+  {
+    "name": "rank_colonel"
+  },
+  {
+    "name": "rank_corporal"
+  },
+  {
+    "name": "rank_general"
+  },
+  {
+    "name": "rank_lieutenant"
+  },
+  {
+    "name": "rank_major"
+  },
+  {
+    "name": "rank_private"
+  },
+  {
+    "name": "rank_sergeant"
+  },
+  {
+    "name": "region"
+  },
+  {
+    "name": "return_ai_trigger"
+  },
+  {
+    "name": "return_spawner_trigger"
+  },
+  {
+    "name": "safe_area"
+  },
+  {
+    "name": "saving"
+  },
+  {
+    "name": "scope_overlay"
+  },
+  {
+    "name": "scope_overlay_american"
+  },
+  {
+    "name": "scope_overlay_britain"
+  },
+  {
+    "name": "scope_overlay_german"
+  },
+  {
+    "name": "scope_overlay_russian"
+  },
+  {
+    "name": "screen_position"
+  },
+  {
+    "name": "selection_highlight_line"
+  },
+  {
+    "name": "server_hardware_header"
+  },
+  {
+    "name": "server_hardware_linux_dedicated"
+  },
+  {
+    "name": "server_hardware_mac_dedicated"
+  },
+  {
+    "name": "server_hardware_mac_listen"
+  },
+  {
+    "name": "server_hardware_unknown"
+  },
+  {
+    "name": "server_hardware_win_dedicated"
+  },
+  {
+    "name": "server_hardware_win_listen"
+  },
+  {
+    "name": "shadowcaster"
+  },
+  {
+    "name": "shadowclear"
+  },
+  {
+    "name": "shadowcookieblur"
+  },
+  {
+    "name": "shadowcookieoverlay"
+  },
+  {
+    "name": "shadowoverlay"
+  },
+  {
+    "name": "shellshock"
+  },
+  {
+    "name": "shield"
+  },
+  {
+    "name": "skip"
+  },
+  {
+    "name": "sky_88ridge"
+  },
+  {
+    "name": "sky_beltot"
+  },
+  {
+    "name": "sky_bergstein"
+  },
+  {
+    "name": "sky_breakout"
+  },
+  {
+    "name": "sky_carchase"
+  },
+  {
+    "name": "sky_cityhall"
+  },
+  {
+    "name": "sky_crossroads"
+  },
+  {
+    "name": "sky_dawnville2"
+  },
+  {
+    "name": "sky_decoy"
+  },
+  {
+    "name": "sky_decoytown"
+  },
+  {
+    "name": "sky_decoytrenches"
+  },
+  {
+    "name": "sky_downtown_assault"
+  },
+  {
+    "name": "sky_downtown_sniper"
+  },
+  {
+    "name": "sky_duhoc"
+  },
+  {
+    "name": "sky_duhoc_assault"
+  },
+  {
+    "name": "sky_duhoc_defend"
+  },
+  {
+    "name": "sky_elalamein"
+  },
+  {
+    "name": "sky_eldaba"
+  },
+  {
+    "name": "sky_gully"
+  },
+  {
+    "name": "sky_gully_assault"
+  },
+  {
+    "name": "sky_hill400"
+  },
+  {
+    "name": "sky_hill400_artillery"
+  },
+  {
+    "name": "sky_hill400_assault"
+  },
+  {
+    "name": "sky_hill400_defend"
+  },
+  {
+    "name": "sky_libya"
+  },
+  {
+    "name": "sky_libyatown"
+  },
+  {
+    "name": "sky_matmata"
+  },
+  {
+    "name": "sky_medicdriver"
+  },
+  {
+    "name": "sky_moscow"
+  },
+  {
+    "name": "sky_newvillers"
+  },
+  {
+    "name": "sky_rainvillers"
+  },
+  {
+    "name": "sky_rhinecrossing"
+  },
+  {
+    "name": "sky_silotown"
+  },
+  {
+    "name": "sky_silotown_assault"
+  },
+  {
+    "name": "sky_silotown_defense"
+  },
+  {
+    "name": "sky_tankhunt"
+  },
+  {
+    "name": "sky_toujane"
+  },
+  {
+    "name": "sky_toujane_ride"
+  },
+  {
+    "name": "sky_trainyard"
+  },
+  {
+    "name": "slideshow_bergstein_1"
+  },
+  {
+    "name": "slideshow_bergstein_2"
+  },
+  {
+    "name": "slideshow_bergstein_3"
+  },
+  {
+    "name": "slideshow_bergstein_4"
+  },
+  {
+    "name": "slideshow_bergstein_5"
+  },
+  {
+    "name": "slideshow_bergstein_6"
+  },
+  {
+    "name": "slideshow_bergstein_7"
+  },
+  {
+    "name": "slideshow_caen_1"
+  },
+  {
+    "name": "slideshow_caen_2"
+  },
+  {
+    "name": "slideshow_caen_3"
+  },
+  {
+    "name": "slideshow_caen_4"
+  },
+  {
+    "name": "slideshow_caen_5"
+  },
+  {
+    "name": "slideshow_caen_6"
+  },
+  {
+    "name": "slideshow_earlygrad_1"
+  },
+  {
+    "name": "slideshow_earlygrad_2"
+  },
+  {
+    "name": "slideshow_earlygrad_3"
+  },
+  {
+    "name": "slideshow_earlygrad_4"
+  },
+  {
+    "name": "slideshow_earlygrad_5"
+  },
+  {
+    "name": "slideshow_earlygrad_6"
+  },
+  {
+    "name": "slideshow_earlygrad_7"
+  },
+  {
+    "name": "slideshow_earlygrad_8"
+  },
+  {
+    "name": "slideshow_lategrad_1"
+  },
+  {
+    "name": "slideshow_lategrad_2"
+  },
+  {
+    "name": "slideshow_lategrad_3"
+  },
+  {
+    "name": "slideshow_lategrad_4"
+  },
+  {
+    "name": "slideshow_lategrad_5"
+  },
+  {
+    "name": "slideshow_lategrad_6"
+  },
+  {
+    "name": "slideshow_libya_1"
+  },
+  {
+    "name": "slideshow_libya_2"
+  },
+  {
+    "name": "slideshow_libya_3"
+  },
+  {
+    "name": "slideshow_libya_4"
+  },
+  {
+    "name": "slideshow_libya_5"
+  },
+  {
+    "name": "slideshow_libya_6"
+  },
+  {
+    "name": "slideshow_libya_7"
+  },
+  {
+    "name": "slideshow_libya_8"
+  },
+  {
+    "name": "slideshow_rhine_1"
+  },
+  {
+    "name": "slideshow_rhine_2"
+  },
+  {
+    "name": "slideshow_rhine_3"
+  },
+  {
+    "name": "slideshow_rhine_4"
+  },
+  {
+    "name": "slideshow_rhine_5"
+  },
+  {
+    "name": "slideshow_rhine_6"
+  },
+  {
+    "name": "slideshow_rhine_7"
+  },
+  {
+    "name": "slideshow_rhine_8"
+  },
+  {
+    "name": "slideshow_tunisia_1"
+  },
+  {
+    "name": "slideshow_tunisia_2"
+  },
+  {
+    "name": "slideshow_tunisia_3"
+  },
+  {
+    "name": "slideshow_tunisia_4"
+  },
+  {
+    "name": "slideshow_tunisia_5"
+  },
+  {
+    "name": "slideshow_tunisia_6"
+  },
+  {
+    "name": "smoke"
+  },
+  {
+    "name": "spawner_trigger"
+  },
+  {
+    "name": "stalingradwinter_brick01"
+  },
+  {
+    "name": "stalingradwinter_brick02"
+  },
+  {
+    "name": "stalingradwinter_brick02_breaks"
+  },
+  {
+    "name": "stalingradwinter_brick03"
+  },
+  {
+    "name": "stalingradwinter_brick04"
+  },
+  {
+    "name": "stalingradwinter_brick04_breaks"
+  },
+  {
+    "name": "stalingradwinter_brick05"
+  },
+  {
+    "name": "stalingradwinter_brick06"
+  },
+  {
+    "name": "stalingradwinter_brick07"
+  },
+  {
+    "name": "stalingradwinter_brick07_breaks"
+  },
+  {
+    "name": "stalingradwinter_brick08"
+  },
+  {
+    "name": "stalingradwinter_brick09"
+  },
+  {
+    "name": "stalingradwinter_brickburn01"
+  },
+  {
+    "name": "stalingradwinter_brickburn02"
+  },
+  {
+    "name": "stalingradwinter_brickburn03"
+  },
+  {
+    "name": "stalingradwinter_bricksnow01"
+  },
+  {
+    "name": "stalingradwinter_bricksnow02"
+  },
+  {
+    "name": "stalingradwinter_bricksnow03"
+  },
+  {
+    "name": "stalingradwinter_brickwallsnow01"
+  },
+  {
+    "name": "stalingradwinter_brick_crack_decal"
+  },
+  {
+    "name": "stalingradwinter_burnt_core01_decal"
+  },
+  {
+    "name": "stalingradwinter_burnt_middle01_decal"
+  },
+  {
+    "name": "stalingradwinter_burnt_middle02_decal"
+  },
+  {
+    "name": "stalingradwinter_burnt_middle02_decalmid3"
+  },
+  {
+    "name": "stalingradwinter_burnt_middle03_decal"
+  },
+  {
+    "name": "stalingradwinter_burnt_middle03_decalmid3"
+  },
+  {
+    "name": "stalingradwinter_burnt_top01_decal"
+  },
+  {
+    "name": "stalingradwinter_burnt_top02_decal"
+  },
+  {
+    "name": "stalingradwinter_burnt_window01_decal"
+  },
+  {
+    "name": "stalingradwinter_burnt_window02_decal"
+  },
+  {
+    "name": "stalingradwinter_cabinet01"
+  },
+  {
+    "name": "stalingradwinter_cabinet_door01"
+  },
+  {
+    "name": "stalingradwinter_cabinet_drawer01"
+  },
+  {
+    "name": "stalingradwinter_chimneybrick02"
+  },
+  {
+    "name": "stalingradwinter_concrete01"
+  },
+  {
+    "name": "stalingradwinter_concrete02"
+  },
+  {
+    "name": "stalingradwinter_concrete03"
+  },
+  {
+    "name": "stalingradwinter_concrete04"
+  },
+  {
+    "name": "stalingradwinter_concrete04_decal01"
+  },
+  {
+    "name": "stalingradwinter_concrete04_decal02"
+  },
+  {
+    "name": "stalingradwinter_concrete04_decal03"
+  },
+  {
+    "name": "stalingradwinter_concrete04_decal04"
+  },
+  {
+    "name": "stalingradwinter_concrete04_decal05"
+  },
+  {
+    "name": "stalingradwinter_concrete04_decal06"
+  },
+  {
+    "name": "stalingradwinter_concrete04_decal07"
+  },
+  {
+    "name": "stalingradwinter_concrete05"
+  },
+  {
+    "name": "stalingradwinter_concrete06"
+  },
+  {
+    "name": "stalingradwinter_concretetrim01"
+  },
+  {
+    "name": "stalingradwinter_concrete_btmtrim01"
+  },
+  {
+    "name": "stalingradwinter_concrete_btmtrim01_decal"
+  },
+  {
+    "name": "stalingradwinter_concrete_btmtrim01_decalb"
+  },
+  {
+    "name": "stalingradwinter_concrete_btmtrim02"
+  },
+  {
+    "name": "stalingradwinter_concrete_btmtrim02_decal"
+  },
+  {
+    "name": "stalingradwinter_concrete_btmtrim02_decalb"
+  },
+  {
+    "name": "stalingradwinter_concrete_btmtrim03"
+  },
+  {
+    "name": "stalingradwinter_concrete_btmtrim03_decal"
+  },
+  {
+    "name": "stalingradwinter_concrete_btmtrim03_decalb"
+  },
+  {
+    "name": "stalingradwinter_concrete_btmtrim04_decal"
+  },
+  {
+    "name": "stalingradwinter_concrete_crack01_decal"
+  },
+  {
+    "name": "stalingradwinter_concrete_crack02_decal"
+  },
+  {
+    "name": "stalingradwinter_concrete_crack02_decal_mo"
+  },
+  {
+    "name": "stalingradwinter_concrete_crack03_decal"
+  },
+  {
+    "name": "stalingradwinter_concrete_crack04_decal"
+  },
+  {
+    "name": "stalingradwinter_concrete_crack05_decal"
+  },
+  {
+    "name": "stalingradwinter_core_floor01"
+  },
+  {
+    "name": "stalingradwinter_core_wall01"
+  },
+  {
+    "name": "stalingradwinter_core_wall02"
+  },
+  {
+    "name": "stalingradwinter_core_wall03"
+  },
+  {
+    "name": "stalingradwinter_core_wall04"
+  },
+  {
+    "name": "stalingradwinter_core_wall05"
+  },
+  {
+    "name": "stalingradwinter_core_wall06"
+  },
+  {
+    "name": "stalingradwinter_core_wall07"
+  },
+  {
+    "name": "stalingradwinter_crater_decal"
+  },
+  {
+    "name": "stalingradwinter_crater_mess_decal"
+  },
+  {
+    "name": "stalingradwinter_crater_snow_decal"
+  },
+  {
+    "name": "stalingradwinter_decal_bakery01"
+  },
+  {
+    "name": "stalingradwinter_decal_chip_01"
+  },
+  {
+    "name": "stalingradwinter_decal_chip_02"
+  },
+  {
+    "name": "stalingradwinter_decal_coal"
+  },
+  {
+    "name": "stalingradwinter_decal_darkstain1"
+  },
+  {
+    "name": "stalingradwinter_decal_gothisway"
+  },
+  {
+    "name": "stalingradwinter_decal_gothisway2"
+  },
+  {
+    "name": "stalingradwinter_decal_grimy_wall01"
+  },
+  {
+    "name": "stalingradwinter_decal_grimy_wall02"
+  },
+  {
+    "name": "stalingradwinter_decal_grimy_wall03"
+  },
+  {
+    "name": "stalingradwinter_decal_groceries"
+  },
+  {
+    "name": "stalingradwinter_decal_mural01"
+  },
+  {
+    "name": "stalingradwinter_decal_mural02"
+  },
+  {
+    "name": "stalingradwinter_decal_mural03"
+  },
+  {
+    "name": "stalingradwinter_decal_mural04"
+  },
+  {
+    "name": "stalingradwinter_decal_mural05"
+  },
+  {
+    "name": "stalingradwinter_decal_mural06"
+  },
+  {
+    "name": "stalingradwinter_decal_mural07"
+  },
+  {
+    "name": "stalingradwinter_decal_painted_arrow"
+  },
+  {
+    "name": "stalingradwinter_decal_paper_debris"
+  },
+  {
+    "name": "stalingradwinter_decal_picture01"
+  },
+  {
+    "name": "stalingradwinter_decal_picture02"
+  },
+  {
+    "name": "stalingradwinter_decal_picture03"
+  },
+  {
+    "name": "stalingradwinter_decal_poster01"
+  },
+  {
+    "name": "stalingradwinter_decal_poster01_multi"
+  },
+  {
+    "name": "stalingradwinter_decal_poster01_ripped"
+  },
+  {
+    "name": "stalingradwinter_decal_poster02"
+  },
+  {
+    "name": "stalingradwinter_decal_poster03"
+  },
+  {
+    "name": "stalingradwinter_decal_poster04"
+  },
+  {
+    "name": "stalingradwinter_decal_poster05"
+  },
+  {
+    "name": "stalingradwinter_decal_poster06"
+  },
+  {
+    "name": "stalingradwinter_decal_poster07"
+  },
+  {
+    "name": "stalingradwinter_decal_propa"
+  },
+  {
+    "name": "stalingradwinter_decal_restaurant"
+  },
+  {
+    "name": "stalingradwinter_decal_sign01"
+  },
+  {
+    "name": "stalingradwinter_decal_telegraph"
+  },
+  {
+    "name": "stalingradwinter_decal_timetable"
+  },
+  {
+    "name": "stalingradwinter_decal_toiletterie"
+  },
+  {
+    "name": "stalingradwinter_decal_trn_station"
+  },
+  {
+    "name": "stalingradwinter_decal_wall_damage01"
+  },
+  {
+    "name": "stalingradwinter_decal_wall_damage02"
+  },
+  {
+    "name": "stalingradwinter_decal_wall_damage03"
+  },
+  {
+    "name": "stalingradwinter_decal_wall_damage04"
+  },
+  {
+    "name": "stalingradwinter_decal_window1"
+  },
+  {
+    "name": "stalingradwinter_decal_window1_snow"
+  },
+  {
+    "name": "stalingradwinter_decal_window1_unlit"
+  },
+  {
+    "name": "stalingradwinter_decal_window2"
+  },
+  {
+    "name": "stalingradwinter_decal_window2_snow"
+  },
+  {
+    "name": "stalingradwinter_decal_window2_unlit"
+  },
+  {
+    "name": "stalingradwinter_door_metal01"
+  },
+  {
+    "name": "stalingradwinter_door_metal02"
+  },
+  {
+    "name": "stalingradwinter_door_wood01"
+  },
+  {
+    "name": "stalingradwinter_door_wood02"
+  },
+  {
+    "name": "stalingradwinter_fence_metal1_balcony"
+  },
+  {
+    "name": "stalingradwinter_footprints_01_decal"
+  },
+  {
+    "name": "stalingradwinter_footprints_02_decal"
+  },
+  {
+    "name": "stalingradwinter_german_graffiti01_decal"
+  },
+  {
+    "name": "stalingradwinter_greywood"
+  },
+  {
+    "name": "stalingradwinter_greywood_floor"
+  },
+  {
+    "name": "stalingradwinter_gully_floor_decal"
+  },
+  {
+    "name": "stalingradwinter_icycle01_decal"
+  },
+  {
+    "name": "stalingradwinter_icycle02_decal"
+  },
+  {
+    "name": "stalingradwinter_icycle03_decal"
+  },
+  {
+    "name": "stalingradwinter_metal_clasp01_decal"
+  },
+  {
+    "name": "stalingradwinter_metal_floor01"
+  },
+  {
+    "name": "stalingradwinter_metal_roof"
+  },
+  {
+    "name": "stalingradwinter_mud01_decal"
+  },
+  {
+    "name": "stalingradwinter_pipe_a"
+  },
+  {
+    "name": "stalingradwinter_pipe_b"
+  },
+  {
+    "name": "stalingradwinter_plaster01"
+  },
+  {
+    "name": "stalingradwinter_railside"
+  },
+  {
+    "name": "stalingradwinter_railtop"
+  },
+  {
+    "name": "stalingradwinter_rebar"
+  },
+  {
+    "name": "stalingradwinter_rebar2"
+  },
+  {
+    "name": "stalingradwinter_road01_decal"
+  },
+  {
+    "name": "stalingradwinter_road01_multiply_decal"
+  },
+  {
+    "name": "stalingradwinter_road02_decal"
+  },
+  {
+    "name": "stalingradwinter_road_intersection_decal"
+  },
+  {
+    "name": "stalingradwinter_road_single01_decal"
+  },
+  {
+    "name": "stalingradwinter_road_single02_decal"
+  },
+  {
+    "name": "stalingradwinter_road_turn01_decal"
+  },
+  {
+    "name": "stalingradwinter_road_turn01_mult"
+  },
+  {
+    "name": "stalingradwinter_roof_alpha01"
+  },
+  {
+    "name": "stalingradwinter_roof_alpha01wide"
+  },
+  {
+    "name": "stalingradwinter_roof_alpha_lattice01"
+  },
+  {
+    "name": "stalingradwinter_roof_slate01"
+  },
+  {
+    "name": "stalingradwinter_rrtie_snow"
+  },
+  {
+    "name": "stalingradwinter_rrtie_snow2"
+  },
+  {
+    "name": "stalingradwinter_rubble01"
+  },
+  {
+    "name": "stalingradwinter_rubble01a"
+  },
+  {
+    "name": "stalingradwinter_rubble01b"
+  },
+  {
+    "name": "stalingradwinter_rubble01c"
+  },
+  {
+    "name": "stalingradwinter_rubble01d"
+  },
+  {
+    "name": "stalingradwinter_rubble01e"
+  },
+  {
+    "name": "stalingradwinter_rubble01_typesnow"
+  },
+  {
+    "name": "stalingradwinter_rubblesnow01"
+  },
+  {
+    "name": "stalingradwinter_rubblesnow01_blend"
+  },
+  {
+    "name": "stalingradwinter_rubblesnow01_blend_b"
+  },
+  {
+    "name": "stalingradwinter_rubblesnow02"
+  },
+  {
+    "name": "stalingradwinter_rubblesnow02_blend"
+  },
+  {
+    "name": "stalingradwinter_russian_graffiti01_decal"
+  },
+  {
+    "name": "stalingradwinter_rustbar_trim01"
+  },
+  {
+    "name": "stalingradwinter_rustbar_trim02"
+  },
+  {
+    "name": "stalingradwinter_slush1"
+  },
+  {
+    "name": "stalingradwinter_snow01"
+  },
+  {
+    "name": "stalingradwinter_snow02"
+  },
+  {
+    "name": "stalingradwinter_snow02128"
+  },
+  {
+    "name": "stalingradwinter_snow02128b"
+  },
+  {
+    "name": "stalingradwinter_snow02a"
+  },
+  {
+    "name": "stalingradwinter_snow02b"
+  },
+  {
+    "name": "stalingradwinter_snow02blend"
+  },
+  {
+    "name": "stalingradwinter_snow02blend_b"
+  },
+  {
+    "name": "stalingradwinter_snow03"
+  },
+  {
+    "name": "stalingradwinter_snow_wall"
+  },
+  {
+    "name": "stalingradwinter_snow_wall_trans_decal"
+  },
+  {
+    "name": "stalingradwinter_stairs_concrete01"
+  },
+  {
+    "name": "stalingradwinter_stairs_concrete02"
+  },
+  {
+    "name": "stalingradwinter_stairs_crack01_decal"
+  },
+  {
+    "name": "stalingradwinter_steelbeam01cap_decal"
+  },
+  {
+    "name": "stalingradwinter_steelbeam02cap_decal"
+  },
+  {
+    "name": "stalingradwinter_steelbeam03cap_decal"
+  },
+  {
+    "name": "stalingradwinter_storagetank"
+  },
+  {
+    "name": "stalingradwinter_tile01"
+  },
+  {
+    "name": "stalingradwinter_tile01_decal"
+  },
+  {
+    "name": "stalingradwinter_tile02"
+  },
+  {
+    "name": "stalingradwinter_tile02_decal"
+  },
+  {
+    "name": "stalingradwinter_tile03"
+  },
+  {
+    "name": "stalingradwinter_tile03_decal"
+  },
+  {
+    "name": "stalingradwinter_tile04_decal"
+  },
+  {
+    "name": "stalingradwinter_trench01"
+  },
+  {
+    "name": "stalingradwinter_trenchfloor02_decal"
+  },
+  {
+    "name": "stalingradwinter_trench_transition_decal"
+  },
+  {
+    "name": "stalingradwinter_trench_wall"
+  },
+  {
+    "name": "stalingradwinter_trim01"
+  },
+  {
+    "name": "stalingradwinter_trim02"
+  },
+  {
+    "name": "stalingradwinter_trim03"
+  },
+  {
+    "name": "stalingradwinter_wall_grime01_blend"
+  },
+  {
+    "name": "stalingradwinter_wall_grime01_decal"
+  },
+  {
+    "name": "stalingradwinter_wall_grime02_decal"
+  },
+  {
+    "name": "stalingradwinter_wall_grime03_decal"
+  },
+  {
+    "name": "stalingradwinter_wall_grime04_blend"
+  },
+  {
+    "name": "stalingradwinter_wall_grime04_decal"
+  },
+  {
+    "name": "stalingradwinter_wall_transition01_decal"
+  },
+  {
+    "name": "stalingradwinter_window01"
+  },
+  {
+    "name": "stalingradwinter_window01_decal01"
+  },
+  {
+    "name": "stalingradwinter_window01_decal02"
+  },
+  {
+    "name": "stalingradwinter_window01_decal03"
+  },
+  {
+    "name": "stalingradwinter_window01_decal04"
+  },
+  {
+    "name": "stalingradwinter_window01_unlit"
+  },
+  {
+    "name": "stalingradwinter_window02"
+  },
+  {
+    "name": "stalingradwinter_window02_unlit"
+  },
+  {
+    "name": "stalingradwinter_window03"
+  },
+  {
+    "name": "stalingradwinter_window03_unlit"
+  },
+  {
+    "name": "stalingradwinter_windowtrim01"
+  },
+  {
+    "name": "stalingradwinter_windowtrim02"
+  },
+  {
+    "name": "stalingradwinter_window_metalframe01"
+  },
+  {
+    "name": "stalingradwinter_window_metalframe02"
+  },
+  {
+    "name": "stalingradwinter_window_metalframe03"
+  },
+  {
+    "name": "stalingradwinter_woodend01"
+  },
+  {
+    "name": "stalingradwinter_woodend02"
+  },
+  {
+    "name": "stalingradwinter_woodplank01"
+  },
+  {
+    "name": "stalingradwinter_woodplank02"
+  },
+  {
+    "name": "stalingradwinter_woodplank03"
+  },
+  {
+    "name": "stalingradwinter_wood_burnt01"
+  },
+  {
+    "name": "stalingradwinter_wood_floor"
+  },
+  {
+    "name": "stalingradwinter_wood_trim"
+  },
+  {
+    "name": "stalingradwinter_worn_wood01"
+  },
+  {
+    "name": "stalingrad_beam_side"
+  },
+  {
+    "name": "stalingrad_beam_top"
+  },
+  {
+    "name": "stalingrad_brick01"
+  },
+  {
+    "name": "stalingrad_brick02"
+  },
+  {
+    "name": "stalingrad_brick03"
+  },
+  {
+    "name": "stalingrad_brick04"
+  },
+  {
+    "name": "stalingrad_brick_trim01"
+  },
+  {
+    "name": "stalingrad_concrete01"
+  },
+  {
+    "name": "stalingrad_concrete02"
+  },
+  {
+    "name": "stalingrad_concrete03"
+  },
+  {
+    "name": "stalingrad_concrete04"
+  },
+  {
+    "name": "stalingrad_concrete05"
+  },
+  {
+    "name": "stalingrad_concrete_base"
+  },
+  {
+    "name": "stalingrad_concrete_trim01"
+  },
+  {
+    "name": "stalingrad_concrete_trim02"
+  },
+  {
+    "name": "stalingrad_creater_blend"
+  },
+  {
+    "name": "stalingrad_dk_gravel"
+  },
+  {
+    "name": "stalingrad_dk_wood"
+  },
+  {
+    "name": "stalingrad_floor_core"
+  },
+  {
+    "name": "stalingrad_floor_wood01"
+  },
+  {
+    "name": "stalingrad_ground_dirt"
+  },
+  {
+    "name": "stalingrad_ground_dirt_a"
+  },
+  {
+    "name": "stalingrad_ground_mud"
+  },
+  {
+    "name": "stalingrad_ground_rubble"
+  },
+  {
+    "name": "stalingrad_ground_rubble_a"
+  },
+  {
+    "name": "stalingrad_ground_trench"
+  },
+  {
+    "name": "stalingrad_ground_trench_blend"
+  },
+  {
+    "name": "stalingrad_interiorwall01"
+  },
+  {
+    "name": "stalingrad_masked_beam"
+  },
+  {
+    "name": "stalingrad_model_temp"
+  },
+  {
+    "name": "stalingrad_mt_door"
+  },
+  {
+    "name": "stalingrad_mt_pipe01"
+  },
+  {
+    "name": "stalingrad_mt_pipetrim01"
+  },
+  {
+    "name": "stalingrad_mt_pipetrim02"
+  },
+  {
+    "name": "stalingrad_mt_pipetrim03"
+  },
+  {
+    "name": "stalingrad_mt_pipe_interior"
+  },
+  {
+    "name": "stalingrad_mt_roof01"
+  },
+  {
+    "name": "stalingrad_mt_trim01"
+  },
+  {
+    "name": "stalingrad_plank"
+  },
+  {
+    "name": "stalingrad_plank_core"
+  },
+  {
+    "name": "stalingrad_plank_side"
+  },
+  {
+    "name": "stalingrad_platform_trim"
+  },
+  {
+    "name": "stalingrad_railside"
+  },
+  {
+    "name": "stalingrad_railtop"
+  },
+  {
+    "name": "stalingrad_roof_inner"
+  },
+  {
+    "name": "stalingrad_stone_core01"
+  },
+  {
+    "name": "stalingrad_stone_core02"
+  },
+  {
+    "name": "stalingrad_trench_wall"
+  },
+  {
+    "name": "stalingrad_trench_wood_01"
+  },
+  {
+    "name": "stalingrad_trench_wood_02"
+  },
+  {
+    "name": "stalingrad_wd_door"
+  },
+  {
+    "name": "stalingrad_wd_platform"
+  },
+  {
+    "name": "stalingrad_wd_roof01"
+  },
+  {
+    "name": "stalingrad_wood_core"
+  },
+  {
+    "name": "stance_crouch"
+  },
+  {
+    "name": "stance_flash"
+  },
+  {
+    "name": "stance_prone"
+  },
+  {
+    "name": "stance_stand"
+  },
+  {
+    "name": "statmon_warning_tris"
+  },
+  {
+    "name": "stencil_plane"
+  },
+  {
+    "name": "stopspawn"
+  },
+  {
+    "name": "sun"
+  },
+  {
+    "name": "sun_beltot"
+  },
+  {
+    "name": "sun_flare"
+  },
+  {
+    "name": "sun_flare_beltot"
+  },
+  {
+    "name": "sun_flare_toujane"
+  },
+  {
+    "name": "sun_flare_trainyard"
+  },
+  {
+    "name": "sun_moon"
+  },
+  {
+    "name": "sun_silotown_assault"
+  },
+  {
+    "name": "sun_toujane"
+  },
+  {
+    "name": "sun_trainyard"
+  },
+  {
+    "name": "talkingicon"
+  },
+  {
+    "name": "tank_shell"
+  },
+  {
+    "name": "team_american"
+  },
+  {
+    "name": "team_autoassign"
+  },
+  {
+    "name": "team_british"
+  },
+  {
+    "name": "team_german_africa"
+  },
+  {
+    "name": "team_german_normandy"
+  },
+  {
+    "name": "team_german_winter"
+  },
+  {
+    "name": "team_russian"
+  },
+  {
+    "name": "temp"
+  },
+  {
+    "name": "tempmodeltexture"
+  },
+  {
+    "name": "test_brick"
+  },
+  {
+    "name": "test_concrete"
+  },
+  {
+    "name": "test_concrete_spec"
+  },
+  {
+    "name": "test_hand_chris"
+  },
+  {
+    "name": "test_normalmapped_corner01_left"
+  },
+  {
+    "name": "test_normalmapped_corner01_right"
+  },
+  {
+    "name": "test_normalmapped_corner02"
+  },
+  {
+    "name": "test_sky"
+  },
+  {
+    "name": "test_windowframe"
+  },
+  {
+    "name": "tire"
+  },
+  {
+    "name": "tool_transparent"
+  },
+  {
+    "name": "toujane_access_door1"
+  },
+  {
+    "name": "toujane_brick1"
+  },
+  {
+    "name": "toujane_brick2"
+  },
+  {
+    "name": "toujane_brickfade"
+  },
+  {
+    "name": "toujane_canopy1"
+  },
+  {
+    "name": "toujane_cobblestone1"
+  },
+  {
+    "name": "toujane_cobblestone2"
+  },
+  {
+    "name": "toujane_decal_adobe1_bottom"
+  },
+  {
+    "name": "toujane_decal_adobe1_top"
+  },
+  {
+    "name": "toujane_decal_adobe2_bottom"
+  },
+  {
+    "name": "toujane_decal_adobe2_top"
+  },
+  {
+    "name": "toujane_decal_apertif"
+  },
+  {
+    "name": "toujane_decal_cornerwallplaster01"
+  },
+  {
+    "name": "toujane_decal_darkstain"
+  },
+  {
+    "name": "toujane_decal_ground_roadtrack"
+  },
+  {
+    "name": "toujane_decal_plastercorner01left"
+  },
+  {
+    "name": "toujane_decal_plastercorner01right"
+  },
+  {
+    "name": "toujane_decal_plasterwall01"
+  },
+  {
+    "name": "toujane_decal_plasterwall02"
+  },
+  {
+    "name": "toujane_decal_plasterwall03"
+  },
+  {
+    "name": "toujane_decal_plasterwall04"
+  },
+  {
+    "name": "toujane_decal_plasterwall05"
+  },
+  {
+    "name": "toujane_decal_plasterwall06"
+  },
+  {
+    "name": "toujane_decal_plasterwall07"
+  },
+  {
+    "name": "toujane_decal_plasterwall08"
+  },
+  {
+    "name": "toujane_decal_plasterwall09"
+  },
+  {
+    "name": "toujane_decal_plasterwall10"
+  },
+  {
+    "name": "toujane_decal_plasterwall11"
+  },
+  {
+    "name": "toujane_decal_plasterwall12"
+  },
+  {
+    "name": "toujane_decal_plasterwall13"
+  },
+  {
+    "name": "toujane_decal_plasterwall14"
+  },
+  {
+    "name": "toujane_decal_plasterwall_bottom02_left"
+  },
+  {
+    "name": "toujane_decal_plasterwall_bottom02_right"
+  },
+  {
+    "name": "toujane_decal_rug1"
+  },
+  {
+    "name": "toujane_decal_rug2"
+  },
+  {
+    "name": "toujane_decal_small_sign1"
+  },
+  {
+    "name": "toujane_decal_windowtrim_dirty01"
+  },
+  {
+    "name": "toujane_decal_windowtrim_dirty02"
+  },
+  {
+    "name": "toujane_decal_windowtrim_dirty03"
+  },
+  {
+    "name": "toujane_decal_windowtrim_dirty04"
+  },
+  {
+    "name": "toujane_decal_woodtrim_dirty01"
+  },
+  {
+    "name": "toujane_decal_woodtrim_dirty02"
+  },
+  {
+    "name": "toujane_decorative_grate"
+  },
+  {
+    "name": "toujane_dirt_trim"
+  },
+  {
+    "name": "toujane_dirt_trim_dark"
+  },
+  {
+    "name": "toujane_dirt_trim_light"
+  },
+  {
+    "name": "toujane_dirt_trim_no_offset"
+  },
+  {
+    "name": "toujane_dirt_walltrim_dark"
+  },
+  {
+    "name": "toujane_door_knob1"
+  },
+  {
+    "name": "toujane_door_mosque"
+  },
+  {
+    "name": "toujane_door_mosque_top"
+  },
+  {
+    "name": "toujane_door_narrow01"
+  },
+  {
+    "name": "toujane_door_narrow02"
+  },
+  {
+    "name": "toujane_door_narrow03"
+  },
+  {
+    "name": "toujane_door_narrow04"
+  },
+  {
+    "name": "toujane_door_narrow05"
+  },
+  {
+    "name": "toujane_door_small1"
+  },
+  {
+    "name": "toujane_door_trim1"
+  },
+  {
+    "name": "toujane_door_wide02"
+  },
+  {
+    "name": "toujane_door_wide03"
+  },
+  {
+    "name": "toujane_door_wide04"
+  },
+  {
+    "name": "toujane_door_wide05"
+  },
+  {
+    "name": "toujane_door_wide06"
+  },
+  {
+    "name": "toujane_door_wide07"
+  },
+  {
+    "name": "toujane_ground1"
+  },
+  {
+    "name": "toujane_ground1_blend"
+  },
+  {
+    "name": "toujane_ground2"
+  },
+  {
+    "name": "toujane_ground2b"
+  },
+  {
+    "name": "toujane_ground3"
+  },
+  {
+    "name": "toujane_ground3b"
+  },
+  {
+    "name": "toujane_ground3_nonblend"
+  },
+  {
+    "name": "toujane_ground_decal01"
+  },
+  {
+    "name": "toujane_ground_decal02"
+  },
+  {
+    "name": "toujane_ground_decal03"
+  },
+  {
+    "name": "toujane_ground_decal04"
+  },
+  {
+    "name": "toujane_interior_wall1"
+  },
+  {
+    "name": "toujane_largedoor1"
+  },
+  {
+    "name": "toujane_metal_pipe1"
+  },
+  {
+    "name": "toujane_metal_pipe1_obj"
+  },
+  {
+    "name": "toujane_metal_shelter1"
+  },
+  {
+    "name": "toujane_metal_shelter1_obj"
+  },
+  {
+    "name": "toujane_plasterwall_blue"
+  },
+  {
+    "name": "toujane_plasterwall_blue2"
+  },
+  {
+    "name": "toujane_plasterwall_blue_nooffset"
+  },
+  {
+    "name": "toujane_plasterwall_bottom02"
+  },
+  {
+    "name": "toujane_plasterwall_bottom_s"
+  },
+  {
+    "name": "toujane_plasterwall_mid_s"
+  },
+  {
+    "name": "toujane_plasterwall_mid_s_1"
+  },
+  {
+    "name": "toujane_plasterwall_white"
+  },
+  {
+    "name": "toujane_plasterwall_white2"
+  },
+  {
+    "name": "toujane_plasterwall_yellow"
+  },
+  {
+    "name": "toujane_road1"
+  },
+  {
+    "name": "toujane_road2"
+  },
+  {
+    "name": "toujane_roof"
+  },
+  {
+    "name": "toujane_sign1"
+  },
+  {
+    "name": "toujane_sign2"
+  },
+  {
+    "name": "toujane_sign3"
+  },
+  {
+    "name": "toujane_sign3_m"
+  },
+  {
+    "name": "toujane_stair_01"
+  },
+  {
+    "name": "toujane_stair_02"
+  },
+  {
+    "name": "toujane_tile1"
+  },
+  {
+    "name": "toujane_tile2"
+  },
+  {
+    "name": "toujane_tile3"
+  },
+  {
+    "name": "toujane_window1"
+  },
+  {
+    "name": "toujane_window2"
+  },
+  {
+    "name": "toujane_window3"
+  },
+  {
+    "name": "toujane_window4"
+  },
+  {
+    "name": "toujane_window5"
+  },
+  {
+    "name": "toujane_window6"
+  },
+  {
+    "name": "toujane_windowgrate1"
+  },
+  {
+    "name": "toujane_wire1"
+  },
+  {
+    "name": "toujane_woodpanel1"
+  },
+  {
+    "name": "toujane_woodtrim1"
+  },
+  {
+    "name": "toujane_woodtrim2"
+  },
+  {
+    "name": "toujane_woodtrim3"
+  },
+  {
+    "name": "toujane_woodtrim4"
+  },
+  {
+    "name": "toujane_woodtrim5"
+  },
+  {
+    "name": "toujane_woodtrim6"
+  },
+  {
+    "name": "toujane_woodtrim_cyan"
+  },
+  {
+    "name": "toujane_wood_post1"
+  },
+  {
+    "name": "toujane_wood_post2"
+  },
+  {
+    "name": "traverse"
+  },
+  {
+    "name": "trigger"
+  },
+  {
+    "name": "tunisia_desert_sand"
+  },
+  {
+    "name": "tunisia_desert_sand_blend"
+  },
+  {
+    "name": "tunisia_desert_sand_wavy"
+  },
+  {
+    "name": "tunisia_dirt_road"
+  },
+  {
+    "name": "tunisia_mountain_red"
+  },
+  {
+    "name": "tunisia_stone_wall_set"
+  },
+  {
+    "name": "tunisia_trench_floor"
+  },
+  {
+    "name": "tunisia_trench_floor_side"
+  },
+  {
+    "name": "tunisia_trench_top"
+  },
+  {
+    "name": "tunisia_trench_wall"
+  },
+  {
+    "name": "tunisia_trench_wall1024"
+  },
+  {
+    "name": "tunisia_wall"
+  },
+  {
+    "name": "ui_button_xenon_trigl_32x32"
+  },
+  {
+    "name": "ui_button_xenon_trigr_32x32"
+  },
+  {
+    "name": "victory_credits"
+  },
+  {
+    "name": "viewmodel_kar98_ammo"
+  },
+  {
+    "name": "voice_off"
+  },
+  {
+    "name": "voice_on"
+  },
+  {
+    "name": "voice_on_dim"
+  },
+  {
+    "name": "volume"
+  },
+  {
+    "name": "v_asphalt"
+  },
+  {
+    "name": "v_asphaltcrack_01"
+  },
+  {
+    "name": "v_asphaltdirt"
+  },
+  {
+    "name": "v_asphaltdirt_02"
+  },
+  {
+    "name": "v_brick01"
+  },
+  {
+    "name": "v_brick02"
+  },
+  {
+    "name": "v_chimney01"
+  },
+  {
+    "name": "v_chruch_altarfront"
+  },
+  {
+    "name": "v_churchext_trim01"
+  },
+  {
+    "name": "v_colum_stonewall01"
+  },
+  {
+    "name": "v_colum_stonewall02"
+  },
+  {
+    "name": "v_corefloor01"
+  },
+  {
+    "name": "v_corefloor02"
+  },
+  {
+    "name": "v_corewalll01"
+  },
+  {
+    "name": "v_corewalll01_interior"
+  },
+  {
+    "name": "v_corewalll02"
+  },
+  {
+    "name": "v_dec_creekwalledge01"
+  },
+  {
+    "name": "v_dec_darkstain01"
+  },
+  {
+    "name": "v_dec_darkstain02"
+  },
+  {
+    "name": "v_dec_darkstain03"
+  },
+  {
+    "name": "v_dec_darkstain04"
+  },
+  {
+    "name": "v_dec_darkstain05"
+  },
+  {
+    "name": "v_dec_darkstain06"
+  },
+  {
+    "name": "v_dec_darkstain07"
+  },
+  {
+    "name": "v_dec_darkstain08"
+  },
+  {
+    "name": "v_dec_debris"
+  },
+  {
+    "name": "v_dec_grassroad_edge"
+  },
+  {
+    "name": "v_dec_ground_hay_01"
+  },
+  {
+    "name": "v_dec_lightspill"
+  },
+  {
+    "name": "v_dec_lightstain01"
+  },
+  {
+    "name": "v_dec_lightstain02"
+  },
+  {
+    "name": "v_dec_lightstain03"
+  },
+  {
+    "name": "v_dec_mudedge01"
+  },
+  {
+    "name": "v_dec_mudedge02"
+  },
+  {
+    "name": "v_dec_mudtrack"
+  },
+  {
+    "name": "v_dec_plasterwall01"
+  },
+  {
+    "name": "v_dec_plasterwall02"
+  },
+  {
+    "name": "v_dec_plasterwall03"
+  },
+  {
+    "name": "v_dec_plasterwall04"
+  },
+  {
+    "name": "v_dec_stonecorner01"
+  },
+  {
+    "name": "v_dec_stonecorner02"
+  },
+  {
+    "name": "v_dec_stonecorner03"
+  },
+  {
+    "name": "v_dec_stonecorner04"
+  },
+  {
+    "name": "v_dec_stonecorner04_interior"
+  },
+  {
+    "name": "v_dec_stonewall01"
+  },
+  {
+    "name": "v_dec_stonewall02"
+  },
+  {
+    "name": "v_dec_stonewall03"
+  },
+  {
+    "name": "v_dec_stonewall04"
+  },
+  {
+    "name": "v_dec_stonewall05"
+  },
+  {
+    "name": "v_dec_stonewall06"
+  },
+  {
+    "name": "v_dec_stonewall07"
+  },
+  {
+    "name": "v_dec_stonewall08"
+  },
+  {
+    "name": "v_dec_stonewall09"
+  },
+  {
+    "name": "v_dec_stonewall10"
+  },
+  {
+    "name": "v_dec_wallpapertear_01"
+  },
+  {
+    "name": "v_door01"
+  },
+  {
+    "name": "v_door02"
+  },
+  {
+    "name": "v_door03"
+  },
+  {
+    "name": "v_drain01"
+  },
+  {
+    "name": "v_drain02"
+  },
+  {
+    "name": "v_drain02_dents"
+  },
+  {
+    "name": "v_drain03"
+  },
+  {
+    "name": "v_fence_stonetop"
+  },
+  {
+    "name": "v_fireplace01"
+  },
+  {
+    "name": "v_floor_church01"
+  },
+  {
+    "name": "v_grass"
+  },
+  {
+    "name": "v_grass01"
+  },
+  {
+    "name": "v_grass_blend"
+  },
+  {
+    "name": "v_gravestone_01"
+  },
+  {
+    "name": "v_gravestone_02"
+  },
+  {
+    "name": "v_green_single_tree"
+  },
+  {
+    "name": "v_green_tree_wall"
+  },
+  {
+    "name": "v_gutter01"
+  },
+  {
+    "name": "v_ironfence01"
+  },
+  {
+    "name": "v_lyon"
+  },
+  {
+    "name": "v_mud"
+  },
+  {
+    "name": "v_mud_blend"
+  },
+  {
+    "name": "v_mud_blend_over"
+  },
+  {
+    "name": "v_mud_dirteffect"
+  },
+  {
+    "name": "v_mud_footprints"
+  },
+  {
+    "name": "v_mud_footprints_sort_middle2"
+  },
+  {
+    "name": "v_plasterwall"
+  },
+  {
+    "name": "v_plasterwall02"
+  },
+  {
+    "name": "v_plasterwall03"
+  },
+  {
+    "name": "v_poster01"
+  },
+  {
+    "name": "v_poster02"
+  },
+  {
+    "name": "v_poster03"
+  },
+  {
+    "name": "v_redvelvet"
+  },
+  {
+    "name": "v_rene"
+  },
+  {
+    "name": "v_roof01"
+  },
+  {
+    "name": "v_roof02"
+  },
+  {
+    "name": "v_roof03"
+  },
+  {
+    "name": "v_roof04"
+  },
+  {
+    "name": "v_roof_inside01"
+  },
+  {
+    "name": "v_rubble01"
+  },
+  {
+    "name": "v_rubble01_blend"
+  },
+  {
+    "name": "v_rusty_fence01"
+  },
+  {
+    "name": "v_shutter_01"
+  },
+  {
+    "name": "v_shutter_02"
+  },
+  {
+    "name": "v_sidewalk01"
+  },
+  {
+    "name": "v_sidewalktrim01"
+  },
+  {
+    "name": "v_sign01"
+  },
+  {
+    "name": "v_sign02"
+  },
+  {
+    "name": "v_sign03"
+  },
+  {
+    "name": "v_sign04"
+  },
+  {
+    "name": "v_sign05"
+  },
+  {
+    "name": "v_sign06"
+  },
+  {
+    "name": "v_sign06_number1"
+  },
+  {
+    "name": "v_sign06_number3"
+  },
+  {
+    "name": "v_sign06_number6"
+  },
+  {
+    "name": "v_soze"
+  },
+  {
+    "name": "v_stair_rise01"
+  },
+  {
+    "name": "v_stonecorner01"
+  },
+  {
+    "name": "v_stonetrim01"
+  },
+  {
+    "name": "v_stonetrim02"
+  },
+  {
+    "name": "v_stonetrim03"
+  },
+  {
+    "name": "v_stonetrim04"
+  },
+  {
+    "name": "v_stonetrim05"
+  },
+  {
+    "name": "v_stonetrim06"
+  },
+  {
+    "name": "v_stonetrim06_interior"
+  },
+  {
+    "name": "v_stonetrim07"
+  },
+  {
+    "name": "v_stonetrim08"
+  },
+  {
+    "name": "v_stonewall01"
+  },
+  {
+    "name": "v_stonewall02"
+  },
+  {
+    "name": "v_stonewall03"
+  },
+  {
+    "name": "v_stonewall04"
+  },
+  {
+    "name": "v_stonewall04_interior"
+  },
+  {
+    "name": "v_stonewall11"
+  },
+  {
+    "name": "v_stonewall12"
+  },
+  {
+    "name": "v_treeline_01"
+  },
+  {
+    "name": "v_trim_darkgrey"
+  },
+  {
+    "name": "v_wallpaper01"
+  },
+  {
+    "name": "v_wallpaper02"
+  },
+  {
+    "name": "v_wallpaper03"
+  },
+  {
+    "name": "v_wallpaper04"
+  },
+  {
+    "name": "v_wallpaper05"
+  },
+  {
+    "name": "v_wallpaper06"
+  },
+  {
+    "name": "v_wallpaper07"
+  },
+  {
+    "name": "v_wallpaper08"
+  },
+  {
+    "name": "v_window02"
+  },
+  {
+    "name": "v_window03"
+  },
+  {
+    "name": "v_window04"
+  },
+  {
+    "name": "v_window05"
+  },
+  {
+    "name": "v_window06"
+  },
+  {
+    "name": "v_window07"
+  },
+  {
+    "name": "v_window08"
+  },
+  {
+    "name": "v_window09"
+  },
+  {
+    "name": "v_window09_broken"
+  },
+  {
+    "name": "v_window09_unlit"
+  },
+  {
+    "name": "v_window10"
+  },
+  {
+    "name": "v_window11"
+  },
+  {
+    "name": "v_windowframe01"
+  },
+  {
+    "name": "v_windowledge01"
+  },
+  {
+    "name": "v_woodfloor01"
+  },
+  {
+    "name": "v_woodfloor01dec"
+  },
+  {
+    "name": "v_woodtrim01"
+  },
+  {
+    "name": "v_woodtrim02"
+  },
+  {
+    "name": "v_woodtrim03"
+  },
+  {
+    "name": "v_woodtrim03_dec"
+  },
+  {
+    "name": "v_woodtrim04"
+  },
+  {
+    "name": "v_woodtrim05"
+  },
+  {
+    "name": "v_woodwall"
+  },
+  {
+    "name": "v_woodwall02"
+  },
+  {
+    "name": "v_woodwall_dec"
+  },
+  {
+    "name": "v_wood_floor1"
+  },
+  {
+    "name": "v_wood_floor2"
+  },
+  {
+    "name": "v_wood_step_rise"
+  },
+  {
+    "name": "v_wood_step_rise01"
+  },
+  {
+    "name": "v_wood_step_top"
+  },
+  {
+    "name": "v_wood_step_top01"
+  },
+  {
+    "name": "water_duhoc"
+  },
+  {
+    "name": "water_elalamein"
+  },
+  {
+    "name": "water_eldaba"
+  },
+  {
+    "name": "water_hill400_assault"
+  },
+  {
+    "name": "water_rhine"
+  },
+  {
+    "name": "water_silotown"
+  },
+  {
+    "name": "weapon_bar"
+  },
+  {
+    "name": "weapon_bren"
+  },
+  {
+    "name": "weapon_enfield"
+  },
+  {
+    "name": "weapon_enfieldscoped"
+  },
+  {
+    "name": "weapon_g43"
+  },
+  {
+    "name": "weapon_greasegun"
+  },
+  {
+    "name": "weapon_kar98"
+  },
+  {
+    "name": "weapon_kar98scoped"
+  },
+  {
+    "name": "weapon_m1carbine"
+  },
+  {
+    "name": "weapon_m1garand"
+  },
+  {
+    "name": "weapon_mg42_test"
+  },
+  {
+    "name": "weapon_mp40"
+  },
+  {
+    "name": "weapon_mp44"
+  },
+  {
+    "name": "weapon_nagant"
+  },
+  {
+    "name": "weapon_nagantscoped"
+  },
+  {
+    "name": "weapon_pps42"
+  },
+  {
+    "name": "weapon_ppsh"
+  },
+  {
+    "name": "weapon_shotgun"
+  },
+  {
+    "name": "weapon_springfield"
+  },
+  {
+    "name": "weapon_sten"
+  },
+  {
+    "name": "weapon_svt40"
+  },
+  {
+    "name": "weapon_thompson"
+  },
+  {
+    "name": "white"
+  },
+  {
+    "name": "white_banner"
+  },
+  {
+    "name": "white_nocull"
+  },
+  {
+    "name": "white_nocull_offset"
+  },
+  {
+    "name": "xenon_controller_lines_classic"
+  },
+  {
+    "name": "xenon_controller_lines_classic_mp"
+  },
+  {
+    "name": "xenon_controller_lines_default"
+  },
+  {
+    "name": "xenon_controller_lines_default_mp"
+  },
+  {
+    "name": "xenon_controller_lines_fh"
+  },
+  {
+    "name": "xenon_controller_lines_fh_mp"
+  },
+  {
+    "name": "xenon_controller_top_lines"
+  },
+  {
+    "name": "xenon_stick_move"
+  },
+  {
+    "name": "xenon_stick_move_look"
+  },
+  {
+    "name": "xenon_stick_move_turn"
+  },
+  {
+    "name": "xenon_stick_turn"
+  }
+]
