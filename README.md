@@ -1,4 +1,4 @@
-# CoD2 MP Map Script Generator
+# CoD2 MP Map tools
 
 A clean, modern GUI tool designed to simplify creating and editing essential script files for **Call of Duty 2** multiplayer custom maps.
 
@@ -97,4 +97,5 @@ A clean, modern GUI tool designed to simplify creating and editing essential scr
 - Although every effor has been made with the iwd packing, it may miss some files (rare) 
 
 Happy mapping!  
+
 Built for the CoD2 community.
