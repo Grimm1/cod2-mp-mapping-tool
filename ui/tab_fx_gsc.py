@@ -8,7 +8,7 @@ class FXGSCTab(ttk.Frame):
     def __init__(self, parent, app):
         super().__init__(parent)
         self.app = app
-        self.precache_entries = []      # (name, fx_path)
+        self.precache_entries = []      # (name, fx_path) - path WITHOUT .efx
         self.scr_sound_entries = []     # (key, value)
         self.usage_calls = []           # (effect_name_or_alias, func_type, params_string)
         self.create_widgets()
@@ -165,7 +165,7 @@ class FXGSCTab(ttk.Frame):
                 full_path = Path(selected)
                 base_path = Path(cod2_path_str) / "main"
                 rel_path = full_path.relative_to(base_path)
-                fx_path = str(rel_path.with_suffix("")).replace("\\", "/")
+                fx_path = str(rel_path.with_suffix("")).replace("\\", "/")  # remove .efx
                 self.fx_path_entry.delete(0, tk.END)
                 self.fx_path_entry.insert(0, fx_path)
             except ValueError:
@@ -184,7 +184,6 @@ class FXGSCTab(ttk.Frame):
         func = self.func_type.get()
 
         if func == "soundfx":
-            # Special case: sound alias + origin
             alias_frame = ttk.Frame(self.param_container)
             alias_frame.pack(fill="x", pady=(0, 8))
             ttk.Label(alias_frame, text="Sound Alias (must exist in soundaliases csv):").pack(side="left", padx=(0, 8))
@@ -201,7 +200,6 @@ class FXGSCTab(ttk.Frame):
             self.create_vector_inputs(origin_frame, "origin")
 
         else:
-            # Common origin for all other functions
             origin_frame = ttk.LabelFrame(self.param_container, text="Origin (x, y, z) - Required")
             origin_frame.pack(fill="x", pady=(0, 8))
             self.create_vector_inputs(origin_frame, "origin")
@@ -361,13 +359,11 @@ class FXGSCTab(ttk.Frame):
         # Check if we're editing an existing call
         sel = self.usage_table.selection()
         if sel:
-            # Update existing
             item = sel[0]
             idx = self.usage_table.index(item)
             self.usage_calls[idx] = (display_effect, func_type, params)
             self.usage_table.item(item, values=(display_effect, func_type, params))
         else:
-            # Add new
             self.usage_calls.append((display_effect, func_type, params))
             self.usage_table.insert("", "end", values=(display_effect, func_type, params))
 
@@ -409,24 +405,18 @@ class FXGSCTab(ttk.Frame):
         idx = self.usage_table.index(item)
         display_effect, func_type, params = self.usage_calls[idx]
 
-        # Set the function type
         self.func_type.set(func_type)
         self.rebuild_param_inputs()
 
-        # Set the effect choice if not a sound alias
         if display_effect != "(sound alias)":
             self.effect_choice.set(display_effect)
 
-        # Parse and populate parameters
         self.populate_params_from_string(params, func_type, display_effect)
 
-        # Scroll to the top to show the input fields
         self.master.master.yview_moveto(0)
 
     def populate_params_from_string(self, params: str, func_type: str, display_effect: str):
-        """Parse parameters string and populate the input fields."""
         try:
-            # Helper to extract coordinates from "(x, y, z)" format
             def extract_coords(coord_str):
                 coord_str = coord_str.strip()
                 if coord_str.startswith("(") and coord_str.endswith(")"):
@@ -435,7 +425,6 @@ class FXGSCTab(ttk.Frame):
                 return parts if len(parts) == 3 else ["0", "0", "0"]
 
             if func_type == "soundfx":
-                # Extract sound alias from params like: "alias_name", (x, y, z)
                 match = re.match(r'"([^"]+)"\s*,\s*(.+)', params)
                 if match:
                     alias = match.group(1)
@@ -451,9 +440,7 @@ class FXGSCTab(ttk.Frame):
                     self.param_widgets["origin_z"].insert(0, coords[2])
 
             elif func_type in ["loopfx", "OneShotfx"]:
-                # Format: (x, y, z), delay [, (fx, fy, fz)]
                 parts = [p.strip() for p in params.split(",")]
-                # Extract origin (first coord triple)
                 if len(parts) >= 3:
                     origin_parts = [parts[0].lstrip("("), parts[1], parts[2].rstrip(")")]
                     self.param_widgets["origin_x"].delete(0, tk.END)
@@ -463,12 +450,10 @@ class FXGSCTab(ttk.Frame):
                     self.param_widgets["origin_z"].delete(0, tk.END)
                     self.param_widgets["origin_z"].insert(0, origin_parts[2])
 
-                # Extract delay
                 if len(parts) >= 4:
                     self.param_widgets["delay"].delete(0, tk.END)
                     self.param_widgets["delay"].insert(0, parts[3])
 
-                # Extract forward vector if present (remaining parts after delay)
                 if len(parts) > 4:
                     fwd_parts = [p.strip() for p in " ".join(parts[4:]).split(",")]
                     if len(fwd_parts) >= 3:
@@ -484,10 +469,8 @@ class FXGSCTab(ttk.Frame):
                         self.param_widgets["forward_z"].insert(0, fwd_parts[2].rstrip(")"))
 
             elif func_type == "gunfireloopfx":
-                # Format: (x, y, z), shots_min, shots_max, delay_min, delay_max, set_min, set_max
                 parts = [p.strip() for p in params.split(",")]
                 if len(parts) >= 9:
-                    # Origin
                     origin_parts = [parts[0].lstrip("("), parts[1], parts[2].rstrip(")")]
                     self.param_widgets["origin_x"].delete(0, tk.END)
                     self.param_widgets["origin_x"].insert(0, origin_parts[0])
@@ -496,7 +479,6 @@ class FXGSCTab(ttk.Frame):
                     self.param_widgets["origin_z"].delete(0, tk.END)
                     self.param_widgets["origin_z"].insert(0, origin_parts[2])
 
-                    # Gunfire params
                     for i in range(3):
                         min_key = f"gf_min_{i}"
                         max_key = f"gf_max_{i}"
@@ -508,7 +490,6 @@ class FXGSCTab(ttk.Frame):
                             self.param_widgets[max_key].insert(0, parts[4 + i * 2])
 
             elif func_type == "GrenadeExplosionfx":
-                # Only origin required
                 parts = [p.strip() for p in params.split(",")]
                 if len(parts) >= 3:
                     origin_parts = [parts[0].lstrip("("), parts[1], parts[2].rstrip(")")]
@@ -529,6 +510,10 @@ class FXGSCTab(ttk.Frame):
         if not name or not fx_path:
             messagebox.showwarning("Missing Input", "Both effect name and FX file path are required.")
             return
+
+        # Normalize: remove .efx if present, clean slashes
+        fx_path = fx_path.removesuffix(".efx").removesuffix(".EFX").strip()
+        fx_path = fx_path.strip("/\\").replace("//", "/").replace("\\\\", "/")
 
         self.precache_entries.append((name, fx_path))
         self.precache_list.insert(tk.END, f"{name} → {fx_path}")
@@ -689,12 +674,14 @@ ambientFX()
                 for item in self.usage_table.get_children():
                     self.usage_table.delete(item)
 
-                # Parse precacheFX()
-                precache_pattern = r'level\._effect\s*\[\s*"([^"]+)"\s*\]\s*=\s*loadfx\s*\(\s*"([^"]+)"\s*\)\s*;?'
+                # Parse precacheFX() - accept with or without .efx
+                precache_pattern = r'level\._effect\s*\[\s*"([^"]+)"\s*\]\s*=\s*loadfx\s*\(\s*"([^"]+?)(?:\.efx|\.EFX)?"\s*\)\s*;?'
                 for match in re.finditer(precache_pattern, content, re.IGNORECASE):
                     name, path = match.groups()
                     name = name.strip()
-                    path = path.strip()
+                    # Normalize: strip extension if present
+                    path = path.strip().removesuffix(".efx").removesuffix(".EFX")
+                    path = path.strip("/\\").replace("//", "/").replace("\\\\", "/")
                     self.precache_entries.append((name, path))
                     self.precache_list.insert(tk.END, f"{name} → {path}")
 
@@ -722,16 +709,13 @@ ambientFX()
                         continue
 
                     if in_ambient:
-                        # Match any _fx function
                         match = re.match(r'^\s*maps\s*\\\s*mp\s*\\\s*_fx\s*::\s*(\w+)\s*\(\s*(?:"([^"]+)"\s*,\s*)?(.*)\);?', stripped, re.IGNORECASE)
                         if match:
                             func_type = match.group(1).strip()
                             effect_or_alias = match.group(2).strip() if match.group(2) else "(sound alias)"
                             remaining_params = match.group(3) if match.group(3) else ""
 
-                            # For soundfx, the first param is the alias in quotes, no effect name
                             if func_type.lower() == "soundfx":
-                                # Re-parse specifically for soundfx
                                 sound_match = re.match(r'^\s*maps\s*\\\s*mp\s*\\\s*_fx\s*::\s*soundfx\s*\(\s*"([^"]+)"\s*,\s*(.*)\);?', stripped, re.IGNORECASE)
                                 if sound_match:
                                     alias = sound_match.group(1)
@@ -740,7 +724,6 @@ ambientFX()
                                     self.usage_table.insert("", "end", values=("(sound alias)", "soundfx", params))
                                     continue
 
-                            # For visual effects
                             params = remaining_params.strip()
                             if params.endswith(','):
                                 params = params[:-1].strip()
