@@ -1,4 +1,4 @@
-# helpers.py (COMPLETE FINAL VERSION - ALLOW '&' IN TEXTURE NAMES)
+# helpers.py (COMPLETE FINAL VERSION - with hidden FX extraction)
 
 from pathlib import Path
 import os
@@ -54,16 +54,6 @@ def write_file(path: Path, content: str, overwrite: bool = False):
 def get_xmodel_dependencies(cod2_path: str, model_name: str) -> dict[str, any]:
     """
     Parses a CoD2 xmodel file and returns the required dependencies.
-
-    Args:
-        cod2_path (str): Root path of the CoD2 installation
-        model_name (str): Name of the xmodel (without extension)
-
-    Returns:
-        dict with keys:
-            "surfs": list[str]      - Required xmodelsurfs names
-            "materials": list[str]  - Required material/shader names
-            "parts": str            - Suggested xmodelparts name (model_name + "0")
     """
     xmodel_path = Path(cod2_path) / "main" / "xmodel" / model_name
 
@@ -78,7 +68,6 @@ def get_xmodel_dependencies(cod2_path: str, model_name: str) -> dict[str, any]:
 
     data = xmodel_path.read_bytes()
 
-    # Extract all null-terminated strings
     pos = 0
     candidates = []
     while pos < len(data):
@@ -92,9 +81,8 @@ def get_xmodel_dependencies(cod2_path: str, model_name: str) -> dict[str, any]:
                     candidates.append(s)
             except:
                 pass
-        pos += 1  # skip null or continue
+        pos += 1
 
-    # Strict but permissive filter for CoD2 asset names
     pattern = re.compile(r'^[a-z0-9_]+$')
     filtered = []
     for s in candidates:
@@ -103,7 +91,6 @@ def get_xmodel_dependencies(cod2_path: str, model_name: str) -> dict[str, any]:
             ('_' in s or any(c.isdigit() for c in s))):
             filtered.append(s)
 
-    # Classify & dedupe (preserve discovery order)
     materials = []
     surfs = []
     seen_mat = set()
@@ -155,7 +142,7 @@ def parse_map_entities(file_path: Path) -> List[Dict[str, str]]:
 def get_textures_from_material(cod2_path: str, material_name: str) -> set[str]:
     """
     Parses a binary material file (NO extension) and extracts referenced texture base names (without .iwi).
-    Allows '&' and '-' in names for specular maps.
+    Allows '&' and '-' in names for specular maps, etc.
     """
     cod2 = Path(cod2_path)
 
@@ -227,7 +214,19 @@ def get_missing_custom_assets_from_map(
     material_json: str = "lists/materials.json"
 ) -> dict:
     """
-    Parses map + prefabs → finds custom xmodels, materials, and textures from custom materials.
+    Parses map + prefabs → finds custom xmodels, materials, textures, and hidden FX references.
+
+    Returns:
+        dict with:
+            missing_xmodels: list[str]
+            missing_materials: list[str]
+            missing_textures: list[str]     # .iwi filenames
+            hidden_fx_paths: list[str]      # NEW: full "fx/..." paths (with .efx)
+            dropped_xmodels: int
+            dropped_materials: int
+            total_xmodels: int
+            total_materials: int
+            prefabs_processed: list[str]
     """
     cod2 = Path(cod2_path)
     main_map_path = cod2 / "map_source" / f"{map_name}.map"
@@ -258,6 +257,7 @@ def get_missing_custom_assets_from_map(
 
     used_xmodels: Set[str] = set()
     used_materials: Set[str] = set()
+    hidden_fx_paths: Set[str] = set()
     prefabs_processed: List[str] = []
     visited: Set[str] = set()
 
@@ -265,15 +265,20 @@ def get_missing_custom_assets_from_map(
     cm_mat_regex = re.compile(r'(?:curve|mesh|patchDef2)\s*\{\s*([a-z0-9_/]+)')
 
     def recurse(map_path: Path):
+        print(f"  Parsing: {map_path.name}")
         text = map_path.read_text(encoding="latin1", errors="replace")
 
+        # Materials from brushes/curves
         used_materials.update(brush_mat_regex.findall(text))
         for match in cm_mat_regex.finditer(text):
             used_materials.add(match.group(1))
 
+        # Entities
         entities = parse_map_entities(map_path)
         for ent in entities:
-            classname = ent.get("classname", "")
+            classname = ent.get("classname", "").lower()
+
+            # XModels from misc_model
             if classname == "misc_model":
                 model = ent.get("model", "")
                 if model.startswith("xmodel/"):
@@ -281,7 +286,19 @@ def get_missing_custom_assets_from_map(
                     if name:
                         used_xmodels.add(name)
 
-            elif classname == "misc_prefab":
+            # Hidden FX from various keys
+            for key in ["script_noteworthy", "fx", "effect", "corona", "script_fx", "targetname"]:
+                if key in ent:
+                    val = ent[key].strip()
+                    if "fx/" in val.lower() or val.lower().startswith("fx/"):
+                        # Normalize
+                        fx_path = val.replace("\\", "/").strip()
+                        if not fx_path.lower().endswith(".efx"):
+                            fx_path += ".efx"
+                        hidden_fx_paths.add(fx_path)
+
+            # Prefab recursion
+            if classname == "misc_prefab":
                 prefab_raw = ent.get("model", "")
                 if prefab_raw and prefab_raw.endswith(".map"):
                     prefab_rel = prefab_raw.removeprefix("prefabs/")
@@ -290,10 +307,8 @@ def get_missing_custom_assets_from_map(
                     if prefab_path.is_file() and key not in visited:
                         visited.add(key)
                         prefabs_processed.append(prefab_path.name)
-                        print(f"  → Recursing prefab: {prefab_path.name}")
                         recurse(prefab_path)
 
-    print(f"Parsing main map: {main_map_path.name}")
     recurse(main_map_path)
 
     missing_xmodels = sorted(used_xmodels - known_xmodels)
@@ -313,10 +328,14 @@ def get_missing_custom_assets_from_map(
 
     missing_iwis = sorted([t + ".iwi" for t in missing_textures])
 
+    # Final hidden FX list (deduped, sorted)
+    hidden_fx_list = sorted(hidden_fx_paths)
+
     return {
         "missing_xmodels": missing_xmodels,
         "missing_materials": missing_materials,
         "missing_textures": missing_iwis,
+        "hidden_fx_paths": hidden_fx_list,          # ← NEW
         "dropped_xmodels": dropped_xmodels,
         "dropped_materials": dropped_materials,
         "total_xmodels": total_xmodels,
