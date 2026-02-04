@@ -80,7 +80,6 @@ class IWDPackerTab(ttk.Frame):
         self.count_label.pack(anchor="w", pady=10)
 
     def refresh_packer_maps(self):
-        """Load map list specifically for packer tab"""
         cod2_path_str = self.app.cod2_path.get().strip()
         if not cod2_path_str or not Path(cod2_path_str).is_dir():
             messagebox.showwarning("No CoD2 Path", "Set CoD2 path first (in Script Tools tab)")
@@ -172,7 +171,6 @@ class IWDPackerTab(ttk.Frame):
                             mat_name = match.group(1).strip()
                             print(f"[IWD Packer] Found loadscreen material reference: {mat_name}")
 
-                            # Locate material file (raw > main)
                             mat_file = None
                             for base in ["raw", "main"]:
                                 candidate = cod2_path / base / "materials" / mat_name
@@ -182,10 +180,8 @@ class IWDPackerTab(ttk.Frame):
 
                             if mat_file:
                                 print(f"[IWD Packer] Located material file: {mat_file}")
-                                # Pack the material file itself into materials/
                                 self.add_file(mat_file)
 
-                                # Parse for texture
                                 data = mat_file.read_bytes()
                                 pos = 0
                                 candidates = []
@@ -229,54 +225,60 @@ class IWDPackerTab(ttk.Frame):
                 except Exception as e:
                     print(f"[IWD Packer] Failed to process loadscreen CSV/material: {e}")
 
-            # ── 4. Custom FX only ──
+            # ── 4. Custom FX – IMPROVED PARSING ────────────────────────────────────────
             fx_gsc = base_mp / f"{mapname}_fx.gsc"
             if fx_gsc.exists():
                 fx_content = fx_gsc.read_text(encoding="utf-8", errors="ignore")
-                fx_paths = re.findall(r'loadfx\s*\(\s*"([^"]+\.efx)"\s*\)', fx_content, re.IGNORECASE)
-                print(f"[DEBUG FX] Raw loadfx paths found in _fx.gsc: {fx_paths}")
+
+                # ── IMPROVED: Catch loadfx() with OR without .efx extension ──
+                fx_paths = re.findall(
+                    r'loadfx\s*\(\s*"([^"]+)"\s*\)',
+                    fx_content,
+                    re.IGNORECASE
+                )
+
+                print(f"[DEBUG FX] All loadfx calls found: {fx_paths}")
 
                 stock_fx = set()
                 fx_json_path = project_root / "lists" / "fx_files.json"
-                print(f"[DEBUG FX] Looking for JSON at: {fx_json_path.resolve()}")
                 if fx_json_path.is_file():
                     try:
                         with open(fx_json_path, "r", encoding="utf-8") as f:
-                            raw_data = f.read()
-                            print(f"[DEBUG FX] Raw JSON content length: {len(raw_data)} chars")
-                            data = json.loads(raw_data)
-                            print(f"[DEBUG FX] Loaded {len(data)} items from JSON")
+                            data = json.load(f)
                             stock_fx = {
                                 str(item.get("path", "")).strip().replace("\\", "/").removeprefix("fx/").strip().lower()
                                 for item in data if isinstance(item, dict) and "path" in item
                             }
-                        print(f"[DEBUG FX] Stock FX set size after normalization: {len(stock_fx)}")
-                        if stock_fx:
-                            print("[DEBUG FX] Sample stock entries:", list(stock_fx)[:5])
-                    except json.JSONDecodeError as e:
-                        print(f"[DEBUG FX] JSON parse error: {e}")
                     except Exception as e:
-                        print(f"[DEBUG FX] Other JSON load error: {e}")
-                else:
-                    print("[DEBUG FX] fx_files.json NOT FOUND")
+                        print(f"[DEBUG FX] JSON load error: {e}")
 
                 added_fx = 0
-                for fx_quoted in fx_paths:
-                    clean_path = fx_quoted.strip().replace("\\", "/").removeprefix("fx/").strip()
+                for fx_path_raw in fx_paths:
+                    # Clean and normalize
+                    clean_path = fx_path_raw.strip().replace("\\", "/").removeprefix("fx/").strip()
                     norm_lower = clean_path.lower()
-                    print(f"[DEBUG FX] Checking: '{fx_quoted}' → normalized '{clean_path}' (lower: '{norm_lower}')")
-                    if norm_lower in stock_fx:
-                        print(f"   → MATCHED stock → skipping")
+
+                    # Always ensure .efx for disk lookup (game adds it if missing)
+                    if clean_path.lower().endswith('.efx'):
+                        game_path = f"fx/{clean_path}"
+                        disk_path_no_ext = clean_path[:-4]  # remove .efx for comparison if needed
                     else:
-                        print(f"   → NOT in stock → adding")
-                        full_game_path = f"fx/{clean_path}" if not fx_quoted.lower().startswith("fx/") else fx_quoted
-                        full_disk_path = cod2_path / "main" / full_game_path
-                        if full_disk_path.exists():
-                            self.add_file(full_disk_path)
-                            added_fx += 1
-                            print(f"      Added: {full_game_path}")
-                        else:
-                            print(f"      File missing on disk: {full_disk_path}")
+                        game_path = f"fx/{clean_path}.efx"
+                        disk_path_no_ext = clean_path
+
+                    print(f"[DEBUG FX] Checking: '{fx_path_raw}' → game path: '{game_path}' (norm: '{norm_lower}')")
+
+                    if norm_lower in stock_fx or disk_path_no_ext in stock_fx:
+                        print(f"   → MATCHED stock → skipping")
+                        continue
+
+                    full_disk_path = cod2_path / "main" / game_path
+                    if full_disk_path.exists():
+                        self.add_file(full_disk_path)
+                        added_fx += 1
+                        print(f"      Added custom FX: {game_path}")
+                    else:
+                        print(f"      Custom FX missing on disk: {full_disk_path}")
 
                 print(f"[IWD Packer] Total custom FX added: {added_fx}")
             else:
@@ -363,7 +365,6 @@ class IWDPackerTab(ttk.Frame):
                     print(f"[IWD Packer] Skipped missing file: {src_path}")
                     continue
 
-                # Compute path relative to 'main/' or 'raw/'
                 if "raw" in src_path.parts:
                     idx = src_path.parts.index("raw")
                     rel = Path(*src_path.parts[idx+1:])
@@ -397,7 +398,6 @@ class IWDPackerTab(ttk.Frame):
             messagebox.showerror("Pack Error", str(e))
 
     def refresh_packer_maps(self):
-        """Load map list specifically for packer tab"""
         cod2_path_str = self.app.cod2_path.get().strip()
         if not cod2_path_str or not Path(cod2_path_str).is_dir():
             messagebox.showwarning("No CoD2 Path", "Set CoD2 path first (in Script Tools tab)")
