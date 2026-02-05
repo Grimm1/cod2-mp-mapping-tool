@@ -1,21 +1,89 @@
 # ui/tab_sun.py
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk, messagebox, simpledialog
 from pathlib import Path
-
-from presets import (
-    get_sun_presets,
-    get_sun_preset_names,
-    get_sun_preset_by_name
-)
+import json
 
 class SunTab(ttk.Frame):
     def __init__(self, parent, app):
         super().__init__(parent)
         self.app = app
-        self.sun_presets = get_sun_presets()   # Load once here
+        self.json_path = Path(__file__).parent.parent / "presets" / "sun_presets.json"
+        self.sun_presets = self.load_sun_presets()  # Load from JSON
         self.create_widgets()
         self.update_missing_status()
+
+    def load_sun_presets(self):
+        """Load sun presets from JSON file"""
+        if not self.json_path.is_file():
+            print(f"[SunTab] Presets JSON not found: {self.json_path}")
+            messagebox.showwarning(
+                "Presets Missing",
+                f"Sun presets file not found:\n{self.json_path}\n\n"
+                "Using default/empty preset list.\n"
+                "Create presets by adjusting values and clicking 'Save Current as Preset'."
+            )
+            return {}
+
+        try:
+            with open(self.json_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                presets = {}
+                for p in data.get("presets", []):
+                    name = p.get("name")
+                    if name:
+                        presets[name] = p.get("values", {})
+                print(f"[SunTab] Loaded {len(presets)} sun presets from JSON")
+                return presets
+        except json.JSONDecodeError as e:
+            print(f"[SunTab] JSON decode error: {e}")
+            messagebox.showerror("Presets Error", f"Invalid JSON in presets file:\n{e}")
+            return {}
+        except Exception as e:
+            print(f"[SunTab] Failed to load presets JSON: {e}")
+            messagebox.showerror("Presets Error", f"Could not load sun presets:\n{e}")
+            return {}
+
+    def save_preset_to_json(self, name: str, values: dict) -> bool:
+        """Append or update preset in JSON file"""
+        data = {"presets": []}
+        if self.json_path.is_file():
+            try:
+                with open(self.json_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+            except:
+                pass  # corrupt? start fresh with empty
+
+        # Check if name exists → warn and confirm overwrite
+        existing = next((p for p in data["presets"] if p["name"] == name), None)
+        if existing:
+            if not messagebox.askyesno(
+                "Overwrite Preset?",
+                f"Preset '{name}' already exists.\nOverwrite it?"
+            ):
+                return False
+
+        # Remove old version if exists
+        data["presets"] = [p for p in data["presets"] if p["name"] != name]
+
+        # Add new/updated preset
+        data["presets"].append({
+            "name": name,
+            "values": values
+        })
+
+        # Sort alphabetically by name
+        data["presets"].sort(key=lambda p: p["name"].lower())
+
+        try:
+            self.json_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(self.json_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            print(f"[SunTab] Saved preset '{name}' to {self.json_path}")
+            return True
+        except Exception as e:
+            messagebox.showerror("Save Failed", f"Could not save preset:\n{e}")
+            return False
 
     def create_widgets(self):
         # Missing file status
@@ -28,22 +96,28 @@ class SunTab(ttk.Frame):
 
         ttk.Label(self, text="SUN File: sun/mp_mapname.sun", font=("Segoe UI", 11, "bold")).pack(anchor="w", pady=12)
 
-        # Presets section
+        # Presets section with Load + Save
         preset_frame = ttk.LabelFrame(self, text=" Presets ", padding=10)
         preset_frame.pack(fill="x", padx=20, pady=10)
 
-        ttk.Label(preset_frame, text="Load a preset:").pack(anchor="w", pady=4)
+        load_frame = ttk.Frame(preset_frame)
+        load_frame.pack(fill="x", pady=(0, 8))
+
+        ttk.Label(load_frame, text="Load preset:").pack(side="left", padx=(0, 8))
         self.preset_var = tk.StringVar(value="")
         self.preset_combo = ttk.Combobox(
-            preset_frame,
+            load_frame,
             textvariable=self.preset_var,
-            values=get_sun_preset_names(),  # ← Imported
+            values=list(self.sun_presets.keys()),
             state="readonly",
             width=40
         )
-        self.preset_combo.pack(anchor="w", pady=4)
+        self.preset_combo.pack(side="left", padx=8)
 
-        ttk.Button(preset_frame, text="Load Preset", command=self.load_preset).pack(anchor="w", pady=4)
+        ttk.Button(load_frame, text="Load", command=self.load_preset).pack(side="left")
+
+        # Save button
+        ttk.Button(preset_frame, text="Save Current as New Preset...", command=self.save_current_preset).pack(anchor="w", pady=8)
 
         # Scrollable frame for sun parameters
         canvas = tk.Canvas(self)
@@ -85,10 +159,9 @@ class SunTab(ttk.Frame):
             ("r_sun_fx_position", "-38.6856 -53.8224 0", "Sun FX position (x y z)"),
         ]
 
-        # Create 2-column layout with fixed widths
+        # Create 2-column layout
         row_frames = []
         for idx, (name, default, desc) in enumerate(fields):
-            # Create a new row frame for each pair
             col = idx % 2
             if col == 0:
                 row = ttk.Frame(frame)
@@ -96,12 +169,10 @@ class SunTab(ttk.Frame):
                 row_frames.append(row)
             else:
                 row = row_frames[-1]
-            
-            # Create column container with fixed width
+
             col_frame = ttk.Frame(row)
             col_frame.pack(side="left", fill="both", expand=True, padx=(0, 20) if col == 0 else (0, 0))
-            
-            # Fixed width for labels to align inputs
+
             ttk.Label(col_frame, text=f"{name}:", width=22).pack(side="left", padx=(0, 4))
             entry = ttk.Entry(col_frame, width=18)
             entry.insert(0, default)
@@ -109,28 +180,54 @@ class SunTab(ttk.Frame):
             ttk.Label(col_frame, text=desc, foreground="gray", font=("Segoe UI", 8), width=30).pack(side="left", padx=(0, 2))
 
             self.sun_entries[name] = entry
-        
-        # Add Generate button in a footer section
+
+        # Generate button
         button_frame = ttk.Frame(scrollable_frame)
         button_frame.pack(fill="x", pady=(15, 0))
         ttk.Button(button_frame, text="Generate SUN File", command=self.save_now).pack(side="left", padx=15)
 
+    def save_current_preset(self):
+        """Prompt for name and save current sun settings as preset"""
+        # Check if anything is set (prevent saving empty)
+        if not any(entry.get().strip() for entry in self.sun_entries.values()):
+            messagebox.showwarning("Nothing to Save", "No sun settings have been changed.")
+            return
+
+        name = simpledialog.askstring(
+            "Save Preset",
+            "Enter a name for this preset (e.g. 'My Desert Noon'):",
+            parent=self
+        )
+        if not name or not name.strip():
+            return
+
+        name = name.strip()
+
+        # Collect current values
+        current_values = {}
+        for key, entry in self.sun_entries.items():
+            val = entry.get().strip()
+            if val:
+                current_values[key] = val
+
+        if self.save_preset_to_json(name, current_values):
+            # Reload presets to update UI
+            self.sun_presets = self.load_sun_presets()
+            self.preset_combo["values"] = list(self.sun_presets.keys())
+            self.preset_var.set(name)  # select the newly saved one
+            messagebox.showinfo("Saved", f"Preset '{name}' saved successfully!\nYou can now load it anytime.")
+
     def load_preset(self):
         preset_name = self.preset_var.get()
-        if not preset_name:
-            messagebox.showwarning("No Selection", "Please select a preset first.")
+        if not preset_name or preset_name not in self.sun_presets:
+            messagebox.showwarning("No Preset", "Please select a valid preset first.")
             return
 
-        preset = get_sun_preset_by_name(preset_name)
-        if not preset:
-            messagebox.showerror("Preset Not Found", f"Preset '{preset_name}' not found.")
-            return
-
-        # Apply all values from preset to entries
+        values = self.sun_presets[preset_name]
         for name, entry in self.sun_entries.items():
-            value = preset.get(name, "")
+            value = values.get(name, "")
             entry.delete(0, tk.END)
-            entry.insert(0, value)
+            entry.insert(0, str(value))
 
         messagebox.showinfo("Preset Loaded", f"Loaded preset: {preset_name}")
 
@@ -158,7 +255,6 @@ class SunTab(ttk.Frame):
             messagebox.showerror("Error", str(e))
 
     def save_files(self, cod2_path: Path, mapname: str):
-        # Same logic as save_now but without dialog
         path = cod2_path / "main" / "sun" / f"{mapname}.sun"
         lines = ["// Generated SUN file"]
         for name, entry in self.sun_entries.items():
@@ -185,11 +281,9 @@ class SunTab(ttk.Frame):
             self.missing_label.config(text="SUN file exists ✓", foreground="green")
             self.create_btn.state(["disabled"])
 
-        # Load existing data if file exists
         self.load_from_file(Path(self.app.cod2_path.get()), mapname)
 
     def load_from_file(self, cod2_path: Path, mapname: str):
-        """Parse and load existing SUN file"""
         sun_path = cod2_path / "main" / "sun" / f"{mapname}.sun"
         if not sun_path.exists():
             sun_path = cod2_path / "sun" / f"{mapname}.sun"
@@ -197,13 +291,10 @@ class SunTab(ttk.Frame):
         if sun_path.exists():
             try:
                 sun_content = sun_path.read_text(encoding="utf-8")
-                # Parse sun file and populate entries
                 for line in sun_content.split('\n'):
                     line = line.strip()
                     if not line or line.startswith('//'):
                         continue
-
-                    # Parse "key value" format
                     parts = line.split(None, 1)
                     if len(parts) == 2:
                         key, value = parts
@@ -212,15 +303,14 @@ class SunTab(ttk.Frame):
                             self.sun_entries[key].insert(0, value)
             except Exception as e:
                 print(f"[DEBUG SUN] Load error: {e}")
-                pass
 
     def create_file_if_missing(self):
         mapname = self.app.map_name.get().strip()
         if not mapname:
             return
 
-        cod2_path = Path(self.app.cod2_path.get())
-        path = cod2_path / "main" / "sun" / f"{mapname}.sun"
+        cod2 = Path(self.app.cod2_path.get())
+        path = cod2 / "main" / "sun" / f"{mapname}.sun"
         if path.exists():
             return
 
@@ -232,5 +322,5 @@ class SunTab(ttk.Frame):
 
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-        messagebox.showinfo("Created", f"Created basic file:\n{path}")
+        messagebox.showinfo("Created", f"Created basic SUN file:\n{path}")
         self.update_missing_status()
