@@ -13,6 +13,28 @@ import os
 from helpers import get_map_list, get_missing_custom_assets_from_map, get_xmodel_dependencies, get_textures_from_material
 
 class IWDPackerTab(ttk.Frame):
+    @staticmethod
+    def extract_loadscreen_iwi_candidates(csv_content: str):
+        candidates = []
+        for line in csv_content.splitlines():
+            line = line.strip()
+            if not line or line.startswith('#'):
+                continue
+            parts = [part.strip() for part in line.split(',')]
+            if len(parts) < 2:
+                continue
+            if parts[0].lower() != 'levelbriefing':
+                continue
+            loadscreen_name = parts[1].strip()
+            if not loadscreen_name:
+                continue
+            if not loadscreen_name.lower().startswith(('loadscreen_', 'loadingscreen_')):
+                continue
+            if loadscreen_name.lower().endswith('.iwi'):
+                loadscreen_name = Path(loadscreen_name).stem
+            candidates.append(Path('images') / f'{loadscreen_name}.iwi')
+        return candidates
+
     def __init__(self, parent, app):
         super().__init__(parent)
         self.app = app
@@ -275,57 +297,69 @@ class IWDPackerTab(ttk.Frame):
             self.add_file(base_sound / f"{mapname}.csv")
             self.add_file(base_sun / f"{mapname}.sun")
 
-            # ── 3. Loadscreen processing (unchanged) ──
+            # ── 3. Loadscreen processing ──
             if csv_path.exists():
                 try:
                     with open(csv_path, "r", encoding="utf-8", errors="ignore") as f:
                         content = f.read()
-                        match = re.search(r'levelBriefing\s*,\s*(load(?:ing)?screen_[^\s,]+)', content, re.IGNORECASE)
-                        if match:
-                            mat_name = match.group(1).strip()
-                            print(f"[IWD Packer] Found loadscreen material: {mat_name}")
 
-                            mat_file = None
-                            for base in ["raw", "main"]:
-                                candidate = cod2_path / base / "materials" / mat_name
-                                if candidate.exists():
-                                    mat_file = candidate
+                    loadscreen_candidates = self.extract_loadscreen_iwi_candidates(content)
+                    if loadscreen_candidates:
+                        print(f"[IWD Packer] Found loadscreen CSV entries: {loadscreen_candidates}")
+                        for rel_path in loadscreen_candidates:
+                            iwi_path = cod2_path / "main" / rel_path
+                            if iwi_path.exists():
+                                self.add_file(iwi_path)
+                                print(f"[IWD Packer] Added loadscreen texture from CSV: {rel_path}")
+                            else:
+                                print(f"[IWD Packer] Loadscreen texture missing: {rel_path}")
+
+                    match = re.search(r'levelBriefing\s*,\s*(load(?:ing)?screen_[^\s,]+)', content, re.IGNORECASE)
+                    if match:
+                        mat_name = match.group(1).strip()
+                        print(f"[IWD Packer] Found loadscreen material: {mat_name}")
+
+                        mat_file = None
+                        for base in ["raw", "main"]:
+                            candidate = cod2_path / base / "materials" / mat_name
+                            if candidate.exists():
+                                mat_file = candidate
+                                break
+
+                        if mat_file:
+                            self.add_file(mat_file)
+                            data = mat_file.read_bytes()
+                            pos = 0
+                            candidates = []
+                            while pos < len(data):
+                                start = pos
+                                while pos < len(data) and data[pos] != 0:
+                                    pos += 1
+                                if pos > start:
+                                    s = data[start:pos].decode('ascii', errors='ignore').strip()
+                                    if s and re.match(r'^[a-zA-Z0-9_~/\.&\-]+$', s):
+                                        candidates.append(s)
+                                pos += 1
+
+                            tex_base = None
+                            for s in candidates:
+                                base_name = Path(s).stem
+                                if base_name.startswith(("loadingscreen_", "loadscreen_")) and base_name != mat_name:
+                                    tex_base = base_name
                                     break
 
-                            if mat_file:
-                                self.add_file(mat_file)
-                                data = mat_file.read_bytes()
-                                pos = 0
-                                candidates = []
-                                while pos < len(data):
-                                    start = pos
-                                    while pos < len(data) and data[pos] != 0:
-                                        pos += 1
-                                    if pos > start:
-                                        s = data[start:pos].decode('ascii', errors='ignore').strip()
-                                        if s and re.match(r'^[a-zA-Z0-9_~/\.&\-]+$', s):
-                                            candidates.append(s)
-                                    pos += 1
-
-                                tex_base = None
-                                for s in candidates:
+                            if not tex_base and candidates:
+                                for s in reversed(candidates):
                                     base_name = Path(s).stem
-                                    if base_name.startswith(("loadingscreen_", "loadscreen_")) and base_name != mat_name:
+                                    if base_name not in {mat_name, "colorMap", "normalMap"}:
                                         tex_base = base_name
                                         break
 
-                                if not tex_base and candidates:
-                                    for s in reversed(candidates):
-                                        base_name = Path(s).stem
-                                        if base_name not in {mat_name, "colorMap", "normalMap"}:
-                                            tex_base = base_name
-                                            break
-
-                                if tex_base:
-                                    iwi_path = cod2_path / "main" / "images" / f"{tex_base}.iwi"
-                                    if iwi_path.exists():
-                                        self.add_file(iwi_path)
-                                        print(f"[IWD Packer] Added loadscreen texture: {tex_base}.iwi")
+                            if tex_base:
+                                iwi_path = cod2_path / "main" / "images" / f"{tex_base}.iwi"
+                                if iwi_path.exists():
+                                    self.add_file(iwi_path)
+                                    print(f"[IWD Packer] Added loadscreen texture: {tex_base}.iwi")
 
                 except Exception as e:
                     print(f"[IWD Packer] Loadscreen processing error: {e}")

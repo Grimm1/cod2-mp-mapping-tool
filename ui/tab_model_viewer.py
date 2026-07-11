@@ -1644,7 +1644,42 @@ class ModelViewerTab(ttk.Frame):
                 justify="center"
             )
 
-# ui/tab_model_viewer.py — UPDATED build_normal_ui METHOD (with full horizontal + vertical scrolling)
+    def build_setup_ui(self, parent):
+        title = ttk.Label(parent, text="Model Viewer Setup", font=("Segoe UI", 18, "bold"))
+        title.pack(padx=30, pady=(30, 10), anchor="w")
+
+        description = ttk.Label(
+            parent,
+            text=(
+                "The model image pack is not installed yet.\n"
+                "Download the archive to enable the thumbnail browser and preview pane."
+            ),
+            justify="left",
+            wraplength=760,
+            foreground="#d0d0d0"
+        )
+        description.pack(padx=30, pady=(0, 20), anchor="w")
+
+        info = ttk.Label(
+            parent,
+            text="This may take several minutes and requires roughly 500–600MB of disk space.",
+            justify="left",
+            wraplength=760,
+            foreground="#7ecfff"
+        )
+        info.pack(padx=30, pady=(0, 20), anchor="w")
+
+        download_btn = ttk.Button(parent, text="Download Model Images", command=self.download_images)
+        download_btn.pack(padx=30, pady=(0, 10), anchor="w")
+
+        note = ttk.Label(
+            parent,
+            text="After downloading, restart the application to load the viewer.",
+            justify="left",
+            wraplength=760,
+            foreground="#888"
+        )
+        note.pack(padx=30, pady=(10, 0), anchor="w")
 
     def build_normal_ui(self, parent):
         # Search
