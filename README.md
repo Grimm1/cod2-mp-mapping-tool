@@ -52,7 +52,6 @@ You can use the launcher.bat file to install python, dependencies and run the co
 
 ### Installation
 
-```bash
 # Clone or download the repository
 git clone https://github.com/Grimm1/cod2-mp-mapping-tool.git
 cd cod2-mp-mapping-tool
@@ -62,10 +61,9 @@ pip install PyQt6 psutil
 
 ### How to Run
 
-
-
 ```bash
 python main.py
+```
 
 1. Set your CoD2 installation path (Browse button).
 2. Select or type a map name (e.g. `mp_mymap`).
