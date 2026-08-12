@@ -1,0 +1,35 @@
+If you find bugs let me know. 
+
+This version has a built in version of the map compile tools (map compiler tab), this needs careful testing.
+
+The software has been tested with the resources I have. 
+I would recommend backing up your cod2 folder before using it.
+
+
+how to install.
+
+extract all files to a folder
+
+run launcher.bat, you may find it is blocked, (thanks microsoft) if so you can right click
+and run as admin it may work. or disable the shitty "smart" app control. 
+
+or do the following
+
+download python from official sources or the microsoft store.
+
+install it and when asked add python to path (important)
+
+do the following once only in a cmd or powershell prompt:-
+
+python -m ensurepip --default-pip
+
+python -m pip install PyQt6
+
+python -m pip install psutil
+
+
+to run the software right click in its folder and open in terminal
+
+input :-
+
+python .\main.py

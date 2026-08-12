@@ -1,13 +1,8 @@
-# main.py
-import tkinter as tk
-from tkinter import ttk
-from ui.main_window import MapScriptGeneratorApp
+"""Entry point for the CoD2 MP Mapping Tool.
+
+This script launches the Qt-based application when executed directly.
+"""
+from ui.main_window_qt import launch_qt_app
 
 if __name__ == "__main__":
-    root = tk.Tk()
-    root.title("CoD2 MP Map Script Generator")
-    root.geometry("1100x780")
-    root.resizable(True, True)
-
-    app = MapScriptGeneratorApp(root)
-    root.mainloop()
+    launch_qt_app()
