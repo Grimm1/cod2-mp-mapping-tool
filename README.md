@@ -19,8 +19,11 @@ You can use the launcher.bat file to install python, dependencies and run the co
   - Connect Paths + Run Map
   - Full option panels, custom command-line args, per-map settings, live console
 
-- **IWD Packer**  
-  Automatically detects and packs custom/non-stock assets (xmodels, materials, textures, FX, scripts, loadscreen, etc.) into a ready-to-use `.iwd`.
+- **IWD Packer**
+  - Choose a map and select **Analyze custom files** to scan its `.map` and referenced prefabs for non-stock xmodels, materials, textures, and FX references.
+  - Also checks `loadfx` calls in the map's `_fx.gsc`, custom EFX shader/material/texture dependencies, and available map files such as scripts, the BSP, arena, sun, sound aliases, and loadscreen assets.
+  - Review the discovered file list, then select **Pack to IWD**. The default name is `zzz_<mapname>.iwd`; the archive uses paths relative to `main/` or `raw/` so assets land in the expected IWD locations.
+  - The scan can miss assets loaded dynamically or referenced outside the files it examines, so verify the list and include any such dependencies separately.
 
 - **Model Viewer**  
   Browse stock xmodel thumbnails + large previews (image pack downloadable from inside the tool).
@@ -33,7 +36,7 @@ You can use the launcher.bat file to install python, dependencies and run the co
 - Complete rewrite from **Tkinter → PyQt6** (cleaner UI, better layout, native feel).
 - Brand-new **Compile Tools** tab with full map compile pipeline and grid tools.
 - Much more robust CoD2 path handling (supports both root and `main/` layouts; always prefers writing under `main/`).
-- Improved IWD Packer (better FX detection from `.map` + `_fx.gsc`, custom EFX shader/texture extraction).
+- Expanded IWD Packer analysis (recursive prefab scanning, FX detection from `.map` + `_fx.gsc`, custom EFX shader/material/texture dependencies, and map/loadscreen files) with a reviewable file list and correctly rooted IWD paths.
 - Per-map compile settings persistence.
 - Better status indicators, color pickers for fog, ambient alias auto-loading, and overall polish.
 - Cleaner helpers and configuration system.
@@ -59,13 +62,13 @@ cd cod2-mp-mapping-tool
 
 # Install dependencies
 pip install PyQt6 psutil
+```
 
 ### How to Run
 
-
-
 ```bash
 python main.py
+```
 
 1. Set your CoD2 installation path (Browse button).
 2. Select or type a map name (e.g. `mp_mymap`).

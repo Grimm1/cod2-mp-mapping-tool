@@ -161,6 +161,10 @@ class CompileToolsTab(QtTabMixin, QtWidgets.QWidget):
         self._current_map: str = ""
         self._loading_settings: bool = False
         self._worker: CompileWorker | None = None
+        self._active_compile_opts: dict | None = None
+        self._active_compile_map: str = ""
+        self._console_window: QtWidgets.QDialog | None = None
+        self._console_popout: QtWidgets.QPlainTextEdit | None = None
         self.layout = QtWidgets.QVBoxLayout(self)
         self._build_ui()
         self._connect_settings_signals()
@@ -396,6 +400,55 @@ class CompileToolsTab(QtTabMixin, QtWidgets.QWidget):
         self.console.appendPlainText(text)
         sb = self.console.verticalScrollBar()
         sb.setValue(sb.maximum())
+        if self._console_popout is not None:
+            self._console_popout.appendPlainText(text)
+            sb = self._console_popout.verticalScrollBar()
+            sb.setValue(sb.maximum())
+
+    def _clear_console(self) -> None:
+        self.console.clear()
+        if self._console_popout is not None:
+            self._console_popout.clear()
+
+    def _show_console_window(self) -> None:
+        if self._console_window is not None:
+            self._console_window.show()
+            self._console_window.raise_()
+            self._console_window.activateWindow()
+            return
+
+        window = QtWidgets.QDialog(self)
+        window.setWindowTitle("Compile Console")
+        window.setMinimumSize(500, 250)
+        window.resize(900, 500)
+        window.setAttribute(QtCore.Qt.WidgetAttribute.WA_DeleteOnClose)
+
+        layout = QtWidgets.QVBoxLayout(window)
+        console = QtWidgets.QPlainTextEdit(window)
+        console.setReadOnly(True)
+        console.setMaximumBlockCount(5000)
+        console.setStyleSheet(self.console.styleSheet())
+        console.setPlainText(self.console.toPlainText())
+        layout.addWidget(console)
+
+        button_row = QtWidgets.QHBoxLayout()
+        button_row.addStretch()
+        clear_button = QtWidgets.QPushButton("Clear", window)
+        clear_button.clicked.connect(self._clear_console)
+        button_row.addWidget(clear_button)
+        close_button = QtWidgets.QPushButton("Close", window)
+        close_button.clicked.connect(window.close)
+        button_row.addWidget(close_button)
+        layout.addLayout(button_row)
+
+        self._console_window = window
+        self._console_popout = console
+        window.destroyed.connect(self._on_console_window_destroyed)
+        window.show()
+
+    def _on_console_window_destroyed(self) -> None:
+        self._console_window = None
+        self._console_popout = None
 
     def _run_map_or_connect_paths(self, map_name: str, connect_paths: bool, run_map: bool) -> None:
         root = self._cod2_root()
@@ -440,6 +493,14 @@ class CompileToolsTab(QtTabMixin, QtWidgets.QWidget):
         if not opts:
             return
 
+        if opts["do_vis"] and not self._is_mp(map_name):
+            QtWidgets.QMessageBox.warning(
+                self,
+                "VIS unavailable",
+                "VIS compilation is only available for multiplayer maps.",
+            )
+            return
+
         if not (
             opts["do_bsp"]
             or opts["do_vis"]
@@ -455,6 +516,8 @@ class CompileToolsTab(QtTabMixin, QtWidgets.QWidget):
         self.console.clear()
         self._append_console(f"=== Compile {map_name} ===")
         self.btn_compile.setEnabled(False)
+        self._active_compile_opts = opts.copy()
+        self._active_compile_map = map_name
 
         self._worker = CompileWorker(self, map_name, opts)
         self._worker.log_line.connect(self._append_console)
@@ -464,8 +527,9 @@ class CompileToolsTab(QtTabMixin, QtWidgets.QWidget):
         self._worker.start()
 
     def _on_compile_finished_ok(self) -> None:
-        opts = self.get_compile_args()
-        map_name = self._current_map_name()
+        self.btn_compile.setEnabled(True)
+        opts = self._active_compile_opts
+        map_name = self._active_compile_map
         self._append_console("=== Compile finished OK ===")
         if opts and (opts["do_paths"] or opts["run_map"]):
             self._run_map_or_connect_paths(
@@ -477,12 +541,15 @@ class CompileToolsTab(QtTabMixin, QtWidgets.QWidget):
 
 
     def _on_compile_finished_error(self, message: str) -> None:
+        self.btn_compile.setEnabled(True)
         self._append_console(f"=== ERROR: {message} ===")
         QtWidgets.QMessageBox.warning(self, "Compile failed", message)
 
     def _on_worker_finished(self) -> None:
         self.btn_compile.setEnabled(True)
         self._worker = None
+        self._active_compile_opts = None
+        self._active_compile_map = ""
 
     # ==================================================================
     # UI construction
@@ -584,6 +651,8 @@ class CompileToolsTab(QtTabMixin, QtWidgets.QWidget):
 
         self.chk_nomodelshadow = QtWidgets.QCheckBox("NoModelShadow")
         light_grid.addWidget(self.chk_nomodelshadow, 4, 0)
+        self.chk_modelshadow.toggled.connect(self._sync_shadow_options)
+        self.chk_nomodelshadow.toggled.connect(self._sync_shadow_options)
 
         self.chk_dumpoptions = QtWidgets.QCheckBox("DumpOptions")
         light_grid.addWidget(self.chk_dumpoptions, 5, 0)
@@ -671,6 +740,131 @@ class CompileToolsTab(QtTabMixin, QtWidgets.QWidget):
         grid_layout.addStretch()
         self.layout.addWidget(grid_group)
 
+        option_tooltips = {
+            self.chk_compile_bsp: (
+                "Build the map's BSP with cod2map, generating the compiled map geometry.\n"
+                "Run this before VIS or lighting when the map geometry has changed."
+            ),
+            self.chk_compile_vis: (
+                "Run cod2map's visibility (VIS) pass for multiplayer maps.\n"
+                "This option is rejected for single-player maps; rebuild BSP first when geometry changed."
+            ),
+            self.chk_verbosebspvis: (
+                "Pass -v to cod2map during BSP compilation for more detailed output.\n"
+                "Does not change quality; normally leave off unless diagnosing a compile."
+            ),
+            self.chk_compile_lighting: (
+                "Build map lighting with cod2rad.\n"
+                "Compile BSP first after geometry changes. Use Fast for previews or Extra for slower, higher-quality lighting."
+            ),
+            self.chk_connect_paths: (
+                "After the compile worker finishes, launch the map with g_connectpaths enabled.\n"
+                "Use to rebuild navigation paths; without Run Map, the tool uses the connect-paths-only launch mode."
+            ),
+            self.chk_run_map: (
+                "Launch the selected map after the compile worker finishes.\n"
+                "Can also be selected by itself to launch without rebuilding BSP, VIS, or lighting."
+            ),
+            self.chk_onlyents: (
+                "Pass -onlyEnts to update entity data without a full geometry rebuild.\n"
+                "Use for entity-only edits; brush geometry is not rebuilt, and model-shadow results may remain stale."
+            ),
+            self.chk_blocksize: (
+                "Enable the cod2map -blockSize option to control BSP subdivision size.\n"
+                "UI accepts 64-8192 units; 512-1024 is a practical starting range. UI default: 1024."
+            ),
+            self.spin_blocksize: (
+                "BSP block size passed to cod2map with -blockSize.\n"
+                "UI range: 64-8192 units. Try 512-1024 for typical maps; smaller blocks can increase subdivision. Default: 1024."
+            ),
+            self.chk_samplescale: (
+                "Enable the cod2map -sampleScale option. Leave its value blank to omit the flag.\n"
+                "Use 1.0 as a neutral starting point; 2-4 can speed test builds with coarser lightmap sampling."
+            ),
+            self.edit_samplescale: (
+                "Value passed to cod2map as -sampleScale. Must be a positive number.\n"
+                "Recommended starting range: 0.5-4.0. Around 1.0 is neutral; higher values generally mean coarser sampling."
+            ),
+            self.edit_bsp_custom: (
+                "Additional cod2map command-line arguments, appended after the selected BSP options.\n"
+                "Enter space-separated flags and values. The tool does not validate them; supported options depend on your CoD2 tools."
+            ),
+            self.chk_fast: (
+                "Pass -fast to cod2rad for a quicker lighting build with reduced quality.\n"
+                "Useful for iteration and preview maps; turn off for final lighting. No numeric value."
+            ),
+            self.chk_extra: (
+                "Pass -extra to cod2rad for a slower, higher-quality lighting build.\n"
+                "Use for final results when compile time is acceptable. No numeric value."
+            ),
+            self.chk_verbose: (
+                "Pass -verbose to cod2rad for additional lighting compiler output.\n"
+                "Useful for troubleshooting; it does not select a quality level."
+            ),
+            self.chk_modelshadow: (
+                "Pass -modelshadow to include model shadows in the lighting build.\n"
+                "Mutually exclusive with NoModelShadow; enabling one disables the other."
+            ),
+            self.chk_nomodelshadow: (
+                "Pass -nomodelshadow to exclude model shadows from the lighting build.\n"
+                "Mutually exclusive with ModelShadow; enabling one disables the other."
+            ),
+            self.chk_dumpoptions: (
+                "Pass -dumpoptions to cod2rad to print its active option values.\n"
+                "Useful for checking compiler defaults and troubleshooting; no numeric value."
+            ),
+            self.chk_traces: (
+                "Override the number of lighting traces per sample point. Higher values can improve quality but increase build time.\n"
+                "UI range: 1-9999. Compiler default shown here: 32; practical tuning range: 64-256."
+            ),
+            self.spin_traces: (
+                "Trace count passed to cod2rad with -traces. Higher values trade longer compile times for more lighting samples.\n"
+                "UI range: 1-9999. The compiler default is 32; 64-256 is a practical tuning range. UI starts at 128."
+            ),
+            self.lbl_traces_default: (
+                "The cod2rad trace default displayed by this UI: 32.\n"
+                "When traces is enabled, the spin box value is used instead."
+            ),
+            self.chk_bouncefraction: (
+                "Override cod2rad's bounce fraction, which influences how much bounced light contributes.\n"
+                "Typical useful range: 0.3-0.6. Compiler default shown here: 0.6; leave the value blank to use the default."
+            ),
+            self.edit_bouncefraction: (
+                "Value passed to cod2rad as -bouncefraction. Typical range: 0.0-1.0; the UI does not enforce a bound.\n"
+                "Around 0.3-0.6 is a practical tuning range. Leave blank to omit the override; compiler default shown here: 0.6."
+            ),
+            self.lbl_bouncefraction_default: (
+                "The cod2rad bouncefraction default displayed by this UI: 0.6.\n"
+                "Leave the value field blank to use the compiler default."
+            ),
+            self.chk_jitter: (
+                "Override cod2rad's sample jitter, which varies trace sample positions.\n"
+                "Typical useful range: 0.0-1.0. Compiler default shown here: 0.75; leave the value blank to use the default."
+            ),
+            self.edit_jitter: (
+                "Value passed to cod2rad as -jitter. Typical range: 0.0-1.0; the UI does not enforce a bound.\n"
+                "Leave blank to omit the override; compiler default shown here: 0.75."
+            ),
+            self.lbl_jitter_default: (
+                "The cod2rad jitter default displayed by this UI: 0.75.\n"
+                "Leave the value field blank to use the compiler default."
+            ),
+            self.edit_light_custom: (
+                "Additional cod2rad command-line arguments, appended after the selected lighting options.\n"
+                "Enter space-separated flags and values. The tool does not validate them; supported options depend on your CoD2 tools."
+            ),
+            self.chk_models_collect_dots: (
+                "During grid capture, set r_cullxmodel to 0 so xmodel dots are included.\n"
+                "Enable if model points are missing from the grid; leave off for the usual culled-model capture."
+            ),
+            self.combo_grid: (
+                "Choose the grid capture mode. Edit Existing Grid uses r_vc_makelog 2; Make New Grid uses 1.\n"
+                "The game writes the capture during the session, and the tool moves the resulting .grid back to map_source."
+            ),
+        }
+        for widget, description in option_tooltips.items():
+            widget.setToolTip(description)
+
         console_group = QtWidgets.QGroupBox("Console", self)
         console_group.setMinimumHeight(150)
         console_group.setMaximumHeight(150)
@@ -693,8 +887,11 @@ class CompileToolsTab(QtTabMixin, QtWidgets.QWidget):
         clear_row = QtWidgets.QHBoxLayout()
         clear_row.addStretch()
         self.btn_clear_console = QtWidgets.QPushButton("Clear")
-        self.btn_clear_console.clicked.connect(self.console.clear)
+        self.btn_clear_console.clicked.connect(self._clear_console)
         clear_row.addWidget(self.btn_clear_console)
+        self.btn_popout_console = QtWidgets.QPushButton("Pop out")
+        self.btn_popout_console.clicked.connect(self._show_console_window)
+        clear_row.addWidget(self.btn_popout_console)
         console_layout.addLayout(clear_row)
 
         self.layout.addWidget(console_group)
@@ -843,8 +1040,15 @@ class CompileToolsTab(QtTabMixin, QtWidgets.QWidget):
             grid_mode = str(s["grid_mode"])
             idx = self.combo_grid.findText(grid_mode)
             self.combo_grid.setCurrentIndex(idx if idx >= 0 else 0)
+            self._sync_shadow_options()
         finally:
             self._loading_settings = False
+
+    def _sync_shadow_options(self) -> None:
+        if self.chk_modelshadow.isChecked() and self.chk_nomodelshadow.isChecked():
+            self.chk_nomodelshadow.setChecked(False)
+        self.chk_nomodelshadow.setDisabled(self.chk_modelshadow.isChecked())
+        self.chk_modelshadow.setDisabled(self.chk_nomodelshadow.isChecked())
 
     def _save_current_map_settings(self) -> None:
         mapname = self._current_map.strip()
