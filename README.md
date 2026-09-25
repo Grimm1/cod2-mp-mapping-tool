@@ -55,7 +55,6 @@ You can use the launcher.bat file to install python, dependencies and run the co
 
 ### Installation
 
-```bash
 # Clone or download the repository
 git clone https://github.com/Grimm1/cod2-mp-mapping-tool.git
 cd cod2-mp-mapping-tool
