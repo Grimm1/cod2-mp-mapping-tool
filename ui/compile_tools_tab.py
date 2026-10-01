@@ -505,7 +505,6 @@ class CompileToolsTab(QtTabMixin, QtWidgets.QWidget):
             opts["do_bsp"]
             or opts["do_vis"]
             or opts["do_light"]
-            or opts["do_paths"]
             or opts["run_map"]
         ):
             QtWidgets.QMessageBox.information(
@@ -531,11 +530,15 @@ class CompileToolsTab(QtTabMixin, QtWidgets.QWidget):
         opts = self._active_compile_opts
         map_name = self._active_compile_map
         self._append_console("=== Compile finished OK ===")
-        if opts and (opts["do_paths"] or opts["run_map"]):
+        if opts and opts["run_map"]:
             self._run_map_or_connect_paths(
                 map_name,
                 connect_paths=opts["do_paths"],
-                run_map=opts["run_map"],
+                run_map=True,
+            )
+        elif opts and opts["do_paths"]:
+            self._append_console(
+                "[RUNMAP] skipped: Run Map When Done is unchecked; Connect Paths was not run."
             )
 
 
@@ -758,8 +761,8 @@ class CompileToolsTab(QtTabMixin, QtWidgets.QWidget):
                 "Compile BSP first after geometry changes. Use Fast for previews or Extra for slower, higher-quality lighting."
             ),
             self.chk_connect_paths: (
-                "After the compile worker finishes, launch the map with g_connectpaths enabled.\n"
-                "Use to rebuild navigation paths; without Run Map, the tool uses the connect-paths-only launch mode."
+                "Enable path connection on the post-compile game launch (g_connectpaths).\n"
+                "Requires Run Map When Done; when that option is unchecked, no game is launched and path connection is skipped."
             ),
             self.chk_run_map: (
                 "Launch the selected map after the compile worker finishes.\n"
