@@ -10,8 +10,7 @@ how to install.
 
 extract all files to a folder
 
-run launcher.bat, you may find it is blocked, (thanks microsoft) if so you can right click
-and run as admin it may work. or disable the shitty "smart" app control. 
+run the executable 
 
 or do the following
 
