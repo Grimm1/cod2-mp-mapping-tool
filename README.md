@@ -2,7 +2,9 @@
 
 A modern PyQt6 GUI tool that simplifies creating, editing, compiling, and packaging **Call of Duty 2** multiplayer custom maps.
 
-You can use the launcher.bat file to install python, dependencies and run the code, but microsoft "smart" app control  may block it
+A new executable launcher is now added to the project, sources are in the cpp_launcher folder this will check for python and the dependencies and ask you to install them if necessary,   
+
+**microsoft "smart" app control  may block this app** the app is free, im not paying to get it signed, the source code is there for transparency.
 
 ### Main Features
 
