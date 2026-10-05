@@ -1,5 +1,7 @@
 # CoD2 MP Mapping Tool
 
+[![Watch the video](https://img.youtube.com/vi/vmbytZYOrZ0/maxresdefault.jpg)](https://www.youtube.com/watch?v=vmbytZYOrZ0)
+
 A modern PyQt6 GUI tool that simplifies creating, editing, compiling, and packaging **Call of Duty 2** multiplayer custom maps.
 
 A new executable launcher is now added to the project, sources are in the cpp_launcher folder this will check for python and the dependencies and ask you to install them if necessary,   
